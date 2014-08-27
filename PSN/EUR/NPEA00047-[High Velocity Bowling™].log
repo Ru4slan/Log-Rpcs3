@@ -1,0 +1,920 @@
+HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00047/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> ./dev_hdd0/
+LDR: ! /dev_hdd1/ -> ./dev_hdd1/
+LDR: ! /dev_flash/ -> ./dev_flash/
+LDR: ! /dev_usb000/ -> ./dev_usb000/
+LDR: ! /dev_usb/ -> ./dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00047/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00047//../
+LDR: ! /host_root/ -> 
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00047//USRDIR/
+LDR: ! /dev_flash2/ -> ./dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00047//USRDIR/
+LDR: ! //dev_hdd0/ -> ./dev_hdd0/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00047//USRDIR/
+LDR: !  
+LDR: ! Title: High Velocity Bowling™
+LDR: ! Serial: NPEA00047
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0xae10800000
+MEM: ! Memory initialized.
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module
+LDR: ! Imported function 'cellKbClearBuf' in 'sys_io' module
+LDR: ! Imported function 'cellKbGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetLEDStatus' in 'sys_io' module
+LDR: ! Imported function 'cellKbInit' in 'sys_io' module
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetCodeType' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module
+LDR: ! Imported function 'cellKbEnd' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetReadMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module
+LDR: ! Imported function 'cellKbRead' in 'sys_io' module
+LDR: ! Imported function 'cellPadClearBuf' in 'sys_io' module
+LDR: ! Imported function 'cellSpursRequestIdleSpu' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursGetInfo' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursWorkloadAttributeSetName' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursGetWorkloadInfo' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursDetachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursRemoveWorkload' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursWaitForWorkloadShutdown' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursSetPriorities' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursShutdownWorkload' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAttachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAddWorkloadWithAttribute' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursFinalize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursSetExceptionEventHandler' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursWorkloadAttributeInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursReadyCountStore' in 'cellSpurs' module
+LDR: ! Imported function 'cellSysmoduleUnloadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleLoadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleIsLoaded' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleInitialize' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleFinalize' in 'cellSysmodule' module
+LDR: ! Imported function 'cellFsRmdir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsClose' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpendir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRead' in 'sys_fs' module
+LDR: ! Imported function 'cellFsReaddir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpen' in 'sys_fs' module
+LDR: ! Imported function 'cellFsStat' in 'sys_fs' module
+LDR: ! Imported function 'cellFsUnlink' in 'sys_fs' module
+LDR: ! Imported function 'cellFsLseek' in 'sys_fs' module
+LDR: ! Imported function 'cellFsMkdir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsWrite' in 'sys_fs' module
+LDR: ! Imported function 'cellFsFstat' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRename' in 'sys_fs' module
+LDR: ! Imported function 'cellFsClosedir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsSdataOpenByFd' in 'sys_fs' module
+LDR: ! Imported function 'cellFsFsync' in 'sys_fs' module
+LDR: ! Imported function 'cellFsGetFreeSize' in 'sys_fs' module
+LDR: ! Imported function 'cellFsSdataOpen' in 'sys_fs' module
+LDR: W Unimplemented function 'cellFsUtime' in 'sys_fs' module
+LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysCacheMount' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogClose' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilEnableBgmPlayback' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogUnloadAsync' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilGetSystemParamInt' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilGetBgmPlaybackStatus2' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysCacheClear' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogOpen2' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetDeviceInfo' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAddSupportLanguage' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogLoadAsync' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataAutoSave2' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogProgressBarInc' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogProgressBarSetMsg' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolutionAvailability' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetKeyLayoutOption' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetSoundAvailability' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetNumberOfDevice' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetLayoutMode' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataAutoLoad2' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilGetSystemParamString' in 'cellSysutil' module
+LDR: ! Imported function 'cellGameCreateGameData' in 'cellGame' module
+LDR: ! Imported function 'cellGameContentPermit' in 'cellGame' module
+LDR: ! Imported function 'cellGameContentErrorDialog' in 'cellGame' module
+LDR: ! Imported function 'cellGameDataCheck' in 'cellGame' module
+LDR: ! Imported function 'cellGameBootCheck' in 'cellGame' module
+LDR: ! Imported function 'sys_net_initialize_network_ex' in 'sys_net' module
+LDR: ! Imported function 'sys_net_finalize_network' in 'sys_net' module
+LDR: ! Imported function 'sys_net_free_thread_context' in 'sys_net' module
+LDR: W Unimplemented function 'socketpoll' in 'sys_net' module
+LDR: W Unimplemented function 'getsockname' in 'sys_net' module
+LDR: ! Imported function 'recvfrom' in 'sys_net' module
+LDR: ! Imported function 'listen' in 'sys_net' module
+LDR: W Unimplemented function 'socketselect' in 'sys_net' module
+LDR: W Unimplemented function 'getsockopt' in 'sys_net' module
+LDR: ! Imported function '_sys_net_errno_loc' in 'sys_net' module
+LDR: ! Imported function 'connect' in 'sys_net' module
+LDR: ! Imported function 'socketclose' in 'sys_net' module
+LDR: W Unimplemented function 'gethostbyname' in 'sys_net' module
+LDR: W Unimplemented function 'inet_ntoa' in 'sys_net' module
+LDR: ! Imported function 'setsockopt' in 'sys_net' module
+LDR: ! Imported function 'sendto' in 'sys_net' module
+LDR: ! Imported function 'socket' in 'sys_net' module
+LDR: ! Imported function 'shutdown' in 'sys_net' module
+LDR: W Unimplemented function 'inet_aton' in 'sys_net' module
+LDR: ! Imported function 'bind' in 'sys_net' module
+LDR: ! Imported function 'accept' in 'sys_net' module
+LDR: ! Imported function 'send' in 'sys_net' module
+LDR: W Unimplemented function 'getpeername' in 'sys_net' module
+LDR: ! Imported function 'recv' in 'sys_net' module
+LDR: ! Imported function 'cellNetCtlNetStartDialogLoadAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlAddHandler' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlNetStartDialogUnloadAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlTerm' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlGetInfo' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlGetState' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlDelHandler' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlInit' in 'cellNetCtl' module
+LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioSetNotifyEventQueue' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortTimestamp' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortBlockTag' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioRemoveNotifyEventQueue' in 'cellAudio' module
+LDR: ! Imported function 'cellGcmSetUserHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetQueueHandler' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmSetFlipCommand' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDebugOutputLevel' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmTerminate' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapMainMemory' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipImmediate' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetGraphicsHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetZcull' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmSetFlipCommandWithWaitLabel' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellVdecClose' in 'libvdec' module
+LDR: ! Imported function 'cellVdecGetPicItem' in 'libvdec' module
+LDR: ! Imported function 'cellVdecDecodeAu' in 'libvdec' module
+LDR: ! Imported function 'cellVdecGetPicture' in 'libvdec' module
+LDR: ! Imported function 'cellVdecEndSeq' in 'libvdec' module
+LDR: ! Imported function 'cellVdecOpen' in 'libvdec' module
+LDR: ! Imported function 'cellVdecStartSeq' in 'libvdec' module
+LDR: ! Imported function 'cellVdecQueryAttr' in 'libvdec' module
+LDR: ! Imported function 'cellAdecDecodeAu' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecStartSeq' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecQueryAttr' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecClose' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecGetPcm' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecGetPcmItem' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecOpen' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecEndSeq' in 'cellAdec' module
+LDR: ! Imported function 'sceNpScoreGetRankingByNpId' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetTicket' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreRecordScore' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreGetRankingByRangeAsync' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreDestroyTitleCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreSetTimeout' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetFriendPresenceByIndex' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreInit' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreGetRankingByNpIdAsync' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicSetPresence' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicRegisterContextSensitiveHandler' in 'sceNp' module
+LDR: ! Imported function 'sceNpTerm' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerUnregisterCallback' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetTicketParam' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupDestroyTitleCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupInit' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreCreateTransactionCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerRequestTicket' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupTerm' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreTerm' in 'sceNp' module
+LDR: ! Imported function 'sceNpScorePollAsync' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetStatus' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicUnregisterHandler' in 'sceNp' module
+LDR: ! Imported function 'sceNpDrmIsAvailable' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetFriendListEntryCount' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetAccountRegion' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreCreateTitleCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpInit' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetNetworkTime' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreDestroyTransactionCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupCreateTitleCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetEvent' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerRegisterCallback' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupCreateTransactionCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetChatRestrictionFlag' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreAbortTransaction' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetOnlineName' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupDestroyTransactionCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetFriendPresenceByNpId' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetNpId' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetAvatarUrl' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicRegisterHandler' in 'sceNp' module
+LDR: ! Imported function 'sceNpDrmIsAvailable2' in 'sceNp' module
+LDR: ! Imported function 'cellRtcCheckValid' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcSetTick' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcGetCurrentTick' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcGetDayOfWeek' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcConvertUtcToLocalTime' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcParseDateTime' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcGetTick' in 'cellRtc' module
+LDR: W Unknown module 'cellHttp'
+LDR: ! Imported function 'cellHttpCreateTransaction' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpResponseGetStatusCode' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpInit' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpDestroyTransaction' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpResponseGetContentLength' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpCreateClient' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpsInit' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpRecvResponse' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpInitCookie' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpDestroyClient' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpSendRequest' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpEnd' in 'cellHttp' module
+LDR: W Unimplemented function 'cellHttpUtilParseUri' in 'cellHttpUtil' module
+LDR: ! Imported function 'cellJpgDecReadHeader' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecClose' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecOpen' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecCreate' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecDecodeData' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecDestroy' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecSetParameter' in 'cellJpgDec' module
+LDR: ! Imported function 'cellPngDecCreate' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecDecodeData' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecClose' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecDestroy' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecReadHeader' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecOpen' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecSetParameter' in 'cellPngDec' module
+LDR: W Unimplemented function 'UCS2stoUTF8s' in 'cellL10n' module
+LDR: W Unimplemented function 'UTF8stoUCS2s' in 'cellL10n' module
+LDR: W Unimplemented function 'cellVoiceDisconnectIPortFromOPort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceCreateNotifyEventQueue' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceCreatePort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceSetNotifyEventQueue' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceReadFromOPort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceWriteToIPort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceGetMuteFlag' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceGetPortInfo' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceGetVolume' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceStartEx' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceSetPortAttr' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceDeletePort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceConnectIPortToOPort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceInitEx' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceStop' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceSetMuteFlagAll' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceSetVolume' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceRemoveNotifyEventQueue' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceSetMuteFlag' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceEnd' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceResetPort' in 'cellVoice' module
+LDR: ! Imported function 'sceNpTrophyRegisterContext' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyCreateHandle' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyGetRequiredDiskSpace' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyDestroyContext' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyInit' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyDestroyHandle' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyUnlockTrophy' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyTerm' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyCreateContext' in 'sceNpTrophy' module
+LDR: W Unknown module 'sceNpCommerce2'
+LDR: ! Imported function 'sceNpCommerce2DoCheckoutStartAsync' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2DestroyReq' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2Init' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetCategoryContentsStart' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2Term' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2CreateSessionAbort' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2DestroyCtx' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetCategoryContentsCreateReq' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2CreateSessionFinish' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetContentInfo' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2DestroyGetCategoryContentsResult' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetCategoryInfo' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetCategoryContentsGetResult' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2CreateSessionStart' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2DoCheckoutFinishAsync' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2InitGetCategoryContentsResult' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2CreateCtx' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetPrice' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetGameSkuInfoFromGameProductInfo' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetGameProductInfoFromContentInfo' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetCategoryInfoFromContentInfo' in 'sceNpCommerce2' module
+LDR: W Unimplemented function 'cellCameraGetBufferInfoEx' in 'cellCamera' module
+LDR: W Unimplemented function 'cellCameraReadEx' in 'cellCamera' module
+LDR: W Unimplemented function 'cellCameraRemoveNotifyEventQueue2' in 'cellCamera' module
+LDR: W Unimplemented function 'cellCameraStart' in 'cellCamera' module
+LDR: W Unimplemented function 'cellCameraGetType' in 'cellCamera' module
+LDR: W Unimplemented function 'cellCameraOpenEx' in 'cellCamera' module
+LDR: W Unimplemented function 'cellCameraReset' in 'cellCamera' module
+LDR: W Unimplemented function 'cellCameraSetAttribute' in 'cellCamera' module
+LDR: W Unimplemented function 'cellCameraSetNotifyEventQueue2' in 'cellCamera' module
+LDR: W Unimplemented function 'cellCameraInit' in 'cellCamera' module
+LDR: W Unknown module 'libgem'
+LDR: ! Imported function 'cellGemUpdateStart' in 'libgem' module
+LDR: ! Imported function 'cellGemInit' in 'libgem' module
+LDR: ! Imported function 'cellGemConvertVideoFinish' in 'libgem' module
+LDR: ! Imported function 'cellGemEnableMagnetometer' in 'libgem' module
+LDR: ! Imported function 'cellGemUpdateFinish' in 'libgem' module
+LDR: ! Imported function 'cellGemSetRumble' in 'libgem' module
+LDR: ! Imported function 'cellGemGetState' in 'libgem' module
+LDR: ! Imported function 'cellGemGetAccelerometerPositionInDevice' in 'libgem' module
+LDR: ! Imported function 'cellGemConvertVideoStart' in 'libgem' module
+LDR: ! Imported function 'cellGemTrackHues' in 'libgem' module
+LDR: ! Imported function 'cellGemClearStatusFlags' in 'libgem' module
+LDR: ! Imported function 'cellGemGetInfo' in 'libgem' module
+LDR: ! Imported function 'cellGemPrepareCamera' in 'libgem' module
+LDR: ! Imported function 'cellGemCalibrate' in 'libgem' module
+LDR: ! Imported function 'cellGemPrepareVideoConvert' in 'libgem' module
+LDR: ! Imported function 'cellGemHSVtoRGB' in 'libgem' module
+LDR: ! Imported function 'cellGemForceRGB' in 'libgem' module
+LDR: ! Imported function 'cellGemGetInertialState' in 'libgem' module
+LDR: ! Imported function 'cellGemEnd' in 'libgem' module
+LDR: ! Imported function 'cellGemInvalidateCalibration' in 'libgem' module
+LDR: ! Imported function 'cellGemGetStatusFlags' in 'libgem' module
+LDR: W Unknown module 'cellSysutilAvconfExt'
+LDR: ! Imported function 'cellVideoOutGetScreenSize' in 'cellSysutilAvconfExt' module
+LDR: W Unimplemented function 'cellSslCertificateLoader' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslInit' in 'cellSsl' module
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_load_module' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_wait' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_process_atexitspawn' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_heap_malloc' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_register_library' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_heap_memalign' in 'sysPrxForUser' module
+LDR: ! Imported function 'Unknown func id: 0x4f7172c9' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module
+LDR: W Unimplemented function '_sys_heap_free' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_process_at_Exitspawn' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'sys_prx_load_module_on_memcontainer_by_fd' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_load_module_on_memcontainer' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_trylock' in 'sysPrxForUser' module
+LDR: W Unimplemented function '_sys_heap_delete_heap' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_heap_create_heap' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_signal_all' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'sys_prx_load_module_by_fd' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_signal' in 'sysPrxForUser' module
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (CPUThread)[0x0024c754]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 15
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 27
+HLE: W {PPU[1] Thread (CPUThread)[0x0033dd24]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd0010b20, summertime_addr=0xd0010b24)
+HLE: W {PPU[1] Thread (CPUThread)[0x0033dd24]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x0033dd24]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x0033e09c]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd0010a70, summertime_addr=0xd0010a74)
+HLE: W {PPU[1] Thread (CPUThread)[0x0033e09c]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x0033e09c]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x0033ddb0]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd0010b20, summertime_addr=0xd0010b24)
+HLE: W {PPU[1] Thread (CPUThread)[0x0033ddb0]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x0033ddb0]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x0033e09c]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd0010a70, summertime_addr=0xd0010a74)
+HLE: W {PPU[1] Thread (CPUThread)[0x0033e09c]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x0033e09c]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x0033dcd0]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd0010b20, summertime_addr=0xd0010b24)
+HLE: W {PPU[1] Thread (CPUThread)[0x0033dcd0]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x0033dcd0]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x0033ddb0]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd0010b20, summertime_addr=0xd0010b24)
+HLE: W {PPU[1] Thread (CPUThread)[0x0033ddb0]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x0033ddb0]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [ps3HDDL] (attribute=0x12): sq_id = 28
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 29
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 30
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 31
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 32
+TTY: Booting Bowling - NPEA00047 (Aug 19 2010 14:35:07)
+HLE: W {PPU[1] Thread (CPUThread)[0x00689f30]} sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4b0e8]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x810ac0, userdata=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4b0e8]} cellSysutil warning: cellSysutilRegisterCallback(slot=3, func_addr=0x7fc138, userdata=0x30314c90)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 33
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ADEC)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VOICE)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_JPGDEC)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGDEC)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_COMMERCE2)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GEM)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_CAMERA)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4b0f4]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0xed0f120)
+TTY: videoState.state = 0
+TTY: videoState.displaymode.resolution = 2
+TTY: videoState.displaymode.scanMode = 0
+TTY: videoState.displaymode.conversion = 0
+TTY: videoState.displaymode.aspect = 2
+TTY: videoState.displaymode.refreshRates = 2
+HLE: W {PPU[1] Thread (CPUThread)[0x00c5501c]} cellGcmSys warning: _cellGcmInitBody(context_addr=0x953d7c, cmdSize=0x10000, ioSize=0x500000, ioAddress=0x30400000)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c5501c]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c5501c]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W {PPU[1] Thread (CPUThread)[0x00c5501c]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30400000, io=0x0, size=0x500000)
+RSX: ! {RSXThread} RSX thread started
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4b010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00109a4, option_addr=0x0, waitForEvent=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c55040]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45070]} cellSpurs warning: cellSpursInitialize(spurs_addr=0x97d300, nSpus=1, spuPriority=129, ppuPriority=1000, exitIfNoWork=0)
+TTY: Spurs initialized ( spurs = 0x97d300 )
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45070]} cellSpurs warning: cellSpursInitialize(spurs_addr=0x97c300, nSpus=5, spuPriority=128, ppuPriority=1000, exitIfNoWork=0)
+TTY: Spurs initialized ( spurs = 0x97c300 )
+HLE: W {PPU[1] Thread (CPUThread)[0x002238c8]} sys_event warning: sys_event_queue_create(equeue_id_addr=0x30904c60, attr_addr=0xd0010974, event_queue_key=0x0, size=127)
+HLE: W {PPU[1] Thread (CPUThread)[0x002238c8]} sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 34
+HLE: ! {PPU[1] Thread (CPUThread)[0x00c77028]} sys_ppu_thread: *** New PPU Thread [Job Manager Event Handler] (flags=0x1, entry=0x812cc0): id = 35
+HLE: W {PPU[1] Thread (CPUThread)[0x0022390c]} sys_event warning: sys_event_port_create(eport_id_addr=0x30904c74, port_type=0x1, name=0xd0a77)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022390c]} sys_event warning: *** sys_event_port created: id = 36
+HLE: W {PPU[1] Thread (CPUThread)[0x0022391c]} sys_event warning: sys_event_port_connect_local(eport_id=36, equeue_id=34)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4507c]} cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x97d300, queue=34, port_addr=0xd0010970, isDynamic=0)
+HLE: W {PPU[1] Thread (CPUThread)[0x002238c8]} sys_event warning: sys_event_queue_create(equeue_id_addr=0x30904c90, attr_addr=0xd0010974, event_queue_key=0x0, size=127)
+HLE: W {PPU[1] Thread (CPUThread)[0x002238c8]} sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 37
+HLE: ! {PPU[1] Thread (CPUThread)[0x00c77028]} sys_ppu_thread: *** New PPU Thread [Job Manager Event Handler] (flags=0x1, entry=0x812cc0): id = 38
+HLE: W {PPU[1] Thread (CPUThread)[0x0022390c]} sys_event warning: sys_event_port_create(eport_id_addr=0x30904ca4, port_type=0x1, name=0xd0a77)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022390c]} sys_event warning: *** sys_event_port created: id = 39
+HLE: W {PPU[1] Thread (CPUThread)[0x0022391c]} sys_event warning: sys_event_port_connect_local(eport_id=39, equeue_id=37)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4507c]} cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x97c300, queue=37, port_addr=0xd0010970, isDynamic=0)
+HLE: W {PPU[1] Thread (CPUThread)[0x003c47b8]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x9752e0, attr_addr=0xd0010a00, initial_count=0, max_count=1)
+HLE: ! {PPU[1] Thread (CPUThread)[0x003c47b8]} sys_semaphore: *** semaphore created [] (protocol=0x2): id = 40
+HLE: W {PPU[1] Thread (CPUThread)[0x00c55070]} cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=8454544)
+HLE: E {PPU[1] Thread (CPUThread)[0x00c55010]} cellGcmSys TODO: cellGcmSetQueueHandler
+HLE: W {PPU[1] Thread (CPUThread)[0x00c55094]} cellGcmSys warning: cellGcmSetVBlankHandler(handler_addr=0x810198)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c55004]} cellGcmSys warning: cellGcmSetUserHandler(handler_addr=0x8101a0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=3211264, size=7864320, pitch=10240, comp=7, base=0, bank=1)
+HLE: E {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys error: cellGcmSetTile: bad compression mode! (7)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=11075584, size=7864320, pitch=10240, comp=11, base=120, bank=0)
+HLE: E {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys error: cellGcmSetTile: bad compression mode! (11)
+HLE: E {PPU[1] Thread (CPUThread)[0x00c550c4]} cellGcmSys TODO: cellGcmSetZcull(index=0, offset=0xa90000, width=1280, height=768, cullStart=0x0, zFormat=0x2, aaFormat=0x3, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=18939904, size=3932160, pitch=5120, comp=7, base=240, bank=1)
+HLE: E {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys error: cellGcmSetTile: bad compression mode! (7)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=22872064, size=3932160, pitch=5120, comp=7, base=300, bank=1)
+HLE: E {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys error: cellGcmSetTile: bad compression mode! (7)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45010]} cellSpurs warning: cellSpursGetInfo(spurs_addr=0x97c300, info_addr=0xd0010500)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450ac]} cellSpurs warning: _cellSpursWorkloadAttributeInitialize()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4501c]} cellSpurs warning: cellSpursWorkloadAttributeSetName()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45088]} cellSpurs warning: cellSpursAddWorkloadWithAttribute()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45004]} cellSpurs warning: cellSpursRequestIdleSpu()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450a0]} cellSpurs warning: cellSpursSetExceptionEventHandler()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45010]} cellSpurs warning: cellSpursGetInfo(spurs_addr=0x97c300, info_addr=0xd0010500)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450ac]} cellSpurs warning: _cellSpursWorkloadAttributeInitialize()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4501c]} cellSpurs warning: cellSpursWorkloadAttributeSetName()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45088]} cellSpurs warning: cellSpursAddWorkloadWithAttribute()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45004]} cellSpurs warning: cellSpursRequestIdleSpu()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450a0]} cellSpurs warning: cellSpursSetExceptionEventHandler()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys warning: cellGcmSetTile(index=4, location=0, offset=26869760, size=2097152, pitch=4096, comp=7, base=360, bank=1)
+HLE: E {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys error: cellGcmSetTile: bad compression mode! (7)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys warning: cellGcmSetTile(index=5, location=0, offset=28966912, size=2097152, pitch=4096, comp=11, base=392, bank=0)
+HLE: E {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys error: cellGcmSetTile: bad compression mode! (11)
+HLE: E {PPU[1] Thread (CPUThread)[0x00c550c4]} cellGcmSys TODO: cellGcmSetZcull(index=1, offset=0x1ba0000, width=1024, height=512, cullStart=0xf0000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys warning: cellGcmSetTile(index=6, location=0, offset=31129600, size=983040, pitch=2560, comp=7, base=424, bank=1)
+HLE: E {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys error: cellGcmSetTile: bad compression mode! (7)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45010]} cellSpurs warning: cellSpursGetInfo(spurs_addr=0x97c300, info_addr=0xd0010420)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450ac]} cellSpurs warning: _cellSpursWorkloadAttributeInitialize()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4501c]} cellSpurs warning: cellSpursWorkloadAttributeSetName()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45088]} cellSpurs warning: cellSpursAddWorkloadWithAttribute()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45004]} cellSpurs warning: cellSpursRequestIdleSpu()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450a0]} cellSpurs warning: cellSpursSetExceptionEventHandler()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs warning: cellSpursReadyCountStore()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45028]} cellSpurs warning: cellSpursGetWorkloadInfo()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45028]} cellSpurs warning: cellSpursGetWorkloadInfo()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45064]} cellSpurs warning: cellSpursShutdownWorkload()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4504c]} cellSpurs warning: cellSpursWaitForWorkloadShutdown()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45040]} cellSpurs warning: cellSpursRemoveWorkload()
+RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: fff0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_ATTRIB_TEX_COORD_EX(0x6f)
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xfeed0001)
+RSX: E {RSXThread} TODO: unknown/illegal method [0x00001450](0x80004)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45010]} cellSpurs warning: cellSpursGetInfo(spurs_addr=0x97c300, info_addr=0xd0010420)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450ac]} cellSpurs warning: _cellSpursWorkloadAttributeInitialize()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4501c]} cellSpurs warning: cellSpursWorkloadAttributeSetName()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45088]} cellSpurs warning: cellSpursAddWorkloadWithAttribute()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45004]} cellSpurs warning: cellSpursRequestIdleSpu()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450a0]} cellSpurs warning: cellSpursSetExceptionEventHandler()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs warning: cellSpursReadyCountStore()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45028]} cellSpurs warning: cellSpursGetWorkloadInfo()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45028]} cellSpurs warning: cellSpursGetWorkloadInfo()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45064]} cellSpurs warning: cellSpursShutdownWorkload()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4504c]} cellSpurs warning: cellSpursWaitForWorkloadShutdown()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45040]} cellSpurs warning: cellSpursRemoveWorkload()
+RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000002
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W {RSXThread} New FBO (720x576)
+RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
+RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: fff0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_ATTRIB_TEX_COORD_EX(0x6f)
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xfeed0001)
+RSX: E {RSXThread} TODO: unknown/illegal method [0x00001450](0x80004)
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45010]} cellSpurs warning: cellSpursGetInfo(spurs_addr=0x97c300, info_addr=0xd0010420)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450ac]} cellSpurs warning: _cellSpursWorkloadAttributeInitialize()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4501c]} cellSpurs warning: cellSpursWorkloadAttributeSetName()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45088]} cellSpurs warning: cellSpursAddWorkloadWithAttribute()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45004]} cellSpurs warning: cellSpursRequestIdleSpu()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450a0]} cellSpurs warning: cellSpursSetExceptionEventHandler()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs warning: cellSpursReadyCountStore()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [opWait] (attribute=0x12): sq_id = 41
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [opWait] (lwmutex_addr=0x3031bca0): id = 42
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [s_media] (attribute=0x12): sq_id = 43
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bowl_Main_Online_SCE.rsx", sb_addr: 0xd0010970)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000002
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+TTY: err = 0x0, CELL_FS_ENOENT = 0x80010006
+TTY: using hvb shop? false
+HLE: ! {PPU[1] Thread (CPUThread)[0x00c77028]} sys_ppu_thread: *** New PPU Thread [Check Gamedata] (flags=0x1, entry=0x803eb0): id = 44
+HLE: W {PPU[44] Thread (Check Gamedata)[0x00c4d034]} cellGame warning: cellGameBootCheck(type_addr=0x828074, attributes_addr=0x982484, size_addr=0x982488, dirName_addr=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45028]} cellSpurs warning: cellSpursGetWorkloadInfo()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45028]} cellSpurs warning: cellSpursGetWorkloadInfo()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45064]} cellSpurs warning: cellSpursShutdownWorkload()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4504c]} cellSpurs warning: cellSpursWaitForWorkloadShutdown()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45040]} cellSpurs warning: cellSpursRemoveWorkload()
+TTY: cellGameBootCheck() ok
+TTY: 	 GAME TYPE = HDD GAME
+TTY: 	 attributes = 0x0, hddFreeSizeKB = 40000000
+HLE: W {PPU[44] Thread (Check Gamedata)[0x00c4d010]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x982498, usrdirPath_addr=0x982518)
+TTY: cellGameContentPermit() ok
+TTY: 	 g_HDDContentInfoPath = /dev_hdd0/game/NPEA00047
+TTY: 	 g_HDDUsrDirPath = /dev_hdd0/game/NPEA00047/USRDIR
+RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
+RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: fff0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_ATTRIB_TEX_COORD_EX(0x6f)
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xfeed0001)
+RSX: E {RSXThread} TODO: unknown/illegal method [0x00001450](0x80004)
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45010]} cellSpurs warning: cellSpursGetInfo(spurs_addr=0x97c300, info_addr=0xd0010490)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450ac]} cellSpurs warning: _cellSpursWorkloadAttributeInitialize()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4501c]} cellSpurs warning: cellSpursWorkloadAttributeSetName()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45088]} cellSpurs warning: cellSpursAddWorkloadWithAttribute()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c45004]} cellSpurs warning: cellSpursRequestIdleSpu()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450a0]} cellSpurs warning: cellSpursSetExceptionEventHandler()
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs warning: cellSpursReadyCountStore()
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000002
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 45
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 46
+HLE: W {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x30320a2c, attr_addr=0xd0010960)
+HLE: E {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock TODO: SYS_SYNC_PRIORITY
+HLE: W {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 47
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 48
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x30320a48): id = 49
+HLE: W {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x30319c6c, attr_addr=0xd0010960)
+HLE: E {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock TODO: SYS_SYNC_PRIORITY
+HLE: W {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 50
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 51
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 52
+HLE: W {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x30320dfc, attr_addr=0xd0010850)
+HLE: E {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock TODO: SYS_SYNC_PRIORITY
+HLE: W {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 53
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 54
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 55
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30320e80): id = 56
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30320e80): id = 57
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 58
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 59
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30320f28): id = 60
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30320f28): id = 61
+HLE: ! {PPU[1] Thread (CPUThread)[0x00c77028]} sys_ppu_thread: *** New PPU Thread [fios mediathread 2] (flags=0x1, entry=0x814898): id = 62
+HLE: ! {PPU[1] Thread (CPUThread)[0x00c77028]} sys_ppu_thread: *** New PPU Thread [fios mediathread 3] (flags=0x1, entry=0x814898): id = 63
+HLE: ! {PPU[1] Thread (CPUThread)[0x00c77028]} sys_ppu_thread: *** New PPU Thread [fios scheduler 1] (flags=0x1, entry=0x814898): id = 64
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 65
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 66
+HLE: W {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x30335d1c, attr_addr=0xd0010960)
+HLE: E {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock TODO: SYS_SYNC_PRIORITY
+HLE: W {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 67
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 68
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x30335d38): id = 69
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 70
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 71
+HLE: W {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x303360ec, attr_addr=0xd0010850)
+HLE: E {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock TODO: SYS_SYNC_PRIORITY
+HLE: W {PPU[1] Thread (CPUThread)[0x0026a95c]} sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 72
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 73
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 74
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30336170): id = 75
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x30336170): id = 76
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 77
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 78
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30336218): id = 79
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x30336218): id = 80
+HLE: ! {PPU[1] Thread (CPUThread)[0x00c77028]} sys_ppu_thread: *** New PPU Thread [fios mediathread 5] (flags=0x1, entry=0x814898): id = 81
+HLE: ! {PPU[1] Thread (CPUThread)[0x00c77028]} sys_ppu_thread: *** New PPU Thread [fios mediathread 6] (flags=0x1, entry=0x814898): id = 82
+HLE: ! {PPU[1] Thread (CPUThread)[0x00c77028]} sys_ppu_thread: *** New PPU Thread [fios scheduler 4] (flags=0x1, entry=0x814898): id = 83
+HLE: W {PPU[62] Thread (fios mediathread 2)[0x00c4904c]} sys_fs warning: cellFsStat(path="/app_home/VOL.HDR", sb_addr: 0xd0060704)
+HLE: W {PPU[62] Thread (fios mediathread 2)[0x00c4904c]} sys_fs warning: cellFsStat: "/app_home/VOL.HDR" not found.
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/VOL.HDR", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEA00047/USRDIR/VOL.HDR" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4b028]} cellSysutil warning: cellSysCacheMount(param_addr=0xd0010740)
+TTY: Loading Materials/Shaders/Vertex/texture2d.vbin
+TTY: ---------------------------------------
+TTY: $ ls /app_home
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4901c]} sys_fs warning: cellFsOpendir(path="/app_home", fd_addr=0xd00104a0)
+TTY: ---------------------------------------
+RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
+RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: fff0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_ATTRIB_TEX_COORD_EX(0x6f)
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xfeed0001)
+RSX: E {RSXThread} TODO: unknown/illegal method [0x00001450](0x80004)
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/texture2d.vbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/texture2d.vbin" opened: fd = 85
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/texture2d.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/texture2d.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/texture2d.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=85)
+TTY: Loading Materials/Shaders/Fragment/texture.fbin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/texture.fbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/texture.fbin" opened: fd = 86
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/texture.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/texture.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/texture.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=86)
+TTY: Loading Materials/Shaders/Vertex/tintedTexture.vbin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/tintedTexture.vbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/tintedTexture.vbin" opened: fd = 87
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/tintedTexture.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/tintedTexture.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/tintedTexture.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=87)
+TTY: Loading Materials/Shaders/Vertex/debugFan.vbin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/debugFan.vbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/debugFan.vbin" opened: fd = 88
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/debugFan.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/debugFan.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/debugFan.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=88)
+TTY: Loading Materials/Shaders/Fragment/tintedTexture.fbin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/tintedTexture.fbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/tintedTexture.fbin" opened: fd = 89
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/tintedTexture.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/tintedTexture.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/tintedTexture.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=89)
+TTY: Loading Materials/Shaders/Vertex/positionOnly.vbin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/positionOnly.vbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/positionOnly.vbin" opened: fd = 90
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/positionOnly.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/positionOnly.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/positionOnly.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=90)
+TTY: Loading Materials/Shaders/Fragment/colorOnly.fbin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/colorOnly.fbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/colorOnly.fbin" opened: fd = 91
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/colorOnly.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/colorOnly.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/colorOnly.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=91)
+TTY: Loading Materials/Shaders/Vertex/color.vbin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/color.vbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/color.vbin" opened: fd = 92
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/color.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/color.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/color.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=92)
+TTY: Loading Materials/Textures/debugfont2.tga
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Textures/debugfont2.tga", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Textures/debugfont2.tga" opened: fd = 93
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Textures/debugfont2.tga", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Textures/debugfont2.tga", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Textures/debugfont2.tga", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=93)
+TTY: Loading Materials/Shaders/Vertex/colorTexture2d.vbin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/colorTexture2d.vbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/colorTexture2d.vbin" opened: fd = 94
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/colorTexture2d.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/colorTexture2d.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/colorTexture2d.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=94)
+TTY: Loading Materials/Shaders/Fragment/colorTexture2d.fbin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/colorTexture2d.fbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/colorTexture2d.fbin" opened: fd = 95
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/colorTexture2d.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/colorTexture2d.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/colorTexture2d.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=95)
+TTY: Loading Materials/Shaders/Vertex/color2d.vbin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/color2d.vbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/color2d.vbin" opened: fd = 96
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/color2d.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/color2d.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Vertex/color2d.vbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=96)
+TTY: Loading Materials/Shaders/Fragment/color2d.fbin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/color2d.fbin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/color2d.fbin" opened: fd = 97
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/color2d.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/color2d.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/Fragment/color2d.fbin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=97)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4b040]} cellSysutil warning: cellSysutilEnableBgmPlayback()
+TTY: >>>>> FELoadingState=From BOOTUP
+TTY: Loading Materials/Shaders/UI/model.bin
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/UI/model.bin", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/UI/model.bin" opened: fd = 98
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/UI/model.bin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/UI/model.bin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Shaders/UI/model.bin", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=98)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/PostinoStd.psf", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/PostinoStd.psf", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/PostinoStd.psf", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/PostinoStd.psf" opened: fd = 99
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/PostinoStd.psf", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=99)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/FuturaStd-Book.psf", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/FuturaStd-Book.psf", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/FuturaStd-Book.psf", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/FuturaStd-Book.psf" opened: fd = 100
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/FuturaStd-Book.psf", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=100)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/StartupTextures.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/StartupTextures.rsx" opened: fd = 101
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/StartupTextures.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/StartupTextures.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/StartupTextures.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=101)
+TTY: Loading UI/Common/StartupTextures.rsx
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/StartupTextures.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/StartupTextures.rsx" opened: fd = 102
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/StartupTextures.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/StartupTextures.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/StartupTextures.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=102)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Regional_US.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Regional_US.rsx" opened: fd = 103
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Regional_US.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Regional_US.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Regional_US.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=103)
+TTY: Loading UI/Common/Regional_US.rsx
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Regional_US.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Regional_US.rsx" opened: fd = 104
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Regional_US.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Regional_US.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Regional_US.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=104)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4b058]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+TTY: Null pointer argument: Deallocate.
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.uichunkxml@French", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.uichunkxml@French", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.uichunkxml@French", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.uichunkxml@French" opened: fd = 105
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.uichunkxml@French", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=105)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx" opened: fd = 106
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=106)
+TTY: Loading UI/Bootup.rsx
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx" opened: fd = 107
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bootup.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=107)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00c77028]} sys_ppu_thread: *** New PPU Thread [loading screen thread] (flags=0x1, entry=0x7f8810): id = 108
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.txt", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.txt", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.txt", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.txt" opened: fd = 109
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.txt", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=109)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCharacter.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCharacter.rsx" opened: fd = 110
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCharacter.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCharacter.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCharacter.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=110)
+TTY: Loading Materials/Effects/ProductionCharacter.rsx
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCharacter.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCharacter.rsx" opened: fd = 111
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCharacter.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCharacter.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCharacter.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=111)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionEnvironment.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionEnvironment.rsx" opened: fd = 112
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionEnvironment.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionEnvironment.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionEnvironment.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=112)
+TTY: Loading Materials/Effects/ProductionEnvironment.rsx
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionEnvironment.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionEnvironment.rsx" opened: fd = 113
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionEnvironment.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionEnvironment.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionEnvironment.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=113)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCommon.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCommon.rsx" opened: fd = 114
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCommon.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCommon.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCommon.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=114)
+TTY: Loading Materials/Effects/ProductionCommon.rsx
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCommon.rsx", sb_addr: 0xd0090704)
+HLE: ! {PPU[81] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCommon.rsx" opened: fd = 115
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCommon.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCommon.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionCommon.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=115)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Materials/Effects/ProductionBowling.rsx", sb_addr: 0xd0090704)
+HLE: W {PPU[82] Thread (fios mediathread 6)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/Font.rsx", sb_addr: 0xd00a0704)
+HLE: W {PPU[81] Thread (fios mediathread 5)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=79) aborted
+HLE: W {PPU[38] Thread (Job Manager Event Handler)[0x00223738]} sys_event warning: sys_event_queue_receive(equeue=37) aborted
+RSX: W {VBlank thread} VBlank thread aborted
+RSX: W {RSXThread} RSX thread aborted
+HLE: W {PPU[82] Thread (fios mediathread 6)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=80) aborted
+HLE: W {PPU[35] Thread (Job Manager Event Handler)[0x00223738]} sys_event warning: sys_event_queue_receive(equeue=34) aborted
+HLE: W {PPU[64] Thread (fios scheduler 1)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=56) aborted
+HLE: W {PPU[62] Thread (fios mediathread 2)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=60) aborted
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77040]} sys_lwmutex warning: sys_lwmutex_t::lock(sq=41) aborted
+HLE: W {PPU[108] Thread (loading screen thread)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=42) aborted
+HLE: W {PPU[83] Thread (fios scheduler 4)[0x00c77148]} sys_lwcond warning: sys_lwcond_signal_all(id=42) aborted
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=42) aborted
+HLE: W {PPU[63] Thread (fios mediathread 3)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=61) aborted
+HLE: ! All threads stopped...
+MEM: ! Closing memory...
