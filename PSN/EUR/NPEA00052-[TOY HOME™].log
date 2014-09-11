@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: TOY HOME™
 LDR: ! Serial: NPEA00052
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x19b69f0000
+MEM: ! Initializing memory: m_base_addr = 0x9d21d60000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellFsClose' in 'sys_fs' module
 LDR: ! Imported function 'cellFsRead' in 'sys_fs' module
@@ -357,7 +357,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x0068f034]} sys_lwmutex warning: *** lwmutex 
 HLE: W {PPU[1] Thread (CPUThread)[0x0068f034]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 22
 HLE: W {PPU[1] Thread (CPUThread)[0x0068f034]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 23
 HLE: W {PPU[1] Thread (CPUThread)[0x001dadcc]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 24
-HLE: W {PPU[1] Thread (CPUThread)[0x00016534]} memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c50)
+HLE: W {PPU[1] Thread (CPUThread)[0x00016534]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c50)
 HLE: W {PPU[1] Thread (CPUThread)[0x0066f010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 HLE: W {PPU[1] Thread (CPUThread)[0x0066f010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 HLE: W {PPU[1] Thread (CPUThread)[0x0066f010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
@@ -378,8 +378,8 @@ HLE: W {PPU[1] Thread (CPUThread)[0x0066b070]} cellSysutil warning: cellSysutilG
 HLE: W {PPU[1] Thread (CPUThread)[0x0066b070]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_GAME_PARENTAL_LEVEL
 HLE: W {PPU[1] Thread (CPUThread)[0x000170e0]} sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
 HLE: W {PPU[1] Thread (CPUThread)[0x004f4110]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 25
-HLE: W {PPU[1] Thread (CPUThread)[0x004e6c70]} memory warning: sys_memory_container_create(cid_addr=0x13730544, yield_size=0x800000)
-HLE: W {PPU[1] Thread (CPUThread)[0x004e6c70]} memory warning: *** memory_container created(addr=0x31c00000): id = 26
+HLE: W {PPU[1] Thread (CPUThread)[0x004e6c70]} sys_memory warning: sys_memory_container_create(cid_addr=0x13730544, yield_size=0x800000)
+HLE: W {PPU[1] Thread (CPUThread)[0x004e6c70]} sys_memory warning: *** memory_container created(addr=0x9d31c00000): id = 26
 HLE: W {PPU[1] Thread (CPUThread)[0x0061f064]} sys_io warning: cellPadInit(max_connect=7)
 HLE: W {PPU[1] Thread (CPUThread)[0x0066f010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
 HLE: W {PPU[1] Thread (CPUThread)[0x0066f010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
@@ -407,7 +407,6 @@ HLE: E {PPU[1] Thread (CPUThread)[0x006690ac]} cellGcmSys TODO: cellGcmSetInvali
 HLE: E {PPU[1] Thread (CPUThread)[0x006690ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
 HLE: E {PPU[1] Thread (CPUThread)[0x006690ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_TWO_SIDE_LIGHT_EN(0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x0066b0d0]} cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x0066b034]} cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd00109ac)
 HLE: W {PPU[1] Thread (CPUThread)[0x0066d064]} cellResc warning: cellRescInit(initConfig_addr=0xd0010750)
@@ -432,7 +431,7 @@ HLE: E {PPU[1] Thread (CPUThread)[0x006690c4]} cellGcmSys error: cellGcmSetTile:
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 9
 HLE: E {PPU[1] Thread (CPUThread)[0x006690d0]} cellGcmSys TODO: cellGcmSetZcull(index=0, offset=0xf540000, width=1280, height=768, cullStart=0x1000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
 HLE: W {PPU[1] Thread (CPUThread)[0x00140ef8]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x136c0608, attr_addr=0xd0010770, initial_count=1, max_count=2)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00140ef8]} *** semaphore created [] (protocol=0x2): id = 28
+HLE: ! {PPU[1] Thread (CPUThread)[0x00140ef8]} sys_semaphore: *** semaphore created [] (protocol=0x2): id = 28
 HLE: W {PPU[1] Thread (CPUThread)[0x0066d058]} cellResc warning: cellRescSetFlipHandler(handler_addr=0x649f88)
 HLE: W {PPU[1] Thread (CPUThread)[0x000e5a74]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 29
 HLE: W {PPU[1] Thread (CPUThread)[0x000e5c38]} sys_cond warning: *** condition created [] (mutex_id=29): id = 30
@@ -451,14 +450,12 @@ RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: f0d
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=1, cullIgnoreW=0
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=0, cullIgnoreW=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_TWO_SIDE_LIGHT_EN(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
 RSX: W {RSXThread} NV4097_SET_REDUCE_DST_COLOR: 0x1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: E {RSXThread} NV4097_SET_POINT_PARAMS_ENABLE: 1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_TWO_SIDE_LIGHT_EN(0x0)
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
 RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
@@ -480,14 +477,12 @@ RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=1, cullIgnoreW=0
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=0, cullIgnoreW=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_TWO_SIDE_LIGHT_EN(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
 RSX: W {RSXThread} NV4097_SET_REDUCE_DST_COLOR: 0x1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: E {RSXThread} NV4097_SET_POINT_PARAMS_ENABLE: 1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_TWO_SIDE_LIGHT_EN(0x0)
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
 RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
@@ -509,14 +504,12 @@ RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=1, cullIgnoreW=0
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=0, cullIgnoreW=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_TWO_SIDE_LIGHT_EN(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
 RSX: W {RSXThread} NV4097_SET_REDUCE_DST_COLOR: 0x1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: E {RSXThread} NV4097_SET_POINT_PARAMS_ENABLE: 1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_TWO_SIDE_LIGHT_EN(0x0)
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
 RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
@@ -538,739 +531,37 @@ RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=1, cullIgnoreW=0
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=0, cullIgnoreW=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_TWO_SIDE_LIGHT_EN(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
 RSX: W {RSXThread} NV4097_SET_REDUCE_DST_COLOR: 0x1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: E {RSXThread} NV4097_SET_POINT_PARAMS_ENABLE: 1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_TWO_SIDE_LIGHT_EN(0x0)
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 HLE: W {PPU[1] Thread (CPUThread)[0x004f4110]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 31
 HLE: W {PPU[1] Thread (CPUThread)[0x004f3480]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 32
 HLE: W {PPU[1] Thread (CPUThread)[0x004f34a4]} sys_cond warning: *** condition created [] (mutex_id=32): id = 33
 HLE: W {PPU[1] Thread (CPUThread)[0x004f4110]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 34
 HLE: W {PPU[1] Thread (CPUThread)[0x004f4110]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 35
-PPU: ! {PPU[1] Thread (CPUThread)[0x0068f01c]} *** New PPU Thread [work thread] (flags=0x1, entry=0x658368): id = 36
-HLE: W {PPU[36] Thread (work thread)[0x0066b10c]} cellSysutil warning: cellHddGameCheck(version=0, dirName_addr=0x100095b8x, errDialog=1, funcStat_addr=0x642ec8, container=26)
-HLE: W {PPU[36] Thread (work thread)[0x004e6d68]} memory warning: sys_memory_container_destroy(cid=26)
-MEM: E {PPU[36] Thread (work thread)[0x004e6d68]} DynamicMemoryBlock::Free(addr=0x32400000): failed
+HLE: ! {PPU[1] Thread (CPUThread)[0x0068f01c]} sys_ppu_thread: *** New PPU Thread [work thread] (flags=0x1, entry=0x658368): id = 36
+HLE: W {PPU[36] Thread (work thread)[0x0066b10c]} cellSysutil warning: cellHddGameCheck(version=0, dirName_addr=0x100095b8, errDialog=1, funcStat_addr=0x642ec8, container=26)
+HLE: W {PPU[36] Thread (work thread)[0x004e6d68]} sys_memory warning: sys_memory_container_destroy(cid=26)
 HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x30000000, size = 0x10000
+MEM: E {PPU[36] Thread (work thread)[0x004e6d68]} DynamicMemoryBlock::Free(addr=0x32400000): failed
 HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x30100000, size = 0x100000
+MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x30000000, size = 0x10000
 HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x30200000, size = 0x1a00000
+MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x30100000, size = 0x100000
 HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x30200000, size = 0x1a00000
 MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x31c00000, size = 0x800000
 MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x30010000, size = 0x2000
 MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x30012000, size = 0x1000
 MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x30013000, size = 0x1000
 MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x30014000, size = 0x1000
 MEM: ! {PPU[36] Thread (work thread)[0x004e6d68]} *** Memory Block: addr = 0x30015000, size = 0x1000
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-HLE: W {PPU[36] Thread (work thread)[0x004e6c70]} memory warning: sys_memory_container_create(cid_addr=0x13730544, yield_size=0x800000)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
-HLE: W {PPU[1] Thread (CPUThread)[0x00669064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
-HLE: W {PPU[36] Thread (work thread)[0x004e6c70]} memory warning: *** memory_container created(addr=0x32400000): id = 37
+HLE: W {PPU[36] Thread (work thread)[0x004e6c70]} sys_memory warning: sys_memory_container_create(cid_addr=0x13730544, yield_size=0x800000)
+HLE: W {PPU[36] Thread (work thread)[0x004e6c70]} sys_memory warning: *** memory_container created(addr=0x9d32400000): id = 37
 RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
 RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
 RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
@@ -1295,14 +586,12 @@ RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=1, cullIgnoreW=0
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=0, cullIgnoreW=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_TWO_SIDE_LIGHT_EN(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
 RSX: W {RSXThread} NV4097_SET_REDUCE_DST_COLOR: 0x1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: E {RSXThread} NV4097_SET_POINT_PARAMS_ENABLE: 1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_TWO_SIDE_LIGHT_EN(0x0)
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4001
 RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
@@ -1346,28 +635,28 @@ RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclam
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=1, cullIgnoreW=0
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d04c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00052/USRDIR/Shaders/system.ps3", sb_addr: 0xd000ff50)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/system.ps3" opened: fd = 38
+HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} sys_fs: "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/system.ps3" opened: fd = 38
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d004]} sys_fs warning: cellFsClose(fd=38)
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d04c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00052/USRDIR/Shaders/sprite.ps3", sb_addr: 0xd000ff50)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/sprite.ps3" opened: fd = 39
+HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} sys_fs: "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/sprite.ps3" opened: fd = 39
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d004]} sys_fs warning: cellFsClose(fd=39)
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d04c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00052/USRDIR/Shaders/sprite.ps3", sb_addr: 0xd000ff50)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/sprite.ps3" opened: fd = 40
+HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} sys_fs: "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/sprite.ps3" opened: fd = 40
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d004]} sys_fs warning: cellFsClose(fd=40)
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d04c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00052/USRDIR/Shaders/strip.ps3", sb_addr: 0xd000ff50)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/strip.ps3" opened: fd = 41
+HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} sys_fs: "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/strip.ps3" opened: fd = 41
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d004]} sys_fs warning: cellFsClose(fd=41)
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d04c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00052/USRDIR/Shaders/strip.ps3", sb_addr: 0xd000ff50)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/strip.ps3" opened: fd = 42
+HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} sys_fs: "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/strip.ps3" opened: fd = 42
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d004]} sys_fs warning: cellFsClose(fd=42)
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d04c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00052/USRDIR/Shaders/sprite.ps3", sb_addr: 0xd000ff50)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/sprite.ps3" opened: fd = 43
+HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} sys_fs: "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/sprite.ps3" opened: fd = 43
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d004]} sys_fs warning: cellFsClose(fd=43)
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d04c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00052/USRDIR/Shaders/Materials.ps3", sb_addr: 0xd000f9d0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/Materials.ps3" opened: fd = 44
+HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} sys_fs: "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/Materials.ps3" opened: fd = 44
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d004]} sys_fs warning: cellFsClose(fd=44)
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d04c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00052/USRDIR/Shaders/filters.ps3", sb_addr: 0xd000ffc0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/filters.ps3" opened: fd = 45
+HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} sys_fs: "/dev_hdd0/game/NPEA00052/USRDIR/Shaders/filters.ps3" opened: fd = 45
 HLE: W {PPU[1] Thread (CPUThread)[0x0061d004]} sys_fs warning: cellFsClose(fd=45)
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: f0d
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 1
@@ -1701,6 +990,7 @@ RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclam
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=0, cullIgnoreW=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
 RSX: W {RSXThread} NV4097_SET_REDUCE_DST_COLOR: 0x1
+HLE: W {PPU[1] Thread (CPUThread)[0x0061f01c]} sys_io warning: cellKbInit(max_connect=7)
 RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -1711,13 +1001,12 @@ RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclam
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=1, zclampEnable=0, cullIgnoreW=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
 RSX: W {RSXThread} NV4097_SET_REDUCE_DST_COLOR: 0x1
-HLE: W {PPU[1] Thread (CPUThread)[0x0061f01c]} sys_io warning: cellKbInit(max_connect=7)
-HLE: W {PPU[1] Thread (CPUThread)[0x0003bb68]} memory warning: sys_memory_container_create(cid_addr=0x121fe400, yield_size=0x4000000)
-HLE: W {PPU[1] Thread (CPUThread)[0x0003bb68]} memory warning: *** memory_container created(addr=0x33400000): id = 46
-HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} "/dev_hdd0/game/NPEA00052/USRDIR/DATA.DAT" opened: fd = 47
+HLE: W {PPU[1] Thread (CPUThread)[0x0003bb68]} sys_memory warning: sys_memory_container_create(cid_addr=0x121fe400, yield_size=0x4000000)
+HLE: W {PPU[1] Thread (CPUThread)[0x0003bb68]} sys_memory warning: *** memory_container created(addr=0x9d33400000): id = 46
+HLE: ! {PPU[1] Thread (CPUThread)[0x0061d01c]} sys_fs: "/dev_hdd0/game/NPEA00052/USRDIR/DATA.DAT" opened: fd = 47
 HLE: W {PPU[1] Thread (CPUThread)[0x0066b16c]} cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x0066b16c]} cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
-HLE: W {PPU[1] Thread (CPUThread)[0x0066b07c]} cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0010b30, option_addr=0x0, (!)waitForEvent=0)
+HLE: W {PPU[1] Thread (CPUThread)[0x0066b07c]} cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0010b30, option_addr=0x0, waitForEvent=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x0066b178]} cellSysutil warning: cellAudioOutSetCopyControl(audioOut=0,control=1)
 HLE: W {PPU[1] Thread (CPUThread)[0x0068f034]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 48
 HLE: W {PPU[1] Thread (CPUThread)[0x0068f034]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 49
@@ -1725,7 +1014,7 @@ TTY: aaaasgsfile : sgsfile-req-prior=950
 HLE: W {PPU[1] Thread (CPUThread)[0x00196bb0]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 50
 HLE: W {PPU[1] Thread (CPUThread)[0x00196c2c]} sys_cond warning: *** condition created [] (mutex_id=50): id = 51
 HLE: W {PPU[1] Thread (CPUThread)[0x00196c4c]} sys_cond warning: *** condition created [] (mutex_id=50): id = 52
-PPU: ! {PPU[1] Thread (CPUThread)[0x0068f01c]} *** New PPU Thread [sgsfile-req-th] (flags=0x1, entry=0x64c8a0): id = 53
+HLE: ! {PPU[1] Thread (CPUThread)[0x0068f01c]} sys_ppu_thread: *** New PPU Thread [sgsfile-req-th] (flags=0x1, entry=0x64c8a0): id = 53
 HLE: E {PPU[1] Thread (CPUThread)[0x00194fd0]} Unknown syscall: 631 - 00000277
 HLE: W {PPU[1] Thread (CPUThread)[0x0068f034]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 54
 HLE: W {PPU[1] Thread (CPUThread)[0x0068f034]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 55
@@ -1738,21 +1027,21 @@ HLE: W {PPU[1] Thread (CPUThread)[0x001c2774]} sys_event warning: *** event_queu
 HLE: W {PPU[1] Thread (CPUThread)[0x001c279c]} sys_event warning: sys_event_port_create(eport_id_addr=0x136c9a10, port_type=0x1, name=0xfee1dead)
 HLE: W {PPU[1] Thread (CPUThread)[0x001c279c]} sys_event warning: *** sys_event_port created: id = 60
 HLE: W {PPU[1] Thread (CPUThread)[0x001c27b8]} sys_event warning: sys_event_port_connect_local(eport_id=60, equeue_id=59)
-HLE: W {PPU[1] Thread (CPUThread)[0x0067307c]} cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x136c8a00, queue=0x3b, port_addr=0xd00107b0, isDynamic=0)
-PPU: ! {PPU[1] Thread (CPUThread)[0x0068f01c]} *** New PPU Thread [spurs_printf_handler] (flags=0x1, entry=0x64def8): id = 61
+HLE: E {PPU[1] Thread (CPUThread)[0x0067307c]} cellSpurs TODO: cellSpursAttachLv2EventQueue
+HLE: ! {PPU[1] Thread (CPUThread)[0x0068f01c]} sys_ppu_thread: *** New PPU Thread [spurs_printf_handler] (flags=0x1, entry=0x64def8): id = 61
 HLE: W {PPU[1] Thread (CPUThread)[0x0068f034]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 62
 HLE: W {PPU[1] Thread (CPUThread)[0x001c2080]} sys_event warning: sys_event_queue_create(equeue_id_addr=0x30f60e98, attr_addr=0xd0010910, event_queue_key=0x0, size=1)
 HLE: W {PPU[1] Thread (CPUThread)[0x001c2080]} sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 63
-HLE: W {PPU[1] Thread (CPUThread)[0x0067307c]} cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x136c8a00, queue=0x3f, port_addr=0x30f60e9c, isDynamic=1)
+HLE: E {PPU[1] Thread (CPUThread)[0x0067307c]} cellSpurs TODO: cellSpursAttachLv2EventQueue
 HLE: E {PPU[1] Thread (CPUThread)[0x00673034]} cellSpurs TODO: cellSpursCreateJobChain
 HLE: E {PPU[1] Thread (CPUThread)[0x00673040]} cellSpurs TODO: cellSpursJobGuardInitialize
 HLE: E {PPU[1] Thread (CPUThread)[0x00673094]} cellSpurs TODO: cellSpursKickJobChain
 HLE: E {PPU[1] Thread (CPUThread)[0x006730a0]} cellSpurs TODO: cellSpursJobGuardNotify
 RSX: W {VBlank thread} VBlank thread aborted
-HLE: W {PPU[53] Thread (sgsfile-req-th)[0x0019698c]} sys_cond_wait(id=51) aborted
+HLE: W {PPU[36] Thread (work thread)[0x004f3520]} sys_cond warning: sys_cond_wait(id=33) aborted
 RSX: W {RSXThread} RSX thread aborted
-HLE: W {PPU[36] Thread (work thread)[0x004f3520]} sys_cond_wait(id=33) aborted
-HLE: W {PPU[61] Thread (spurs_printf_handler)[0x001c29bc]} sys_event_queue_receive(equeue=59) aborted
-HLE: W {PPU[1] Thread (CPUThread)[0x001c2bc0]} sys_event_queue_receive(equeue=63) aborted
+HLE: W {PPU[1] Thread (CPUThread)[0x001c2bc0]} sys_event warning: sys_event_queue_receive(equeue=63) aborted
+HLE: W {PPU[53] Thread (sgsfile-req-th)[0x0019698c]} sys_cond warning: sys_cond_wait(id=51) aborted
+HLE: W {PPU[61] Thread (spurs_printf_handler)[0x001c29bc]} sys_event warning: sys_event_queue_receive(equeue=59) aborted
 HLE: ! All threads stopped...
 MEM: ! Closing memory...
