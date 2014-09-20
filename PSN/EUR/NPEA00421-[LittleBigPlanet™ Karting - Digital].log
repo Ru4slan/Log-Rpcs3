@@ -1,23 +1,34 @@
 HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
 LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00421/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
-LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
-LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
-LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
-LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_hdd0/ -> ./dev_hdd0/
+LDR: ! /dev_hdd1/ -> ./dev_hdd1/
+LDR: ! /dev_flash/ -> ./dev_flash/
+LDR: ! /dev_usb000/ -> ./dev_usb000/
+LDR: ! /dev_usb/ -> ./dev_usb000/
 LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00421/
 LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00421//../
 LDR: ! /host_root/ -> 
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00421//USRDIR/
 LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00421//USRDIR/
-LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00421//USRDIR/
+LDR: ! //dev_hdd0/ -> ./dev_hdd0/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00421//USRDIR/
 LDR: !  
-MEM: ! Initing memory...
+LDR: ! Title: LittleBigPlanet™ Karting - Digital
+LDR: ! Serial: NPEA00421
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0x3da3720000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'cellRec'
+LDR: ! Imported function 'cellRecOpen' in 'cellRec' module
+LDR: ! Imported function 'cellRecClose' in 'cellRec' module
+LDR: ! Imported function 'cellRecStop' in 'cellRec' module
+LDR: ! Imported function 'cellRecStart' in 'cellRec' module
+LDR: ! Imported function 'cellRecQueryMemSize' in 'cellRec' module
 LDR: W Unimplemented function 'cellJpgEncQueryAttr' in 'cellJpgEnc' module
 LDR: W Unimplemented function 'cellJpgEncWaitForInput' in 'cellJpgEnc' module
 LDR: W Unimplemented function 'cellJpgEncGetStreamInfo' in 'cellJpgEnc' module
@@ -25,15 +36,15 @@ LDR: W Unimplemented function 'cellJpgEncEncodePicture2' in 'cellJpgEnc' module
 LDR: W Unimplemented function 'cellJpgEncClose' in 'cellJpgEnc' module
 LDR: W Unimplemented function 'cellJpgEncWaitForOutput' in 'cellJpgEnc' module
 LDR: W Unimplemented function 'cellJpgEncOpen' in 'cellJpgEnc' module
-LDR: W Unimplemented function 'cellCameraReadEx' in 'cellCamera' module
-LDR: W Unimplemented function 'cellCameraRemoveNotifyEventQueue2' in 'cellCamera' module
-LDR: W Unimplemented function 'cellCameraStart' in 'cellCamera' module
-LDR: W Unimplemented function 'cellCameraGetType' in 'cellCamera' module
-LDR: W Unimplemented function 'cellCameraOpenEx' in 'cellCamera' module
-LDR: W Unimplemented function 'cellCameraIsAttached' in 'cellCamera' module
-LDR: W Unimplemented function 'cellCameraReset' in 'cellCamera' module
-LDR: W Unimplemented function 'cellCameraSetNotifyEventQueue2' in 'cellCamera' module
-LDR: W Unimplemented function 'cellCameraInit' in 'cellCamera' module
+LDR: ! Imported function 'cellCameraReadEx' in 'cellCamera' module
+LDR: ! Imported function 'cellCameraRemoveNotifyEventQueue2' in 'cellCamera' module
+LDR: ! Imported function 'cellCameraStart' in 'cellCamera' module
+LDR: ! Imported function 'cellCameraGetType' in 'cellCamera' module
+LDR: ! Imported function 'cellCameraOpenEx' in 'cellCamera' module
+LDR: ! Imported function 'cellCameraIsAttached' in 'cellCamera' module
+LDR: ! Imported function 'cellCameraReset' in 'cellCamera' module
+LDR: ! Imported function 'cellCameraSetNotifyEventQueue2' in 'cellCamera' module
+LDR: ! Imported function 'cellCameraInit' in 'cellCamera' module
 LDR: W Unimplemented function 'cellPngEncClose' in 'cellPngEnc' module
 LDR: W Unimplemented function 'cellPngEncQueryAttr' in 'cellPngEnc' module
 LDR: W Unimplemented function 'cellPngEncGetStreamInfo' in 'cellPngEnc' module
@@ -41,69 +52,189 @@ LDR: W Unimplemented function 'cellPngEncEncodePicture' in 'cellPngEnc' module
 LDR: W Unimplemented function 'cellPngEncWaitForInput' in 'cellPngEnc' module
 LDR: W Unimplemented function 'cellPngEncWaitForOutput' in 'cellPngEnc' module
 LDR: W Unimplemented function 'cellPngEncOpenEx' in 'cellPngEnc' module
+LDR: ! Imported function 'cellPngDecCreate' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecDecodeData' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecClose' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecDestroy' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecReadHeader' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecOpen' in 'cellPngDec' module
+LDR: ! Imported function 'cellPngDecSetParameter' in 'cellPngDec' module
+LDR: ! Imported function 'cellJpgDecReadHeader' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecClose' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecOpen' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecCreate' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecDecodeData' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecDestroy' in 'cellJpgDec' module
+LDR: ! Imported function 'cellJpgDecSetParameter' in 'cellJpgDec' module
+LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetUserHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetPrepareFlip' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmBindTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDefaultCommandWordSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDefaultSegmentWordSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDefaultFifoSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmBindZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapMainMemory' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnbindZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipImmediate' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetTileInfo' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmInitDefaultFifoMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnbindTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnmapEaIoAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysCacheMount' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetDeviceInfo' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogUnloadAsync' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilGetSystemParamInt' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellSaveDataUserAutoSave' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilGetBgmPlaybackStatus2' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetNumberOfDevice' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogAddSupportLanguage' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogLoadAsync' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolutionAvailability' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilEnableBgmPlaybackEx' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellSysconfOpen' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogSetKeyLayoutOption' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogAbort' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogSetInitialKeyLayout' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellSaveDataUserAutoLoad' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilDisableBgmPlayback' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogSetDeviceMask' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogSetLayoutMode' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilGetBgmPlaybackStatus' in 'cellSysutil' module
 LDR: W Unknown module 'cellSysutilAvconfExt'
+LDR: ! Imported function 'cellVideoOutGetScreenSize' in 'cellSysutilAvconfExt' module
+LDR: ! Imported function 'cellFsRmdir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsClose' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpendir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRead' in 'sys_fs' module
+LDR: ! Imported function 'cellFsReaddir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpen' in 'sys_fs' module
+LDR: ! Imported function 'cellFsStat' in 'sys_fs' module
+LDR: ! Imported function 'cellFsUnlink' in 'sys_fs' module
 LDR: W Unimplemented function 'cellFsSetDiscReadRetrySetting' in 'sys_fs' module
-LDR: W Unimplemented function 'cellFsFsync' in 'sys_fs' module
-LDR: W Unimplemented function 'cellFsChmod' in 'sys_fs' module
+LDR: ! Imported function 'cellFsFsync' in 'sys_fs' module
+LDR: ! Imported function 'cellFsChmod' in 'sys_fs' module
+LDR: ! Imported function 'cellFsAioFinish' in 'sys_fs' module
+LDR: ! Imported function 'cellFsLseek' in 'sys_fs' module
+LDR: ! Imported function 'cellFsGetFreeSize' in 'sys_fs' module
+LDR: ! Imported function 'cellFsMkdir' in 'sys_fs' module
 LDR: W Unimplemented function 'cellFsUtime' in 'sys_fs' module
+LDR: ! Imported function 'cellFsAioInit' in 'sys_fs' module
+LDR: ! Imported function 'cellFsWrite' in 'sys_fs' module
+LDR: ! Imported function 'cellFsFstat' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRename' in 'sys_fs' module
+LDR: ! Imported function 'cellFsClosedir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsGetDirectoryEntries' in 'sys_fs' module
+LDR: ! Imported function 'cellSysmoduleUnloadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleLoadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleIsLoaded' in 'cellSysmodule' module
+LDR: ! Imported function 'cellGameGetParamString' in 'cellGame' module
+LDR: ! Imported function 'cellGameCreateGameData' in 'cellGame' module
+LDR: ! Imported function 'cellGameContentPermit' in 'cellGame' module
+LDR: ! Imported function 'cellGameContentErrorDialog' in 'cellGame' module
+LDR: ! Imported function 'cellGamePatchCheck' in 'cellGame' module
+LDR: ! Imported function 'cellGameSetParamString' in 'cellGame' module
+LDR: ! Imported function 'cellGameDataCheck' in 'cellGame' module
+LDR: ! Imported function 'cellGameBootCheck' in 'cellGame' module
+LDR: ! Imported function 'sys_net_initialize_network_ex' in 'sys_net' module
+LDR: ! Imported function 'recvfrom' in 'sys_net' module
+LDR: ! Imported function 'listen' in 'sys_net' module
 LDR: W Unimplemented function 'socketselect' in 'sys_net' module
+LDR: ! Imported function '_sys_net_errno_loc' in 'sys_net' module
+LDR: ! Imported function 'connect' in 'sys_net' module
+LDR: ! Imported function 'socketclose' in 'sys_net' module
 LDR: W Unimplemented function 'gethostbyname' in 'sys_net' module
 LDR: W Unimplemented function 'inet_ntoa' in 'sys_net' module
+LDR: ! Imported function 'setsockopt' in 'sys_net' module
+LDR: ! Imported function 'sendto' in 'sys_net' module
+LDR: ! Imported function 'socket' in 'sys_net' module
+LDR: ! Imported function 'shutdown' in 'sys_net' module
 LDR: W Unimplemented function 'inet_aton' in 'sys_net' module
 LDR: W Unimplemented function 'sendmsg' in 'sys_net' module
+LDR: ! Imported function 'bind' in 'sys_net' module
+LDR: ! Imported function 'sys_net_finalize_network' in 'sys_net' module
+LDR: ! Imported function '_sys_net_h_errno_loc' in 'sys_net' module
+LDR: ! Imported function 'accept' in 'sys_net' module
+LDR: ! Imported function 'inet_addr' in 'sys_net' module
+LDR: ! Imported function 'send' in 'sys_net' module
+LDR: ! Imported function 'recv' in 'sys_net' module
+LDR: ! Imported function 'sys_net_show_ifconfig' in 'sys_net' module
 LDR: W Unimplemented function 'socketpoll' in 'sys_net' module
 LDR: W Unimplemented function 'getpeername' in 'sys_net' module
-LDR: W Unimplemented function 'sceNpBasicSendMessageGui' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicGetFriendListEntry' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerGetTicket' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicAddBlockListEntry' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpLookupUserProfileWithAvatarSizeAsync' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicAddFriend' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicGetFriendPresenceByIndex' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicRegisterContextSensitiveHandler' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicAbortGui' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerUnregisterCallback' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpLookupDestroyTitleCtx' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpLookupInit' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicRecvMessageAttachmentLoad' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerGetContentRatingFlag' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicGetBlockListEntryCount' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpLookupPollAsync' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerRequestTicket2' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpLookupTerm' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicGetPlayersHistoryEntryCount' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicUnregisterHandler' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicGetFriendListEntryCount' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerGetAccountRegion' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicRecvMessageAttachment' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicGetPlayersHistoryEntry' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicAddPlayersHistoryAsync' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicSetPresenceDetails' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpLookupCreateTitleCtx' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpLookupNpIdAsync' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpUtilCmpNpId' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicGetEvent' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerRegisterCallback' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpLookupCreateTransactionCtx' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerGetChatRestrictionFlag' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicSendMessage' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpFriendlist' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpBasicGetBlockListEntry' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpFriendlistAbortGui' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpLookupDestroyTransactionCtx' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerGetNpId' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerGetNetworkTime' in 'sceNp' module
+LDR: ! Imported function 'cellNetCtlNetStartDialogLoadAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlNetStartDialogUnloadAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlTerm' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlGetInfo' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlGetState' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlInit' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlAddHandler' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlDelHandler' in 'cellNetCtl' module
+LDR: ! Imported function 'cellRtcSetWin32FileTime' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcSetTick' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcGetCurrentTick' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcConvertUtcToLocalTime' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcParseDateTime' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcGetWin32FileTime' in 'cellRtc' module
+LDR: ! Imported function 'sceNpBasicSendMessageGui' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetFriendListEntry' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetTicket' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicAddBlockListEntry' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupUserProfileWithAvatarSizeAsync' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicAddFriend' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetFriendPresenceByIndex' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicRegisterContextSensitiveHandler' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicAbortGui' in 'sceNp' module
+LDR: ! Imported function 'sceNpTerm' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerUnregisterCallback' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupDestroyTitleCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupInit' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicRecvMessageAttachmentLoad' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetContentRatingFlag' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetBlockListEntryCount' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupPollAsync' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerRequestTicket2' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupTerm' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetPlayersHistoryEntryCount' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetStatus' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicUnregisterHandler' in 'sceNp' module
+LDR: ! Imported function 'sceNpDrmIsAvailable' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetFriendListEntryCount' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetAccountRegion' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicRecvMessageAttachment' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetPlayersHistoryEntry' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicAddPlayersHistoryAsync' in 'sceNp' module
+LDR: ! Imported function 'sceNpInit' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicSetPresenceDetails' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupCreateTitleCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupNpIdAsync' in 'sceNp' module
+LDR: ! Imported function 'sceNpUtilCmpNpId' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetEvent' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerRegisterCallback' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupCreateTransactionCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetChatRestrictionFlag' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicSendMessage' in 'sceNp' module
+LDR: ! Imported function 'sceNpFriendlist' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetBlockListEntry' in 'sceNp' module
+LDR: ! Imported function 'sceNpFriendlistAbortGui' in 'sceNp' module
+LDR: ! Imported function 'sceNpLookupDestroyTransactionCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetNpId' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetNetworkTime' in 'sceNp' module
 LDR: W Unimplemented function 'cellVoiceStart' in 'cellVoice' module
 LDR: W Unimplemented function 'cellVoiceDisconnectIPortFromOPort' in 'cellVoice' module
 LDR: W Unimplemented function 'cellVoiceCreateNotifyEventQueue' in 'cellVoice' module
@@ -123,15 +254,146 @@ LDR: W Unimplemented function 'cellVoiceStop' in 'cellVoice' module
 LDR: W Unimplemented function 'cellVoiceSetVolume' in 'cellVoice' module
 LDR: W Unimplemented function 'cellVoiceRemoveNotifyEventQueue' in 'cellVoice' module
 LDR: W Unimplemented function 'cellVoiceEnd' in 'cellVoice' module
-LDR: W Unimplemented function 'cellSpursTasksetAttributeSetTasksetSize' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursLFQueueInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAttributeSetNamePrefix' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAttributeEnableSpuPrintfIfAvailable' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursTasksetAttributeInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursLFQueueAttachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursCreateTaskWithAttribute' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursLFQueuePopBody' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursTasksetAttributeSetName' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursLFQueueDetachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursLFQueuePushBody' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursTasksetAttributeSetTasksetSize' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursAttributeInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursJoinTaskset' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursShutdownTaskset' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAttributeSetSpuThreadGroupType' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursInitializeWithAttribute' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursTaskAttributeInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursCreateTasksetWithAttribute' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursFinalize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursDestroyTaskset2' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursCreateJobChainWithAttribute' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursJobChainAttributeInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursCreateTaskset2' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursDetachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursJobGuardInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursShutdownJobChain' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursTryJoinTask2' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursJobChainAttributeSetName' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursJoinTask2' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursJoinJobChain' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAttachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursTasksetAttribute2Initialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursJobGuardNotify' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursCreateTask2' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursRunJobChain' in 'cellSpurs' module
+LDR: ! Imported function 'cellPadClearBuf' in 'sys_io' module
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadPeriphGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module
+LDR: ! Imported function 'sceNpTrophyRegisterContext' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyCreateHandle' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyGetRequiredDiskSpace' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyDestroyContext' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyInit' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyAbortHandle' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyGetGameInfo' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyDestroyHandle' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyUnlockTrophy' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyTerm' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyCreateContext' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyGetTrophyInfo' in 'sceNpTrophy' module
 LDR: W Unknown module 'cellPhotoUtility'
+LDR: ! Imported function 'cellPhotoExportInitialize2' in 'cellPhotoUtility' module
+LDR: ! Imported function 'cellPhotoExportFromFile' in 'cellPhotoUtility' module
+LDR: ! Imported function 'Unknown func id: 0x8d14d09b' in 'cellPhotoUtility' module
+LDR: ! Imported function 'cellPhotoExportFinalize' in 'cellPhotoUtility' module
 LDR: W Unknown module 'cellVideoExportUtility'
+LDR: ! Imported function 'cellVideoExportInitialize2' in 'cellVideoExportUtility' module
+LDR: ! Imported function 'cellVideoExportFromFile' in 'cellVideoExportUtility' module
+LDR: ! Imported function 'cellVideoExportFinalize' in 'cellVideoExportUtility' module
+LDR: ! Imported function 'cellUserInfoGetStat' in 'cellUserInfo' module
 LDR: W Unknown module 'sceNpCommerce2'
+LDR: ! Imported function 'sceNpCommerce2DoCheckoutStartAsync' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2DestroyReq' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2Init' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetCategoryContentsStart' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2DoDlListFinishAsync' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2Term' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2CreateSessionAbort' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2DoDlListStartAsync' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2DestroyCtx' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetCategoryContentsCreateReq' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2AbortReq' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetProductInfoStart' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2CreateSessionFinish' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetContentInfo' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2DestroyGetCategoryContentsResult' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetProductInfoCreateReq' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetCategoryInfo' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetProductInfoGetResult' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetCategoryContentsGetResult' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2CreateSessionStart' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2DoCheckoutFinishAsync' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2InitGetCategoryContentsResult' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2CreateCtx' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetPrice' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetGameSkuInfoFromGameProductInfo' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetGameProductInfoFromContentInfo' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2ExecuteStoreBrowse' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetGameProductInfo' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2DestroyGetProductInfoResult' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2InitGetProductInfoResult' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2GetCategoryInfoFromContentInfo' in 'sceNpCommerce2' module
 LDR: W Unknown module 'cellOskExtUtility'
+LDR: ! Imported function 'cellOskDialogExtRegisterConfirmWordFilterCallback' in 'cellOskExtUtility' module
 LDR: W Unimplemented function 'cellFontGetKerning' in 'cellFont' module
+LDR: ! Imported function 'cellFontOpenFontFile' in 'cellFont' module
+LDR: ! Imported function 'cellFontGetHorizontalLayout' in 'cellFont' module
+LDR: ! Imported function 'cellFontSetScalePixel' in 'cellFont' module
+LDR: ! Imported function 'cellFontEndLibrary' in 'cellFont' module
+LDR: ! Imported function 'cellFontEnd' in 'cellFont' module
+LDR: ! Imported function 'cellFontOpenFontMemory' in 'cellFont' module
+LDR: ! Imported function 'cellFontOpenFontset' in 'cellFont' module
+LDR: ! Imported function 'cellFontCloseFont' in 'cellFont' module
+LDR: ! Imported function 'cellFontGenerateCharGlyph' in 'cellFont' module
+LDR: ! Imported function 'cellFontDeleteGlyph' in 'cellFont' module
+LDR: ! Imported function 'cellFontGetCharGlyphMetrics' in 'cellFont' module
+LDR: ! Imported function 'cellFontInitializeWithRevision' in 'cellFont' module
+LDR: ! Imported function 'cellFontInitLibraryFreeTypeWithRevision' in 'cellFontFT' module
 LDR: W Unknown module 'cellVideoUpload'
+LDR: ! Imported function 'cellVideoUploadInitialize' in 'cellVideoUpload' module
 LDR: W Unknown module 'libgem'
+LDR: ! Imported function 'cellGemUpdateStart' in 'libgem' module
+LDR: ! Imported function 'Unknown func id: 0x11077159' in 'libgem' module
+LDR: ! Imported function 'cellGemInit' in 'libgem' module
+LDR: ! Imported function 'cellGemGetTrackerHue' in 'libgem' module
+LDR: ! Imported function 'cellGemConvertVideoFinish' in 'libgem' module
+LDR: ! Imported function 'cellGemEnableMagnetometer' in 'libgem' module
+LDR: ! Imported function 'cellGemWriteExternalPort' in 'libgem' module
+LDR: ! Imported function 'cellGemGetAllTrackableHues' in 'libgem' module
+LDR: ! Imported function 'cellGemGetMemorySize' in 'libgem' module
+LDR: ! Imported function 'cellGemUpdateFinish' in 'libgem' module
+LDR: ! Imported function 'cellGemEnableCameraPitchAngleCorrection' in 'libgem' module
+LDR: ! Imported function 'cellGemSetRumble' in 'libgem' module
+LDR: ! Imported function 'cellGemGetState' in 'libgem' module
+LDR: ! Imported function 'cellGemConvertVideoStart' in 'libgem' module
+LDR: ! Imported function 'cellGemFilterState' in 'libgem' module
+LDR: ! Imported function 'cellGemSetYaw' in 'libgem' module
+LDR: ! Imported function 'cellGemTrackHues' in 'libgem' module
+LDR: ! Imported function 'cellGemGetInfo' in 'libgem' module
+LDR: ! Imported function 'cellGemPrepareCamera' in 'libgem' module
+LDR: ! Imported function 'cellGemCalibrate' in 'libgem' module
+LDR: ! Imported function 'cellGemHSVtoRGB' in 'libgem' module
+LDR: ! Imported function 'cellGemForceRGB' in 'libgem' module
+LDR: ! Imported function 'cellGemGetInertialState' in 'libgem' module
+LDR: ! Imported function 'cellGemEnd' in 'libgem' module
 LDR: W Unimplemented function 'cellMicIsOpen' in 'cellMic' module
 LDR: W Unimplemented function 'cellMicIsAttached' in 'cellMic' module
 LDR: W Unimplemented function 'cellMicRemoveNotifyEventQueue' in 'cellMic' module
@@ -151,256 +413,146 @@ LDR: W Unimplemented function 'cellCelpEncEncodeFrame' in 'cellCelpEnc' module
 LDR: W Unimplemented function 'cellCelpEncWaitForOutput' in 'cellCelpEnc' module
 LDR: W Unimplemented function 'cellCelpEncOpenEx' in 'cellCelpEnc' module
 LDR: W Unimplemented function 'cellCelpEncEnd' in 'cellCelpEnc' module
-LDR: W Unimplemented function '_sys_spu_printf_finalize' in 'sysPrxForUser' module
+LDR: ! Imported function 'cellAdecDecodeAu' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecStartSeq' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecQueryAttr' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecClose' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecOpenEx' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecGetPcm' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecGetPcmItem' in 'cellAdec' module
+LDR: ! Imported function 'cellAdecEndSeq' in 'cellAdec' module
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_wait' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_process_atexitspawn' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_register_library' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_spu_printf_initialize' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_signal_to' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_process_at_Exitspawn' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_once' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_trylock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_create' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_spu_printf_finalize' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_signal' in 'sysPrxForUser' module
+LDR: ! Imported function 'cellSyncMutexUnlock' in 'cellSync' module
+LDR: ! Imported function 'cellSyncMutexInitialize' in 'cellSync' module
+LDR: ! Imported function 'cellSyncMutexTryLock' in 'cellSync' module
+LDR: ! Imported function 'cellAudioCreateNotifyEventQueue' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module
 LDR: W Unimplemented function 'cellAudioRemoveNotifyEventQueueEx' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioSetPortLevel' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module
 LDR: W Unimplemented function 'cellAudioSetNotifyEventQueueEx' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioRemoveNotifyEventQueue' in 'cellAudio' module
 LDR: W Unknown module 'cellHttp'
+LDR: ! Imported function 'cellHttpCreateTransaction' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpResponseGetStatusCode' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetSslCallback' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetCookieRecvCallback' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetAutoRedirect' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetRecvTimeout' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpInit' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpDestroyTransaction' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetVersion' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetCookieStatus' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpResponseGetContentLength' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpCreateClient' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpsInit' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpRequestSetHeader' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetPerHostKeepAliveMax' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetKeepAlive' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpEndCookie' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpRecvResponse' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetSendTimeout' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetAutoAuthentication' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpInitCookie' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpDestroyClient' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpSendRequest' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpRequestSetContentLength' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpResponseGetAllHeaders' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetUserAgent' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpEnd' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetConnTimeout' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpsEnd' in 'cellHttp' module
 LDR: W Unimplemented function 'cellSslEnd' in 'cellSsl' module
 LDR: W Unimplemented function 'cellSslCertificateLoader' in 'cellSsl' module
 LDR: W Unimplemented function 'cellSslInit' in 'cellSsl' module
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-HLE: W PPU[1] Thread (CPUThread)[0x00e6a1a8]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 15
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 16
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 17
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 18
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 19
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 20
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 21
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 22
-HLE: W PPU[1] Thread (CPUThread)[0x00a8ddf8]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00109b0)
-HLE: W PPU[1] Thread (CPUThread)[0x00a8de64]memory warning: sys_memory_container_create(cid_addr=0x15b34b8, yield_size=0xec00000)
-HLE: W PPU[1] Thread (CPUThread)[0x00a8de64]memory warning: *** memory_container created(addr=0x30100000): id = 23
-MEM: E PPU[1] Thread (CPUThread)[0x00a8de90]DynamicMemoryBlock::Free(addr=0x0): failed
-MEM: ! PPU[1] Thread (CPUThread)[0x00a8de90]*** Memory Block: addr = 0x30000000, size = 0x10000
-MEM: ! PPU[1] Thread (CPUThread)[0x00a8de90]*** Memory Block: addr = 0x30100000, size = 0xec00000
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 24
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 25
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 27
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 28
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 29
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 30
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 31
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 32
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 33
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 34
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 35
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 36
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 37
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 38
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 39
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 40
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 41
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 42
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 43
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 44
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 45
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 46
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 47
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 48
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 49
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 50
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 51
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 52
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 53
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 54
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 55
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 56
-HLE: W PPU[1] Thread (CPUThread)[0x0162d04c]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 57
-MEM: E PPU[1] Thread (CPUThread)[0x00210c04]Write32 to null block: [00001008]: e5feff0
-MEM: E PPU[1] Thread (CPUThread)[0x00210c08]Write32 to null block: [00001000]: 1000
-MEM: E PPU[1] Thread (CPUThread)[0x00210c0c]Write32 to null block: [00001004]: 1000
-MEM: E PPU[1] Thread (CPUThread)[0x00210c18]Write32 to null block: [00001000]: 13a2bb0
-MEM: E PPU[1] Thread (CPUThread)[0x00210c1c]Write32 to null block: [00001004]: 13a2bb0
-MEM: E PPU[1] Thread (CPUThread)[0x00210c30]Read32 from null block: [00001008]
-MEM: E PPU[1] Thread (CPUThread)[0x00210c40]Read32 from null block: [00001008]
-MEM: E PPU[1] Thread (CPUThread)[0x00207d68]Read32 from null block: [00001018]
-MEM: E PPU[1] Thread (CPUThread)[0x00207d84]Write32 to null block: [00001010]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x00207d8c]Write32 to null block: [00001014]: 1167740
-MEM: E PPU[1] Thread (CPUThread)[0x00207d94]Write32 to null block: [0000101c]: 2
-MEM: E PPU[1] Thread (CPUThread)[0x00207d9c]Write32 to null block: [00001018]: 1
-MEM: E PPU[1] Thread (CPUThread)[0x00207da0]Read32 from null block: [00001028]
-MEM: E PPU[1] Thread (CPUThread)[0x00207da8]Write32 to null block: [00001020]: 1010
-MEM: E PPU[1] Thread (CPUThread)[0x00207db4]Write32 to null block: [00001028]: 1
-MEM: E PPU[1] Thread (CPUThread)[0x00207db8]Write32 to null block: [00001024]: 1167740
-MEM: E PPU[1] Thread (CPUThread)[0x00207dc0]Write32 to null block: [0000102c]: 2
-MEM: E PPU[1] Thread (CPUThread)[0x00207dc4]Read32 from null block: [00001008]
-MEM: E PPU[1] Thread (CPUThread)[0x00207dc8]Write32 to null block: [00001004]: 1167740
-MEM: E PPU[1] Thread (CPUThread)[0x00207dd0]Write32 to null block: [0000100c]: 2
-MEM: E PPU[1] Thread (CPUThread)[0x00207ddc]Write32 to null block: [00001024]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x00207de0]Write32 to null block: [00001008]: 1
-MEM: E PPU[1] Thread (CPUThread)[0x00207de4]Write32 to null block: [0000102c]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x00207de8]Read32 from null block: [00001028]
-MEM: E PPU[1] Thread (CPUThread)[0x00207df0]Write32 to null block: [00001000]: 1020
-MEM: E PPU[1] Thread (CPUThread)[0x00207dfc]Write32 to null block: [00001028]: ffffffd0
-MEM: E PPU[1] Thread (CPUThread)[0x00205984]Read32 from null block: [00001028]
-MEM: E PPU[1] Thread (CPUThread)[0x0020599c]Read32 from null block: [00001038]
-MEM: E PPU[1] Thread (CPUThread)[0x00205504]Read32 from null block: [00001038]
-MEM: E PPU[1] Thread (CPUThread)[0x00205530]Read32 from null block: [00001040]
-MEM: E PPU[1] Thread (CPUThread)[0x00205534]Read32 from null block: [00001044]
-MEM: E PPU[1] Thread (CPUThread)[0x00205538]Write32 to null block: [00000004]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x0020553c]Write32 to null block: [00000000]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x00205540]Write32 to null block: [00001040]: 1040
-MEM: E PPU[1] Thread (CPUThread)[0x00205544]Write32 to null block: [00001044]: 1040
-MEM: E PPU[1] Thread (CPUThread)[0x002059b8]Read32 from null block: [00001038]
-MEM: E PPU[1] Thread (CPUThread)[0x002059bc]Read32 from null block: [00001030]
-MEM: E PPU[1] Thread (CPUThread)[0x002059d8]Write32 to null block: [00001040]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x002059dc]Read32 from null block: [00001030]
-MEM: E PPU[1] Thread (CPUThread)[0x002059e4]Read32 from null block: [00000008]
-MEM: E PPU[1] Thread (CPUThread)[0x002059f0]Write32 to null block: [00000008]: 1030
-MEM: E PPU[1] Thread (CPUThread)[0x002059f4]Read32 from null block: [00001020]
-MEM: E PPU[1] Thread (CPUThread)[0x002059f8]Read32 from null block: [00000008]
-MEM: E PPU[1] Thread (CPUThread)[0x00205a14]Read32 from null block: [00001028]
-MEM: E PPU[1] Thread (CPUThread)[0x00205a18]Read32 from null block: [00001020]
-MEM: E PPU[1] Thread (CPUThread)[0x00205a34]Write32 to null block: [00001030]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x00205a38]Read32 from null block: [00001020]
-MEM: E PPU[1] Thread (CPUThread)[0x00205a44]Read32 from null block: [00000008]
-MEM: E PPU[1] Thread (CPUThread)[0x00205a50]Write32 to null block: [00000008]: 1020
-MEM: E PPU[1] Thread (CPUThread)[0x00210c58]Read32 from null block: [00000008]
-MEM: E PPU[1] Thread (CPUThread)[0x00210c64]Read32 from null block: [00000008]
-MEM: E PPU[1] Thread (CPUThread)[0x00210c80]Write32 to null block: [00000008]: 1
-MEM: E PPU[1] Thread (CPUThread)[0x00210c88]Write32 to null block: [0000000c]: 2
-MEM: E PPU[1] Thread (CPUThread)[0x00210c90]Write32 to null block: [00000004]: 1167740
-MEM: E PPU[1] Thread (CPUThread)[0x00210ca0]Read32 from null block: [00000008]
-MEM: E PPU[1] Thread (CPUThread)[0x00210cd0]Write32 to null block: [00000008]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x00210cd4]Write32 to null block: [00000004]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x00210cd8]Write32 to null block: [0000000c]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x00205984]Read32 from null block: [00000008]
-MEM: E PPU[1] Thread (CPUThread)[0x0020599c]Read32 from null block: [00000018]
-MEM: E PPU[1] Thread (CPUThread)[0x00205504]Read32 from null block: [00000018]
-MEM: E PPU[1] Thread (CPUThread)[0x00205530]Read32 from null block: [00000020]
-MEM: E PPU[1] Thread (CPUThread)[0x00205534]Read32 from null block: [00000024]
-MEM: E PPU[1] Thread (CPUThread)[0x00205538]Write32 to null block: [00000004]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x0020553c]Write32 to null block: [00000000]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x00205540]Write32 to null block: [00000020]: 20
-MEM: E PPU[1] Thread (CPUThread)[0x00205544]Write32 to null block: [00000024]: 20
-MEM: E PPU[1] Thread (CPUThread)[0x002059b8]Read32 from null block: [00000018]
-MEM: E PPU[1] Thread (CPUThread)[0x002059bc]Read32 from null block: [00000010]
-MEM: E PPU[1] Thread (CPUThread)[0x002059d8]Write32 to null block: [00000020]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x002059dc]Read32 from null block: [00000010]
-MEM: E PPU[1] Thread (CPUThread)[0x002059e4]Read32 from null block: [00000008]
-MEM: E PPU[1] Thread (CPUThread)[0x002059f0]Write32 to null block: [00000008]: 10
-MEM: E PPU[1] Thread (CPUThread)[0x002059f4]Read32 from null block: [00000000]
-MEM: E PPU[1] Thread (CPUThread)[0x002059f8]Read32 from null block: [00000008]
-MEM: E PPU[1] Thread (CPUThread)[0x00205a14]Read32 from null block: [00000008]
-MEM: E PPU[1] Thread (CPUThread)[0x00205a18]Read32 from null block: [00000000]
-MEM: E PPU[1] Thread (CPUThread)[0x00205a34]Write32 to null block: [00000010]: 0
-MEM: E PPU[1] Thread (CPUThread)[0x00205a38]Read32 from null block: [00000000]
-MEM: E PPU[1] Thread (CPUThread)[0x00205a44]Read32 from null block: [00000008]
-MEM: E PPU[1] Thread (CPUThread)[0x00205a50]Write32 to null block: [00000008]: 0
-PPU: E PPU[1] Thread (CPUThread)[0x00209384]Trap! (tw 1f, r1, r1) #pc: 0x209384
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r0 = 0x209340
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r1 = 0xd00107f0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r2 = 0x13a21d8
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r3 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r4 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r5 = 0x13a3c48
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r6 = 0x11fdbb0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r7 = 0x11fdbb0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r8 = 0x13a3c48
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r9 = 0x2
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r10 = 0x10
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r11 = 0x1bc200f4
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r12 = 0x162c008
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r13 = 0x30007060
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r14 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r15 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r16 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r17 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r18 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r19 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r20 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r21 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r22 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r23 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r24 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r25 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r26 = 0x0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r27 = 0x13a2b80
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r28 = 0x242c
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r29 = 0x11fdbb0
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r30 = 0x400
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]r31 = 0x1
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f0 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f1 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f2 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f3 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f4 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f5 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f6 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f7 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f8 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f9 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f10 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f11 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f12 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f13 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f14 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f15 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f16 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f17 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f18 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f19 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f20 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f21 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f22 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f23 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f24 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f25 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f26 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f27 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f28 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f29 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f30 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]f31 = 0.000000
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v2 = 0x0000000f0000000f0000000f00000000 [x: 2.10195e-044 y: 2.10195e-044 z: 2.10195e-044 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]CR = 0x42000042
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]LR = 0x209340
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]CTR = 0x162d00c
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]XER = 0x0 [CA=395136991232 | OV=140711718551552 | SO=395136991232]
-PPU: ! PPU[1] Thread (CPUThread)[0x00209384]FPSCR = 0x4000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=4 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (CPUThread)[0x00e6a1a8]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fc04)
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 15
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 16
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 17
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 18
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 19
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 20
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 21
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 22
+HLE: W {PPU[1] Thread (CPUThread)[0x00a8ddf8]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000f9b0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00a8de64]} sys_memory warning: sys_memory_container_create(cid_addr=0x15b34b8, yield_size=0xec00000)
+HLE: W {PPU[1] Thread (CPUThread)[0x00a8de64]} sys_memory warning: *** memory_container created(addr=0x30100000): id = 23
+MEM: E {PPU[1] Thread (CPUThread)[0x00a8de90]} DynamicMemoryBlock::Free(addr=0x0): failed
+MEM: ! {PPU[1] Thread (CPUThread)[0x00a8de90]} *** Memory Block: addr = 0x30000000, size = 0x10000
+MEM: ! {PPU[1] Thread (CPUThread)[0x00a8de90]} *** Memory Block: addr = 0x30100000, size = 0xec00000
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 24
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 25
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 27
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 28
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 29
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 30
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 31
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 32
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 33
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 34
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 35
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 36
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 37
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 38
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 39
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 40
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 41
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 42
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 43
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 44
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 45
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 46
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 47
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 48
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 49
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 50
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 51
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 52
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 53
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 54
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 55
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 56
+HLE: W {PPU[1] Thread (CPUThread)[0x0162d04c]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 57
+G: E {PPU[1] Thread (CPUThread)[0x00210c04]} Exception: Access violation: addr = 0x1008 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
 HLE: ! All threads stopped...
 MEM: ! Closing memory...
