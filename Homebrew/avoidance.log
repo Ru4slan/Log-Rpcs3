@@ -1,40 +1,139 @@
 HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
 LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\AVOIDANCE/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
-LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
-LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
-LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
-LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_hdd0/ -> ./dev_hdd0/
+LDR: ! /dev_hdd1/ -> ./dev_hdd1/
+LDR: ! /dev_flash/ -> ./dev_flash/
+LDR: ! /dev_usb000/ -> ./dev_usb000/
+LDR: ! /dev_usb/ -> ./dev_usb000/
 LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\AVOIDANCE/
 LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\AVOIDANCE//../
 LDR: ! /host_root/ -> 
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\AVOIDANCE//USRDIR/
 LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\AVOIDANCE//USRDIR/
-LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\AVOIDANCE//USRDIR/
+LDR: ! //dev_hdd0/ -> ./dev_hdd0/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\AVOIDANCE//USRDIR/
 LDR: !  
-MEM: ! Initing memory: m_base_addr = 0x4ff2320000
+LDR: ! Title: Avoidance
+LDR: ! Serial: AVOIDANCE
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0x342b3c0000
 MEM: ! Memory initialized.
-LDR: W Unimplemented function '_cellGcmFunc1' in 'cellGcmSys' module
-LDR: W Unimplemented function '_cellGcmFunc12' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmBindTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmBindZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmDumpGraphicsError' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc1' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc12' in 'cellGcmSys' module
 LDR: W Unimplemented function '_cellGcmFunc13' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
 LDR: W Unimplemented function '_cellGcmFunc2' in 'cellGcmSys' module
 LDR: W Unimplemented function '_cellGcmFunc3' in 'cellGcmSys' module
 LDR: W Unimplemented function '_cellGcmFunc38' in 'cellGcmSys' module
 LDR: W Unimplemented function '_cellGcmFunc4' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetCurrentDisplayBufferId' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetCurrentField' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDefaultCommandWordSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDefaultSegmentWordSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDisplayBufferByFlipIndex' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDisplayInfo' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetFlipStatus' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLastFlipTime' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLastSecondVTime' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetMaxIoMapSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetNotifyDataAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetOffsetTable' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetReport' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetReportDataAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetReportDataAddressLocation' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetReportDataLocation' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetTileInfo' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetTimeStamp' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetTimeStampLocation' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetVBlankCount' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetZcullInfo' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmInitCursor' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmInitDefaultFifoMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmInitSystemMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmIoOffsetToAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapEaIoAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapEaIoAddressWithFlags' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapLocalMemory' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapMainMemory' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmReserveIoMapSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmResetFlipStatus' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetCursorDisable' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetCursorEnable' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetCursorImageOffset' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetCursorPosition' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDebugOutputLevel' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDefaultCommandBuffer' in 'cellGcmSys' module
 LDR: W Unimplemented function 'cellGcmSetDefaultCommandBufferAndSegmentWordSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDefaultFifoSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlip' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmSetFlipCommand' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmSetFlipCommandWithWaitLabel' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipImmediate' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipStatus' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetGraphicsHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetInvalidateTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetPrepareFlip' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetQueueHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetSecondVFrequency' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetSecondVHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetTileInfo' in 'cellGcmSys' module
 LDR: W Unimplemented function 'cellGcmSetUserCommand' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetUserHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetVBlankFrequency' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetWaitFlip' in 'cellGcmSys' module
 LDR: W Unimplemented function 'cellGcmSetWaitFlipUnsafe' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSortRemapEaIoAddress' in 'cellGcmSys' module
 LDR: W Unimplemented function 'cellGcmSysGetLastVBlankTime' in 'cellGcmSys' module
 LDR: W Unimplemented function 'cellGcmTerminate' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnbindTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnbindZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnmapEaIoAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnmapIoAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnreserveIoMapSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUpdateCursor' in 'cellGcmSys' module
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetDeviceInfo' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetConfiguration' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolutionAvailability' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellVideoOutDebugSetMonitorType' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellVideoOutRegisterCallback' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellVideoOutUnregisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetNumberOfDevice' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellVideoOutGetConvertCursorColorInfo' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogAbort' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogClose' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogOpenErrorCode' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellMsgDialogOpen' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogProgressBarInc' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellMsgDialogAbort' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogOpen2' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogProgressBarReset' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogProgressBarSetMsg' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogGetInputText' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogSetInitialInputDevice' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogGetSize' in 'cellSysutil' module
@@ -54,34 +153,106 @@ LDR: W Unimplemented function 'sys_config_add_service_listener' in 'sys_io' modu
 LDR: W Unimplemented function 'sys_config_remove_service_listener' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_register_service' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_unregister_service' in 'sys_io' module
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
+LDR: ! Imported function 'cellPadClearBuf' in 'sys_io' module
+LDR: ! Imported function 'cellPadInfoPressMode' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddRegisterController' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetInfo' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadGetRawData' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetDataExtra' in 'sys_io' module
+LDR: ! Imported function 'cellPadInfoSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddGetPortNo' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddDataInsert' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetCapabilityInfo' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddUnregisterController' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPressMode' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadPeriphGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadPeriphGetData' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module
+LDR: ! Imported function 'cellMouseInit' in 'sys_io' module
+LDR: ! Imported function 'cellMouseEnd' in 'sys_io' module
+LDR: ! Imported function 'cellMouseClearBuf' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetTabletDataList' in 'sys_io' module
+LDR: ! Imported function 'cellMouseSetTabletMode' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetData' in 'sys_io' module
+LDR: ! Imported function 'cellMouseInfoTabletMode' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetRawData' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetDataList' in 'sys_io' module
+LDR: ! Imported function 'cellKbInit' in 'sys_io' module
+LDR: ! Imported function 'cellKbEnd' in 'sys_io' module
+LDR: ! Imported function 'cellKbRead' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetReadMode' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetCodeType' in 'sys_io' module
+LDR: ! Imported function 'cellKbCnvRawCode' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetLEDStatus' in 'sys_io' module
+LDR: ! Imported function 'cellKbGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellKbGetConfiguration' in 'sys_io' module
+LDR: ! Imported function 'cellKbClearBuf' in 'sys_io' module
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_game_process_exitspawn2' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spu_elf_get_information' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spu_elf_get_segments' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_raw_spu_load' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_raw_spu_image_load' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spu_image_close' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spu_image_import' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module
 LDR: W Unimplemented function 'sys_ppu_thread_register_atexit' in 'sysPrxForUser' module
 LDR: W Unimplemented function 'sys_interrupt_thread_disestablish' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_once' in 'sysPrxForUser' module
 LDR: W Unimplemented function 'sys_ppu_thread_unregister_atexit' in 'sysPrxForUser' module
-HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
-HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
-HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
-HLE: W PPU[1] Thread (CPUThread)[0x000621c0]cellGcmSys warning: cellGcmInit(context_addr=0xd0010b10,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
-HLE: W PPU[1] Thread (CPUThread)[0x000621c0]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-HLE: W PPU[1] Thread (CPUThread)[0x000621c0]cellGcmSys warning: cellGcmInit(): 256MB io address space used
-HLE: W PPU[1] Thread (CPUThread)[0x000621c0]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
-RSX: ! RSXThreadRSX thread started
-HLE: W PPU[1] Thread (CPUThread)[0x00064010]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010ba0, option_addr=0x0, waitForEvent=0x0)
-HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
-HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
-HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
-HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_trylock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module
+HLE: W {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10011320, attr_addr=0x10007f58)
+HLE: ! {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10011308, attr_addr=0x10007f58)
+HLE: ! {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x100112f0, attr_addr=0x10007f58)
+HLE: ! {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (CPUThread)[0x000621c0]} cellGcmSys warning: _cellGcmInitBody(context_addr=0xd000fb10, cmdSize=0x10000, ioSize=0x100000, ioAddress=0x30200000)
+HLE: W {PPU[1] Thread (CPUThread)[0x000621c0]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W {PPU[1] Thread (CPUThread)[0x000621c0]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W {PPU[1] Thread (CPUThread)[0x000621c0]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+RSX: ! {RSXThread} RSX thread started
+HLE: W {PPU[1] Thread (CPUThread)[0x00064010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000fba0, option_addr=0x0, waitForEvent=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10011350, attr_addr=0x10007f58)
+HLE: ! {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30000630, attr_addr=0x10007e20)
+HLE: ! {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x300006f0, attr_addr=0x10007e20)
+HLE: ! {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x300007b0, attr_addr=0x10007e20)
+HLE: ! {PPU[1] Thread (CPUThread)[0x000680dc]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (CPUThread)[0x00044d24]} sys_fs warning: cellFsFstat(fd=1, sb_addr=0xd000f130)
 TTY: buffers will be 0x384000 bytes
-HLE: W PPU[1] Thread (CPUThread)[0x000622ec]cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-HLE: W PPU[1] Thread (CPUThread)[0x00064088]cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x84a98, userdata=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x000622ec]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+HLE: W {PPU[1] Thread (CPUThread)[0x0006604c]} sys_io warning: cellPadInit(max_connect=7)
+HLE: W {PPU[1] Thread (CPUThread)[0x00064088]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x84a98, userdata=0x0)
 TTY: frag_mem = 0xc0e10000
-RSX: W RSXThreadRSX thread aborted
-RSX: W VBlank threadVBlank thread aborted
+PPU: ! {PPULLVMRecompiler} Removed 1 old versions
+PPU: ! {PPULLVMRecompiler} Removed 40 old versions
+PPU: ! {PPULLVMRecompiler} Removed 15 old versions
+PPU: ! {PPULLVMRecompiler} Removed 5 old versions
+PPU: ! {PPULLVMRecompiler} Removed 3 old versions
+PPU: ! {PPULLVMRecompiler} Removed 4 old versions
+PPU: ! {PPULLVMRecompiler} Removed 3 old versions
+PPU: ! {PPULLVMRecompiler} Removed 1 old versions
+RSX: W {VBlank thread} VBlank thread aborted
+RSX: W {RSXThread} RSX thread aborted
+PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...

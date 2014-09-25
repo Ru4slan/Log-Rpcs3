@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: Fast & Furious™: Showdown
 LDR: ! Serial: BLES01810
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x3d2e6f0000
+MEM: ! Initializing memory: m_base_addr = 0x3e3d290000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellRtcGetCurrentClockLocalTime' in 'cellRtc' module
 LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
@@ -345,7 +345,7 @@ RSX: ! {RSXThread} RSX thread started
 HLE: W {PPU[1] Thread (CPUThread)[0x007bb0dc]} cellGcmSys warning: cellGcmSetVBlankHandler(handler_addr=0x7cc798)
 HLE: W {PPU[1] Thread (CPUThread)[0x007bb010]} cellGcmSys warning: cellGcmSetUserHandler(handler_addr=0x7cc790)
 HLE: W {PPU[1] Thread (CPUThread)[0x007b70a0]} cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-HLE: W {PPU[1] Thread (CPUThread)[0x007b70dc]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x30e57b30)
+HLE: W {PPU[1] Thread (CPUThread)[0x007b70dc]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x3fb45f30)
 HLE: W {PPU[1] Thread (CPUThread)[0x007b7010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000f9f0, option_addr=0x0, waitForEvent=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x007bb070]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 HLE: W {PPU[1] Thread (CPUThread)[0x007bb100]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=7864320, pitch=5120, comp=7, base=0, bank=0)
@@ -415,10 +415,10 @@ HLE: W {PPU[1] Thread (CPUThread)[0x004972c8]} sys_event warning: sys_event_port
 HLE: W {PPU[1] Thread (CPUThread)[0x009db13c]} cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x3fa00400, queue=49, port_addr=0xd000fa50, isDynamic=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x009db13c]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=33, eq_id=49, req=0x2, spup_addr=0xd000fa50)
 HLE: W {PPU[1] Thread (CPUThread)[0x009db13c]} sys_spu warning: *** spup -> 1
-HLE: E {PPU[1] Thread (CPUThread)[0x009db0f4]} cellSpurs TODO: cellSpursAddWorkload
+HLE: W {PPU[1] Thread (CPUThread)[0x009db0f4]} cellSpurs warning: cellSpursAddWorkload(spurs_addr=0x3fa00400, wid_addr=0x90ea80, pm_addr=0x7aca00, size=0xa00, data=0x90eb00, priorityTable_addr=0x7e3418, minContention=0x1, maxContention=0x5)
 HLE: E {PPU[1] Thread (CPUThread)[0x009db130]} cellSpurs TODO: _cellSpursWorkloadFlagReceiver
 HLE: E {PPU[1] Thread (CPUThread)[0x009db16c]} cellSpurs TODO: cellSpursReadyCountStore
-HLE: E {PPU[1] Thread (CPUThread)[0x009db10c]} cellSpurs TODO: cellSpursWakeUp
+HLE: W {PPU[1] Thread (CPUThread)[0x009db10c]} cellSpurs warning: cellSpursWakeUp(spurs_addr=0x3fa00400)
 HLE: W {PPU[1] Thread (CPUThread)[0x009f1058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x8e5138, attr_addr=0xd000f9e0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x009f1058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 52
 HLE: W {PPU[1] Thread (CPUThread)[0x009f10f4]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x8e5138): id = 53
@@ -2175,62 +2175,46 @@ HLE: ! {PPU[1] Thread (CPUThread)[0x009f1028]} sys_ppu_thread: *** New PPU Threa
 HLE: ! {PPU[1] Thread (CPUThread)[0x009f1028]} sys_ppu_thread: *** New PPU Thread [fios mediathread 7] (joinable, entry=0x7ccdf8): id = 1191
 HLE: ! {PPU[1] Thread (CPUThread)[0x009f1028]} sys_ppu_thread: *** New PPU Thread [fios scheduler 4] (joinable, entry=0x7ccdf8): id = 1192
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x007bf07c]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR/vfs.psarc", sb_addr=0xd013eec4)
-HLE: ! {PPU[1189] Thread (fios mediathread 5)[0x007bf01c]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/vfs.psarc" opened: fd = 1193
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x007bf0e8]} sys_fs warning: cellFsFstat(fd=1193, sb_addr=0xd013eca4)
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x007bf07c]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR/vfs.psarc", sb_addr=0xd013ec34)
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013ead0, summertime_addr=0xd013ead4)
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x007bf07c]} sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/vfs.psarc" not found.
+HLE: ! {PPU[1189] Thread (fios mediathread 5)[0x007bf01c]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/vfs/graphics/fonts/debugfont/graphics_fonts_debugfont.gcm.phyre" opened: fd = 1193
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x007bf0e8]} sys_fs warning: cellFsFstat(fd=1193, sb_addr=0xd013ef34)
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x007bf07c]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR/vfs/graphics/fonts/debugfont/graphics_fonts_debugfont.gcm.phyre", sb_addr=0xd013eec4)
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x007bf07c]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR/vfs/graphics/fonts/debugfont/graphics_fonts_debugfont.gcm.phyre", sb_addr=0xd013e5b4)
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e450, summertime_addr=0xd013e454)
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013ea20, summertime_addr=0xd013ea24)
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e3a0, summertime_addr=0xd013e3a4)
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013ead0, summertime_addr=0xd013ead4)
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e450, summertime_addr=0xd013e454)
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013ea20, summertime_addr=0xd013ea24)
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e3a0, summertime_addr=0xd013e3a4)
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013ead0, summertime_addr=0xd013ead4)
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e450, summertime_addr=0xd013e454)
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013ea20, summertime_addr=0xd013ea24)
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e3a0, summertime_addr=0xd013e3a4)
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x007bf07c]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR/vfs.psarc", sb_addr=0xd013e504)
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e3a0, summertime_addr=0xd013e3a4)
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e2f0, summertime_addr=0xd013e2f4)
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e3a0, summertime_addr=0xd013e3a4)
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e2f0, summertime_addr=0xd013e2f4)
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e3a0, summertime_addr=0xd013e3a4)
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f81c8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd013e2f0, summertime_addr=0xd013e2f4)
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x004f9cac]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-PPU: ! {PPULLVMRecompiler} Removed 6 old versions
-PPU: ! {PPULLVMRecompiler} Removed 37 old versions
-HLE: W {PPU[1191] Thread (fios mediathread 7)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1188) aborted
-HLE: W {PPU[1] Thread (CPUThread)[0x009f1040]} sys_lwmutex warning: sys_lwmutex_t::lock(sq=1128) aborted
-HLE: W {PPU[1159] Thread (fios scheduler 1)[0x009f1118]} sys_lwcond warning: sys_lwcond_signal_all(id=1129) aborted
-RSX: W {RSXThread} RSX thread aborted
-HLE: W {PPU[61] Thread (PhyreEngineWorkerThread1)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=57) aborted
-HLE: W {PPU[1158] Thread (fios mediathread 3)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1156) aborted
-RSX: W {VBlank thread} VBlank thread aborted
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x007bf0e8]} sys_fs warning: cellFsFstat(fd=1193, sb_addr=0xd013e5b4)
+PPU: ! {PPULLVMRecompiler} Removed 3 old versions
 HLE: W {PPU[50] Thread (spu_printf_handler)[0x004974fc]} sys_event warning: sys_event_queue_receive(equeue=49) aborted
-HLE: W {PPU[1] Thread (CPUThread)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1129) aborted
-HLE: W {PPU[1190] Thread (fios mediathread 6)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1187) aborted
+RSX: W {VBlank thread} VBlank thread aborted
+HLE: W {PPU[1189] Thread (fios mediathread 5)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1129) aborted
+RSX: W {RSXThread} RSX thread aborted
+HLE: W {PPU[1157] Thread (fios mediathread 2)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1155) aborted
+HLE: W {PPU[1159] Thread (fios scheduler 1)[0x009f1118]} sys_lwcond warning: sys_lwcond_signal_all(id=1129) aborted
+HLE: W {PPU[1158] Thread (fios mediathread 3)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1156) aborted
+HLE: W {PPU[1192] Thread (fios scheduler 4)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1182) aborted
 HLE: W {PPU[1096] Thread (PhyreEngineRenderThread)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=73) aborted
 HLE: W {PPU[60] Thread (PhyreEngineWorkerThread0)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=57) aborted
-HLE: W {PPU[1192] Thread (fios scheduler 4)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1182) aborted
-HLE: W {PPU[1189] Thread (fios mediathread 5)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1129) aborted
-HLE: W {PPU[1157] Thread (fios mediathread 2)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1155) aborted
+HLE: W {PPU[1] Thread (CPUThread)[0x009f1040]} sys_lwmutex warning: sys_lwmutex_t::lock(sq=1128) aborted
+HLE: W {PPU[1190] Thread (fios mediathread 6)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1187) aborted
+HLE: W {PPU[1191] Thread (fios mediathread 7)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1188) aborted
+HLE: W {PPU[61] Thread (PhyreEngineWorkerThread1)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=57) aborted
+HLE: W {PPU[1] Thread (CPUThread)[0x009f1040]} sys_lwcond warning: sys_lwcond_wait(id=1129) aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
+MEM: ! Closing memory...

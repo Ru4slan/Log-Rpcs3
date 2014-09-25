@@ -1,80 +1,204 @@
-[!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/USRDIR/BOOT.BIN'...
-[!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\..\
-[!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\Data\
-[!]: Initing memory...
-[!]: Memory initialized.
-[W]: Unknown function 0xbe5be3ba in 'sys_io' module
-[E]: TODO: cellPadSetSensorMode
-[W]: Unknown function 0xf83f8182 in 'sys_io' module
-[E]: TODO: cellPadSetPressMode
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
-[W]: Unknown function 0x3f09e20a in 'sys_net' module
-[E]: TODO: socketselect
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
-[W]: Unknown function 0xa4ed7dfe in 'cellSysutil' module
-[E]: TODO: cellSaveDataDelete
-[W]: Unknown function 0xc22c79b5 in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoLoad
-[W]: Unknown function 0xe7951dee in 'cellSysutil' module
-[E]: TODO: cellGameDataCheckCreate
-[W]: Unknown function 0xf81eca25 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogOpen
-[W]: Unknown function 0xf8a175ec in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoSave
-[W]: Unknown function 0x967a162b in 'sys_fs' module
-[E]: TODO: cellFsFsync
-[W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
-[E]: TODO: cellSpursRemoveWorkload
-[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
-[E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
-[E]: TODO: cellSpursWaitForWorkloadShutdown
-[W]: Unknown function 0x69726aa2 in 'cellSpurs' module
-[E]: TODO: cellSpursAddWorkload
-[W]: Unknown function 0x7e4ea023 in 'cellSpurs' module
-[E]: TODO: cellSpursWakeUp
-[W]: Unknown function 0x98d5b343 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownWorkload
-[W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
-[E]: TODO: cellSpursSetExceptionEventHandler
-[W]: Unknown function 0xf5507729 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagSet
-[W]: Unknown function 0xf843818d in 'cellSpurs' module
-[E]: TODO: cellSpursReadyCountStore
-[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
-[E]: TODO: _sys_heap_free
-[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
-[E]: TODO: _sys_heap_delete_heap
-[W]: Unknown function 0xf57e1d6f in 'sysPrxForUser' module
-[E]: TODO: console_write
-[W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
-[W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
-[W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
-[W : PPU[1] Thread (CPUThread)[0x00640ea4]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x40a, alignment=0x0, alloc_addr=0xd0010a50)
-[W : PPU[1] Thread (CPUThread)[0x00ca40dc]]: memory warning: sys_mmapper_allocate_memory(size=0xa700000, flags=0x400, mem_id_addr=0x103a6314)
-[W : PPU[1] Thread (CPUThread)[0x00ca4100]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xc, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x00ca4100]]: memory mapped 0x30200000 to 0x0 size=0xa700000
-[E : PPU[1] Thread (CPUThread)[0x00449e68]]: Read32 from null block: [7c0028d2]
-[!]: Closing memory...
+HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> ./dev_hdd0/
+LDR: ! /dev_hdd1/ -> ./dev_hdd1/
+LDR: ! /dev_flash/ -> ./dev_flash/
+LDR: ! /dev_usb000/ -> ./dev_usb000/
+LDR: ! /dev_usb/ -> ./dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME//../
+LDR: ! /host_root/ -> 
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME//USRDIR/
+LDR: ! /dev_flash2/ -> ./dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME//USRDIR/
+LDR: ! //dev_hdd0/ -> ./dev_hdd0/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME//USRDIR/
+LDR: !  
+LDR: ! Title: Tony Hawk's Project 8
+LDR: ! Serial: BLES00014
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0x7208330000
+MEM: ! Memory initialized.
+LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDebugOutputLevel' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetWaitFlip' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapMainMemory' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlip' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
+LDR: ! Imported function 'cellPadInfoPressMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellPadInfoSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPressMode' in 'sys_io' module
+LDR: ! Imported function 'cellSysmoduleUnloadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleLoadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'sys_net_initialize_network_ex' in 'sys_net' module
+LDR: ! Imported function 'recvfrom' in 'sys_net' module
+LDR: ! Imported function 'listen' in 'sys_net' module
+LDR: W Unimplemented function 'socketselect' in 'sys_net' module
+LDR: ! Imported function '_sys_net_errno_loc' in 'sys_net' module
+LDR: ! Imported function 'connect' in 'sys_net' module
+LDR: ! Imported function 'socketclose' in 'sys_net' module
+LDR: ! Imported function 'setsockopt' in 'sys_net' module
+LDR: ! Imported function 'sendto' in 'sys_net' module
+LDR: ! Imported function 'socket' in 'sys_net' module
+LDR: ! Imported function 'bind' in 'sys_net' module
+LDR: ! Imported function 'sys_net_show_ifconfig' in 'sys_net' module
+LDR: ! Imported function 'sys_net_finalize_network' in 'sys_net' module
+LDR: ! Imported function 'accept' in 'sys_net' module
+LDR: ! Imported function 'inet_addr' in 'sys_net' module
+LDR: ! Imported function 'send' in 'sys_net' module
+LDR: ! Imported function 'recv' in 'sys_net' module
+LDR: ! Imported function 'cellNetCtlTerm' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlGetState' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlInit' in 'cellNetCtl' module
+LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilGetSystemParamInt' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolutionAvailability' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataDelete' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetSoundAvailability' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataAutoLoad' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
+LDR: ! Imported function 'cellGameDataCheckCreate' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellMsgDialogOpen' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataAutoSave' in 'cellSysutil' module
+LDR: ! Imported function 'cellFsFtruncate' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRmdir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsClose' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpendir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRead' in 'sys_fs' module
+LDR: ! Imported function 'cellFsReaddir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpen' in 'sys_fs' module
+LDR: ! Imported function 'cellFsStat' in 'sys_fs' module
+LDR: ! Imported function 'cellFsUnlink' in 'sys_fs' module
+LDR: ! Imported function 'cellFsFsync' in 'sys_fs' module
+LDR: ! Imported function 'cellFsLseek' in 'sys_fs' module
+LDR: ! Imported function 'cellFsMkdir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsWrite' in 'sys_fs' module
+LDR: ! Imported function 'cellFsFstat' in 'sys_fs' module
+LDR: ! Imported function 'cellFsClosedir' in 'sys_fs' module
+LDR: ! Imported function 'cellSpursEventFlagDetachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursEnableExceptionEventHandler' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursEventFlagWait' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursDetachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursCreateTaskset' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursRemoveWorkload' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursEventFlagInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursWaitForWorkloadShutdown' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAddWorkload' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursWakeUp' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursEventFlagAttachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursShutdownWorkload' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursJoinTaskset' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursShutdownTaskset' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAttachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursCreateTask' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursFinalize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursSetExceptionEventHandler' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursEventFlagSet' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursReadyCountStore' in 'cellSpurs' module
+LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioSetNotifyEventQueue' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortTimestamp' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortBlockTag' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioRemoveNotifyEventQueue' in 'cellAudio' module
+LDR: ! Imported function 'cellSyncMutexLock' in 'cellSync' module
+LDR: ! Imported function 'cellSyncMutexUnlock' in 'cellSync' module
+LDR: ! Imported function 'cellSyncMutexInitialize' in 'cellSync' module
+LDR: ! Imported function 'cellRtcGetCurrentClockLocalTime' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcSetTick' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcSetTime_t' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcConvertUtcToLocalTime' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcGetTick' in 'cellRtc' module
+LDR: ! Imported function 'cellAtracGetBitrate' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracGetChannel' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracGetStreamDataInfo' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracAddStreamData' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracGetMaxSample' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracSetDataAndGetMemSize' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracDeleteDecoder' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracResetPlayPosition' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracSetLoopNum' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracDecode' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracGetBufferInfoForResetting' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracGetSoundInfo' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracGetRemainFrame' in 'cellAtrac' module
+LDR: ! Imported function 'cellAtracCreateDecoder' in 'cellAtrac' module
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_heap_malloc' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_heap_memalign' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spinlock_unlock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spinlock_trylock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module
+LDR: W Unimplemented function '_sys_heap_free' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spinlock_initialize' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spinlock_lock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_trylock' in 'sysPrxForUser' module
+LDR: W Unimplemented function '_sys_heap_delete_heap' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_mmapper_allocate_memory' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_heap_create_heap' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_mmapper_map_memory' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spu_image_close' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'console_write' in 'sysPrxForUser' module
+HLE: W {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x103f00d0, attr_addr=0x1003b0f0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x103f00e8, attr_addr=0x1003b0f0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100020, attr_addr=0x1003b0f0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100050, attr_addr=0x1003b0f0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100080, attr_addr=0x1003b0f0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000b0, attr_addr=0x1003b0f0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000e0, attr_addr=0x1003b0f0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100110, attr_addr=0x1003b0f0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 10
+HLE: W {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100140, attr_addr=0x1003b0f0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00ca4028]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 11
+HLE: W {PPU[1] Thread (CPUThread)[0x00640ea4]} sys_mmapper warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x40a, alignment=0x0, alloc_addr=0xd000fa50)
+HLE: W {PPU[1] Thread (CPUThread)[0x00ca40dc]} sys_mmapper warning: sys_mmapper_allocate_memory(size=0xa700000, flags=0x400, mem_id_addr=0x103a6314)
+HLE: W {PPU[1] Thread (CPUThread)[0x00ca4100]} sys_mmapper warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xc, flags=0x40000)
+HLE: E {PPU[1] Thread (CPUThread)[0x00ca4100]} sys_mmapper error: sys_mmapper_map_memory failed!
+G: E {PPU[1] Thread (CPUThread)[0x00449e68]} Exception: Access violation: addr = 0x7c0028d2 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
+HLE: ! All threads stopped...
+MEM: ! Closing memory...

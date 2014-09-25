@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: Knytt Underground
 LDR: ! Serial: NPEB01041
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xf3e1d30000
+MEM: ! Initializing memory: m_base_addr = 0x526bc40000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
 LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
@@ -300,7 +300,7 @@ RSX: ! {RSXThread} RSX thread started
 HLE: W {PPU[1] Thread (CPUThread)[0x008cb100]} cellGcmSys warning: cellGcmSetVBlankHandler(handler_addr=0x56a2b8)
 HLE: W {PPU[1] Thread (CPUThread)[0x008cb010]} cellGcmSys warning: cellGcmSetUserHandler(handler_addr=0x56a600)
 HLE: W {PPU[1] Thread (CPUThread)[0x0053b094]} cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-HLE: W {PPU[1] Thread (CPUThread)[0x0053b0ac]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xe41b6710)
+HLE: W {PPU[1] Thread (CPUThread)[0x0053b0ac]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x6e0439f0)
 HLE: W {PPU[1] Thread (CPUThread)[0x0053b07c]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000faa4, option_addr=0x0, waitForEvent=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x008cb070]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 HLE: W {PPU[1] Thread (CPUThread)[0x008cb124]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=7864320, pitch=5120, comp=7, base=0, bank=0)
@@ -374,10 +374,10 @@ HLE: W {PPU[1] Thread (CPUThread)[0x0035dd34]} sys_event warning: sys_event_port
 HLE: W {PPU[1] Thread (CPUThread)[0x008cf100]} cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x34200400, queue=46, port_addr=0xd000fa00, isDynamic=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x008cf100]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=31, eq_id=46, req=0x2, spup_addr=0xd000fa00)
 HLE: W {PPU[1] Thread (CPUThread)[0x008cf100]} sys_spu warning: *** spup -> 1
-HLE: E {PPU[1] Thread (CPUThread)[0x008cf070]} cellSpurs TODO: cellSpursAddWorkload
+HLE: W {PPU[1] Thread (CPUThread)[0x008cf070]} cellSpurs warning: cellSpursAddWorkload(spurs_addr=0x34200400, wid_addr=0x89d888, pm_addr=0x4fc480, size=0xa00, data=0x89d900, priorityTable_addr=0x5a8988, minContention=0x1, maxContention=0x2)
 HLE: E {PPU[1] Thread (CPUThread)[0x008cf0dc]} cellSpurs TODO: _cellSpursWorkloadFlagReceiver
 HLE: E {PPU[1] Thread (CPUThread)[0x008cf154]} cellSpurs TODO: cellSpursReadyCountStore
-HLE: E {PPU[1] Thread (CPUThread)[0x008cf07c]} cellSpurs TODO: cellSpursWakeUp
+HLE: W {PPU[1] Thread (CPUThread)[0x008cf07c]} cellSpurs warning: cellSpursWakeUp(spurs_addr=0x34200400)
 HLE: W {PPU[1] Thread (CPUThread)[0x008c704c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x879430, attr_addr=0xd000fa38)
 HLE: ! {PPU[1] Thread (CPUThread)[0x008c704c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 49
 HLE: W {PPU[1] Thread (CPUThread)[0x008c70b8]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x879430): id = 50
@@ -493,6 +493,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x008bd004]} vfsLocalFile::Create('D:\Emulateu
 HLE: W {PPU[1] Thread (CPUThread)[0x008bd004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04144_00\TROP017.PNG')
 HLE: W {PPU[1] Thread (CPUThread)[0x008bd004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04144_00\TROP018.PNG')
 HLE: W {PPU[1] Thread (CPUThread)[0x008bd004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04144_00\TROP019.PNG')
+HLE: W {PPU[1] Thread (CPUThread)[0x008bd004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04144_00\TROPUSR.DAT')
 HLE: ! {PPU[1] Thread (CPUThread)[0x008c7028]} sys_ppu_thread: *** New PPU Thread [Get Trophy Info Thread] (non-joinable, entry=0x557c10): id = 105
 HLE: W {PPU[105] Thread (Get Trophy Info Thread)[0x008bd058]} sceNpTrophy warning: sceNpTrophyGetTrophyUnlockState(context=0, handle=0, flags_addr=0xd00bfdd4, count_addr=0xd00bfdd0)
 HLE: W {PPU[1] Thread (CPUThread)[0x008bb004]} sceNp warning: sceNp2Init(mem_size=0x20000, mem_addr=0x817810)
@@ -618,13 +619,13 @@ HLE: W {PPU[1] Thread (CPUThread)[0x0053d07c]} sys_fs warning: cellFsStReadStop(
 HLE: W {PPU[1] Thread (CPUThread)[0x0053d064]} sys_fs warning: cellFsStReadFinish(fd=113)
 HLE: W {PPU[1] Thread (CPUThread)[0x0053d004]} sys_fs warning: cellFsClose(fd=113)
 G: E {PPU[1] Thread (CPUThread)[0x00219e90]} Exception: Access violation: addr = 0x4 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
-PPU: ! {PPULLVMRecompiler} Removed 9 old versions
-PPU: ! {PPULLVMRecompiler} Removed 265 old versions
+PPU: ! {PPULLVMRecompiler} Removed 17 old versions
+PPU: ! {PPULLVMRecompiler} Removed 222 old versions
 RSX: W {VBlank thread} VBlank thread aborted
-HLE: W {PPU[47] Thread (spu_printf_handler)[0x0035e6c8]} sys_event warning: sys_event_queue_receive(equeue=46) aborted
-RSX: W {RSXThread} RSX thread aborted
-HLE: W {PPU[57] Thread (PhyreEngineWorkerThread0)[0x008c7034]} sys_lwcond warning: sys_lwcond_wait(id=54) aborted
 HLE: W {PPU[58] Thread (PhyreEngineWorkerThread1)[0x008c7034]} sys_lwcond warning: sys_lwcond_wait(id=54) aborted
+RSX: W {RSXThread} RSX thread aborted
 HLE: W {PPU[100] Thread (PhyreEngineRenderThread)[0x008c7034]} sys_lwcond warning: sys_lwcond_wait(id=69) aborted
+HLE: W {PPU[47] Thread (spu_printf_handler)[0x0035e6c8]} sys_event warning: sys_event_queue_receive(equeue=46) aborted
+HLE: W {PPU[57] Thread (PhyreEngineWorkerThread0)[0x008c7034]} sys_lwcond warning: sys_lwcond_wait(id=54) aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...

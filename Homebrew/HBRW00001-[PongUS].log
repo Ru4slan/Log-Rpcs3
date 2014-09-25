@@ -1,46 +1,120 @@
 HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
 LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\HBRW00001/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
-LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
-LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
-LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
-LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_hdd0/ -> ./dev_hdd0/
+LDR: ! /dev_hdd1/ -> ./dev_hdd1/
+LDR: ! /dev_flash/ -> ./dev_flash/
+LDR: ! /dev_usb000/ -> ./dev_usb000/
+LDR: ! /dev_usb/ -> ./dev_usb000/
 LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HBRW00001/
 LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HBRW00001//../
 LDR: ! /host_root/ -> 
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HBRW00001//USRDIR/
 LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HBRW00001//USRDIR/
-LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HBRW00001//USRDIR/
+LDR: ! //dev_hdd0/ -> ./dev_hdd0/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HBRW00001//USRDIR/
 LDR: !  
-MEM: ! Initing memory: m_base_addr = 0xbfa0bb0000
+LDR: ! Title: PONGUS
+LDR: ! Serial: HBRW00001
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0x5a4ab80000
 MEM: ! Memory initialized.
 LDR: W ElfProgram different load addrs: paddr=0x00040008, vaddr=0x00000000
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetFlipStatus' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetWaitFlip' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmResetFlipStatus' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlip' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
 LDR: W Unimplemented function 'sys_config_start' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_stop' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_add_service_listener' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_remove_service_listener' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_register_service' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_unregister_service' in 'sys_io' module
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
+LDR: ! Imported function 'cellPadClearBuf' in 'sys_io' module
+LDR: ! Imported function 'cellPadInfoPressMode' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddRegisterController' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetInfo' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadGetRawData' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetDataExtra' in 'sys_io' module
+LDR: ! Imported function 'cellPadInfoSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddGetPortNo' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddDataInsert' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetCapabilityInfo' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddUnregisterController' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPressMode' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadPeriphGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadPeriphGetData' in 'sys_io' module
-HLE: W PPU[1] Thread (CPUThread)[0x00032004]cellGcmSys warning: cellGcmInit(context_addr=0xd0010820,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
-HLE: W PPU[1] Thread (CPUThread)[0x00032004]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-HLE: W PPU[1] Thread (CPUThread)[0x00032004]cellGcmSys warning: cellGcmInit(): 256MB io address space used
-HLE: W PPU[1] Thread (CPUThread)[0x00032004]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
-RSX: ! RSXThreadRSX thread started
-HLE: W PPU[1] Thread (CPUThread)[0x00034010]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00108b8, option_addr=0x0, waitForEvent=0x0)
+LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module
+LDR: ! Imported function 'cellMouseInit' in 'sys_io' module
+LDR: ! Imported function 'cellMouseEnd' in 'sys_io' module
+LDR: ! Imported function 'cellMouseClearBuf' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetTabletDataList' in 'sys_io' module
+LDR: ! Imported function 'cellMouseSetTabletMode' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetData' in 'sys_io' module
+LDR: ! Imported function 'cellMouseInfoTabletMode' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetRawData' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetDataList' in 'sys_io' module
+LDR: ! Imported function 'cellKbInit' in 'sys_io' module
+LDR: ! Imported function 'cellKbEnd' in 'sys_io' module
+LDR: ! Imported function 'cellKbRead' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetReadMode' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetCodeType' in 'sys_io' module
+LDR: ! Imported function 'cellKbCnvRawCode' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetLEDStatus' in 'sys_io' module
+LDR: ! Imported function 'cellKbGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellKbGetConfiguration' in 'sys_io' module
+LDR: ! Imported function 'cellKbClearBuf' in 'sys_io' module
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_game_process_exitspawn2' in 'sysPrxForUser' module
+HLE: W {PPU[1] Thread (CPUThread)[0x00032004]} cellGcmSys warning: _cellGcmInitBody(context_addr=0xd000f820, cmdSize=0x10000, ioSize=0x100000, ioAddress=0x30200000)
+HLE: W {PPU[1] Thread (CPUThread)[0x00032004]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W {PPU[1] Thread (CPUThread)[0x00032004]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W {PPU[1] Thread (CPUThread)[0x00032004]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+RSX: ! {RSXThread} RSX thread started
+HLE: W {PPU[1] Thread (CPUThread)[0x00034010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000f8b8, option_addr=0x0, waitForEvent=0x0)
 TTY: buffers will be 0x384000 bytes
-HLE: W PPU[1] Thread (CPUThread)[0x00032028]cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-HLE: W PPU[1] Thread (CPUThread)[0x0001c47c]sys_fs warning: cellFsClose(fd=0)
-HLE: W PPU[1] Thread (CPUThread)[0x0001c47c]sys_fs warning: cellFsClose(fd=1)
-RSX: W RSXThreadRSX thread aborted
-RSX: W VBlank threadVBlank thread aborted
+HLE: W {PPU[1] Thread (CPUThread)[0x00032028]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+HLE: W {PPU[1] Thread (CPUThread)[0x0003604c]} sys_io warning: cellPadInit(max_connect=7)
+PPU: ! {PPULLVMRecompiler} Removed 7 old versions
+PPU: ! {PPULLVMRecompiler} Removed 9 old versions
+PPU: ! {PPULLVMRecompiler} Removed 2 old versions
+PPU: ! {PPULLVMRecompiler} Removed 4 old versions
+PPU: ! {PPULLVMRecompiler} Removed 1 old versions
+PPU: ! {PPULLVMRecompiler} Removed 5 old versions
+PPU: ! {PPULLVMRecompiler} Removed 1 old versions
+PPU: ! {PPULLVMRecompiler} Removed 1 old versions
+PPU: ! {PPULLVMRecompiler} Removed 4 old versions
+PPU: ! {PPULLVMRecompiler} Removed 11 old versions
+PPU: ! {PPULLVMRecompiler} Removed 1 old versions
+PPU: ! {PPULLVMRecompiler} Removed 1 old versions
+PPU: ! {PPULLVMRecompiler} Removed 2 old versions
+PPU: ! {PPULLVMRecompiler} Removed 1 old versions
+RSX: W {VBlank thread} VBlank thread aborted
+RSX: W {RSXThread} RSX thread aborted
+PPU: ! {PPULLVMRecompiler} Removed 2 old versions
+PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
+MEM: ! Closing memory...

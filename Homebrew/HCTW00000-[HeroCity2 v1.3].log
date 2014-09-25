@@ -1,118 +1,867 @@
 HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
 LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
-LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
-LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
-LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
-LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_hdd0/ -> ./dev_hdd0/
+LDR: ! /dev_hdd1/ -> ./dev_hdd1/
+LDR: ! /dev_flash/ -> ./dev_flash/
+LDR: ! /dev_usb000/ -> ./dev_usb000/
+LDR: ! /dev_usb/ -> ./dev_usb000/
 LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/
 LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000//../
 LDR: ! /host_root/ -> 
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000//USRDIR/
 LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000//USRDIR/
-LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000//USRDIR/
+LDR: ! //dev_hdd0/ -> ./dev_hdd0/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000//USRDIR/
 LDR: !  
-MEM: ! Initing memory: m_base_addr = 0x4ccb110000
+LDR: ! Title: Hero City 2
+LDR: ! Serial: HCTW00000
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0x56c3c50000
 MEM: ! Memory initialized.
+LDR: ! Imported function 'cellRescGetNumColorBuffers' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetWaitFlip' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetDsts' in 'cellResc' module
+LDR: ! Imported function 'cellRescAdjustAspectRatio' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetDisplayMode' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetConvertAndFlip' in 'cellResc' module
+LDR: ! Imported function 'cellRescExit' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetFlipHandler' in 'cellResc' module
+LDR: ! Imported function 'cellRescInit' in 'cellResc' module
+LDR: ! Imported function 'cellRescGetBufferSize' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetSrc' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetBufferAddress' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetVBlankHandler' in 'cellResc' module
+LDR: ! Imported function 'cellRescCreateInterlaceTable' in 'cellResc' module
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDebugOutputLevel' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLastFlipTime' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetFlipStatus' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetWaitFlip' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetReport' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmResetFlipStatus' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetInvalidateTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetGraphicsHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlip' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module
+LDR: ! Imported function 'cellKbClearBuf' in 'sys_io' module
+LDR: ! Imported function 'cellKbGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetData' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetInfo' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadGetRawData' in 'sys_io' module
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 12
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 17
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 18
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 19
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 21
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 22
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 23
-HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
-HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
-HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
-HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-HLE: W PPU[1] Thread (CPUThread)[0x000571f8]sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=3)
-HLE: E PPU[1] Thread (CPUThread)[0x00225050]sys_fs error: "/app_home/fwArgs.txt" not found! flags: 0x00000000
-HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
-HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+LDR: ! Imported function 'cellKbInit' in 'sys_io' module
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellPadInfoSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetCodeType' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellKbEnd' in 'sys_io' module
+LDR: ! Imported function 'cellMouseInit' in 'sys_io' module
+LDR: ! Imported function 'cellMouseEnd' in 'sys_io' module
+LDR: ! Imported function 'cellKbRead' in 'sys_io' module
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysmoduleUnloadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleLoadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_process_atexitspawn' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10851fa0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10851f78, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10851708, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10851730, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10851758, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10851638, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10851688, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x108516b0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 10
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x108516d8, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 11
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100020, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 12
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000a0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 13
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100130, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 14
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100190, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 15
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301001d0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 16
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100210, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 17
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301002d0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 18
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100300, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 19
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100330, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 20
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100360, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 21
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100390, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 22
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301003c0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 23
+HLE: W {PPU[1] Thread (CPUThread)[0x00247010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W {PPU[1] Thread (CPUThread)[0x00247010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+HLE: W {PPU[1] Thread (CPUThread)[0x00247010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+HLE: W {PPU[1] Thread (CPUThread)[0x00247010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+HLE: W {PPU[1] Thread (CPUThread)[0x00247010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+HLE: W {PPU[1] Thread (CPUThread)[0x000571f8]} sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=3)
+HLE: E {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs error: "/app_home/fwArgs.txt" not found! flags: 0x00000000
+HLE: W {PPU[1] Thread (CPUThread)[0x00247010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+HLE: W {PPU[1] Thread (CPUThread)[0x00247010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
 TTY: OpenGL ES-CM 1.0-debugrsx SCE Wed Aug 29 12:05:34 JST 2007
-HLE: W PPU[1] Thread (CPUThread)[0x0009d2a4]sys_spu warning: sys_raw_spu_create(id_addr=0x1084fe24, attr_addr=0xd0010a14)
-SPU: W PPU[1] Thread (CPUThread)[0x0009d3a8]RawSPUThread[0]: Read32(MFC_CMDStatus)
-SPU: W PPU[1] Thread (CPUThread)[0x0009d3a8]RawSPUThread[0]: Read32(MFC_CMDStatus)
-SPU: W PPU[1] Thread (CPUThread)[0x0009d360]RawSPUThread[0]: Write32(Prxy_QueryMask, 0x80000000)
-SPU: W PPU[1] Thread (CPUThread)[0x0009d360]RawSPUThread[0]: Write32(Prxy_QueryType, 0x2)
-SPU: W PPU[1] Thread (CPUThread)[0x0009d360]RawSPUThread[0]: Prxy Query Immediate.
-SPU: W PPU[1] Thread (CPUThread)[0x0009d3a8]RawSPUThread[0]: Read32(MFC_QStatus)
-SPU: W PPU[1] Thread (CPUThread)[0x0009d360]RawSPUThread[0]: Write32(SPU_NPC, 0x108)
-SPU: W PPU[1] Thread (CPUThread)[0x0009d360]RawSPUThread[0]: Write32(SPU_NPC, 0x108)
-HLE: W PPU[1] Thread (CPUThread)[0x0022e004]cellGcmSys warning: cellGcmInit(context_addr=0x10850d0c,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
-HLE: W PPU[1] Thread (CPUThread)[0x0022e004]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-HLE: W PPU[1] Thread (CPUThread)[0x0022e004]cellGcmSys warning: cellGcmInit(): 256MB io address space used
-HLE: W PPU[1] Thread (CPUThread)[0x0022e004]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
-RSX: ! RSXThreadRSX thread started
-HLE: W PPU[1] Thread (CPUThread)[0x0022e034]cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0b8]cellGcmSys error: Unimplemented function: cellGcmSetGraphicsHandler
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
-RSX: W RSXThreadTODO: unknown/illegal method [0x00001fec](0x0)
-RSX: W RSXThreadTODO: cellGcmSetTwoSideLightEn(0x0)
-RSX: W RSXThreadNV406E_SEMAPHORE_ACQUIRE: 1
-HLE: W PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=3932160, pitch=5120, comp=7, base=1, bank=0)
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys error: cellGcmSetTile: bad comp! (7)
-RSX: W RSXThreadNV406E_SEMAPHORE_ACQUIRE: 3
-HLE: W PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=7864320, pitch=5120, comp=7, base=1, bank=0)
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys error: cellGcmSetTile: bad comp! (7)
-RSX: W RSXThreadNV406E_SEMAPHORE_ACQUIRE: 5
-HLE: W PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=257163264, size=3932160, pitch=5120, comp=10, base=121, bank=3)
-HLE: E PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys error: cellGcmSetTile: bad comp! (10)
-RSX: W RSXThreadNV406E_SEMAPHORE_ACQUIRE: 7
-HLE: W PPU[1] Thread (CPUThread)[0x0022e0d0]cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0xf540000, width=1280, height=768, cullStart=0x1000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
-HLE: W PPU[1] Thread (CPUThread)[0x0010f694]sys_semaphore warning: sys_semaphore_create(sem_addr=0x1085040c, attr_addr=0xd00108f0, initial_count=1, max_count=2)
-HLE: ! PPU[1] Thread (CPUThread)[0x0010f694]*** semaphore created [] (protocol=0x2): id = 25
-HLE: W PPU[1] Thread (CPUThread)[0x0022e070]cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=2321192)
-HLE: W PPU[1] Thread (CPUThread)[0x00245004]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00107e0, option_addr=0x0, waitForEvent=0x0)
-HLE: W PPU[1] Thread (CPUThread)[0x0022e028]cellGcmSys warning: cellGcmSetFlipMode(mode=1)
-RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
-RSX: W RSXThreadNV4097_SET_ZCULL_CONTROL0: 10
-RSX: W RSXThreadNV4097_SET_SCULL_CONTROL: ff000007
-RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
-HLE: W PPU[1] Thread (CPUThread)[0x0009c2d8]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 26
-HLE: W PPU[1] Thread (CPUThread)[0x0009c4a8]sys_cond warning: *** condition created [0WÐ„ÿø] (mutex_id=26): id = 27
+HLE: W {PPU[1] Thread (CPUThread)[0x0009d2a4]} sys_spu warning: sys_raw_spu_create(id_addr=0x1084fe24, attr_addr=0xd000fa14)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e004]} cellGcmSys warning: _cellGcmInitBody(context_addr=0x10850d0c, cmdSize=0x10000, ioSize=0x100000, ioAddress=0x30200000)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e004]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e004]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e004]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+RSX: ! {RSXThread} RSX thread started
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e034]} cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0b8]} cellGcmSys TODO: cellGcmSetGraphicsHandler
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0ac]} cellGcmSys TODO: cellGcmSetInvalidateTile
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 1
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e0c4]} cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=3932160, pitch=5120, comp=7, base=1, bank=0)
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0c4]} cellGcmSys error: cellGcmSetTile: bad compression mode! (7)
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 3
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e0c4]} cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=7864320, pitch=5120, comp=7, base=1, bank=0)
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0c4]} cellGcmSys error: cellGcmSetTile: bad compression mode! (7)
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 5
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e0c4]} cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=257163264, size=3932160, pitch=5120, comp=10, base=121, bank=3)
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0c4]} cellGcmSys error: cellGcmSetTile: bad compression mode! (10)
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 7
+HLE: E {PPU[1] Thread (CPUThread)[0x0022e0d0]} cellGcmSys TODO: cellGcmSetZcull(index=0, offset=0xf540000, width=1280, height=768, cullStart=0x1000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+HLE: W {PPU[1] Thread (CPUThread)[0x0010f694]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x1085040c, attr_addr=0xd000f8f0, initial_count=1, max_count=2)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0010f694]} sys_semaphore: *** semaphore created [] (protocol=0x2): id = 25
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e070]} cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=2321192)
+HLE: W {PPU[1] Thread (CPUThread)[0x00245004]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000f7e0, option_addr=0x0, waitForEvent=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e028]} cellGcmSys warning: cellGcmSetFlipMode(mode=1)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+RSX: W {RSXThread} New FBO (1280x720)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+HLE: W {PPU[1] Thread (CPUThread)[0x0009c2d8]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 26
+HLE: W {PPU[1] Thread (CPUThread)[0x0009c4a8]} sys_cond warning: *** condition created [0WÐ„ÿø] (mutex_id=26): id = 27
 TTY: Display resolution: 1280x720 (16:9)
+HLE: W {PPU[1] Thread (CPUThread)[0x00243004]} sys_io warning: cellPadInit(max_connect=4)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024304c]} sys_io warning: cellKbInit(max_connect=4)
+HLE: W {PPU[1] Thread (CPUThread)[0x002430ac]} sys_io warning: cellMouseInit(max_connect=4)
 TTY: Slow texture color format conversion for each texel: format GL_RGBA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
-HLE: W PPU[1] Thread (CPUThread)[0x00225050]"/dev_hdd0/game/HCTW00000/USRDIR/worldtexture.tga" opened: fd = 28
-HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 29
-HLE: W PPU[1] Thread (CPUThread)[0x00224f3c]sys_fs warning: cellFsClose(fd=28)
-HLE: W PPU[1] Thread (CPUThread)[0x0024907c]sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30159970)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/worldtexture.tga" opened: fd = 28
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30159970, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 29
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=28)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30159970)
 TTY: GL error GL_INVALID_ENUM (0x500)
 TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
-RSX: W RSXThreadRSX thread aborted
-RSX: W VBlank threadVBlank thread aborted
+PPU: ! {PPULLVMRecompiler} Removed 4 old versions
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/hudtexture.tga" opened: fd = 30
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301fd500, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 31
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=30)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fd500)
+TTY: GL error GL_INVALID_ENUM (0x500)
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entitytexture.tga" opened: fd = 32
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301ee900, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 33
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=32)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301ee900)
+TTY: GL error GL_INVALID_ENUM (0x500)
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/extrastexture.tga" opened: fd = 34
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301f3c20, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 35
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=34)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f3c20)
+TTY: GL error GL_INVALID_ENUM (0x500)
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+PPU: ! {PPULLVMRecompiler} Removed 18 old versions
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+HLE: W {PPU[1] Thread (CPUThread)[0x00245028]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x232b58, userdata=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e028]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: f0d
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+TTY: libusbpad supported pad (0) detected
+TTY: VENDOR_ID=(0x54c), PRODUCT_ID=(0x268)
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/hero.ms3d" opened: fd = 36
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301da860, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 37
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=36)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301da860)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/heronightmare.ms3d" opened: fd = 38
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301ea370, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 39
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=38)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301ea370)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/carbump.ms3d" opened: fd = 40
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301ea590, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 41
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=40)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301ea590)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car1/0.ms3d" opened: fd = 42
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x304ffff0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 43
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=42)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x304ffff0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car1/2.ms3d" opened: fd = 44
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x304ffff0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 45
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=44)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x304ffff0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car1/3.ms3d" opened: fd = 46
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301ea590, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 47
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=46)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301ea590)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car2/0.ms3d" opened: fd = 48
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30195670, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 49
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=48)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30195670)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car2/2.ms3d" opened: fd = 50
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30195670, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 51
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=50)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30195670)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car2/3.ms3d" opened: fd = 52
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301ea590, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 53
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=52)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301ea590)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car3/0.ms3d" opened: fd = 54
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30195670, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 55
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=54)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30195670)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car3/2.ms3d" opened: fd = 56
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30195670, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 57
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=56)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30195670)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car3/3.ms3d" opened: fd = 58
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301ea590, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 59
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=58)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301ea590)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car4/0.ms3d" opened: fd = 60
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30195670, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 61
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=60)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30195670)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car4/2.ms3d" opened: fd = 62
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30195670, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 63
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=62)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30195670)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car4/3.ms3d" opened: fd = 64
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301ea590, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 65
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=64)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301ea590)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/bankrobber/0.ms3d" opened: fd = 66
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30195670, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 67
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=66)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30195670)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/bankrobber/2.ms3d" opened: fd = 68
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30195670, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 69
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=68)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30195670)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/bankrobber/3.ms3d" opened: fd = 70
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30181640, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 71
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=70)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30181640)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/zombie/0.ms3d" opened: fd = 72
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 73
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=72)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/zombie/2.ms3d" opened: fd = 74
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 75
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=74)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/zombie/3.ms3d" opened: fd = 76
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 77
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=76)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/icemonster/0.ms3d" opened: fd = 78
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 79
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=78)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/icemonster/2.ms3d" opened: fd = 80
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 81
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=80)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/icemonster/3.ms3d" opened: fd = 82
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 83
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=82)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/rockmonster/0.ms3d" opened: fd = 84
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 85
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=84)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/rockmonster/2.ms3d" opened: fd = 86
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 87
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=86)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/rockmonster/3.ms3d" opened: fd = 88
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 89
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=88)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/firemonster/0.ms3d" opened: fd = 90
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 91
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=90)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/firemonster/2.ms3d" opened: fd = 92
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 93
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=92)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/firemonster/3.ms3d" opened: fd = 94
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 95
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=94)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/robot/0.ms3d" opened: fd = 96
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 97
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=96)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/robot/2.ms3d" opened: fd = 98
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 99
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=98)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/robot/3.ms3d" opened: fd = 100
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 101
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=100)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/alien/0.ms3d" opened: fd = 102
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 103
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=102)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/alien/2.ms3d" opened: fd = 104
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 105
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=104)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/alien/3.ms3d" opened: fd = 106
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3016ac70, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 107
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=106)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3016ac70)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/collectable/0.ms3d" opened: fd = 108
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30195670, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 109
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=108)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30195670)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/collectable/2.ms3d" opened: fd = 110
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 111
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=110)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/collectable/3.ms3d" opened: fd = 112
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 113
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=112)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/visitor/0.ms3d" opened: fd = 114
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 115
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=114)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/visitor/2.ms3d" opened: fd = 116
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 117
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=116)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/visitor/3.ms3d" opened: fd = 118
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 119
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=118)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/carbump.ms3d" opened: fd = 120
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 121
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=120)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car1/0.ms3d" opened: fd = 122
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 123
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=122)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car1/2.ms3d" opened: fd = 124
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 125
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=124)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car1/3.ms3d" opened: fd = 126
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 127
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=126)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car2/0.ms3d" opened: fd = 128
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 129
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=128)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car2/2.ms3d" opened: fd = 130
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 131
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=130)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car2/3.ms3d" opened: fd = 132
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 133
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=132)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car3/0.ms3d" opened: fd = 134
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 135
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=134)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car3/2.ms3d" opened: fd = 136
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 137
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=136)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car3/3.ms3d" opened: fd = 138
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 139
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=138)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car4/0.ms3d" opened: fd = 140
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 141
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=140)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car4/2.ms3d" opened: fd = 142
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 143
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=142)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/car4/3.ms3d" opened: fd = 144
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 145
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=144)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/bankrobber/0.ms3d" opened: fd = 146
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 147
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=146)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/bankrobber/2.ms3d" opened: fd = 148
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 149
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=148)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/bankrobber/3.ms3d" opened: fd = 150
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 151
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=150)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/zombie/0.ms3d" opened: fd = 152
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 153
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=152)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/zombie/2.ms3d" opened: fd = 154
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 155
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=154)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/zombie/3.ms3d" opened: fd = 156
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 157
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=156)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/icemonster/0.ms3d" opened: fd = 158
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 159
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=158)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/icemonster/2.ms3d" opened: fd = 160
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 161
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=160)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/icemonster/3.ms3d" opened: fd = 162
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 163
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=162)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/rockmonster/0.ms3d" opened: fd = 164
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 165
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=164)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/rockmonster/2.ms3d" opened: fd = 166
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 167
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=166)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/rockmonster/3.ms3d" opened: fd = 168
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 169
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=168)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/firemonster/0.ms3d" opened: fd = 170
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 171
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=170)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/firemonster/2.ms3d" opened: fd = 172
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 173
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=172)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/firemonster/3.ms3d" opened: fd = 174
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 175
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=174)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/robot/0.ms3d" opened: fd = 176
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 177
+PPU: ! {PPULLVMRecompiler} Removed 204 old versions
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=176)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/robot/2.ms3d" opened: fd = 178
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 179
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=178)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/robot/3.ms3d" opened: fd = 180
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 181
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=180)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/alien/0.ms3d" opened: fd = 182
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 183
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=182)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/alien/2.ms3d" opened: fd = 184
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 185
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=184)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/alien/3.ms3d" opened: fd = 186
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 187
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=186)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/collectable/0.ms3d" opened: fd = 188
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30302820, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 189
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=188)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30302820)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/collectable/2.ms3d" opened: fd = 190
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3240d5f0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 191
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=190)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3240d5f0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/collectable/3.ms3d" opened: fd = 192
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32ff6ba0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 193
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=192)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x32ff6ba0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/visitor/0.ms3d" opened: fd = 194
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32ff6ba0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 195
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=194)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x32ff6ba0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/visitor/2.ms3d" opened: fd = 196
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32ff6ba0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 197
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=196)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x32ff6ba0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00225050]} sys_fs: "/dev_hdd0/game/HCTW00000/USRDIR/entities/visitor/3.ms3d" opened: fd = 198
+HLE: W {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32ff6ba0, attr_addr=0x100133e4)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00249034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 199
+HLE: W {PPU[1] Thread (CPUThread)[0x00224f3c]} sys_fs warning: cellFsClose(fd=198)
+HLE: W {PPU[1] Thread (CPUThread)[0x0024907c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x32ff6ba0)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022e064]} cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+RSX: W {RSXThread} NV309E_SET_CONTEXT_DMA_IMAGE: feed0000
+RSX: W {RSXThread} NV3089_SET_CONTEXT_SURFACE: Unsupported surface (0x31337a73)
+RSX: W {RSXThread} NV309E_SET_FORMAT: Format:0xa, Width:10, Height:9, Offset:0x990000
+RSX: E {RSXThread} Exception: RSXThread::ReadIO32(rsxio_addr=0x4a4a4afd): RSXIO memory not mapped
+PPU: ! {PPULLVMRecompiler} Removed 289 old versions
+PPU: ! {PPULLVMRecompiler} Removed 32 old versions
+RSX: W {VBlank thread} VBlank thread aborted
+RSX: W {RSXThread} RSX thread aborted
+PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...

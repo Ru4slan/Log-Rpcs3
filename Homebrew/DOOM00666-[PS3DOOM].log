@@ -1,184 +1,1003 @@
 HLE: ! path: /dev_hdd0/game/
-LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/USRDIR/BOOT.BIN'...
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM0066612/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
-LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
-LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
-LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
-LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/
-LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666//../
+LDR: ! /dev_hdd0/ -> ./dev_hdd0/
+LDR: ! /dev_hdd1/ -> ./dev_hdd1/
+LDR: ! /dev_flash/ -> ./dev_flash/
+LDR: ! /dev_usb000/ -> ./dev_usb000/
+LDR: ! /dev_usb/ -> ./dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM0066612/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM0066612//../
 LDR: ! /host_root/ -> 
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666//USRDIR/
-LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666//USRDIR/
-LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
-LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM0066612//USRDIR/
+LDR: ! /dev_flash2/ -> ./dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM0066612//USRDIR/
+LDR: ! //dev_hdd0/ -> ./dev_hdd0/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM0066612//USRDIR/
 LDR: !  
-MEM: ! Initing memory: m_base_addr = 0x9283f0000
+LDR: ! Title: PS3DOOM
+LDR: ! Serial: DOOM00666
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0xdcad240000
 MEM: ! Memory initialized.
 LDR: W ElfProgram different load addrs: paddr=0x00090008, vaddr=0x00000000
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
 LDR: W Unimplemented function 'sys_config_start' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_stop' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_add_service_listener' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_remove_service_listener' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_register_service' in 'sys_io' module
 LDR: W Unimplemented function 'sys_config_unregister_service' in 'sys_io' module
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
+LDR: ! Imported function 'cellPadClearBuf' in 'sys_io' module
+LDR: ! Imported function 'cellPadInfoPressMode' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddRegisterController' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetInfo' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadGetRawData' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetDataExtra' in 'sys_io' module
+LDR: ! Imported function 'cellPadInfoSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddGetPortNo' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddDataInsert' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetCapabilityInfo' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadLddUnregisterController' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPressMode' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadPeriphGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module
 LDR: W Unimplemented function 'cellPadPeriphGetData' in 'sys_io' module
-LDR: W Unimplemented function '_cellGcmFunc1' in 'cellGcmSys' module
-LDR: W Unimplemented function '_cellGcmFunc12' in 'cellGcmSys' module
+LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module
+LDR: ! Imported function 'cellMouseInit' in 'sys_io' module
+LDR: ! Imported function 'cellMouseEnd' in 'sys_io' module
+LDR: ! Imported function 'cellMouseClearBuf' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetTabletDataList' in 'sys_io' module
+LDR: ! Imported function 'cellMouseSetTabletMode' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetData' in 'sys_io' module
+LDR: ! Imported function 'cellMouseInfoTabletMode' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetRawData' in 'sys_io' module
+LDR: ! Imported function 'cellMouseGetDataList' in 'sys_io' module
+LDR: ! Imported function 'cellKbInit' in 'sys_io' module
+LDR: ! Imported function 'cellKbEnd' in 'sys_io' module
+LDR: ! Imported function 'cellKbRead' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetReadMode' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetCodeType' in 'sys_io' module
+LDR: ! Imported function 'cellKbCnvRawCode' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetLEDStatus' in 'sys_io' module
+LDR: ! Imported function 'cellKbGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellKbGetConfiguration' in 'sys_io' module
+LDR: ! Imported function 'cellKbClearBuf' in 'sys_io' module
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmBindTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmBindZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmDumpGraphicsError' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc1' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc12' in 'cellGcmSys' module
 LDR: W Unimplemented function '_cellGcmFunc13' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
 LDR: W Unimplemented function '_cellGcmFunc2' in 'cellGcmSys' module
 LDR: W Unimplemented function '_cellGcmFunc3' in 'cellGcmSys' module
 LDR: W Unimplemented function '_cellGcmFunc38' in 'cellGcmSys' module
 LDR: W Unimplemented function '_cellGcmFunc4' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetCurrentDisplayBufferId' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetCurrentField' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDefaultCommandWordSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDefaultSegmentWordSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDisplayBufferByFlipIndex' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDisplayInfo' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetFlipStatus' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLastFlipTime' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLastSecondVTime' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetMaxIoMapSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetNotifyDataAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetOffsetTable' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetReport' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetReportDataAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetReportDataAddressLocation' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetReportDataLocation' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetTileInfo' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetTimeStamp' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetTimeStampLocation' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetVBlankCount' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetZcullInfo' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmInitCursor' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmInitDefaultFifoMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmInitSystemMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmIoOffsetToAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapEaIoAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapEaIoAddressWithFlags' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapLocalMemory' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapMainMemory' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmReserveIoMapSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmResetFlipStatus' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetCursorDisable' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetCursorEnable' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetCursorImageOffset' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetCursorPosition' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDebugOutputLevel' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDefaultCommandBuffer' in 'cellGcmSys' module
 LDR: W Unimplemented function 'cellGcmSetDefaultCommandBufferAndSegmentWordSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDefaultFifoSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlip' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmSetFlipCommand' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmSetFlipCommandWithWaitLabel' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipImmediate' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipStatus' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetGraphicsHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetInvalidateTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetPrepareFlip' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetQueueHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetSecondVFrequency' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetSecondVHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetTileInfo' in 'cellGcmSys' module
 LDR: W Unimplemented function 'cellGcmSetUserCommand' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetUserHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetVBlankFrequency' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetWaitFlip' in 'cellGcmSys' module
 LDR: W Unimplemented function 'cellGcmSetWaitFlipUnsafe' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSortRemapEaIoAddress' in 'cellGcmSys' module
 LDR: W Unimplemented function 'cellGcmSysGetLastVBlankTime' in 'cellGcmSys' module
 LDR: W Unimplemented function 'cellGcmTerminate' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnbindTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnbindZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnmapEaIoAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnmapIoAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnreserveIoMapSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUpdateCursor' in 'cellGcmSys' module
+LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioSetPortLevel' in 'cellAudio' module
 LDR: W Unimplemented function 'cellKbClearBuf' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioMiscSetAccessoryVolume' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioSetNotifyEventQueue' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortTimestamp' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioAdd2chData' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioAddData' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortBlockTag' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioRemoveNotifyEventQueue' in 'cellAudio' module
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_game_process_exitspawn2' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spu_elf_get_information' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spu_elf_get_segments' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_raw_spu_load' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_raw_spu_image_load' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spu_image_close' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spu_image_import' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module
 LDR: W Unimplemented function 'sys_ppu_thread_register_atexit' in 'sysPrxForUser' module
 LDR: W Unimplemented function 'sys_interrupt_thread_disestablish' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_once' in 'sysPrxForUser' module
 LDR: W Unimplemented function 'sys_ppu_thread_unregister_atexit' in 'sysPrxForUser' module
-TTY: I_InitGraphics: Calling init_ps3_screen...
-HLE: W PPU[1] Thread (CPUThread)[0x000761c0]cellGcmSys warning: cellGcmInit(context_addr=0xd00109b0,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
-HLE: W PPU[1] Thread (CPUThread)[0x000761c0]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-HLE: W PPU[1] Thread (CPUThread)[0x000761c0]cellGcmSys warning: cellGcmInit(): 256MB io address space used
-HLE: W PPU[1] Thread (CPUThread)[0x000761c0]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
-RSX: ! RSXThreadRSX thread started
-HLE: W PPU[1] Thread (CPUThread)[0x00072010]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010a48, option_addr=0x0, waitForEvent=0x0)
-TTY: init_ps3_screen: buffers will be 0x384000 bytes
-HLE: W PPU[1] Thread (CPUThread)[0x000762ec]cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-TTY: I_InitGraphics: Done, target resolution is 1280x720.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/doom1.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom1.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom1.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom1.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom1.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom1.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom1.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom1.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_cf/ps3doom/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_cf/ps3doom/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom1.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_sd/ps3doom/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_sd/ps3doom/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom1.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_ms/ps3doom/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_ms/ps3doom/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom1.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/doom2.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/plutonia.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/tnt.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/doom.wad" not found.
-HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/doom1.wad" not found.
-TTY:                      DOOM for PLAYSTATION 3 Startup v1.9                     
-TTY: V_Init: allocate screens.TTY: 
-TTY: M_LoadDefaults: Load system defaults.TTY: 
-HLE: E PPU[1] Thread (CPUThread)[0x0004a93c]sys_fs error: "" not found! flags: 0x00000000
-TTY: Z_Init: Init zone memory allocation daemon. TTY: 
-TTY: W_Init: Init WADfiles.TTY: 
-HLE: W PPU[1] Thread (CPUThread)[0x0004a93c]"/dev_usb000/ps3doom/doom.wad" opened: fd = 3
-TTY:         adding /dev_usb000/ps3doom/doom.wad
-TTY:         retail version. (The Ultimate DOOM)TTY: 
-TTY: M_Init: Init miscellaneous info.TTY: 
-TTY: R_Init: Init DOOM refresh daemonTTY: 
-TTY: R_InitDataTTY: 
-TTY: InitTexturesTTY: 
-TTY: .TTY: .TTY: .TTY: .TTY: .TTY: InitFlatsTTY: 
-TTY: InitSpritesTTY: 
-TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: InitColormapsTTY: 
-TTY: R_InitPointToAngleTTY: 
-TTY: R_InitTablesTTY: 
-TTY: R_SetViewSizeTTY: 
-TTY: R_InitPlanesTTY: 
-TTY: R_InitLightTablesTTY: 
-TTY: R_InitSkyMapTTY: 
-TTY: R_InitTranslationTablesTTY: 
-TTY: 
-TTY: P_Init: Init Playloop state.TTY: 
-TTY: P_InitSwitchListTTY: 
-TTY: P_InitPicAnimsTTY: 
-TTY: R_InitSpritesTTY: 
-TTY: R_InitSpriteDefsTTY: 
-TTY: R_InitSprites completedTTY: 
-TTY: P_Init completed.TTY: 
-TTY: I_Init: Setting up machine state.TTY: 
-HLE: W PPU[1] Thread (CPUThread)[0x00078004]cellAudio warning: cellAudioInit()
-HLE: ! Audio ThreadAudio thread started
-TTY: I_InitSound: audioInit returns 0.
-HLE: W PPU[1] Thread (CPUThread)[0x0007804c]cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd0010960, portNum_addr=0xd0010940)
-HLE: W PPU[1] Thread (CPUThread)[0x0007804c]cellAudio warning: *** audio port opened(nChannel=2, nBlock=8, attr=0x0, level=1.000000): port = 0
-TTY: I_InitSound: audioPortOpen returns 0.
-             Port number is 0.
-HLE: W PPU[1] Thread (CPUThread)[0x00078028]cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x10049288)
-TTY: I_InitSound: audioGetPortConfig returns 0.
-              readIndex     : 0x30016000
-              status        : 1
-              channelCount  : 2
-              numBlocks     : 8
-              portSize      : 16384
-              audioDataStart: 0x32600000
-HLE: W PPU[1] Thread (CPUThread)[0x00078034]cellAudio warning: cellAudioPortStart(portNum=0x0)
-TTY: I_InitSound: audioPortStart returns 0.
-HLE: W PPU[1] Thread (CPUThread)[0x0007a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 4
-PPU: ! PPU[1] Thread (CPUThread)[0x0007a070]*** New PPU Thread [PS3DOOM Sound FX mixer] (flags=0x1, entry=0x97238): id = 5
-TTY: I_InitSound: sys_ppu_thread_create returned 0.
-PPU: ! PPU[1] Thread (CPUThread)[0x0007a070]*** New PPU Thread [PS3DOOM 35Hz timer] (flags=0x1, entry=0x972a0): id = 6
-TTY: I_StartupTimer: sys_ppu_thread_create returned 0.
-TTY: D_CheckNetGame: Checking network game status.TTY: 
-TTY: startskill 2  deathmatch: 0  startmap: 1  startepisode: 1
-TTY: player 1 of 1 (1 nodes)
-TTY: S_Init: Setting up sound.TTY: 
-TTY: S_Init: default sfx volume TTY: 15TTY: 
-TTY: HU_Init: Setting up heads up display.TTY: 
-TTY: ST_Init: Init status bar.TTY: 
-RSX: W RSXThreadRSX thread aborted
-HLE: W Audio ThreadAudio thread aborted
-RSX: W VBlank threadVBlank thread aborted
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module
+HLE: W {PPU[1] Thread (CPUThread)[0x0007404c]} sys_io warning: cellPadInit(max_connect=1)
+HLE: W {PPU[1] Thread (CPUThread)[0x000761c0]} cellGcmSys warning: _cellGcmInitBody(context_addr=0xd000f9b0, cmdSize=0x10000, ioSize=0x100000, ioAddress=0x30200000)
+HLE: W {PPU[1] Thread (CPUThread)[0x000761c0]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W {PPU[1] Thread (CPUThread)[0x000761c0]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W {PPU[1] Thread (CPUThread)[0x000761c0]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+RSX: ! {RSXThread} RSX thread started
+HLE: W {PPU[1] Thread (CPUThread)[0x00072010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000fa40, option_addr=0x0, waitForEvent=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x000762ec]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c090]} sys_fs warning: cellFsFstat(fd=1, sb_addr=0xd000eff0)
+TTY: RSX_Init: Done, target resolution is 960x600 -> 1280x720.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb000/ps3doom/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/doom2.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb000/ps3doom/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb000/ps3doom/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb000/ps3doom/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb000/ps3doom/doom1.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/doom1.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb001/ps3doom/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom2.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb001/ps3doom/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb001/ps3doom/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb001/ps3doom/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb001/ps3doom/doom1.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom1.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb002/ps3doom/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom2.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb002/ps3doom/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb002/ps3doom/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb002/ps3doom/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb002/ps3doom/doom1.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom1.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb003/ps3doom/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom2.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb003/ps3doom/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb003/ps3doom/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb003/ps3doom/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb003/ps3doom/doom1.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom1.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb004/ps3doom/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom2.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb004/ps3doom/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb004/ps3doom/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb004/ps3doom/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb004/ps3doom/doom1.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom1.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb005/ps3doom/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom2.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb005/ps3doom/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb005/ps3doom/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb005/ps3doom/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb005/ps3doom/doom1.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom1.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb006/ps3doom/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom2.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb006/ps3doom/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb006/ps3doom/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb006/ps3doom/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb006/ps3doom/doom1.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom1.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb007/ps3doom/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom2.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb007/ps3doom/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb007/ps3doom/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb007/ps3doom/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_usb007/ps3doom/doom1.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom1.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_cf/ps3doom/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom2.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_cf/ps3doom/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_cf/ps3doom/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_cf/ps3doom/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_cf/ps3doom/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_cf/ps3doom/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_cf/ps3doom/doom1.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom1.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_sd/ps3doom/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom2.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_sd/ps3doom/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_sd/ps3doom/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_sd/ps3doom/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_sd/ps3doom/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_sd/ps3doom/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_sd/ps3doom/doom1.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom1.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_ms/ps3doom/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom2.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_ms/ps3doom/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_ms/ps3doom/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_ms/ps3doom/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_ms/ps3doom/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_ms/ps3doom/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_ms/ps3doom/doom1.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom1.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/DOOM00666/USRDIR/doom2.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/DOOM00666/USRDIR/plutonia.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/plutonia.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/DOOM00666/USRDIR/tnt.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/tnt.wad" not found.
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/DOOM00666/USRDIR/doom.wad", sb_addr=0xd000f040)
+HLE: W {PPU[1] Thread (CPUThread)[0x0004c150]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/DOOM00666/USRDIR/doom1.wad", sb_addr=0xd000f040)
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} New FBO (1280x720)
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} FP not found in buffer!
+RSX: W {RSXThread} VP not found in buffer!
+RSX: ! {RSXThread} Add program (0):
+RSX: ! {RSXThread} *** prog id = 3
+RSX: ! {RSXThread} *** vp id = 2
+RSX: ! {RSXThread} *** fp id = 1
+RSX: ! {RSXThread} *** vp data size = 48
+RSX: ! {RSXThread} *** fp data size = 32
+RSX: ! {RSXThread} *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+vec4 dst_reg0 = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+vec4 dst_reg7 = vec4(0.0);
+vec4 dst_reg8 = vec4(0.0);
+layout (location = 0) in vec4 in_pos;
+layout (location = 8) in vec4 in_tc0;
+layout (location = 9) in vec4 in_tc1;
+out vec4 tc0;
+out vec4 tc1;
+
+void func0();
+
+void main()
+{
+	func0();
+	gl_Position = dst_reg0;
+	tc0 = dst_reg7;
+	tc1 = dst_reg8;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	dst_reg0 = in_pos;
+	dst_reg7 = in_tc0;
+	dst_reg8 = in_tc1;
+}
+
+RSX: ! {RSXThread} *** fp shader = 
+#version 330
+
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
+uniform sampler2D tex0;
+in vec4 tc0;
+layout (location = 0) out vec4 ocol0;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	h0 = r0;
+	ocol0 = h0;
+}
+
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+PPU: ! {PPULLVMRecompiler} Removed 2 old versions
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+PPU: ! {PPULLVMRecompiler} Removed 31 old versions
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+PPU: ! {PPULLVMRecompiler} Removed 5 old versions
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {VBlank thread} VBlank thread aborted
+RSX: W {RSXThread} RSX thread aborted
+PPU: ! {PPULLVMRecompiler} Removed 6 old versions
+PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
+RSX: W GLVertexProgram::Delete(): glDeleteShader(2) avoided
+RSX: W GLShaderProgram::Delete(): glDeleteShader(1) avoided
 MEM: ! Closing memory...

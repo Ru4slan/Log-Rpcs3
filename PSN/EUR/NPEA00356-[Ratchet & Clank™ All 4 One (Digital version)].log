@@ -1,0 +1,433 @@
+HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00356/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> ./dev_hdd0/
+LDR: ! /dev_hdd1/ -> ./dev_hdd1/
+LDR: ! /dev_flash/ -> ./dev_flash/
+LDR: ! /dev_usb000/ -> ./dev_usb000/
+LDR: ! /dev_usb/ -> ./dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00356/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00356//../
+LDR: ! /host_root/ -> 
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00356//USRDIR/
+LDR: ! /dev_flash2/ -> ./dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00356//USRDIR/
+LDR: ! //dev_hdd0/ -> ./dev_hdd0/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00356//USRDIR/
+LDR: !  
+LDR: ! Title: Ratchet & Clank™: All 4 One (Digital version)
+LDR: ! Serial: NPEA00356
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0x9f07c40000
+MEM: ! Memory initialized.
+LDR: W Unknown module 'cellHttp'
+LDR: ! Imported function 'cellHttpCreateTransaction' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpResponseGetStatusCode' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetSslCallback' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientCloseAllConnections' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetAutoRedirect' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetRecvTimeout' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpInit' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetPipeline' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpDestroyTransaction' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetVersion' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetCookieStatus' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpResponseGetContentLength' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpCreateClient' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpsInit' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetKeepAlive' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpRecvResponse' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetSendTimeout' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetAutoAuthentication' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetHeader' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpSendRequest' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientPollConnections' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetResponseBufferMax' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpRequestSetContentLength' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetUserAgent' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpEnd' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetConnTimeout' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetProxy' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpsEnd' in 'cellHttp' module
+LDR: W Unimplemented function 'cellHttpUtilParseUri' in 'cellHttpUtil' module
+LDR: W Unimplemented function 'cellHttpUtilEscapeUri' in 'cellHttpUtil' module
+LDR: W Unimplemented function 'cellSslCertGetNameEntryInfo' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetRsaPublicKeyExponent' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslEnd' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetSubjectName' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertificateLoader' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetNameEntryCount' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetSerialNumber' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetRsaPublicKeyModulus' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetIssuerName' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetPublicKey' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslInit' in 'cellSsl' module
+LDR: ! Imported function 'sys_net_initialize_network_ex' in 'sys_net' module
+LDR: ! Imported function 'recvfrom' in 'sys_net' module
+LDR: ! Imported function 'listen' in 'sys_net' module
+LDR: W Unimplemented function 'socketselect' in 'sys_net' module
+LDR: ! Imported function 'connect' in 'sys_net' module
+LDR: ! Imported function 'socketclose' in 'sys_net' module
+LDR: W Unimplemented function 'gethostbyname' in 'sys_net' module
+LDR: W Unimplemented function 'inet_ntoa' in 'sys_net' module
+LDR: ! Imported function 'setsockopt' in 'sys_net' module
+LDR: ! Imported function 'sendto' in 'sys_net' module
+LDR: ! Imported function 'socket' in 'sys_net' module
+LDR: ! Imported function 'shutdown' in 'sys_net' module
+LDR: ! Imported function 'bind' in 'sys_net' module
+LDR: ! Imported function 'sys_net_finalize_network' in 'sys_net' module
+LDR: ! Imported function 'accept' in 'sys_net' module
+LDR: W Unimplemented function 'inet_ntop' in 'sys_net' module
+LDR: ! Imported function 'inet_addr' in 'sys_net' module
+LDR: ! Imported function 'send' in 'sys_net' module
+LDR: ! Imported function 'recv' in 'sys_net' module
+LDR: ! Imported function 'sys_net_free_thread_context' in 'sys_net' module
+LDR: ! Imported function 'cellFsGetBlockSize' in 'sys_fs' module
+LDR: ! Imported function 'cellFsClose' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRead' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpen' in 'sys_fs' module
+LDR: ! Imported function 'cellFsStat' in 'sys_fs' module
+LDR: ! Imported function 'cellFsUnlink' in 'sys_fs' module
+LDR: ! Imported function 'cellFsLseek' in 'sys_fs' module
+LDR: ! Imported function 'cellFsWrite' in 'sys_fs' module
+LDR: ! Imported function 'cellFsFstat' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRename' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRmdir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpendir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsReaddir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsFsync' in 'sys_fs' module
+LDR: ! Imported function 'cellFsGetFreeSize' in 'sys_fs' module
+LDR: ! Imported function 'cellFsSdataOpen' in 'sys_fs' module
+LDR: ! Imported function 'cellFsMkdir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsAioRead' in 'sys_fs' module
+LDR: ! Imported function 'cellFsAioInit' in 'sys_fs' module
+LDR: ! Imported function 'cellFsClosedir' in 'sys_fs' module
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module
+LDR: ! Imported function 'cellKbInit' in 'sys_io' module
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetCodeType' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module
+LDR: ! Imported function 'cellKbEnd' in 'sys_io' module
+LDR: ! Imported function 'cellMouseInit' in 'sys_io' module
+LDR: ! Imported function 'cellKbSetReadMode' in 'sys_io' module
+LDR: ! Imported function 'cellMouseEnd' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module
+LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetUserHandler' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmSetFlipCommand' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapEaIoAddressWithFlags' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapEaIoAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnbindZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetInvalidateTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetZcull' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmSetFlipCommandWithWaitLabel' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnmapEaIoAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellSpursAttributeSetNamePrefix' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursTasksetAttributeInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursGetInfo' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursEventFlagDetachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursEventFlagWait' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursWorkloadAttributeSetName' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursEventFlagClear' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursDetachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursEventFlagInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursTasksetAttributeSetName' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursSetGlobalExceptionEventHandler' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursWakeUp' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursEventFlagAttachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursAttributeInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursJoinTaskset' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursShutdownTaskset' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAttributeSetSpuThreadGroupType' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursInitializeWithAttribute' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAttachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAddWorkloadWithAttribute' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursCreateTasksetWithAttribute' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursFinalize' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursWorkloadAttributeInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursReadyCountStore' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursLFQueueInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursLFQueueAttachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursRequestIdleSpu' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursGetWorkloadInfo' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursRemoveWorkload' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursWaitForWorkloadShutdown' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursLFQueueDetachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursSetPriorities' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursLFQueuePushBody' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursShutdownWorkload' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursCreateTask' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursSetExceptionEventHandler' in 'cellSpurs' module
+LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module
+LDR: ! Imported function 'cellSysmoduleUnloadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleLoadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleInitialize' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleFinalize' in 'cellSysmodule' module
+LDR: W Unimplemented function 'Unknown func id: 0x1a267f98' in 'cellSysmodule' module
+LDR: W Unimplemented function 'Unknown func id: 0xfd0e1cac' in 'cellSysmodule' module
+LDR: ! Imported function 'cellNetCtlNetStartDialogLoadAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlNetStartDialogUnloadAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlTerm' in 'cellNetCtl' module
+LDR: W Unimplemented function 'cellGameUpdateTerm' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlGetInfo' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlGetState' in 'cellNetCtl' module
+LDR: W Unimplemented function 'cellGameUpdateInit' in 'cellNetCtl' module
+LDR: W Unimplemented function 'cellGameUpdateCheckStartWithoutDialogAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlInit' in 'cellNetCtl' module
+LDR: W Unimplemented function 'cellGameUpdateCheckStartAsync' in 'cellNetCtl' module
+LDR: W Unimplemented function 'cellGameUpdateCheckFinishAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'sceNpManagerSubSignout' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicSendMessageGui' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetTicket' in 'sceNp' module
+LDR: ! Imported function 'sceNpSignalingGetConnectionInfo' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicAddPlayersHistory' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicAddBlockListEntry' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicAddFriend' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetFriendPresenceByIndex' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicSetPresence' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicRegisterContextSensitiveHandler' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerSubSignin' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerUnregisterCallback' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetTicketParam' in 'sceNp' module
+LDR: ! Imported function 'sceNpSignalingActivateConnection' in 'sceNp' module
+LDR: ! Imported function 'sceNpSignalingCreateCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicRecvMessageAttachmentLoad' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetContentRatingFlag' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetBlockListEntryCount' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicRecvMessageCustom' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerRequestTicket2' in 'sceNp' module
+LDR: ! Imported function 'sceNpSignalingTerminateConnection' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetStatus' in 'sceNp' module
+LDR: ! Imported function 'sceNpSignalingDestroyCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicUnregisterHandler' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetFriendListEntryCount' in 'sceNp' module
+LDR: ! Imported function 'sceNpSignalingGetConnectionStatus' in 'sceNp' module
+LDR: ! Imported function 'sceNpUtilCmpNpId' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetEvent' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerRegisterCallback' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetChatRestrictionFlag' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicSendMessage' in 'sceNp' module
+LDR: ! Imported function 'sceNpDrmIsAvailable2' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetBlockListEntry' in 'sceNp' module
+LDR: ! Imported function 'sceNpSignalingDeactivateConnection' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetNpId' in 'sceNp' module
+LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataUserListAutoSave' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataUserListSave' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataListLoad2' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysCacheMount' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogClose' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataListAutoLoad' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataUserListAutoLoad' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataListSave2' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataUserListLoad' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogUnloadAsync' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilGetSystemParamInt' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataListAutoSave' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysCacheClear' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogOpen2' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogLoadAsync' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogProgressBarInc' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogProgressBarSetMsg' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolutionAvailability' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetKeyLayoutOption' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAbort' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetSoundAvailability' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataDelete2' in 'cellSysutil' module
+LDR: ! Imported function 'cellGameGetParamString' in 'cellGame' module
+LDR: ! Imported function 'cellGameCreateGameData' in 'cellGame' module
+LDR: ! Imported function 'cellGameContentPermit' in 'cellGame' module
+LDR: ! Imported function 'cellGameContentErrorDialog' in 'cellGame' module
+LDR: ! Imported function 'cellGameGetParamInt' in 'cellGame' module
+LDR: ! Imported function 'cellGameSetParamString' in 'cellGame' module
+LDR: ! Imported function 'cellGameDataCheck' in 'cellGame' module
+LDR: ! Imported function 'cellGameBootCheck' in 'cellGame' module
+LDR: ! Imported function 'cellUserInfoGetStat' in 'cellUserInfo' module
+LDR: ! Imported function 'cellUserInfoSelectUser_SetList' in 'cellUserInfo' module
+LDR: ! Imported function 'cellUserInfoEnableOverlay' in 'cellUserInfo' module
+LDR: ! Imported function 'cellUserInfoGetList' in 'cellUserInfo' module
+LDR: ! Imported function 'sceNpTrophyRegisterContext' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyCreateHandle' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyGetRequiredDiskSpace' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyDestroyContext' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyInit' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyGetGameInfo' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyDestroyHandle' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyUnlockTrophy' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyCreateContext' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyGetTrophyInfo' in 'sceNpTrophy' module
+LDR: W Unknown module 'cellSysutilAvconfExt'
+LDR: ! Imported function 'cellVideoOutGetScreenSize' in 'cellSysutilAvconfExt' module
+LDR: W Unimplemented function 'sceNpMatching2DestroyContext' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetWorldInfoList' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SearchRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2LeaveRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SetRoomDataExternal' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2Term2' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetServerInfo' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetEventData' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNp2Init' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2JoinRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2KickoutRoomMember' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2ContextStartAsync' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterContextCallback' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SetRoomDataInternal' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetServerIdListLocal' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2CreateContext' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2ClearEventData' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNp2Term' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetUserInfoList' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SetDefaultRequestOptParam' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterRoomEventCallback' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetRoomDataExternalList' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2CreateJoinRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2ContextStop' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2Init2' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterRoomMessageCallback' in 'sceNp2' module
+LDR: W Unimplemented function 'cellRudpGetSizeReadable' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpSetOption' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpWrite' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpTerminate' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpGetRemoteInfo' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpInit' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpEnableInternalIOThread' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpGetContextStatus' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpCreateContext' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpSetEventHandler' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpRead' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpGetSizeWritable' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpEnd' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpInitiate' in 'cellRudp' module
+LDR: W Unimplemented function 'cellRudpBind' in 'cellRudp' module
+LDR: W Unknown module 'cellSysutilAvc2'
+LDR: ! Imported function 'cellSysutilAvc2StopStreaming' in 'cellSysutilAvc2' module
+LDR: ! Imported function 'cellSysutilAvc2LoadAsync' in 'cellSysutilAvc2' module
+LDR: ! Imported function 'cellSysutilAvc2SetPlayerVoiceMuting' in 'cellSysutilAvc2' module
+LDR: ! Imported function 'cellSysutilAvc2Unload' in 'cellSysutilAvc2' module
+LDR: ! Imported function 'cellSysutilAvc2GetPlayerVoiceMuting' in 'cellSysutilAvc2' module
+LDR: ! Imported function 'cellSysutilAvc2JoinChatRequest' in 'cellSysutilAvc2' module
+LDR: ! Imported function 'cellSysutilAvc2StartStreaming' in 'cellSysutilAvc2' module
+LDR: ! Imported function 'cellSysutilAvc2InitParam' in 'cellSysutilAvc2' module
+LDR: ! Imported function 'cellSysutilAvc2LeaveChatRequest' in 'cellSysutilAvc2' module
+LDR: ! Imported function 'cellSysutilAvc2SetAttribute' in 'cellSysutilAvc2' module
+LDR: W Unknown module 'cellSysutilNpEula'
+LDR: ! Imported function 'Unknown func id: 0x59d1629a' in 'cellSysutilNpEula' module
+LDR: ! Imported function 'Unknown func id: 0x5ec05ad8' in 'cellSysutilNpEula' module
+LDR: ! Imported function 'Unknown func id: 0x6599500d' in 'cellSysutilNpEula' module
+LDR: ! Imported function 'cellRtcGetCurrentTick' in 'cellRtc' module
+LDR: ! Imported function 'cellRtcConvertUtcToLocalTime' in 'cellRtc' module
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_load_module' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_wait' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_process_atexitspawn' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_mmapper_free_memory' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_register_library' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_mmapper_unmap_memory' in 'sysPrxForUser' module
+LDR: ! Imported function 'Unknown func id: 0x4f7172c9' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_process_at_Exitspawn' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_load_module_on_memcontainer' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_trylock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_mmapper_allocate_memory' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_mmapper_map_memory' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_signal_all' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwcond_signal' in 'sysPrxForUser' module
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106e288, attr_addr=0xc22960)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (CPUThread)[0x00a69770]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fc04)
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106e088, attr_addr=0xc22960)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106d810, attr_addr=0xc22960)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106d838, attr_addr=0xc22960)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106d860, attr_addr=0xc22960)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106d748, attr_addr=0xc22960)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106d770, attr_addr=0xc22960)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106d798, attr_addr=0xc22960)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106d7c0, attr_addr=0xc22960)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106d7e8, attr_addr=0xc22960)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+HLE: W {PPU[1] Thread (CPUThread)[0x00726674]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fbc0)
+HLE: W {PPU[1] Thread (CPUThread)[0x007266e4]} sys_mmapper warning: sys_mmapper_allocate_address(size=0x10000000, flags=0xf, alignment=0x10000000, alloc_addr=0xeb81d4)
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc0f4]} sys_mmapper warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xeb79d4)
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc118]} sys_mmapper warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xd, flags=0x40000)
+HLE: E {PPU[1] Thread (CPUThread)[0x011cc118]} sys_mmapper error: sys_mmapper_map_memory failed!
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106e3d0, attr_addr=0xeefd98)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x106e390, attr_addr=0xeefda8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 15
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5b484]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd000fb20, summertime_addr=0xd000fb24)
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5b484]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5b484]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x00a62664]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd000fa70, summertime_addr=0xd000fa74)
+HLE: W {PPU[1] Thread (CPUThread)[0x00a62664]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x00a62664]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5cfe4]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd000fb20, summertime_addr=0xd000fb24)
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5cfe4]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5cfe4]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x00a62664]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd000fa70, summertime_addr=0xd000fa74)
+HLE: W {PPU[1] Thread (CPUThread)[0x00a62664]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x00a62664]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5b428]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd000fb20, summertime_addr=0xd000fb24)
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5b428]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5b428]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5cfe4]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd000fb20, summertime_addr=0xd000fb24)
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5cfe4]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W {PPU[1] Thread (CPUThread)[0x00a5cfe4]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x1064ad8, attr_addr=0xd000fb50)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [ps3HDDL] (attribute=0x12): sq_id = 16
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xeebfa0, attr_addr=0xd000fbb0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 17
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xef0d38, attr_addr=0xd000fbb0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 18
+HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xef0d10, attr_addr=0xd000fbd0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 19
+HLE: W {PPU[1] Thread (CPUThread)[0x00809c44]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 20
+G: E {PPU[1] Thread (CPUThread)[0x000b0cfc]} Exception: Access violation: addr = 0x11d7dff (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
+PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
+HLE: ! All threads stopped...
+MEM: ! Closing memory...
