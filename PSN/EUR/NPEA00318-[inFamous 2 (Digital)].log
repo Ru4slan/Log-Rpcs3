@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: inFamous 2 (Digital)
 LDR: ! Serial: NPEA00318
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x1ebcd20000
+MEM: ! Initializing memory: m_base_addr = 0x62de120000
 MEM: ! Memory initialized.
 LDR: ! Imported function '_cellSpursTasksetAttributeInitialize' in 'cellSpurs' module
 LDR: ! Imported function 'cellSpursRequestIdleSpu' in 'cellSpurs' module
@@ -556,9 +556,9 @@ HLE: W {PPU[1] Thread (CPUThread)[0x0092a0f4]} cellSpurs warning: cellSpursAttac
 HLE: W {PPU[1] Thread (CPUThread)[0x0092a0f4]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=102, eq_id=110, req=0x2, spup_addr=0xd000f6c0)
 HLE: W {PPU[1] Thread (CPUThread)[0x0092a0f4]} sys_spu warning: *** spup -> 1
 HLE: E {PPU[1] Thread (CPUThread)[0x0092a01c]} cellSpurs TODO: cellSpursGetInfo
-HLE: E {PPU[1] Thread (CPUThread)[0x0092a130]} cellSpurs TODO: _cellSpursWorkloadAttributeInitialize
-HLE: E {PPU[1] Thread (CPUThread)[0x0092a040]} cellSpurs TODO: cellSpursWorkloadAttributeSetName
-HLE: E {PPU[1] Thread (CPUThread)[0x0092a100]} cellSpurs TODO: cellSpursAddWorkloadWithAttribute
+HLE: W {PPU[1] Thread (CPUThread)[0x0092a130]} cellSpurs warning: _cellSpursWorkloadAttributeInitialize(attr_addr=0xd000f338, revision=1, sdkVersion=0x250001, pm_addr=0x8e5b00, size=0x2e80, data=0xb01d00, priorityTable_addr=0xd000f6f0, minContention=0x1, maxContention=0x5)
+HLE: W {PPU[1] Thread (CPUThread)[0x0092a040]} cellSpurs warning: cellSpursWorkloadAttributeSetName(attr_addr=0xd000f338, nameClass_addr=0x7ff908, nameInstance_addr=0xb01d90)
+HLE: W {PPU[1] Thread (CPUThread)[0x0092a100]} cellSpurs warning: cellSpursAddWorkloadWithAttribute(spurs_addr=0xa40a80, wid_addr=0xb01d88, attr_addr=0xd000f338)
 HLE: E {PPU[1] Thread (CPUThread)[0x0092a010]} cellSpurs TODO: cellSpursRequestIdleSpu
 HLE: E {PPU[1] Thread (CPUThread)[0x0092a124]} cellSpurs TODO: cellSpursSetExceptionEventHandler
 HLE: W {PPU[1] Thread (CPUThread)[0x00bb7058]} cellGame warning: cellGameBootCheck(type_addr=0xd000f87c, attributes_addr=0xd000f878, size_addr=0xd000f89c, dirName_addr=0xd000fa68)
@@ -576,10 +576,10 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00bb50dc]} cellSysutil warning: cellSysutilG
 HLE: W {PPU[1] Thread (CPUThread)[0x00bb50dc]} cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_NICKNAME
 HLE: W {PPU[1] Thread (CPUThread)[0x00bb5094]} cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00bb5034]} cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd000f7d8)
-HLE: W {PPU[1] Thread (CPUThread)[0x00bb5100]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xbd88e050)
+HLE: W {PPU[1] Thread (CPUThread)[0x00bb5100]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xe04d12f0)
 G: E {PPU[1] Thread (CPUThread)[0x0013af9c]} Exception: Access violation: addr = 0x0 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
-HLE: W {PPU[111] Thread (Job Manager Event Handler)[0x0054c288]} sys_event warning: sys_event_queue_receive(equeue=110) aborted
 HLE: W {PPU[83] Thread (Job Manager Event Handler)[0x0054c288]} sys_event warning: sys_event_queue_receive(equeue=82) aborted
+HLE: W {PPU[111] Thread (Job Manager Event Handler)[0x0054c288]} sys_event warning: sys_event_queue_receive(equeue=110) aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...
