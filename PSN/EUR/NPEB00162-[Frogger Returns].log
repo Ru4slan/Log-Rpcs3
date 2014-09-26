@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: Frogger Returns
 LDR: ! Serial: NPEB00162
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xee95150000
+MEM: ! Initializing memory: m_base_addr = 0x9d5d840000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellFsClose' in 'sys_fs' module
 LDR: ! Imported function 'cellFsRead' in 'sys_fs' module
@@ -156,33 +156,59 @@ LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
 LDR: ! Imported function 'sys_spu_image_close' in 'sysPrxForUser' module
 LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
 LDR: ! Imported function 'sys_spu_image_import' in 'sysPrxForUser' module
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-HLE: W {PPU[1] Thread (CPUThread)[0x000e98b8]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 27
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 28
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19db88, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (CPUThread)[0x000e98b8]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fc04)
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19d990, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19d118, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19d140, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19d168, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19d050, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19d078, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19d0a0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19d0c8, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19d0f0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19e168, attr_addr=0x199870)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x19e128, attr_addr=0x199880)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100020, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000a0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100130, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100190, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301001d0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100210, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301002d0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100300, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100330, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100360, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100390, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301003c0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2617b8, attr_addr=0xd000fbf0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 27
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x261788, attr_addr=0xd000fbe0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 28
 HLE: W {PPU[1] Thread (CPUThread)[0x002cc010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SAVEDATA)
 HLE: W {PPU[1] Thread (CPUThread)[0x000ca99c]} sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
 HLE: W {PPU[1] Thread (CPUThread)[0x002cc010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
@@ -193,12 +219,13 @@ HLE: W {PPU[1] Thread (CPUThread)[0x002cc010]} cellSysmodule warning: cellSysmod
 HLE: W {PPU[1] Thread (CPUThread)[0x002cc010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 HLE: W {PPU[1] Thread (CPUThread)[0x002cc010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 HLE: W {PPU[1] Thread (CPUThread)[0x0017f0c4]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x184e28, userdata=0x0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002dc01c]} sys_ppu_thread: *** New PPU Thread [vhearts] (flags=0x0, entry=0x184e20): id = 29
-HLE: W {PPU[29] Thread (vhearts)[0x002d601c]} cellGame warning: cellGameBootCheck(type_addr=0xd00209d0, attributes_addr=0xd00209d4, size_addr=0xd00209d8, dirName_addr=0x0)
-HLE: W {PPU[29] Thread (vhearts)[0x002d6004]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00209e8, usrdirPath_addr=0x2817d8)
+HLE: W {PPU[1] Thread (CPUThread)[0x002d4004]} sceNp warning: sceNpInit(mem_size=0x20000, mem_addr=0x2617d8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc01c]} sys_ppu_thread: *** New PPU Thread [vhearts] (non-joinable, entry=0x184e20): id = 29
+HLE: W {PPU[29] Thread (vhearts)[0x002d601c]} cellGame warning: cellGameBootCheck(type_addr=0xd002f9d0, attributes_addr=0xd002f9d4, size_addr=0xd002f9d8, dirName_addr=0x0)
+HLE: W {PPU[29] Thread (vhearts)[0x002d6004]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd002f9e8, usrdirPath_addr=0x2817d8)
 HLE: W {PPU[1] Thread (CPUThread)[0x002cc010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
 HLE: W {PPU[1] Thread (CPUThread)[0x002cc010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-HLE: W {PPU[1] Thread (CPUThread)[0x00056700]} sys_spu warning: sys_raw_spu_create(id_addr=0x19bd64, attr_addr=0xd00109d0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00056700]} sys_spu warning: sys_raw_spu_create(id_addr=0x19bd64, attr_addr=0xd000f9d0)
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca004]} cellGcmSys warning: _cellGcmInitBody(context_addr=0x19ce18, cmdSize=0x10000, ioSize=0x100000, ioAddress=0x30200000)
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca004]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca004]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
@@ -208,7 +235,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x002ca058]} cellGcmSys warning: cellGcmSetDeb
 HLE: E {PPU[1] Thread (CPUThread)[0x002ca130]} cellGcmSys TODO: cellGcmSetGraphicsHandler
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca07c]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30500000, io=0xe000000, size=0x100000)
-HLE: W {PPU[1] Thread (CPUThread)[0x0017f0d0]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0x98390fb0)
+HLE: W {PPU[1] Thread (CPUThread)[0x0017f0d0]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0x60985a50)
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca148]} cellGcmSys warning: cellGcmUnbindTile(index=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca148]} cellGcmSys warning: cellGcmUnbindTile(index=1)
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca148]} cellGcmSys warning: cellGcmUnbindTile(index=2)
@@ -224,14 +251,14 @@ HLE: W {PPU[1] Thread (CPUThread)[0x002ca148]} cellGcmSys warning: cellGcmUnbind
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca148]} cellGcmSys warning: cellGcmUnbindTile(index=12)
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca148]} cellGcmSys warning: cellGcmUnbindTile(index=13)
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca148]} cellGcmSys warning: cellGcmUnbindTile(index=14)
-HLE: W {PPU[1] Thread (CPUThread)[0x002c8064]} cellResc warning: cellRescInit(initConfig_addr=0xd0010960)
+HLE: W {PPU[1] Thread (CPUThread)[0x002c8064]} cellResc warning: cellRescInit(initConfig_addr=0xd000f960)
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 1
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca124]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=253558784, size=7536640, pitch=5120, comp=0, base=0, bank=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca040]} cellGcmSys warning: cellGcmBindTile(index=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x002c8034]} cellResc warning: cellRescSetDisplayMode(displayMode=4)
 HLE: W {PPU[1] Thread (CPUThread)[0x002c8034]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x002c8034]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-HLE: W {PPU[1] Thread (CPUThread)[0x002c8070]} cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0010930, vertexArray_addr=0xd0010928, fragmentShader_addr=0xd001092c)
+HLE: W {PPU[1] Thread (CPUThread)[0x002c8070]} cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd000f930, vertexArray_addr=0xd000f928, fragmentShader_addr=0xd000f92c)
 HLE: W {PPU[1] Thread (CPUThread)[0x002c8088]} cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xcf1d0000, vertexArray_addr=0xc0000000, fragmentShader_addr=0xc0000180)
 HLE: W {PPU[1] Thread (CPUThread)[0x002c8028]} cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 3
@@ -254,7 +281,7 @@ HLE: E {PPU[1] Thread (CPUThread)[0x002ca124]} cellGcmSys error: cellGcmSetTileI
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca040]} cellGcmSys warning: cellGcmBindTile(index=4)
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: d
 HLE: W {PPU[1] Thread (CPUThread)[0x002ca0b8]} cellGcmSys warning: cellGcmBindZcull(index=0)
-HLE: W {PPU[1] Thread (CPUThread)[0x000a84b8]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x19c428, attr_addr=0xd0010980, initial_count=1, max_count=2)
+HLE: W {PPU[1] Thread (CPUThread)[0x000a84b8]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x19c428, attr_addr=0xd000f980, initial_count=1, max_count=2)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000a84b8]} sys_semaphore: *** semaphore created [] (protocol=0x2): id = 31
 HLE: W {PPU[1] Thread (CPUThread)[0x002c8058]} cellResc warning: cellRescSetFlipHandler(handler_addr=0x1843e8)
 HLE: W {PPU[1] Thread (CPUThread)[0x0005641c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 32
@@ -267,228 +294,284 @@ RSX: W {RSXThread} New FBO (1280x720)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/simpleVS.cgelf" opened: fd = 34
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 35
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30114090, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 35
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=34)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30114090)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/simpleVS.cgelf" opened: fd = 36
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 37
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30114090, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 37
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=36)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30114090)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/simpleShadowedVS.cgelf" opened: fd = 38
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 39
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 39
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=38)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/simpleShadowedVS.cgelf" opened: fd = 40
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 41
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 41
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=40)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/colorVS.cgelf" opened: fd = 42
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 43
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301189b0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 43
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=42)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301189b0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/colorVS.cgelf" opened: fd = 44
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 45
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301189b0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 45
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=44)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301189b0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/colorNormalVS.cgelf" opened: fd = 46
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 47
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3011b420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 47
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=46)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011b420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/colorNormalVS.cgelf" opened: fd = 48
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 49
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3011b420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 49
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=48)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011b420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/colorNormalShadowedVS.cgelf" opened: fd = 50
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 51
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 51
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=50)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/colorNormalShadowedVS.cgelf" opened: fd = 52
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 53
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 53
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=52)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/skinColorNormalVS.cgelf" opened: fd = 54
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 55
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301201e0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 55
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=54)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301201e0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/skinColorNormalVS.cgelf" opened: fd = 56
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 57
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301201e0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 57
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=56)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301201e0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/shadowCasterVS.cgelf" opened: fd = 58
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 59
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301234f0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 59
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=58)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301234f0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/shadowCasterVS.cgelf" opened: fd = 60
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 61
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301234f0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 61
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=60)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301234f0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/skinColorNormalShadowedVS.cgelf" opened: fd = 62
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 63
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30125330, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 63
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=62)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30125330)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/skinColorNormalShadowedVS.cgelf" opened: fd = 64
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 65
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30125330, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 65
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=64)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30125330)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/postVS.cgelf" opened: fd = 66
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 67
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30125330, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 67
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=66)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30125330)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/postVS.cgelf" opened: fd = 68
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 69
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30125330, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 69
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=68)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30125330)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/unifiedVS.cgelf" opened: fd = 70
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 71
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 71
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=70)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/unifiedVS.cgelf" opened: fd = 72
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 73
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 73
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=72)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/simplePS.cgelf" opened: fd = 74
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 75
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 75
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=74)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/simplePS.cgelf" opened: fd = 76
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 77
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 77
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=76)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/simpleShadowedPS.cgelf" opened: fd = 78
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 79
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 79
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=78)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/simpleShadowedPS.cgelf" opened: fd = 80
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 81
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 81
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=80)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/unlitPS.cgelf" opened: fd = 82
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 83
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 83
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=82)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/unlitPS.cgelf" opened: fd = 84
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 85
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 85
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=84)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/dirlitPS.cgelf" opened: fd = 86
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 87
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 87
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=86)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/dirlitPS.cgelf" opened: fd = 88
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 89
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 89
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=88)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/dirlitShadowedPS.cgelf" opened: fd = 90
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 91
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 91
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=90)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/dirlitShadowedPS.cgelf" opened: fd = 92
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 93
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 93
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=92)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/dirlitNormalMappedPS.cgelf" opened: fd = 94
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 95
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 95
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=94)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/dirlitNormalMappedPS.cgelf" opened: fd = 96
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 97
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30116420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 97
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=96)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30116420)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/postPS.cgelf" opened: fd = 98
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 99
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301189b0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 99
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=98)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301189b0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/postPS.cgelf" opened: fd = 100
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 101
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301189b0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 101
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=100)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301189b0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/unifiedPS.cgelf" opened: fd = 102
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 103
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301189b0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 103
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=102)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301189b0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/shaders/unifiedPS.cgelf" opened: fd = 104
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 105
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301189b0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 105
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=104)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301189b0)
 HLE: W {PPU[1] Thread (CPUThread)[0x0017d004]} sys_io warning: cellPadInit(max_connect=7)
 HLE: W {PPU[1] Thread (CPUThread)[0x0017f070]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/6809_chargen_36.bfont" opened: fd = 106
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 107
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30125330, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 107
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/6809_chargen_36_00.dds" opened: fd = 108
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 109
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301eefb0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 109
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=108)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301eefb0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/6809_chargen_36_00.dds" opened: fd = 110
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 111
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301eefb0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 111
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=110)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301eefb0)
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=106)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30125330)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/sf_digital_readout_36.bfont" opened: fd = 112
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 113
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301f2780, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 113
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/sf_digital_readout_36_00.dds" opened: fd = 114
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 115
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301f2a00, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 115
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=114)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f2a00)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/sf_digital_readout_36_00.dds" opened: fd = 116
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 117
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301f2a00, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 117
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=116)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f2a00)
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=112)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f2780)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/arial_black_26.bfont" opened: fd = 118
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 119
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301f7390, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 119
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/arial_black_26_00.dds" opened: fd = 120
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 121
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301f7600, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 121
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=120)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f7600)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/arial_black_26_00.dds" opened: fd = 122
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 123
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301f7600, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 123
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=122)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f7600)
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=118)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f7390)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/mellow_32.bfont" opened: fd = 124
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 125
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301fabb0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 125
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/mellow_32_00.dds" opened: fd = 126
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 127
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301fae50, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 127
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=126)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fae50)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/mellow_32_00.dds" opened: fd = 128
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 129
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301fae50, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 129
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=128)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fae50)
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=124)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fabb0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/mellow_50.bfont" opened: fd = 130
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 131
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301fe430, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 131
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/mellow_50_00.dds" opened: fd = 132
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 133
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301fe7d0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 133
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=132)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fe7d0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/fonts/mellow_50_00.dds" opened: fd = 134
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 135
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301fe7d0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 135
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=134)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fe7d0)
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=130)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301fe430)
 HLE: ! {PPU[1] Thread (CPUThread)[0x0017b01c]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/icon0.png" opened: fd = 136
-HLE: W {PPU[1] Thread (CPUThread)[0x0017b040]} sys_fs warning: cellFsFstat(fd=136, sb_addr: 0xd0010884)
+HLE: W {PPU[1] Thread (CPUThread)[0x0017b040]} sys_fs warning: cellFsFstat(fd=136, sb_addr=0xd000f884)
 HLE: W {PPU[1] Thread (CPUThread)[0x0017b004]} sys_fs warning: cellFsClose(fd=136)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002dc01c]} sys_ppu_thread: *** New PPU Thread [save_data_thread] (flags=0x0, entry=0x184d28): id = 137
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc01c]} sys_ppu_thread: *** New PPU Thread [save_data_thread] (non-joinable, entry=0x184d28): id = 137
 HLE: E {PPU[137] Thread (save_data_thread)[0x0017f040]} TODO: cellSaveDataUserListAutoLoad
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/effects/box_particle.dds" opened: fd = 138
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 139
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301f28a0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 139
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=138)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f28a0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/effects/box_particle.dds" opened: fd = 140
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 141
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301f28a0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 141
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=140)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f28a0)
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 142
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 143
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30137ce0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 142
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3011b420, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 143
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/config/effects/poof.ini" opened: fd = 144
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 145
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301f28a0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 145
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=144)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301f28a0)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011b420)
@@ -499,19 +582,23 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
 RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/sprites/gray_1280x720.dds" opened: fd = 146
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 147
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301febd0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 147
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=146)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301febd0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/sprites/gray_1280x720.dds" opened: fd = 148
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 149
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301febd0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 149
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=148)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301febd0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/sprites/splash_konami_1280x720.dds" opened: fd = 150
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 151
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301febd0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 151
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=150)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301febd0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x000e5658]} sys_fs: "/dev_hdd0/game/NPEB00162/USRDIR/data/sprites/splash_konami_1280x720.dds" opened: fd = 152
-HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 153
+HLE: W {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301febd0, attr_addr=0x160a40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x002dc034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 153
 HLE: W {PPU[1] Thread (CPUThread)[0x000e55d0]} sys_fs warning: cellFsClose(fd=152)
 HLE: W {PPU[1] Thread (CPUThread)[0x002dc094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301febd0)
 RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
@@ -1028,8 +1115,11 @@ void main()
 	ocol2 = r3;
 }
 
-RSX: W {RSXThread} RSX thread aborted
+PPU: ! {PPULLVMRecompiler} Removed 6 old versions
+PPU: ! {PPULLVMRecompiler} Removed 32 old versions
 RSX: W {VBlank thread} VBlank thread aborted
+RSX: W {RSXThread} RSX thread aborted
+PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 RSX: W GLVertexProgram::Delete(): glDeleteShader(2) avoided
 RSX: W GLShaderProgram::Delete(): glDeleteShader(1) avoided

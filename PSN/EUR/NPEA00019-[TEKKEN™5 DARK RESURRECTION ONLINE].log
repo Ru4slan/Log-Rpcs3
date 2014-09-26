@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: TEKKEN™5 DARK RESURRECTION ONLINE
 LDR: ! Serial: NPEA00019
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xd3edfb0000
+MEM: ! Initializing memory: m_base_addr = 0x6eb1b00000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module
 LDR: ! Imported function 'cellGcmSetUserHandler' in 'cellGcmSys' module
