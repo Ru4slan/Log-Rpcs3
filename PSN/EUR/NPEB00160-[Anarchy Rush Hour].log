@@ -17,11 +17,12 @@ LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00160//USRDIR/
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00160//USRDIR/
+LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00160//USRDIR/
 LDR: !  
 LDR: ! Title: Anarchy: Rush Hour
 LDR: ! Serial: NPEB00160
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xd0e8140000
+MEM: ! Initializing memory: m_base_addr = 0x92215c0000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module
 LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module

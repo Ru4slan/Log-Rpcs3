@@ -1,646 +1,271 @@
-[!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/USRDIR/BOOT.BIN'...
-[!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME//../
-[!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\Data\
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\resource\
-[!]: Initing memory...
-[!]: Memory initialized.
-[W]: Unknown function 0x04372385 in 'sceNp' module
-[E]: TODO: sceNpBasicGetFriendListEntry
-[W]: Unknown function 0x0968aa36 in 'sceNp' module
-[E]: TODO: sceNpManagerGetTicket
-[W]: Unknown function 0x21206642 in 'sceNp' module
-[E]: TODO: sceNpScoreGetRankingByRangeAsync
-[W]: Unknown function 0x259113b8 in 'sceNp' module
-[E]: TODO: sceNpScoreDestroyTitleCtx
-[W]: Unknown function 0x27c69eba in 'sceNp' module
-[E]: TODO: sceNpBasicAddFriend
-[W]: Unknown function 0x32cf311f in 'sceNp' module
-[E]: TODO: sceNpScoreInit
-[W]: Unknown function 0x3db7914d in 'sceNp' module
-[E]: TODO: sceNpScoreGetRankingByNpIdAsync
-[W]: Unknown function 0x3f0808aa in 'sceNp' module
-[E]: TODO: sceNpBasicSetPresence
-[W]: Unknown function 0x43b989f5 in 'sceNp' module
-[E]: TODO: sceNpBasicSendMessageAttachment
-[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
-[E]: TODO: sceNpManagerGetContentRatingFlag
-[W]: Unknown function 0x6f5e8143 in 'sceNp' module
-[E]: TODO: sceNpScoreCreateTransactionCtx
-[W]: Unknown function 0x7e2fef28 in 'sceNp' module
-[E]: TODO: sceNpManagerRequestTicket
-[W]: Unknown function 0x9851f805 in 'sceNp' module
-[E]: TODO: sceNpScoreTerm
-[W]: Unknown function 0xa7a090e5 in 'sceNp' module
-[E]: TODO: sceNpScorePollAsync
-[W]: Unknown function 0xacb9ee8e in 'sceNp' module
-[E]: TODO: sceNpBasicUnregisterHandler
-[W]: Unknown function 0xafef640d in 'sceNp' module
-[E]: TODO: sceNpBasicGetFriendListEntryCount
-[W]: Unknown function 0xb1e0718b in 'sceNp' module
-[E]: TODO: sceNpManagerGetAccountRegion
-[W]: Unknown function 0xb5cb2d56 in 'sceNp' module
-[E]: TODO: sceNpBasicRecvMessageAttachment
-[W]: Unknown function 0xb9f93bbb in 'sceNp' module
-[E]: TODO: sceNpScoreCreateTitleCtx
-[W]: Unknown function 0xbcc09fe7 in 'sceNp' module
-[E]: TODO: sceNpBasicRegisterHandler
-[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
-[E]: TODO: sceNpScoreDestroyTransactionCtx
-[W]: Unknown function 0xe035f7d6 in 'sceNp' module
-[E]: TODO: sceNpBasicGetEvent
-[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
-[E]: TODO: sceNpManagerRegisterCallback
-[W]: Unknown function 0xf0a9182b in 'sceNp' module
-[E]: TODO: sceNpFriendlist
-[W]: Unknown function 0xf0b1e399 in 'sceNp' module
-[E]: TODO: sceNpScoreRecordScoreAsync
-[W]: Unknown function 0xf42c0df8 in 'sceNp' module
-[E]: TODO: sceNpManagerGetOnlineName
-[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
-[E]: TODO: sceNpManagerGetNpId
-[W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetInvalidateTile
-[W]: Unknown module 'cellHttp'
-[W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
-[E]: TODO: cellHttpUtilParseUri
-[W]: Unknown function 0xa3457869 in 'cellHttpUtil' module
-[E]: TODO: cellHttpUtilParseProxy
-[W]: Unknown function 0x051ee3ee in 'sys_net' module
-[E]: TODO: socketpoll
-[W]: Unknown function 0x13efe7f5 in 'sys_net' module
-[E]: TODO: getsockname
-[W]: Unknown function 0x3f09e20a in 'sys_net' module
-[E]: TODO: socketselect
-[W]: Unknown function 0x5a045bd1 in 'sys_net' module
-[E]: TODO: getsockopt
-[W]: Unknown function 0x71f4c717 in 'sys_net' module
-[E]: TODO: gethostbyname
-[W]: Unknown function 0xa9a079e0 in 'sys_net' module
-[E]: TODO: inet_aton
-[W]: Unknown function 0x182d9890 in 'cellSpurs' module
-[E]: TODO: cellSpursRequestIdleSpu
-[W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
-[E]: TODO: cellSpursRemoveWorkload
-[W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
-[E]: TODO: cellSpursWaitForWorkloadShutdown
-[W]: Unknown function 0x69726aa2 in 'cellSpurs' module
-[E]: TODO: cellSpursAddWorkload
-[W]: Unknown function 0x98d5b343 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownWorkload
-[W]: Unknown function 0xf843818d in 'cellSpurs' module
-[E]: TODO: cellSpursReadyCountStore
-[W]: Unknown function 0x1a91874b in 'cellSysutil' module
-[E]: TODO: cellWebBrowserConfigSetFullScreen2
-[W]: Unknown function 0x35beade0 in 'cellSysutil' module
-[E]: TODO: cellOskDialogGetSize
-[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
-[E]: TODO: cellOskDialogUnloadAsync
-[W]: Unknown function 0x619b1427 in 'cellSysutil' module
-[E]: TODO: cellWebBrowserConfigSetTabCount2
-[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogAbort
-[W]: Unknown function 0x749c9b5f in 'cellSysutil' module
-[E]: TODO: cellWebBrowserInitialize
-[W]: Unknown function 0x7f21c918 in 'cellSysutil' module
-[E]: TODO: cellOskDialogAddSupportLanguage
-[W]: Unknown function 0x7fb3c6a5 in 'cellSysutil' module
-[E]: TODO: cellWebBrowserConfig2
-[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
-[E]: TODO: cellOskDialogLoadAsync
-[W]: Unknown function 0x93ced48d in 'cellSysutil' module
-[E]: TODO: cellWebBrowserShutdown
-[W]: Unknown function 0xa5f12145 in 'cellSysutil' module
-[E]: TODO: cellWebBrowserCreate2
-[W]: Unknown function 0xb53c54fa in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetKeyLayoutOption
-[W]: Unknown function 0xb6d84526 in 'cellSysutil' module
-[E]: TODO: cellOskDialogAbort
-[W]: Unknown function 0xc9645c41 in 'cellSysutil' module
-[E]: TODO: cellGameDataCheckCreate2
-[W]: Unknown function 0xe22ed55d in 'cellSysutil' module
-[E]: TODO: cellWebBrowserConfigSetFunction2
-[W]: Unknown function 0xe8dee79c in 'cellSysutil' module
-[E]: TODO: cellWebBrowserDestroy2
-[W]: Unknown function 0xedadd797 in 'cellSysutil' module
-[E]: TODO: cellSaveDataDelete2
-[W]: Unknown function 0xf0ec3ccc in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetLayoutMode
-[W]: Unknown function 0xfe669845 in 'cellSysutil' module
-[E]: TODO: cellWebBrowserConfigSetHeapSize2
-[W]: Unknown function 0x2ad091c6 in 'cellL10n' module
-[E]: TODO: UCS2stoUTF8s
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
-[W : PPU[1] Thread (CPUThread)[0x0046d174]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010880)
-[W : PPU[1] Thread (CPUThread)[0x00458110]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010754)
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 12
-[W : PPU[1] Thread (CPUThread)[0x00457714]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00106a4)
-[W : PPU[1] Thread (CPUThread)[0x004577e4]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x0, alloc_addr=0xd00106a0)
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
-[E : PPU[1] Thread (CPUThread)[0x0044f8b4]]: Write8 to null block: [00000010]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f8cc]]: Write16 to null block: [00000010]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f8f0]]: Write32 to null block: [00000010]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f90c]]: Write64 to null block: [00000010]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f910]]: Write64 to null block: [00000018]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f914]]: Write64 to null block: [00000020]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f918]]: Write64 to null block: [00000028]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f91c]]: Write64 to null block: [00000030]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f920]]: Write64 to null block: [00000038]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f924]]: Write64 to null block: [00000040]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f928]]: Write64 to null block: [00000048]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f92c]]: Write64 to null block: [00000050]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f930]]: Write64 to null block: [00000058]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f934]]: Write64 to null block: [00000060]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f938]]: Write64 to null block: [00000068]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f93c]]: Write64 to null block: [00000070]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f940]]: Write64 to null block: [00000078]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f944]]: Write64 to null block: [00000080]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f948]]: Write64 to null block: [00000088]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f90c]]: Write64 to null block: [00000090]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f910]]: Write64 to null block: [00000098]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f914]]: Write64 to null block: [000000a0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f918]]: Write64 to null block: [000000a8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f91c]]: Write64 to null block: [000000b0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f920]]: Write64 to null block: [000000b8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f924]]: Write64 to null block: [000000c0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f928]]: Write64 to null block: [000000c8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f92c]]: Write64 to null block: [000000d0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f930]]: Write64 to null block: [000000d8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f934]]: Write64 to null block: [000000e0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f938]]: Write64 to null block: [000000e8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f93c]]: Write64 to null block: [000000f0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f940]]: Write64 to null block: [000000f8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f944]]: Write64 to null block: [00000100]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f948]]: Write64 to null block: [00000108]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f90c]]: Write64 to null block: [00000110]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f910]]: Write64 to null block: [00000118]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f914]]: Write64 to null block: [00000120]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f918]]: Write64 to null block: [00000128]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f91c]]: Write64 to null block: [00000130]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f920]]: Write64 to null block: [00000138]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f924]]: Write64 to null block: [00000140]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f928]]: Write64 to null block: [00000148]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f92c]]: Write64 to null block: [00000150]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f930]]: Write64 to null block: [00000158]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f934]]: Write64 to null block: [00000160]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f938]]: Write64 to null block: [00000168]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f93c]]: Write64 to null block: [00000170]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f940]]: Write64 to null block: [00000178]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f944]]: Write64 to null block: [00000180]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f948]]: Write64 to null block: [00000188]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [00000190]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [00000198]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001a0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001a8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001b0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001b8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001c0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001c8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001d0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001d8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001e0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001e8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001f0]: 0
-[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001f8]: 0
-[E : PPU[1] Thread (CPUThread)[0x004504f0]]: Write32 to null block: [0000000c]: 1f3
-[E : PPU[1] Thread (CPUThread)[0x004504fc]]: Write32 to null block: [00000050]: 58585858
-[E : PPU[1] Thread (CPUThread)[0x00450500]]: Write32 to null block: [000001e4]: 4
-[E : PPU[1] Thread (CPUThread)[0x00450504]]: Write32 to null block: [00000040]: 0
-[E : PPU[1] Thread (CPUThread)[0x00450508]]: Write32 to null block: [000001e8]: 0
-[E : PPU[1] Thread (CPUThread)[0x0045050c]]: Write32 to null block: [000001e0]: 100000
-[E : PPU[1] Thread (CPUThread)[0x00450510]]: Write32 to null block: [000001dc]: 100000
-[E : PPU[1] Thread (CPUThread)[0x00450514]]: Write32 to null block: [000001ec]: 100000
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000005c]: 54
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000060]: 54
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000064]: 5c
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000068]: 5c
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000006c]: 64
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000070]: 64
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000074]: 6c
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000078]: 6c
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000007c]: 74
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000080]: 74
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000084]: 7c
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000088]: 7c
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000008c]: 84
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000090]: 84
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000094]: 8c
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000098]: 8c
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000009c]: 94
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000a0]: 94
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000a4]: 9c
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000a8]: 9c
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000ac]: a4
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000b0]: a4
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000b4]: ac
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000b8]: ac
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000bc]: b4
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000c0]: b4
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000c4]: bc
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000c8]: bc
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000cc]: c4
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000d0]: c4
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000d4]: cc
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000d8]: cc
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000dc]: d4
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000e0]: d4
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000e4]: dc
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000e8]: dc
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000ec]: e4
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000f0]: e4
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000f4]: ec
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000f8]: ec
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000fc]: f4
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000100]: f4
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000104]: fc
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000108]: fc
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000010c]: 104
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000110]: 104
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000114]: 10c
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000118]: 10c
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000011c]: 114
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000120]: 114
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000124]: 11c
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000128]: 11c
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000012c]: 124
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000130]: 124
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000134]: 12c
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000138]: 12c
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000013c]: 134
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000140]: 134
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000144]: 13c
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000148]: 13c
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000014c]: 144
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000150]: 144
-[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000154]: 14c
-[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000158]: 14c
-[E : PPU[1] Thread (CPUThread)[0x00450554]]: Read32 from null block: [0000000c]
-[E : PPU[1] Thread (CPUThread)[0x004505a0]]: Write32 to null block: [00000048]: 8
-[E : PPU[1] Thread (CPUThread)[0x004505ac]]: Write32 to null block: [0000003c]: fffc0
-[E : PPU[1] Thread (CPUThread)[0x004505bc]]: Write32 to null block: [0000000c]: fffc1
-[E : PPU[1] Thread (CPUThread)[0x004505cc]]: Read32 from null block: [00000028]
-[E : PPU[1] Thread (CPUThread)[0x004505d4]]: Write32 to null block: [00000024]: ffffffff
-[E : PPU[1] Thread (CPUThread)[0x004505dc]]: Write32 to null block: [0000004c]: 0
-[E : PPU[1] Thread (CPUThread)[0x004505e4]]: Write32 to null block: [00000028]: 0
-[E : PPU[1] Thread (CPUThread)[0x004505e8]]: Write32 to null block: [0000001c]: 100000
-[E : PPU[1] Thread (CPUThread)[0x004505ec]]: Write32 to null block: [00000018]: 58585858
-[E : PPU[1] Thread (CPUThread)[0x004505f0]]: Write32 to null block: [00000014]: bb1490
-[E : PPU[1] Thread (CPUThread)[0x004505f4]]: Write32 to null block: [00000010]: 102f6000
-[E : PPU[1] Thread (CPUThread)[0x004505f8]]: Write32 to null block: [000001f4]: 8
-[E : PPU[1] Thread (CPUThread)[0x004505fc]]: Write32 to null block: [0000002c]: 0
-[E : PPU[1] Thread (CPUThread)[0x00450600]]: Write32 to null block: [00000020]: 100000
-[E : PPU[1] Thread (CPUThread)[0x00452470]]: Read32 from null block: [00000048]
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
-[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010490)
-[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x3c00000, mem_id=0xf, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory mapped 0x30100000 to 0x3c00000 size=0x100000
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
-[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010490)
-[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0xc400000, mem_id=0x11, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory mapped 0x30200000 to 0xc400000 size=0x100000
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 18
-[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010570)
-[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x10000000, mem_id=0x13, flags=0x40000)
-[E : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
-[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 21
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 27
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 28
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 29
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 30
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 31
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 32
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 33
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 34
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 35
-[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010690)
-[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x10100000, mem_id=0x24, flags=0x40000)
-[E : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x00be1070]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
-[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VDEC)
-[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
-[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
-[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
-[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
-[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
-[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
-[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
-[W : PPU[1] Thread (CPUThread)[0x004693d4]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[W : PPU[1] Thread (CPUThread)[0x00bdf070]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010980, nSpus=1, spuPriority=2097154, ppuPriority=5, exitIfNoWork=128)
-[W : PPU[1] Thread (CPUThread)[0x00bdf004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010980, prefix_addr=0x10055f00, size=0x9)
-[W : PPU[1] Thread (CPUThread)[0x00bdf088]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x10307700, spurs_addr=0xd0010980)
-[W : PPU[1] Thread (CPUThread)[0x00bdf070]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010980, nSpus=1, spuPriority=2097154, ppuPriority=1, exitIfNoWork=192)
-[W : PPU[1] Thread (CPUThread)[0x00bdf004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010980, prefix_addr=0x10055f10, size=0x7)
-[W : PPU[1] Thread (CPUThread)[0x00bdf088]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x10309700, spurs_addr=0xd0010980)
-[W : PPU[1] Thread (CPUThread)[0x00bdf070]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010980, nSpus=1, spuPriority=2097154, ppuPriority=1, exitIfNoWork=64)
-[W : PPU[1] Thread (CPUThread)[0x00bdf004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010980, prefix_addr=0x10055f18, size=0xb)
-[W : PPU[1] Thread (CPUThread)[0x00bdf088]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x10308700, spurs_addr=0xd0010980)
-[E : PPU[1] Thread (CPUThread)[0x00bdf028]]: cellSpurs error: cellSpursGetSpuThreadGroupId(spurs_addr=0x10308700, group_addr=0xd0010974)
-[E : PPU[1] Thread (CPUThread)[0x00bdf028]]: cellSpurs error: cellSpursGetSpuThreadGroupId : CELL_SPURS_CORE_ERROR_NULL_POINTER
-[W : PPU[1] Thread (CPUThread)[0x00be113c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xbb1d58, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x004750c0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 37
-[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 38
-[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 39
-[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=39): id = 40
-[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=39): id = 41
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 42
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=42): id = 43
-[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [GSYSdiskIO] (): id = 44
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 45
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=45): id = 46
-[W : PPU[1] Thread (CPUThread)[0x0046bcbc]]: sys_cond warning: sys_cond_destroy(cond_id=46)
-[W : PPU[1] Thread (CPUThread)[0x0046bcd8]]: sys_mutex warning: sys_mutex_destroy(mutex_id=45)
-[! : PPU[1] Thread (CPUThread)[0x0046bcd8]]: Mutex(45) was owned by thread -1 (recursive=0)
-[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 47
-[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 48
-[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 49
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 50
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=50): id = 51
-[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 52
-[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=52): id = 53
-[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=52): id = 54
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 55
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=55): id = 56
-[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [GSYSstreamWorker] (): id = 57
-[W : PPU[1] Thread (CPUThread)[0x0046bcbc]]: sys_cond warning: sys_cond_destroy(cond_id=51)
-[W : PPU[1] Thread (CPUThread)[0x0046bcd8]]: sys_mutex warning: sys_mutex_destroy(mutex_id=50)
-[! : PPU[1] Thread (CPUThread)[0x0046bcd8]]: Mutex(50) was owned by thread -1 (recursive=0)
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 58
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=58): id = 59
-[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 60
-[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=60): id = 61
-[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=60): id = 62
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 63
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=63): id = 64
-[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [GSYSmemSwapper] (): id = 65
-[W : PPU[1] Thread (CPUThread)[0x004694a8]]: memory warning: sys_memory_container_create(cid_addr=0x10306254, yield_size=0x300000)
-[W : PPU[1] Thread (CPUThread)[0x004694a8]]: memory warning: *** memory_container created(addr=0x30500000): id = 66
-[E : PPU[1] Thread (CPUThread)[0x00be1184]]: TODO: cellGameDataCheckCreate2
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 67
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 68
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 69
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 70
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 71
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 72
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 73
-[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [GSYStimer] (): id = 74
-[W : PPU[1] Thread (CPUThread)[0x0046eb78]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 75
-[W : PPU[1] Thread (CPUThread)[0x0046eba4]]: sys_cond warning: *** condition created [] (mutex_id=75): id = 76
-[W : PPU[1] Thread (CPUThread)[0x0046ebbc]]: sys_cond warning: *** condition created [] (mutex_id=75): id = 77
-[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 78
-[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=78): id = 79
-[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=78): id = 80
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 81
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=81): id = 82
-[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [GSYStask] (): id = 83
-[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 84
-[E : PPU[1] Thread (CPUThread)[0x00bdf01c]]: cellSpurs error: cellSpursGetInfo(spurs_addr=0x10307700, info_addr=0xd0010980)
-[E : PPU[1] Thread (CPUThread)[0x00bdf058]]: TODO: cellSpursAddWorkload
-[E : PPU[1] Thread (CPUThread)[0x00bdf010]]: TODO: cellSpursRequestIdleSpu
-[E : PPU[1] Thread (CPUThread)[0x00bdf0ac]]: cellSpurs error: Unimplemented function: cellSpurssetExceptionEventHandler
-[E : PPU[1] Thread (CPUThread)[0x00bdf01c]]: cellSpurs error: cellSpursGetInfo(spurs_addr=0x10307700, info_addr=0xd0010980)
-[E : PPU[1] Thread (CPUThread)[0x00bdf058]]: TODO: cellSpursAddWorkload
-[E : PPU[1] Thread (CPUThread)[0x00bdf010]]: TODO: cellSpursRequestIdleSpu
-[E : PPU[1] Thread (CPUThread)[0x00bdf0ac]]: cellSpurs error: Unimplemented function: cellSpurssetExceptionEventHandler
-[E : PPU[1] Thread (CPUThread)[0x00bdf01c]]: cellSpurs error: cellSpursGetInfo(spurs_addr=0x10309700, info_addr=0xd0010980)
-[E : PPU[1] Thread (CPUThread)[0x00bdf058]]: TODO: cellSpursAddWorkload
-[E : PPU[1] Thread (CPUThread)[0x00bdf010]]: TODO: cellSpursRequestIdleSpu
-[E : PPU[1] Thread (CPUThread)[0x00bdf0ac]]: cellSpurs error: Unimplemented function: cellSpurssetExceptionEventHandler
-[E : PPU[1] Thread (CPUThread)[0x00bdf01c]]: cellSpurs error: cellSpursGetInfo(spurs_addr=0x10309700, info_addr=0xd0010980)
-[E : PPU[1] Thread (CPUThread)[0x00bdf058]]: TODO: cellSpursAddWorkload
-[E : PPU[1] Thread (CPUThread)[0x00bdf010]]: TODO: cellSpursRequestIdleSpu
-[E : PPU[1] Thread (CPUThread)[0x00bdf0ac]]: cellSpurs error: Unimplemented function: cellSpurssetExceptionEventHandler
-[W : PPU[1] Thread (CPUThread)[0x00b56040]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/defaultArgum" not found.
-[W : PPU[1] Thread (CPUThread)[0x00b56040]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/XXXX" not found.
-[W : PPU[1] Thread (CPUThread)[0x00bdb010]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0010724)
-[E : PPU[1] Thread (CPUThread)[0x00bdd040]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
-[W : PPU[1] Thread (CPUThread)[0x00be113c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0xbba940, userdata=0x100d4790)
-[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010640)
-[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x1ff00000, mem_id=0x55, flags=0x40000)
-[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory mapped 0x30800000 to 0x1ff00000 size=0x100000
-[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 86
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 87
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=87): id = 88
-[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 89
-[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 90
-[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=90): id = 91
-[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=90): id = 92
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 93
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=93): id = 94
-[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [dataStream] (): id = 95
-[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 96
-[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 97
-[E : PPU[1] Thread (CPUThread)[0x00450c0c]]: Write32 to null block: [100e7cfc]: 182d1
-[E : PPU[1] Thread (CPUThread)[0x00450c10]]: Write32 to null block: [100e7cfc]: bb93
-[W : PPU[1] Thread (CPUThread)[0x00470804]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 98
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 99
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=99): id = 100
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 101
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=101): id = 102
-[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010040)
-[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x10200000, mem_id=0x67, flags=0x40000)
-[E : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x0046eb78]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 104
-[W : PPU[1] Thread (CPUThread)[0x0046eba4]]: sys_cond warning: *** condition created [] (mutex_id=104): id = 105
-[W : PPU[1] Thread (CPUThread)[0x0046ebbc]]: sys_cond warning: *** condition created [] (mutex_id=104): id = 106
-[W : PPU[1] Thread (CPUThread)[0x0046eb78]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 107
-[W : PPU[1] Thread (CPUThread)[0x0046eba4]]: sys_cond warning: *** condition created [] (mutex_id=107): id = 108
-[W : PPU[1] Thread (CPUThread)[0x0046ebbc]]: sys_cond warning: *** condition created [] (mutex_id=107): id = 109
-[W : PPU[1] Thread (CPUThread)[0x0046eb78]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 110
-[W : PPU[1] Thread (CPUThread)[0x0046eba4]]: sys_cond warning: *** condition created [] (mutex_id=110): id = 111
-[W : PPU[1] Thread (CPUThread)[0x0046ebbc]]: sys_cond warning: *** condition created [] (mutex_id=110): id = 112
-[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 113
-[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=113): id = 114
-[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=113): id = 115
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 116
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=116): id = 117
-[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [dataMan] (): id = 118
-[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 119
-[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=119): id = 120
-[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=119): id = 121
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 122
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=122): id = 123
-[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [dataManLoPri] (): id = 124
-[W : PPU[1] Thread (CPUThread)[0x00b56034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/shipRes.dat"): fd = 125
-[E : PPU[1] Thread (CPUThread)[0x00b56034]]: sys_fs error: "/dev_hdd1/cache/BCES00004/data/shipRes.dat" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00b56004]]: sys_fs warning: cellFsClose(fd=125)
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 126
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=126): id = 127
-[W : PPU[44] Thread (GSYSdiskIO)[0x00b56034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/shipRes.dat"): fd = 128
-[W : PPU[1] Thread (CPUThread)[0x0046bcbc]]: sys_cond warning: sys_cond_destroy(cond_id=127)
-[W : PPU[1] Thread (CPUThread)[0x0046bcd8]]: sys_mutex warning: sys_mutex_destroy(mutex_id=126)
-[! : PPU[1] Thread (CPUThread)[0x0046bcd8]]: Mutex(126) was owned by thread -1 (recursive=0)
-[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd000ff40)
-[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x10300000, mem_id=0x81, flags=0x40000)
-[E : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 130
-[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=130): id = 131
-[E : PPU[44] Thread (GSYSdiskIO)[0x00475a34]]: Read64 from null block: [00004784]
-[E : PPU[44] Thread (GSYSdiskIO)[0x00475a28]]: Read32 from null block: [0000477c]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e938]]: Read32 from null block: [00000050]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e944]]: Read32 from null block: [0000000c]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e94c]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[74] Thread (GSYStimer)[0x0046c76c]]: Read8 from null block: [8ccd8ea0]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[74] Thread (GSYStimer)[0x0046c79c]]: Read8 from null block: [8ccd8ea0]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[74] Thread (GSYStimer)[0x0046c32c]]: Read8 from null block: [8ccd8e88]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[74] Thread (GSYStimer)[0x004667e0]]: Read32 from null block: [f8010d24]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[74] Thread (GSYStimer)[0x004667e8]]: Write8 to null block: [f80100a0]: 0
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[74] Thread (GSYStimer)[0x00466800]]: Write32 to null block: [f80100b0]: 0
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[74] Thread (GSYStimer)[0x00466804]]: Write32 to null block: [f80100a4]: 0
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[74] Thread (GSYStimer)[0x00466808]]: Write32 to null block: [f80100a8]: 0
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[74] Thread (GSYStimer)[0x0046680c]]: Write32 to null block: [f80100ac]: 0
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[74] Thread (GSYStimer)[0x00466810]]: Read32 from null block: [f8010d24]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[74] Thread (GSYStimer)[0x0046682c]]: Write32 to null block: [f8010d24]: 1
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[74] Thread (GSYStimer)[0x00466830]]: Read32 from null block: [f8010d28]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[74] Thread (GSYStimer)[0x0046683c]]: Read32 from null block: [f8010d28]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[74] Thread (GSYStimer)[0x00466848]]: Write32 to null block: [f8010d28]: 1
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[74] Thread (GSYStimer)[0x00466260]]: Read32 from null block: [81230018]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[74] Thread (GSYStimer)[0x00466274]]: Read32 from null block: [8123001c]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[74] Thread (GSYStimer)[0x00466278]]: PPU[74] Thread (GSYStimer) branch error: bad address 0x0 #pc: 0x466278
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
-[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
-[W : PPU[124] Thread (dataManLoPri)[0x0046ea44]]: sys_cond_wait(id=108) aborted
-[W : PPU[57] Thread (GSYSstreamWorker)[0x0046e964]]: sys_cond_wait(id=53) aborted
-[W : PPU[83] Thread (GSYStask)[0x0046ea44]]: sys_cond_wait(id=76) aborted
-[W : PPU[118] Thread (dataMan)[0x0046ea44]]: sys_cond_wait(id=105) aborted
-[W : PPU[65] Thread (GSYSmemSwapper)[0x0046e964]]: sys_cond_wait(id=61) aborted
-[W : PPU[95] Thread (dataStream)[0x0046bc58]]: sys_cond_wait(id=88) aborted
-[!]: Mutex(130) was owned by thread 1 (recursive=1)
-[!]: Closing memory...
+HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> ./dev_hdd0/
+LDR: ! /dev_hdd1/ -> ./dev_hdd1/
+LDR: ! /dev_flash/ -> ./dev_flash/
+LDR: ! /dev_usb000/ -> ./dev_usb000/
+LDR: ! /dev_usb/ -> ./dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME//../
+LDR: ! /host_root/ -> 
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME//USRDIR/
+LDR: ! /dev_flash2/ -> ./dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME//USRDIR/
+LDR: ! //dev_hdd0/ -> ./dev_hdd0/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME//USRDIR/
+LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME//USRDIR/
+LDR: !  
+LDR: ! Title: Lair
+LDR: ! Serial: BCES00004
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0x4560690000
+MEM: ! Memory initialized.
+LDR: ! Imported function 'sceNpBasicGetFriendListEntry' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetTicket' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreGetRankingByRangeAsync' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreDestroyTitleCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicAddFriend' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreInit' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreGetRankingByNpIdAsync' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicSetPresence' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicSendMessageAttachment' in 'sceNp' module
+LDR: ! Imported function 'sceNpTerm' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetContentRatingFlag' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreCreateTransactionCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerRequestTicket' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreTerm' in 'sceNp' module
+LDR: ! Imported function 'sceNpScorePollAsync' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetStatus' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicUnregisterHandler' in 'sceNp' module
+LDR: ! Imported function 'sceNpDrmIsAvailable' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetFriendListEntryCount' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetAccountRegion' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicRecvMessageAttachment' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreCreateTitleCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicRegisterHandler' in 'sceNp' module
+LDR: ! Imported function 'sceNpInit' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreDestroyTransactionCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpBasicGetEvent' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerRegisterCallback' in 'sceNp' module
+LDR: ! Imported function 'sceNpFriendlist' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreRecordScoreAsync' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetOnlineName' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetNpId' in 'sceNp' module
+LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module
+LDR: ! Imported function 'cellFsClose' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpendir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRead' in 'sys_fs' module
+LDR: ! Imported function 'cellFsReaddir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpen' in 'sys_fs' module
+LDR: ! Imported function 'cellFsStat' in 'sys_fs' module
+LDR: ! Imported function 'cellFsUnlink' in 'sys_fs' module
+LDR: ! Imported function 'cellFsLseek' in 'sys_fs' module
+LDR: ! Imported function 'cellFsGetFreeSize' in 'sys_fs' module
+LDR: ! Imported function 'cellFsMkdir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsWrite' in 'sys_fs' module
+LDR: ! Imported function 'cellFsFstat' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRename' in 'sys_fs' module
+LDR: ! Imported function 'cellFsClosedir' in 'sys_fs' module
+LDR: ! Imported function 'cellGcmSetUserHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetQueueHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetPrepareFlip' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetOffsetTable' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDebugOutputLevel' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetTimeStamp' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapEaIoAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetWaitFlip' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmMapMainMemory' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlipImmediate' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetInvalidateTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetGraphicsHandler' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetZcull' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetFlip' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmUnmapEaIoAddress' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module
+LDR: W Unknown module 'cellHttp'
+LDR: ! Imported function 'cellHttpCreateTransaction' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpResponseGetStatusCode' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpInit' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpDestroyTransaction' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpResponseGetContentLength' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpCreateClient' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpRequestSetHeader' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpRecvResponse' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpDestroyClient' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpSendRequest' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetUserAgent' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpEnd' in 'cellHttp' module
+LDR: ! Imported function 'cellHttpClientSetProxy' in 'cellHttp' module
+LDR: W Unimplemented function 'cellHttpUtilParseUri' in 'cellHttpUtil' module
+LDR: W Unimplemented function 'cellHttpUtilParseProxy' in 'cellHttpUtil' module
+LDR: ! Imported function 'cellPadInfoPressMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetInfo' in 'sys_io' module
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
+LDR: ! Imported function 'cellPadInfoSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetSensorMode' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPressMode' in 'sys_io' module
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_process_atexitspawn' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_mmapper_free_memory' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_mmapper_unmap_memory' in 'sysPrxForUser' module
+LDR: ! Imported function 'Unknown func id: 0x4f7172c9' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_trylock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_mmapper_allocate_memory' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_mmapper_map_memory' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'socketpoll' in 'sys_net' module
+LDR: ! Imported function 'sys_net_initialize_network_ex' in 'sys_net' module
+LDR: W Unimplemented function 'getsockname' in 'sys_net' module
+LDR: ! Imported function 'recvfrom' in 'sys_net' module
+LDR: ! Imported function 'listen' in 'sys_net' module
+LDR: W Unimplemented function 'socketselect' in 'sys_net' module
+LDR: W Unimplemented function 'getsockopt' in 'sys_net' module
+LDR: ! Imported function '_sys_net_errno_loc' in 'sys_net' module
+LDR: ! Imported function 'connect' in 'sys_net' module
+LDR: ! Imported function 'socketclose' in 'sys_net' module
+LDR: W Unimplemented function 'gethostbyname' in 'sys_net' module
+LDR: ! Imported function 'setsockopt' in 'sys_net' module
+LDR: ! Imported function 'sendto' in 'sys_net' module
+LDR: ! Imported function 'socket' in 'sys_net' module
+LDR: ! Imported function 'shutdown' in 'sys_net' module
+LDR: W Unimplemented function 'inet_aton' in 'sys_net' module
+LDR: ! Imported function 'bind' in 'sys_net' module
+LDR: ! Imported function 'sys_net_finalize_network' in 'sys_net' module
+LDR: ! Imported function 'accept' in 'sys_net' module
+LDR: ! Imported function 'send' in 'sys_net' module
+LDR: ! Imported function 'recv' in 'sys_net' module
+LDR: ! Imported function 'cellNetCtlNetStartDialogLoadAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlNetStartDialogUnloadAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlTerm' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlGetInfo' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlGetState' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlInit' in 'cellNetCtl' module
+LDR: ! Imported function 'cellSpursAttributeSetNamePrefix' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursRequestIdleSpu' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursGetInfo' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursGetSpuThreadGroupId' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursDetachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursRemoveWorkload' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursWaitForWorkloadShutdown' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAddWorkload' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursSetPriorities' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursAttributeInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursShutdownWorkload' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursInitializeWithAttribute' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAttachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursFinalize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursSetExceptionEventHandler' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursReadyCountStore' in 'cellSpurs' module
+LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellWebBrowserConfigSetFullScreen2' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysCacheMount' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetDeviceInfo' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogGetSize' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogUnloadAsync' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogOpenErrorCode' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilGetSystemParamInt' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutConfigure' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellWebBrowserConfigSetTabCount2' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogAbort' in 'cellSysutil' module
+LDR: ! Imported function 'cellWebBrowserEstimate2' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellWebBrowserInitialize' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetNumberOfDevice' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogOpen2' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetDeviceInfo' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAddSupportLanguage' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellWebBrowserConfig2' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogLoadAsync' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataAutoSave2' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilGetSystemParamString' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellWebBrowserShutdown' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolutionAvailability' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellWebBrowserCreate2' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetKeyLayoutOption' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAbort' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetSoundAvailability' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellWebBrowserConfigSetFunction2' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetNumberOfDevice' in 'cellSysutil' module
+LDR: ! Imported function 'cellGameDataCheckCreate' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellWebBrowserDestroy2' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataDelete2' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetLayoutMode' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataAutoLoad2' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellWebBrowserConfigSetHeapSize2' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysmoduleUnloadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleLoadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleInitialize' in 'cellSysmodule' module
+LDR: ! Imported function 'cellVdecClose' in 'libvdec' module
+LDR: ! Imported function 'cellVdecGetPicItem' in 'libvdec' module
+LDR: ! Imported function 'cellVdecDecodeAu' in 'libvdec' module
+LDR: ! Imported function 'cellVdecGetPicture' in 'libvdec' module
+LDR: ! Imported function 'cellVdecEndSeq' in 'libvdec' module
+LDR: ! Imported function 'cellVdecOpen' in 'libvdec' module
+LDR: ! Imported function 'cellVdecStartSeq' in 'libvdec' module
+LDR: ! Imported function 'cellVdecQueryAttr' in 'libvdec' module
+LDR: W Unimplemented function 'UCS2stoUTF8s' in 'cellL10n' module
+HLE: W {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x1052a168, attr_addr=0x1007fb84)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x1052a180, attr_addr=0x1007fb84)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100020, attr_addr=0x1007fb84)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100050, attr_addr=0x1007fb84)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100080, attr_addr=0x1007fb84)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000b0, attr_addr=0x1007fb84)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000e0, attr_addr=0x1007fb84)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100110, attr_addr=0x1007fb84)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 10
+HLE: W {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100140, attr_addr=0x1007fb84)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 11
+HLE: W {PPU[1] Thread (CPUThread)[0x0046598c]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000f870)
+HLE: W {PPU[1] Thread (CPUThread)[0x004512c0]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000f744)
+HLE: W {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x102fb088, attr_addr=0xd000f600)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 12
+HLE: W {PPU[1] Thread (CPUThread)[0x004508c4]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000f694)
+HLE: W {PPU[1] Thread (CPUThread)[0x00450994]} sys_mmapper warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x0, alloc_addr=0xd000f690)
+HLE: W {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x102fc048, attr_addr=0xd000f4d0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00bad034]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 13
+G: E {PPU[1] Thread (CPUThread)[0x00448a64]} Exception: Access violation: addr = 0x10 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
+HLE: ! All threads stopped...
+MEM: ! Closing memory...
