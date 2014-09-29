@@ -17,11 +17,12 @@ LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01731-[South Park The Stick of Truth]/PS3_GAME//USRDIR/
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01731-[South Park The Stick of Truth]/PS3_GAME//USRDIR/
+LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01731-[South Park The Stick of Truth]/PS3_GAME//USRDIR/
 LDR: !  
 LDR: ! Title: South Park™: The Stick of Truth™
 LDR: ! Serial: BLES01731
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xcf0a270000
+MEM: ! Initializing memory: m_base_addr = 0xc889c50000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellGameGetParamString' in 'cellGame' module
 LDR: ! Imported function 'cellGameCreateGameData' in 'cellGame' module
@@ -346,8 +347,8 @@ HLE: E {PPU[1] Thread (CPUThread)[0x0270e01c]} sys_net TODO: sys_net_free_thread
 HLE: W {PPU[1] Thread (CPUThread)[0x0272810c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf70698)
 HLE: W {PPU[1] Thread (CPUThread)[0x0272810c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xfc8c70)
 HLE: W {PPU[1] Thread (CPUThread)[0x0272810c]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf76698)
-PPU: ! {PPULLVMRecompiler} Removed 5 old versions
-PPU: ! {PPULLVMRecompiler} Removed 75 old versions
+PPU: ! {PPULLVMRecompiler} Removed 3 old versions
+PPU: ! {PPULLVMRecompiler} Removed 78 old versions
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...

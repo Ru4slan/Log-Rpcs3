@@ -17,11 +17,12 @@ LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288//USRDIR/
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288//USRDIR/
+LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288//USRDIR/
 LDR: !  
 LDR: ! Title: Journey
 LDR: ! Serial: NPEA00288
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xdc682a0000
+MEM: ! Initializing memory: m_base_addr = 0xff01b0000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'HotLoadEUGold'
 LDR: ! Imported function 'Unknown func id: 0x0435dfc7' in 'HotLoadEUGold' module
@@ -745,7 +746,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond cr
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30240f30, attr_addr=0xd000f560)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 84
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30240f30): id = 85
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=10, info_addr=0xd000f5a0)
+HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f5a0)
 HLE: E {PPU[1] Thread (CPUThread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b580)
 HLE: E {PPU[1] Thread (CPUThread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b59c)
 HLE: E {PPU[1] Thread (CPUThread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b5b8)
@@ -806,8 +807,8 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00ecf190]} cellSpurs warning: cellSpursAttac
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecf190]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=103, eq_id=116, req=0x2, spup_addr=0xd000f550)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecf190]} sys_spu warning: *** spup -> 1
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecf154]} cellSpurs warning: cellSpursAddWorkload(spurs_addr=0x37a00400, wid_addr=0xe8e600, pm_addr=0x674080, size=0xa00, data=0xe8e680, priorityTable_addr=0x9a3ec4, minContention=0x1, maxContention=0x6)
-HLE: E {PPU[1] Thread (CPUThread)[0x00ecf178]} cellSpurs TODO: _cellSpursWorkloadFlagReceiver
-HLE: E {PPU[1] Thread (CPUThread)[0x00ecf1a8]} cellSpurs TODO: cellSpursReadyCountStore
+HLE: W {PPU[1] Thread (CPUThread)[0x00ecf178]} cellSpurs warning: _cellSpursWorkloadFlagReceiver(spurs_addr=0x37a00400, wid=0, is_set=1)
+HLE: W {PPU[1] Thread (CPUThread)[0x00ecf1a8]} cellSpurs warning: cellSpursReadyCountStore(spurs_addr=0x37a00400, wid=0, value=0x6)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecf160]} cellSpurs warning: cellSpursWakeUp(spurs_addr=0x37a00400)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
@@ -818,7 +819,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x006d9004]} cellGame warning: cellGameContent
 HLE: W {PPU[1] Thread (CPUThread)[0x00ed1028]} cellNetCtl warning: cellNetCtlInit()
 TTY: [37;41mTTY: sceNpManagerGetStatus() failed: TTY: [0mTTY: [37;41mTTY: 0xTTY: [0mTTY: [37;41mTTY: 8002aa01TTY: [0mTTY: [37;41mTTY: 
 TTY: [0mHLE: E {PPU[1] Thread (CPUThread)[0x00edb0f4]} sceNp TODO: sceNpManagerRegisterCallback
-HLE: E {PPU[1] Thread (CPUThread)[0x00ecf19c]} cellSpurs TODO: cellSpursGetWorkloadFlag
+HLE: W {PPU[1] Thread (CPUThread)[0x00ecf19c]} cellSpurs warning: cellSpursGetWorkloadFlag(spurs_addr=0x37a00400, flag_addr=0xd000f560)
 TTY: [37;41mTTY: Booting game
 TTY: [0mTTY:  + create reliability system
 HLE: W {PPU[1] Thread (CPUThread)[0x006d7010]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
@@ -840,7 +841,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond cr
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302c7270, attr_addr=0xd000f440)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 123
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302c7270): id = 124
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=10, info_addr=0xd000f370)
+HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f370)
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x39523210, attr_addr=0x5489b0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 125
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302c9e60, attr_addr=0xd000f340)
@@ -849,7 +850,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond cr
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302c9e90, attr_addr=0xd000f3c0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 128
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302c9e90): id = 129
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=10, info_addr=0xd000f2f0)
+HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f2f0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x34b20b00, attr_addr=0xd000f640)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 130
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x34b20b28, attr_addr=0xd000f640)
@@ -861,18 +862,18 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond cr
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302cee90, attr_addr=0xd000f360)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 135
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302cee90): id = 136
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=10, info_addr=0xd000f290)
+HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f290)
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d05a0, attr_addr=0xd000f270)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 137
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d05a0): id = 138
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d05e0, attr_addr=0xd000f2f0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 139
 HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d05e0): id = 140
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=10, info_addr=0xd000f220)
+HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f220)
 HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd000f2f0, drm_path_addr=0xd000f390('/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx'))
 HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx
 HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Using k_licensee 0x0b0090227200902272009022720090227
-PPU: ! {PPULLVMRecompiler} Removed 7 old versions
+PPU: ! {PPULLVMRecompiler} Removed 8 old versions
 LDR: E {PPU[1] Thread (CPUThread)[0x00edb0ac]} EDAT: D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288\USRDIR\Data\Prx\HotLoadEUGold.sprx has invalid NPD header or already decrypted.
 HLE: E {PPU[1] Thread (CPUThread)[0x00eed034]} sys_prx TODO: sys_prx_load_module(path="/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx", flags=0x0, pOpt=0x0)
 LDR: E {PPU[1] Thread (CPUThread)[0x00eed034]} SELF: Failed to decrypt metadata info!
@@ -885,10 +886,10 @@ HLE: E {PPU[1] Thread (CPUThread)[0x00eed034]} sys_prx TODO: sys_prx_load_module
 LDR: E {PPU[1] Thread (CPUThread)[0x00eed034]} SELF: Failed to decrypt metadata info!
 LDR: E {PPU[1] Thread (CPUThread)[0x00eed034]} SELF: Failed to load SELF file metadata!
 G: E {PPU[1] Thread (CPUThread)[0x0020a7d0]} Exception: Access violation: addr = 0xcffed860 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
-PPU: ! {PPULLVMRecompiler} Removed 130 old versions
+PPU: ! {PPULLVMRecompiler} Removed 185 old versions
+RSX: W {VBlank thread} VBlank thread aborted
 RSX: W {RSXThread} RSX thread aborted
 HLE: W {PPU[117] Thread (spu_printf_handler)[0x002aad50]} sys_event warning: sys_event_queue_receive(equeue=116) aborted
-RSX: W {VBlank thread} VBlank thread aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...

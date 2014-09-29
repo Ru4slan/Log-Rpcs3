@@ -17,11 +17,12 @@ LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00223//USRDIR/
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00223//USRDIR/
+LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00223//USRDIR/
 LDR: !  
 LDR: ! Title: Ricochet HD
 LDR: ! Serial: NPEB00223
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xf679290000
+MEM: ! Initializing memory: m_base_addr = 0xbae7d50000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'sceNpBasicGetFriendListEntry' in 'sceNp' module
 LDR: ! Imported function 'sceNpScoreRecordGameData' in 'sceNp' module
@@ -464,19 +465,21 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 70
 HLE: W {PPU[61] Thread (fs-as-path)[0x0070c110]} sys_fs warning: cellFsClose(fd=67)
 HLE: W {PPU[61] Thread (fs-as-path)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301e4800)
+HLE: W {PPU[61] Thread (fs-as-path)[0x0070c110]} sys_fs warning: cellFsClose(fd=69)
+HLE: W {PPU[61] Thread (fs-as-path)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30206ca0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xcbe9b8, attr_addr=0xd000f764)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 71
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302e2568, attr_addr=0xd000f610)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d23f8, attr_addr=0xd000f610)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 72
-HLE: W {PPU[1] Thread (CPUThread)[0x006b0e98]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x302e2580, attr_addr=0xd000f620, initial_count=0, max_count=1)
+HLE: W {PPU[1] Thread (CPUThread)[0x006b0e98]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x302d2410, attr_addr=0xd000f620, initial_count=0, max_count=1)
 HLE: ! {PPU[1] Thread (CPUThread)[0x006b0e98]} sys_semaphore: *** semaphore created [] (protocol=0x2): id = 73
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302e2598, attr_addr=0xd000f788)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d2428, attr_addr=0xd000f788)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 74
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302e25b0, attr_addr=0xd000f788)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d2440, attr_addr=0xd000f788)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 75
-HLE: W {PPU[1] Thread (CPUThread)[0x007507ac]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x302e25d4, attr_addr=0xd000f798, initial_count=0, max_count=4)
+HLE: W {PPU[1] Thread (CPUThread)[0x007507ac]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x302d2464, attr_addr=0xd000f798, initial_count=0, max_count=4)
 HLE: ! {PPU[1] Thread (CPUThread)[0x007507ac]} sys_semaphore: *** semaphore created [] (protocol=0x2): id = 76
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302e3f10, attr_addr=0xd000f788)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d3da0, attr_addr=0xd000f788)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 77
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb028]} sys_ppu_thread: *** New PPU Thread [saveLoadThread] (non-joinable, entry=0xbc2dc8): id = 78
 HLE: E {PPU[1] Thread (CPUThread)[0x00b42184]} sceNp TODO: sceNpManagerGetOnlineName
@@ -517,72 +520,70 @@ HLE: ! {PPU[1] Thread (CPUThread)[0x00ed1058]} sys_ppu_thread: *** New PPU Threa
 HLE: E {PPU[1] Thread (CPUThread)[0x00ed1058]} sys_spu TODO: sys_spu_thread_group_connect_event(id=96, eq=102, et=0x2)
 HLE: W {PPU[1] Thread (CPUThread)[0x00b4e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ed3040]} cellNetCtl warning: cellNetCtlInit()
-HLE: W {PPU[61] Thread (fs-as-path)[0x0070c110]} sys_fs warning: cellFsClose(fd=69)
-HLE: W {PPU[61] Thread (fs-as-path)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30206ca0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301e8280, attr_addr=0xd000fa38)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 106
 HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x301e8280): id = 107
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30206b80, attr_addr=0xd000f998)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d3e20, attr_addr=0xd000f998)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 108
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30206b80): id = 109
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30206c20, attr_addr=0xd000fa18)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d3e20): id = 109
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d3e90, attr_addr=0xd000fa18)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 110
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30206c20): id = 111
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30206c90, attr_addr=0xd000fa28)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d3e90): id = 111
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d3f00, attr_addr=0xd000fa28)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 112
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30206c90): id = 113
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d2400, attr_addr=0xd000fa28)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d3f00): id = 113
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d3f70, attr_addr=0xd000fa28)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 114
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d2400): id = 115
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d2470, attr_addr=0xd000fa28)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d3f70): id = 115
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d3fe0, attr_addr=0xd000fa28)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 116
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d2470): id = 117
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d24e0, attr_addr=0xd000fa28)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d3fe0): id = 117
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d4050, attr_addr=0xd000fa28)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 118
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d24e0): id = 119
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d2550, attr_addr=0xd000fa28)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d4050): id = 119
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d40c0, attr_addr=0xd000fa28)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 120
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d2550): id = 121
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d25c0, attr_addr=0xd000fa28)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d40c0): id = 121
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d4130, attr_addr=0xd000fa28)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 122
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d25c0): id = 123
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d2630, attr_addr=0xd000fa28)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d4130): id = 123
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d41a0, attr_addr=0xd000fa28)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 124
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d2630): id = 125
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d26e0, attr_addr=0xd000fa48)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d41a0): id = 125
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d4250, attr_addr=0xd000fa48)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 126
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d26e0): id = 127
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d2750, attr_addr=0xd000fa48)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d4250): id = 127
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d42c0, attr_addr=0xd000fa48)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 128
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d2750): id = 129
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d27c0, attr_addr=0xd000fa48)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d42c0): id = 129
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d4330, attr_addr=0xd000fa48)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 130
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d27c0): id = 131
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d2830, attr_addr=0xd000fa48)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d4330): id = 131
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d43a0, attr_addr=0xd000fa48)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 132
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d2830): id = 133
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d28a0, attr_addr=0xd000fa48)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d43a0): id = 133
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d4410, attr_addr=0xd000fa48)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 134
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d28a0): id = 135
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d2950, attr_addr=0xd000f998)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d4410): id = 135
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d44c0, attr_addr=0xd000f998)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 136
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d2950): id = 137
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d2a00, attr_addr=0xd000f998)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d44c0): id = 137
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d4570, attr_addr=0xd000f998)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 138
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d2a00): id = 139
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d2a70, attr_addr=0xd000fa18)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d4570): id = 139
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d45e0, attr_addr=0xd000fa18)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 140
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d2a70): id = 141
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d3610, attr_addr=0xd000f7e8)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d45e0): id = 141
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d5180, attr_addr=0xd000f7e8)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 142
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d3610): id = 143
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d5ea0, attr_addr=0xd000f878)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d5180): id = 143
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d7a10, attr_addr=0xd000f878)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 144
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d5ea0): id = 145
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d5f10, attr_addr=0xd000f748)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d7a10): id = 145
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d7a80, attr_addr=0xd000f748)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 146
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d5f10): id = 147
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed3028]} cellNetCtl TODO: cellNetCtlGetInfo(code=10, info_addr=0xd000f790)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d7a80): id = 147
+HLE: E {PPU[1] Thread (CPUThread)[0x00ed3028]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f790)
 HLE: W {PPU[1] Thread (CPUThread)[0x00a02670]} sys_event warning: sys_event_queue_create(equeue_id_addr=0xe24ea8, attr_addr=0xd000f9f4, event_queue_key=0x0, size=8)
 HLE: W {PPU[1] Thread (CPUThread)[0x00a02670]} sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1, key=0x0, size=0x8): id = 148
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb028]} sys_ppu_thread: *** New PPU Thread [spu_printf_handler] (joinable, entry=0xbc7ee0): id = 149
@@ -593,8 +594,8 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00ed1064]} cellSpurs warning: cellSpursAttac
 HLE: W {PPU[1] Thread (CPUThread)[0x00ed1064]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=96, eq_id=148, req=0x2, spup_addr=0xd000f9f0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ed1064]} sys_spu warning: *** spup -> 1
 HLE: W {PPU[1] Thread (CPUThread)[0x00ed1028]} cellSpurs warning: cellSpursAddWorkload(spurs_addr=0xbfe380, wid_addr=0xe3520c, pm_addr=0xb26980, size=0xa00, data=0xe35280, priorityTable_addr=0xbefb10, minContention=0x1, maxContention=0x2)
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed104c]} cellSpurs TODO: _cellSpursWorkloadFlagReceiver
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed107c]} cellSpurs TODO: cellSpursReadyCountStore
+HLE: W {PPU[1] Thread (CPUThread)[0x00ed104c]} cellSpurs warning: _cellSpursWorkloadFlagReceiver(spurs_addr=0xbfe380, wid=0, is_set=1)
+HLE: W {PPU[1] Thread (CPUThread)[0x00ed107c]} cellSpurs warning: cellSpursReadyCountStore(spurs_addr=0xbfe380, wid=0, value=0x2)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ed1034]} cellSpurs warning: cellSpursWakeUp(spurs_addr=0xbfe380)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ec90e8]} cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ec90e8]} cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
@@ -616,25 +617,13 @@ HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf040]} sys_fs: "/dev_flash/sys/external/
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecf01c]} sys_fs warning: cellFsClose(fd=152)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb028]} sys_ppu_thread: *** New PPU Thread [PhyreEngineMultiStreamUpdateThread] (joinable, entry=0xbc55f0): id = 153
 HLE: W {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed5034]} cellAudio warning: cellAudioPortStart(portNum=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d98e0, attr_addr=0xd000f6f8)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302eca20, attr_addr=0xd000f6f8)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 154
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d98e0): id = 155
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d9950, attr_addr=0xd000f788)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302eca20): id = 155
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302eca90, attr_addr=0xd000f788)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 156
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d9950): id = 157
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed3028]} cellNetCtl TODO: cellNetCtlGetInfo(code=10, info_addr=0xd000f6a0)
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0dc]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302eca90): id = 157
+HLE: E {PPU[1] Thread (CPUThread)[0x00ed3028]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f6a0)
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
@@ -840,8 +829,14 @@ HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSp
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[1] Thread (CPUThread)[0x00b4e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[1] Thread (CPUThread)[0x00b4a004]} sys_io warning: cellPadInit(max_connect=7)
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[1] Thread (CPUThread)[0x00b46010]} cellNpCommerce2 warning: sceNpCommerce2Init()
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[1] Thread (CPUThread)[0x00b4e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
 HLE: W {PPU[1] Thread (CPUThread)[0x00b4e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 HLE: W {PPU[1] Thread (CPUThread)[0x00b4e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
@@ -851,194 +846,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00b4e010]} cellSysmodule warning: cellSysmod
 HLE: W {PPU[1] Thread (CPUThread)[0x00b4e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
 HLE: W {PPU[1] Thread (CPUThread)[0x002f0b40]} sys_spu warning: sys_spu_initialize(max_usable_spu=1, max_raw_spu=1)
 HLE: W {PPU[1] Thread (CPUThread)[0x002f0eb0]} sys_spu warning: sys_raw_spu_create(id_addr=0xbf9f64, attr_addr=0xd000f840)
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb010]} cellGcmSys warning: _cellGcmInitBody(context_addr=0xe1dc28, cmdSize=0x10000, ioSize=0x100000, ioAddress=0x31100000)
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-PPU: ! {PPULLVMRecompiler} Removed 45 old versions
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
@@ -1107,19 +915,13 @@ HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSp
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb010]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb010]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb010]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x31100000, io=0x0, size=0x100000)
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 RSX: ! {RSXThread} RSX thread started
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb070]} cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
 HLE: E {PPU[1] Thread (CPUThread)[0x00ecb16c]} cellGcmSys TODO: cellGcmSetGraphicsHandler
@@ -1147,31 +949,7 @@ HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSp
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb094]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x31400000, io=0xe000000, size=0x100000)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb184]} cellGcmSys warning: cellGcmUnbindTile(index=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb184]} cellGcmSys warning: cellGcmUnbindTile(index=1)
@@ -1188,23 +966,23 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00ecb184]} cellGcmSys warning: cellGcmUnbind
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb184]} cellGcmSys warning: cellGcmUnbindTile(index=12)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb184]} cellGcmSys warning: cellGcmUnbindTile(index=13)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb184]} cellGcmSys warning: cellGcmUnbindTile(index=14)
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 1
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb148]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=257163264, size=3932160, pitch=5120, comp=0, base=0, bank=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb058]} cellGcmSys warning: cellGcmBindTile(index=0)
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 3
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x3
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb148]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=253231104, size=7864320, pitch=5120, comp=0, base=0, bank=0)
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb058]} cellGcmSys warning: cellGcmBindTile(index=0)
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 5
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x5
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb148]} cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=249298944, size=3932160, pitch=5120, comp=10, base=1, bank=3)
 HLE: E {PPU[1] Thread (CPUThread)[0x00ecb148]} cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (10)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb058]} cellGcmSys warning: cellGcmBindTile(index=1)
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 7
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x7
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb0dc]} cellGcmSys warning: cellGcmBindZcull(index=0)
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
@@ -1218,20 +996,14 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00ecb0f4]} cellGcmSys warning: cellGcmSetFli
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb130]} cellGcmSys warning: cellGcmSetVBlankHandler(handler_addr=0xba7128)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ec9010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000f710, option_addr=0x0, waitForEvent=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb064]} cellGcmSys warning: cellGcmSetFlipMode(mode=1)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
-RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 0x10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: 0xff000007
 RSX: W {RSXThread} New FBO (1280x720)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[1] Thread (CPUThread)[0x002f061c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 160
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[1] Thread (CPUThread)[0x002f07c4]} sys_cond warning: *** condition created [] (mutex_id=160): id = 161
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
@@ -1251,11 +1023,11 @@ HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSp
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: f0d
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0xf0d
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
-RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 0x10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: 0xff000007
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb118]} cellGcmSys warning: cellGcmGetReportDataLocation(index=4991, location=1)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb118]} cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=4991, location=1)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb118]} cellGcmSys warning: cellGcmGetReportDataLocation(index=4992, location=1)
@@ -1276,39 +1048,6 @@ HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSp
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: ! {PPU[1] Thread (CPUThread)[0x0070c198]} sys_fs: "/dev_hdd0/game/NPEB00223/USRDIR/Data/Shaders/OverlayAlphaVP.cgelf" opened: fd = 162
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x31063130, attr_addr=0xad6db8)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 163
-HLE: W {PPU[1] Thread (CPUThread)[0x0070c110]} sys_fs warning: cellFsClose(fd=162)
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31063130)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0070c198]} sys_fs: "/dev_hdd0/game/NPEB00223/USRDIR/Data/Shaders/OverlayAlphaVP.cgelf" opened: fd = 164
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x31063130, attr_addr=0xad6db8)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 165
-HLE: W {PPU[1] Thread (CPUThread)[0x0070c110]} sys_fs warning: cellFsClose(fd=164)
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31063130)
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: ! {PPU[1] Thread (CPUThread)[0x0070c198]} sys_fs: "/dev_hdd0/game/NPEB00223/USRDIR/Data/Shaders/OverlayAlphaFP.cgelf" opened: fd = 166
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x31063ce0, attr_addr=0xad6db8)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 167
-HLE: W {PPU[1] Thread (CPUThread)[0x0070c110]} sys_fs warning: cellFsClose(fd=166)
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31063ce0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0070c198]} sys_fs: "/dev_hdd0/game/NPEB00223/USRDIR/Data/Shaders/OverlayAlphaFP.cgelf" opened: fd = 168
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x31063ce0, attr_addr=0xad6db8)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 169
-HLE: W {PPU[1] Thread (CPUThread)[0x0070c110]} sys_fs warning: cellFsClose(fd=168)
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31063ce0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecb064]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
@@ -1327,11 +1066,44 @@ RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
 RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
 RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
 RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 0x1
+HLE: ! {PPU[1] Thread (CPUThread)[0x0070c198]} sys_fs: "/dev_hdd0/game/NPEB00223/USRDIR/Data/Shaders/OverlayAlphaVP.cgelf" opened: fd = 162
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x31063100, attr_addr=0xad6db8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 163
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: W {PPU[1] Thread (CPUThread)[0x0070c110]} sys_fs warning: cellFsClose(fd=162)
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31063100)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0070c198]} sys_fs: "/dev_hdd0/game/NPEB00223/USRDIR/Data/Shaders/OverlayAlphaVP.cgelf" opened: fd = 164
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x31063100, attr_addr=0xad6db8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 165
+HLE: W {PPU[1] Thread (CPUThread)[0x0070c110]} sys_fs warning: cellFsClose(fd=164)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31063100)
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: ! {PPU[1] Thread (CPUThread)[0x0070c198]} sys_fs: "/dev_hdd0/game/NPEB00223/USRDIR/Data/Shaders/OverlayAlphaFP.cgelf" opened: fd = 166
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x31063cb0, attr_addr=0xad6db8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 167
+HLE: W {PPU[1] Thread (CPUThread)[0x0070c110]} sys_fs warning: cellFsClose(fd=166)
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31063cb0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0070c198]} sys_fs: "/dev_hdd0/game/NPEB00223/USRDIR/Data/Shaders/OverlayAlphaFP.cgelf" opened: fd = 168
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x31063cb0, attr_addr=0xad6db8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 169
+HLE: W {PPU[1] Thread (CPUThread)[0x0070c110]} sys_fs warning: cellFsClose(fd=168)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31063cb0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00ecb064]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
-RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 0x10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: 0xff000007
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb118]} cellGcmSys warning: cellGcmGetReportDataLocation(index=4991, location=1)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb118]} cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=4991, location=1)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb118]} cellGcmSys warning: cellGcmGetReportDataLocation(index=4992, location=1)
@@ -1341,21 +1113,37 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00ecb118]} cellGcmSys warning: cellGcmGetRep
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb118]} cellGcmSys warning: cellGcmGetReportDataLocation(index=4994, location=1)
 HLE: W {PPU[1] Thread (CPUThread)[0x00ecb118]} cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=4994, location=1)
 HLE: E {PPU[1] Thread (CPUThread)[0x00b42058]} sceNp TODO: sceNpDrmVerifyUpgradeLicense
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x31064418, attr_addr=0xd000f770)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x310643e8, attr_addr=0xd000f770)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 170
-HLE: W {PPU[1] Thread (CPUThread)[0x006b0e98]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x31064430, attr_addr=0xd000f780, initial_count=0, max_count=1)
+HLE: W {PPU[1] Thread (CPUThread)[0x006b0e98]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x31064400, attr_addr=0xd000f780, initial_count=0, max_count=1)
 HLE: ! {PPU[1] Thread (CPUThread)[0x006b0e98]} sys_semaphore: *** semaphore created [] (protocol=0x2): id = 171
-HLE: W {PPU[1] Thread (CPUThread)[0x007572f8]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x3106444c, attr_addr=0xd000f8f8, initial_count=0, max_count=32)
+HLE: W {PPU[1] Thread (CPUThread)[0x007572f8]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x3106441c, attr_addr=0xd000f8f8, initial_count=0, max_count=32)
 HLE: ! {PPU[1] Thread (CPUThread)[0x007572f8]} sys_semaphore: *** semaphore created [] (protocol=0x2): id = 172
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x31064558, attr_addr=0xd000f8e8)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x31064528, attr_addr=0xd000f8e8)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 173
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb028]} sys_ppu_thread: *** New PPU Thread [trophyThread] (non-joinable, entry=0xbc2dc8): id = 174
 HLE: W {PPU[174] Thread (trophyThread)[0x00b4e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
-HLE: W {PPU[174] Thread (trophyThread)[0x00ed7088]} sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x3106443c, commID_addr=0xad4540, commSign_addr=0xad454c, options=0x0)
+HLE: W {PPU[174] Thread (trophyThread)[0x00ed7088]} sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x3106440c, commID_addr=0xad4540, commSign_addr=0xad454c, options=0x0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00edb028]} sys_ppu_thread: *** New PPU Thread [SaveLoad] (non-joinable, entry=0xbbee00): id = 175
-HLE: W {PPU[78] Thread (saveLoadThread)[0x00ec9124]} cellSysutil warning: cellSaveDataAutoLoad2(version=0, dirName_addr=0xbfe33f, errDialog=0, setBuf=0x301e81d8, funcList=0xbcf510, funcStat=0xbcf530, funcFile=0xffffffff, container=0x301e8188, userdata_addr=0x7da270d0)
-HLE: W {PPU[174] Thread (trophyThread)[0x00ed7010]} sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x31064440)
-HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0xbcf950, arg_addr=0x310643e0, options=0x0)
+HLE: W {PPU[78] Thread (saveLoadThread)[0x00ec9124]} cellSysutil warning: cellSaveDataAutoLoad2(version=0, dirName_addr=0xbfe33f, errDialog=0, setBuf=0x301e81d8, funcList=0xbcf510, funcStat=0xbcf530, funcFile=0xffffffff, container=0x301e8188, userdata_addr=0xecab8470)
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[78] Thread (saveLoadThread)[0x00ec9124]} cellSysutil warning: cellSaveDataAutoLoad2: Couldn't find save entry (NPEB00223)
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
@@ -1363,7 +1151,90 @@ HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSp
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
+RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
+RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
+RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 0x1
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: 0xff000007
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: W {PPU[174] Thread (trophyThread)[0x00ed7010]} sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x31064410)
+HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0xbcf950, arg_addr=0x310643b0, options=0x0)
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: W {PPU[1] Thread (CPUThread)[0x0070c198]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\TestSave.dat')
+HLE: ! {PPU[1] Thread (CPUThread)[0x0070c198]} sys_fs: "TestSave.dat" opened: fd = 176
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302f1950, attr_addr=0xad6db8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 177
+HLE: W {PPU[1] Thread (CPUThread)[0x0070c110]} sys_fs warning: cellFsClose(fd=176)
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x302f1950)
+HLE: W {PPU[1] Thread (CPUThread)[0x0070c024]} sys_fs warning: cellFsUnlink(path="TestSave.dat")
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x310690f0, attr_addr=0xad6db8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00edb04c]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 178
+HLE: E {PPU[1] Thread (CPUThread)[0x0070c198]} sys_fs error: "/dev_hdd0/game/NPEB00223/USRDIR/Data/Cache/CFLs/RED.cfl" not found! flags: 0x00000000
+HLE: W {PPU[1] Thread (CPUThread)[0x00edb0d0]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x310690f0)
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[1] Thread (CPUThread)[0x00ecf040]} sys_fs error: "file:\EBOOT.BIN" not found! flags: 0x00000000
+HLE: E {PPU[1] Thread (CPUThread)[0x00ecf040]} sys_fs error: "file:\EBOOT.BIN" not found! flags: 0x00000000
+HLE: E {PPU[1] Thread (CPUThread)[0x00ecf040]} sys_fs error: "/dev_hdd0/game/NPEB00223/USRDIR/Data.ZIP" not found! flags: 0x00000000
+HLE: E {PPU[1] Thread (CPUThread)[0x00ecf040]} sys_fs error: "/dev_hdd0/game/NPEB00223/USRDIR/Data.ZIP" not found! flags: 0x00000000
+HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf040]} sys_fs: "/dev_hdd0/game/NPEB00223/USRDIR/Data.dat" opened: fd = 179
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROPCONF.SFM')
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\ICON0.PNG')
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
@@ -1371,7 +1242,61 @@ HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSp
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROP000.PNG')
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROP001.PNG')
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROP002.PNG')
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROP003.PNG')
@@ -1386,41 +1311,6 @@ HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emu
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROP006.PNG')
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROP007.PNG')
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROP008.PNG')
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 2
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 3
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 4
-RSX: W {RSXThread} NV4097_GET_REPORT: Unimplemented type 5
-RSX: W {RSXThread} TODO: NV4097_CLEAR_REPORT_VALUE: ZCULL_STATS
-RSX: W {RSXThread} NV4097_SET_ZCULL_STATS_ENABLE: 1
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 1
-RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000007
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
-HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROP009.PNG')
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROP010.PNG')
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROP011.PNG')
@@ -1430,5 +1320,16 @@ HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSp
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
 HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
-HLE: W {PPU[174] Thread (trophyThread)[0x00ed7004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR01282_00\TROPUSR.DAT')
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed10e8]} cellSpurs TODO: _cellSpursSendSignal
+HLE: E {PPU[153] Thread (PhyreEngineMultiStreamUpdateThread)[0x00ed1094]} cellSpurs TODO: cellSpursEventFlagWait
 HLE: W {PPU[174] Thread (trophyThread)[0x00ed7028]} sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd00efbf0, options=0x0)

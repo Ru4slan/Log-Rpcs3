@@ -17,11 +17,12 @@ LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00252//USRDIR/
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00252//USRDIR/
+LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00252//USRDIR/
 LDR: !  
 LDR: ! Title: inFamous
 LDR: ! Serial: NPEA00252
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xd238bd0000
+MEM: ! Initializing memory: m_base_addr = 0x87771f0000
 MEM: ! Memory initialized.
 LDR: ! Imported function '_cellSpursTasksetAttributeInitialize' in 'cellSpurs' module
 LDR: ! Imported function 'cellSpursRequestIdleSpu' in 'cellSpurs' module
@@ -421,7 +422,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x0071c040]} cellSpurs warning: cellSpursWorkl
 HLE: W {PPU[1] Thread (CPUThread)[0x0071c100]} cellSpurs warning: cellSpursAddWorkloadWithAttribute(spurs_addr=0x7cf280, wid_addr=0x915df8, attr_addr=0xd000f3e8)
 HLE: E {PPU[1] Thread (CPUThread)[0x0071c010]} cellSpurs TODO: cellSpursRequestIdleSpu
 HLE: E {PPU[1] Thread (CPUThread)[0x0071c124]} cellSpurs TODO: cellSpursSetExceptionEventHandler
-HLE: E {PPU[1] Thread (CPUThread)[0x0071c13c]} cellSpurs TODO: cellSpursReadyCountStore
+HLE: W {PPU[1] Thread (CPUThread)[0x0071c13c]} cellSpurs warning: cellSpursReadyCountStore(spurs_addr=0x7cf280, wid=0, value=0x5)
 HLE: E {PPU[1] Thread (CPUThread)[0x0071c058]} cellSpurs TODO: cellSpursGetWorkloadInfo
 HLE: E {PPU[1] Thread (CPUThread)[0x0071c058]} cellSpurs TODO: cellSpursGetWorkloadInfo
 HLE: W {PPU[1] Thread (CPUThread)[0x009fb04c]} cellGame warning: cellGameBootCheck(type_addr=0xd000f890, attributes_addr=0xd000f8a0, size_addr=0xd000f8bc, dirName_addr=0xd000f988)
@@ -439,7 +440,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x009f90c4]} cellSysutil warning: cellSysutilG
 HLE: W {PPU[1] Thread (CPUThread)[0x009f90c4]} cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_NICKNAME
 HLE: W {PPU[1] Thread (CPUThread)[0x009f9094]} cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x009f9034]} cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd000f7d8)
-HLE: W {PPU[1] Thread (CPUThread)[0x009f90dc]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x3b3579b0)
+HLE: W {PPU[1] Thread (CPUThread)[0x009f90dc]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x7a6f3640)
 G: E {PPU[1] Thread (CPUThread)[0x0011626c]} Exception: Access violation: addr = 0x0 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
 HLE: W {PPU[99] Thread (Job Manager Event Handler)[0x0041d998]} sys_event warning: sys_event_queue_receive(equeue=98) aborted
 HLE: W {PPU[71] Thread (Job Manager Event Handler)[0x0041d998]} sys_event warning: sys_event_queue_receive(equeue=70) aborted
