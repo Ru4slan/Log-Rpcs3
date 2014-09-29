@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: LittleBigPlanet™ Karting - Digital
 LDR: ! Serial: NPEA00421
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xdfee260000
+MEM: ! Initializing memory: m_base_addr = 0x2a5e8d0000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'cellRec'
 LDR: ! Imported function 'cellRecOpen' in 'cellRec' module

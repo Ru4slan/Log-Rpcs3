@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: FEZ
 LDR: ! Serial: NPEB01893
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x9b0a10000
+MEM: ! Initializing memory: m_base_addr = 0x9b797f0000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'cellSysutilAvconfExt'
 LDR: ! Imported function 'cellVideoOutGetScreenSize' in 'cellSysutilAvconfExt' module
@@ -509,12 +509,11 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00fe0058]} sys_lwmutex warning: sys_lwmutex_
 HLE: ! {PPU[1] Thread (CPUThread)[0x00fe0058]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 108
 HLE: W {PPU[1] Thread (CPUThread)[0x00fc4010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
 G: E {PPU[1] Thread (CPUThread)[0x006dbb1c]} Exception: Access violation: addr = 0xcffff990 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
-PPU: ! {PPULLVMRecompiler} Removed 2 old versions
-PPU: ! {PPULLVMRecompiler} Removed 7 old versions
-HLE: W {PPU[103] Thread (fios mediathread 2)[0x00fe0040]} sys_lwcond warning: sys_lwcond_wait(id=100) aborted
+PPU: ! {PPULLVMRecompiler} Removed 5 old versions
 HLE: W {PPU[105] Thread (fios mediathread 4)[0x00fe0040]} sys_lwcond warning: sys_lwcond_wait(id=102) aborted
-HLE: W {PPU[104] Thread (fios mediathread 3)[0x00fe0040]} sys_lwcond warning: sys_lwcond_wait(id=101) aborted
 HLE: W {PPU[106] Thread (fios scheduler 1)[0x00fe0040]} sys_lwcond warning: sys_lwcond_wait(id=96) aborted
+HLE: W {PPU[103] Thread (fios mediathread 2)[0x00fe0040]} sys_lwcond warning: sys_lwcond_wait(id=100) aborted
+HLE: W {PPU[104] Thread (fios mediathread 3)[0x00fe0040]} sys_lwcond warning: sys_lwcond_wait(id=101) aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...

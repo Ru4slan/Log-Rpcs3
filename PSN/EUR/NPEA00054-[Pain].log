@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: PAIN
 LDR: ! Serial: NPEA00054
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x936b9d0000
+MEM: ! Initializing memory: m_base_addr = 0x8c44140000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellCameraStop' in 'cellCamera' module
 LDR: ! Imported function 'cellCameraGetBufferInfoEx' in 'cellCamera' module
@@ -627,7 +627,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu warning: *** New SPU Thre
 HLE: E {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu TODO: Unsupported SPU Thread options (0x2)
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu warning: *** New SPU Thread [MainSpursCellSpursKernel2] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=59
 HLE: ! {PPU[1] Thread (CPUThread)[0x01417028]} sys_lwmutex: *** lwmutex created [_spuPrv] (attribute=0x22): sq_id = 60
-HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_lwcond warning: *** lwcond created [_spuPrv] (lwmutex_addr=0xa39e30): id = 61
+HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_lwcond warning: *** lwcond created [_spuPrv] (lwmutex_addr=0xa39eb0): id = 61
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_event warning: *** event_queue created [_spuPrv] (protocol=0x1, type=0x1, key=0x0, size=0x2a): id = 62
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=56, eq_id=62, req=0xffffffffffff0000, spup_addr=0xa39149)
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu warning: *** spup -> 16
@@ -664,7 +664,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu warning: *** New SPU Thre
 HLE: E {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu TODO: Unsupported SPU Thread options (0x2)
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu warning: *** New SPU Thread [SecondSpursCellSpursKernel1] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=85
 HLE: ! {PPU[1] Thread (CPUThread)[0x01417028]} sys_lwmutex: *** lwmutex created [_spuPrv] (attribute=0x22): sq_id = 86
-HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_lwcond warning: *** lwcond created [_spuPrv] (lwmutex_addr=0xa3ae30): id = 87
+HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_lwcond warning: *** lwcond created [_spuPrv] (lwmutex_addr=0xa3aeb0): id = 87
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_event warning: *** event_queue created [_spuPrv] (protocol=0x1, type=0x1, key=0x0, size=0x2a): id = 88
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=83, eq_id=88, req=0xffffffffffff0000, spup_addr=0xa3a149)
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu warning: *** spup -> 16
@@ -697,7 +697,7 @@ HLE: ! {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu: *** SPU Thread Group cre
 HLE: E {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu TODO: Unsupported SPU Thread options (0x2)
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu warning: *** New SPU Thread [ThirdSpursCellSpursKernel0] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=110
 HLE: ! {PPU[1] Thread (CPUThread)[0x01417028]} sys_lwmutex: *** lwmutex created [_spuPrv] (attribute=0x22): sq_id = 111
-HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_lwcond warning: *** lwcond created [_spuPrv] (lwmutex_addr=0xa3be30): id = 112
+HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_lwcond warning: *** lwcond created [_spuPrv] (lwmutex_addr=0xa3beb0): id = 112
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_event warning: *** event_queue created [_spuPrv] (protocol=0x1, type=0x1, key=0x0, size=0x2a): id = 113
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=109, eq_id=113, req=0xffffffffffff0000, spup_addr=0xa3b149)
 HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu warning: *** spup -> 16
@@ -709,9 +709,9 @@ HLE: E {PPU[1] Thread (CPUThread)[0x01417028]} sys_spu TODO: sys_spu_thread_grou
 TTY: ===MemPool MainMem Info === 225443840 bytes available Before InitGameGraphics (215.00 meg)
 HLE: W {PPU[1] Thread (CPUThread)[0x014030a0]} cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x01403034]} cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd000f930)
-HLE: W {PPU[1] Thread (CPUThread)[0x01403130]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x6debfea0)
+HLE: W {PPU[1] Thread (CPUThread)[0x01403130]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x44cd9bc0)
 HLE: W {PPU[1] Thread (CPUThread)[0x01401010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
-HLE: E {PPU[1] Thread (CPUThread)[0x0142d004]} TODO: cellVideoOutGetScreenSize
+HLE: W {PPU[1] Thread (CPUThread)[0x0142d004]} cellAvconfExt warning: cellVideoOutGetScreenSize(videoOut=0, screenSize_addr=0xd000f8f0)
 HLE: W {PPU[1] Thread (CPUThread)[0x01401004]} cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_AVCONF_EXT)
 G: E {PPU[1] Thread (CPUThread)[0x00171048]} Exception: Access violation: addr = 0x2c00000 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.

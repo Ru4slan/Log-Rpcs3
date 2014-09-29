@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: Journey
 LDR: ! Serial: NPEA00288
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xf077ef0000
+MEM: ! Initializing memory: m_base_addr = 0xdc682a0000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'HotLoadEUGold'
 LDR: ! Imported function 'Unknown func id: 0x0435dfc7' in 'HotLoadEUGold' module
@@ -872,6 +872,7 @@ HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInf
 HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd000f2f0, drm_path_addr=0xd000f390('/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx'))
 HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx
 HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Using k_licensee 0x0b0090227200902272009022720090227
+PPU: ! {PPULLVMRecompiler} Removed 7 old versions
 LDR: E {PPU[1] Thread (CPUThread)[0x00edb0ac]} EDAT: D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288\USRDIR\Data\Prx\HotLoadEUGold.sprx has invalid NPD header or already decrypted.
 HLE: E {PPU[1] Thread (CPUThread)[0x00eed034]} sys_prx TODO: sys_prx_load_module(path="/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx", flags=0x0, pOpt=0x0)
 LDR: E {PPU[1] Thread (CPUThread)[0x00eed034]} SELF: Failed to decrypt metadata info!
@@ -884,10 +885,10 @@ HLE: E {PPU[1] Thread (CPUThread)[0x00eed034]} sys_prx TODO: sys_prx_load_module
 LDR: E {PPU[1] Thread (CPUThread)[0x00eed034]} SELF: Failed to decrypt metadata info!
 LDR: E {PPU[1] Thread (CPUThread)[0x00eed034]} SELF: Failed to load SELF file metadata!
 G: E {PPU[1] Thread (CPUThread)[0x0020a7d0]} Exception: Access violation: addr = 0xcffed860 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
-PPU: ! {PPULLVMRecompiler} Removed 10 old versions
-PPU: ! {PPULLVMRecompiler} Removed 153 old versions
-RSX: W {VBlank thread} VBlank thread aborted
-HLE: W {PPU[117] Thread (spu_printf_handler)[0x002aad50]} sys_event warning: sys_event_queue_receive(equeue=116) aborted
+PPU: ! {PPULLVMRecompiler} Removed 130 old versions
 RSX: W {RSXThread} RSX thread aborted
+HLE: W {PPU[117] Thread (spu_printf_handler)[0x002aad50]} sys_event warning: sys_event_queue_receive(equeue=116) aborted
+RSX: W {VBlank thread} VBlank thread aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
+MEM: ! Closing memory...

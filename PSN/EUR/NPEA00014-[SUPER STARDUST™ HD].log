@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: SUPER STARDUST™ HD
 LDR: ! Serial: NPEA00014
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xd08d620000
+MEM: ! Initializing memory: m_base_addr = 0xac3d880000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellRescGcmSurface2RescSrc' in 'cellResc' module
 LDR: ! Imported function 'cellRescSetWaitFlip' in 'cellResc' module
@@ -247,9 +247,9 @@ HLE: ! {PPU[1] Thread (CPUThread)[0x00799034]} sys_lwmutex: *** lwmutex created 
 HLE: W {PPU[1] Thread (CPUThread)[0x00799034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x8d2a68, attr_addr=0x699f88)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00799034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
 PPU: ! {PPULLVMRecompiler} Removed 82 old versions
-PPU: ! {PPULLVMRecompiler} Removed 21 old versions
-PPU: ! {PPULLVMRecompiler} Removed 3 old versions
-PPU: ! {PPULLVMRecompiler} Removed 12 old versions
+PPU: ! {PPULLVMRecompiler} Removed 19 old versions
+PPU: ! {PPULLVMRecompiler} Removed 2 old versions
+PPU: ! {PPULLVMRecompiler} Removed 15 old versions
 TTY: Engine started
 HLE: W {PPU[1] Thread (CPUThread)[0x002c9ba4]} sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00795010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
@@ -304,7 +304,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x009000ac]} sys_spu warning: *** New SPU Thre
 HLE: E {PPU[1] Thread (CPUThread)[0x009000ac]} sys_spu TODO: Unsupported SPU Thread options (0x2)
 HLE: W {PPU[1] Thread (CPUThread)[0x009000ac]} sys_spu warning: *** New SPU Thread [CellSpursKernel4] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=35
 HLE: ! {PPU[1] Thread (CPUThread)[0x009000ac]} sys_lwmutex: *** lwmutex created [_spuPrv] (attribute=0x22): sq_id = 36
-HLE: W {PPU[1] Thread (CPUThread)[0x009000ac]} sys_lwcond warning: *** lwcond created [_spuPrv] (lwmutex_addr=0x3010a3b0): id = 37
+HLE: W {PPU[1] Thread (CPUThread)[0x009000ac]} sys_lwcond warning: *** lwcond created [_spuPrv] (lwmutex_addr=0x3010a430): id = 37
 HLE: W {PPU[1] Thread (CPUThread)[0x009000ac]} sys_event warning: *** event_queue created [_spuPrv] (protocol=0x1, type=0x1, key=0x0, size=0x2a): id = 38
 HLE: W {PPU[1] Thread (CPUThread)[0x009000ac]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=30, eq_id=38, req=0xffffffffffff0000, spup_addr=0x301096c9)
 HLE: W {PPU[1] Thread (CPUThread)[0x009000ac]} sys_spu warning: *** spup -> 16
@@ -329,10 +329,10 @@ HLE: ! {PPU[1] Thread (CPUThread)[0x00799034]} sys_lwmutex: *** lwmutex created 
 HLE: W {PPU[1] Thread (CPUThread)[0x0079d01c]} sys_io warning: cellKbInit(max_connect=7)
 HLE: W {PPU[1] Thread (CPUThread)[0x0079d004]} sys_io warning: cellPadInit(max_connect=7)
 HLE: W {PPU[1] Thread (CPUThread)[0x0079f058]} cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-HLE: W {PPU[1] Thread (CPUThread)[0x0079f094]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x8fdc9360)
-HLE: W {PPU[1] Thread (CPUThread)[0x0079f094]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x8fdc9360)
-HLE: W {PPU[1] Thread (CPUThread)[0x0079f094]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x91, option_addr=0x0, aspect=0x0, option=0x8fdc8e10)
-HLE: E {PPU[1] Thread (CPUThread)[0x008fc004]} TODO: cellVideoOutGetScreenSize
+HLE: W {PPU[1] Thread (CPUThread)[0x0079f094]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x3ffeab20)
+HLE: W {PPU[1] Thread (CPUThread)[0x0079f094]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x3ffeb4b0)
+HLE: W {PPU[1] Thread (CPUThread)[0x0079f094]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x91, option_addr=0x0, aspect=0x0, option=0x3ffeb180)
+HLE: W {PPU[1] Thread (CPUThread)[0x008fc004]} cellAvconfExt warning: cellVideoOutGetScreenSize(videoOut=0, screenSize_addr=0xd000fa50)
 HLE: W {PPU[1] Thread (CPUThread)[0x0079f010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000fab0, option_addr=0x0, waitForEvent=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00797028]} cellGcmSys warning: _cellGcmInitBody(context_addr=0x8d2898, cmdSize=0x10000, ioSize=0x2e00000, ioAddress=0x30400000)
 HLE: W {PPU[1] Thread (CPUThread)[0x00797028]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
@@ -630,13 +630,14 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00419558]} sys_spu warning: sys_spu_thread_g
 HLE: W {PPU[1] Thread (CPUThread)[0x00419570]} sys_spu warning: sys_spu_thread_set_spu_cfg(id=77, value=0x0)
 SPU: E {SPU[72] Thread (FMOD mixer)[0x00021678]} SPURecompilerCore::Compile(ls_addr=0x21678): branch to 0x0 opcode
 PPU: ! {PPULLVMRecompiler} Removed 1 old versions
-PPU: ! {PPULLVMRecompiler} Removed 8 old versions
+PPU: ! {PPULLVMRecompiler} Removed 6 old versions
+HLE: W {PPU[63] Thread (Streamer unpack thread)[0x00667814]} sys_semaphore warning: sys_semaphore_wait(61) aborted
 RSX: W {RSXThread} RSX thread aborted
 HLE: W {PPU[59] Thread (Streamer loader thread)[0x00667814]} sys_semaphore warning: sys_semaphore_wait(56) aborted
 RSX: W {VBlank thread} VBlank thread aborted
 HLE: W {PPU[43] Thread (spu_printf_handler)[0x002cbdd0]} sys_event warning: sys_event_queue_receive(equeue=42) aborted
 HLE: W {Audio Thread} cellAudio warning: Audio thread aborted
 HLE: W {PPU[54] Thread (Task_Bagger_Impl::Worker thread)[0x00667814]} sys_semaphore warning: sys_semaphore_wait(51) aborted
-HLE: W {PPU[63] Thread (Streamer unpack thread)[0x00667814]} sys_semaphore warning: sys_semaphore_wait(61) aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
+MEM: ! Closing memory...

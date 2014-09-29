@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: Atelier Rorona Plus ~The Alchemist of Arland~
 LDR: ! Serial: BLES02050
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xfeaabf0000
+MEM: ! Initializing memory: m_base_addr = 0x955f990000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'cellSaveData'
 LDR: ! Imported function 'cellSaveDataUserListDelete' in 'cellSaveData' module
@@ -639,7 +639,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00d8601c]} cellGcmSys warning: cellGcmMapEaI
 RSX: ! {RSXThread} RSX thread started
 HLE: W {PPU[1] Thread (CPUThread)[0x00d860e8]} cellGcmSys warning: cellGcmSetVBlankHandler(handler_addr=0xa56e40)
 HLE: W {PPU[1] Thread (CPUThread)[0x00d86010]} cellGcmSys warning: cellGcmSetUserHandler(handler_addr=0xa56e38)
-HLE: W {PPU[1] Thread (CPUThread)[0x00d7e0dc]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xad37fa50)
+HLE: W {PPU[1] Thread (CPUThread)[0x00d7e0dc]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x601855d0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00d7e004]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000fac0, option_addr=0x0, waitForEvent=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00d86058]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 HLE: W {PPU[1] Thread (CPUThread)[0x00d86100]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=7864320, pitch=5120, comp=7, base=0, bank=0)
@@ -1034,6 +1034,12 @@ HLE: W {PPU[260] Thread (installGameDataThread)[0x00d8201c]} cellGame warning: c
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e070]} cellSysutil warning: cellMsgDialogAbort()
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d84010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00a3c070]} sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0xcac7c8, commID_addr=0x80bbe8, commSign_addr=0x80bbf4, options=0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00a3c010]} sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0xcac7cc)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00a3c01c]} sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xcac788, options=0x0)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d82034]} cellGame warning: cellGameDataCheck(type=0x3, dirName_addr=0x39220214, size_addr=0x3922056c)
@@ -1055,6 +1061,8 @@ HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cel
 HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=263)
 HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(263) was owned by thread -1 (recursive=0)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/", fd_addr=0xd012ed14)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=264, dir_addr=0xd012ed48, nread_addr=0xd012ed18)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=264, dir_addr=0xd012ed48, nread_addr=0xd012ed18)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=264, dir_addr=0xd012ed48, nread_addr=0xd012ed18)
@@ -1090,15 +1098,19 @@ HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: 
 HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(272) was owned by thread -1 (recursive=0)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/resources1.psarc", sb_addr=0xd012f1c0)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/install/ICON0.PNG", sb_addr=0xd012f1c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/install/PIC1.PNG", sb_addr=0xd012f1c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/ICON0.PNG", sb_addr=0xd012f1c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/PIC1.PNG", sb_addr=0xd012f1c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/system/ICON0.PNG", sb_addr=0xd012f1c0)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/install/PIC1.PNG", sb_addr=0xd012f1c0)
+HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/ICON0.PNG", sb_addr=0xd012f1c0)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/PIC1.PNG", sb_addr=0xd012f1c0)
+HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/system/ICON0.PNG", sb_addr=0xd012f1c0)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/ending.pam", sb_addr=0xd012f1c0)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/ending2.pam", sb_addr=0xd012f1c0)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/opening.pam", sb_addr=0xd012f1c0)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/screenshot/overlay.png", sb_addr=0xd012f1c0)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e07c]} cellSysutil warning: cellMsgDialogOpen2(type=0xa2, msgString_addr=0x811fe4, callback_addr=0xa48848, userData=0x0, extParam=0x0)
 TTY: Atelier Rorona Plus is being installed on your HDD.
@@ -1272,7 +1284,347 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 PPU: ! {PPULLVMRecompiler} Removed 3 old versions
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -1427,867 +1779,6 @@ HLE: W {PPU[260] Thread (installGameDataThread)[0x00d82034]} cellGame warning: c
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d82034]} cellGame warning: cellGameDataCheck(): '/dev_hdd0/game/BLES02050' directory not found
 HLE: E {PPU[260] Thread (installGameDataThread)[0x00d82010]} cellGame TODO: cellGameCreateGameData(init_addr=0xd012f3a0, tmp_contentInfoPath_addr=0xd012f2a0, tmp_usrdirPath_addr=0xd012f320)
 HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e07c]} cellSysutil warning: cellMsgDialogOpen2(type=0x1082, msgString_addr=0x810484, callback_addr=0xa48848, userData=0x50505050, extParam=0x0)
-TTY: Installing.
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e088]} cellSysutil warning: cellMsgDialogProgressBarReset(progressBarIndex=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e0c4]} cellSysutil warning: cellMsgDialogProgressBarSetMsg(progressBarIndex=0, msgString_addr=0x810584 [''])
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/", mode=0x1c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/", mode=0x1c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/PS3/", mode=0x1c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/PS3/sound/", mode=0x1c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/PS3/sound/se/", mode=0x1c0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/", fd_addr=0xd012ec94)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=273, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=273, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=273, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=273, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=273)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/", fd_addr=0xd012ec90)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 275
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=274, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=274, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=274, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=274)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=275)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(275) was owned by thread -1 (recursive=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/", fd_addr=0xd012ec94)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=276, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=276, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=276, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=276, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=276)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/", fd_addr=0xd012ec90)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 278
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=277, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=277, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=277, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/system/", fd_addr=0xd012e9c4)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=279, dir_addr=0xd012e9f8, nread_addr=0xd012e9c8)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=279, dir_addr=0xd012e9f8, nread_addr=0xd012e9c8)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=279)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/system/", fd_addr=0xd012e9c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 281
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=280, dir_addr=0xd012ea08, nread_addr=0xd012ea00)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=280)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=281)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(281) was owned by thread -1 (recursive=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=277)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=278)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(278) was owned by thread -1 (recursive=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/screenshot/", fd_addr=0xd012ec94)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=282, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=282, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=282)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/screenshot/", fd_addr=0xd012ec90)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 284
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=283, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=283)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=284)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(284) was owned by thread -1 (recursive=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/", fd_addr=0xd012ec94)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=285, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=285, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=285, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=285, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=285)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/", fd_addr=0xd012ec90)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 287
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=286, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/ending.pam", sb_addr=0xd012ee70)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=286, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/ending2.pam", sb_addr=0xd012ee70)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=286, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/opening.pam", sb_addr=0xd012ee70)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e0c4]} cellSysutil warning: cellMsgDialogProgressBarSetMsg(progressBarIndex=0, msgString_addr=0x810584 [''])
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e0b8]} cellSysutil warning: cellMsgDialogProgressBarInc(progressBarIndex=0, delta=1)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=286)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=287)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(287) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/", fd_addr=0xd012ec94)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=288, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=288, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=288, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=288, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=288)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/", fd_addr=0xd012ec90)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 290
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=289, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/ICON0.PNG", sb_addr=0xd012ee70)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=289, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/PIC1.PNG", sb_addr=0xd012ee70)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=289, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/system/", fd_addr=0xd012e9c4)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=291, dir_addr=0xd012e9f8, nread_addr=0xd012e9c8)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=291, dir_addr=0xd012e9f8, nread_addr=0xd012e9c8)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=291)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/system/", fd_addr=0xd012e9c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 293
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=292, dir_addr=0xd012ea08, nread_addr=0xd012ea00)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/system/ICON0.PNG", sb_addr=0xd012eba0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e0c4]} cellSysutil warning: cellMsgDialogProgressBarSetMsg(progressBarIndex=0, msgString_addr=0x810584 [''])
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e0b8]} cellSysutil warning: cellMsgDialogProgressBarInc(progressBarIndex=0, delta=1)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=292)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=293)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(293) was owned by thread -1 (recursive=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=289)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=290)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(290) was owned by thread -1 (recursive=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/screenshot/", fd_addr=0xd012ec94)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=294, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=294, dir_addr=0xd012ecc8, nread_addr=0xd012ec98)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=294)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/screenshot/", fd_addr=0xd012ec90)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 296
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=295, dir_addr=0xd012ecd8, nread_addr=0xd012ecd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/screenshot/overlay.png", sb_addr=0xd012ee70)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=295)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=296)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(296) was owned by thread -1 (recursive=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96064]} sys_fs warning: cellFsStat(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/resources1.psarc", sb_addr=0xd012f1a0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e0c4]} cellSysutil warning: cellMsgDialogProgressBarSetMsg(progressBarIndex=0, msgString_addr=0x810584 [''])
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e0b8]} cellSysutil warning: cellMsgDialogProgressBarInc(progressBarIndex=0, delta=1)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/", fd_addr=0xd012ec14)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=297, dir_addr=0xd012ec48, nread_addr=0xd012ec18)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=297, dir_addr=0xd012ec48, nread_addr=0xd012ec18)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=297, dir_addr=0xd012ec48, nread_addr=0xd012ec18)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=297, dir_addr=0xd012ec48, nread_addr=0xd012ec18)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=297)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/movie/", fd_addr=0xd012ec10)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 299
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=298, dir_addr=0xd012ec58, nread_addr=0xd012ec50)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=298, dir_addr=0xd012ec58, nread_addr=0xd012ec50)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=298, dir_addr=0xd012ec58, nread_addr=0xd012ec50)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=298)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=299)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(299) was owned by thread -1 (recursive=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/movie/", mode=0x1c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/movie/", mode=0x1c0)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR//Res/movie/ending.pam" opened: fd = 300
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960d0]} sys_fs warning: cellFsFstat(fd=300, sb_addr=0xd012efd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96058]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES02050-[Atelier Rorona Plus The Alchemist of Arland]\PS3_GAME\USRDIR\Res\movie\ending.pam')
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/Res/movie/ending.pam" opened: fd = 301
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=300)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=301)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/movie/", mode=0x1c0)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR//Res/movie/ending2.pam" opened: fd = 302
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960d0]} sys_fs warning: cellFsFstat(fd=302, sb_addr=0xd012efd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96058]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES02050-[Atelier Rorona Plus The Alchemist of Arland]\PS3_GAME\USRDIR\Res\movie\ending2.pam')
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/Res/movie/ending2.pam" opened: fd = 303
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=302)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=303)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/movie/", mode=0x1c0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR//Res/movie/opening.pam" opened: fd = 304
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960d0]} sys_fs warning: cellFsFstat(fd=304, sb_addr=0xd012efd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96058]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES02050-[Atelier Rorona Plus The Alchemist of Arland]\PS3_GAME\USRDIR\Res\movie\opening.pam')
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/Res/movie/opening.pam" opened: fd = 305
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=304)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=305)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/", fd_addr=0xd012ec14)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=306, dir_addr=0xd012ec48, nread_addr=0xd012ec18)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=306, dir_addr=0xd012ec48, nread_addr=0xd012ec18)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=306, dir_addr=0xd012ec48, nread_addr=0xd012ec18)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=306, dir_addr=0xd012ec48, nread_addr=0xd012ec18)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=306)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/", fd_addr=0xd012ec10)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 308
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=307, dir_addr=0xd012ec58, nread_addr=0xd012ec50)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=307, dir_addr=0xd012ec58, nread_addr=0xd012ec50)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=307, dir_addr=0xd012ec58, nread_addr=0xd012ec50)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/system/", fd_addr=0xd012e944)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=309, dir_addr=0xd012e978, nread_addr=0xd012e948)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=309, dir_addr=0xd012e978, nread_addr=0xd012e948)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=309)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/system/", fd_addr=0xd012e940)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 311
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=310, dir_addr=0xd012e988, nread_addr=0xd012e980)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=310)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=311)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(311) was owned by thread -1 (recursive=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=307)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=308)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(308) was owned by thread -1 (recursive=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/PS3/saveload/", mode=0x1c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/PS3/saveload/", mode=0x1c0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/ICON0.PNG" opened: fd = 312
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960d0]} sys_fs warning: cellFsFstat(fd=312, sb_addr=0xd012efd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96058]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES02050-[Atelier Rorona Plus The Alchemist of Arland]\PS3_GAME\USRDIR\Res\PS3\saveload\ICON0.PNG')
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/Res/PS3/saveload/ICON0.PNG" opened: fd = 313
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=312)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=313)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/PS3/saveload/", mode=0x1c0)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/PIC1.PNG" opened: fd = 314
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960d0]} sys_fs warning: cellFsFstat(fd=314, sb_addr=0xd012efd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96058]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES02050-[Atelier Rorona Plus The Alchemist of Arland]\PS3_GAME\USRDIR\Res\PS3\saveload\PIC1.PNG')
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/Res/PS3/saveload/PIC1.PNG" opened: fd = 315
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=314)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=315)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/PS3/saveload/system/", mode=0x1c0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/saveload/system/ICON0.PNG" opened: fd = 316
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960d0]} sys_fs warning: cellFsFstat(fd=316, sb_addr=0xd012efd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96058]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES02050-[Atelier Rorona Plus The Alchemist of Arland]\PS3_GAME\USRDIR\Res\PS3\saveload\system\ICON0.PNG')
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/Res/PS3/saveload/system/ICON0.PNG" opened: fd = 317
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=316)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=317)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664c0]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/screenshot/", fd_addr=0xd012ec14)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005664ec]} sys_fs warning: cellFsReaddir(fd=318, dir_addr=0xd012ec48, nread_addr=0xd012ec18)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566530]} sys_fs warning: cellFsReaddir(fd=318, dir_addr=0xd012ec48, nread_addr=0xd012ec18)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056659c]} sys_fs warning: cellFsClosedir(fd=318)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005665ac]} sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR//Res/screenshot/", fd_addr=0xd012ec10)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x0056664c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 320
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00566278]} sys_fs warning: cellFsReaddir(fd=319, dir_addr=0xd012ec58, nread_addr=0xd012ec50)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663d8]} sys_fs warning: cellFsClosedir(fd=319)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex warning: sys_mutex_destroy(mutex_id=320)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x005663fc]} sys_mutex: Mutex(320) was owned by thread -1 (recursive=0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/screenshot/", mode=0x1c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960ac]} sys_fs warning: cellFsMkdir(path="/Res/screenshot/", mode=0x1c0)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR//Res/screenshot/overlay.png" opened: fd = 321
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960d0]} sys_fs warning: cellFsFstat(fd=321, sb_addr=0xd012efd0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96058]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES02050-[Atelier Rorona Plus The Alchemist of Arland]\PS3_GAME\USRDIR\Res\screenshot\overlay.png')
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/Res/screenshot/overlay.png" opened: fd = 322
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=321)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=322)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR//Res/PS3/resources1.psarc" opened: fd = 323
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960d0]} sys_fs warning: cellFsFstat(fd=323, sb_addr=0xd012f0c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96058]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES02050-[Atelier Rorona Plus The Alchemist of Arland]\PS3_GAME\USRDIR\Res\PS3\resources1.psarc')
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/Res/PS3/resources1.psarc" opened: fd = 324
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=323)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=324)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR//Res/install/ICON0.PNG" opened: fd = 325
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960d0]} sys_fs warning: cellFsFstat(fd=325, sb_addr=0xd012f0c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96058]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES02050-[Atelier Rorona Plus The Alchemist of Arland]\PS3_GAME\USRDIR\ICON0.PNG')
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/ICON0.PNG" opened: fd = 326
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=325)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=326)
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR//Res/install/PIC1.PNG" opened: fd = 327
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d960d0]} sys_fs warning: cellFsFstat(fd=327, sb_addr=0xd012f0c0)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d96058]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES02050-[Atelier Rorona Plus The Alchemist of Arland]\PS3_GAME\USRDIR\PIC1.PNG')
-HLE: ! {PPU[260] Thread (installGameDataThread)[0x00d96058]} sys_fs: "/PIC1.PNG" opened: fd = 328
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=327)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d9601c]} sys_fs warning: cellFsClose(fd=328)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e0c4]} cellSysutil warning: cellMsgDialogProgressBarSetMsg(progressBarIndex=0, msgString_addr=0x810584 [''])
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e0b8]} cellSysutil warning: cellMsgDialogProgressBarInc(progressBarIndex=0, delta=100)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-PPU: ! {PPULLVMRecompiler} Removed 55 old versions
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-PPU: ! {PPULLVMRecompiler} Removed 33 old versions
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-PPU: ! {PPULLVMRecompiler} Removed 39 old versions
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e0b8]} cellSysutil warning: cellMsgDialogProgressBarInc(progressBarIndex=0, delta=100)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d7e070]} cellSysutil warning: cellMsgDialogAbort()
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d8201c]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd012f380, usrdirPath_addr=0xd012f400)
-HLE: W {PPU[260] Thread (installGameDataThread)[0x00d8201c]} cellGame warning: cellGameContentPermit(): CELL_GAME_ERROR_FAILURE (no permission given)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 HLE: W {PPU[1] Thread (CPUThread)[0x00d7e07c]} cellSysutil warning: cellMsgDialogOpen2(type=0xa2, msgString_addr=0x81159c, callback_addr=0xa48848, userData=0x0, extParam=0x0)
@@ -2364,6 +1855,7 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+PPU: ! {PPULLVMRecompiler} Removed 99 old versions
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -2396,7 +1888,6 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-PPU: ! {PPULLVMRecompiler} Removed 41 old versions
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -2453,7 +1944,6 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-PPU: ! {PPULLVMRecompiler} Removed 3 old versions
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -2534,6 +2024,836 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+PPU: ! {PPULLVMRecompiler} Removed 68 old versions
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+PPU: ! {PPULLVMRecompiler} Removed 1 old versions
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+PPU: ! {PPULLVMRecompiler} Removed 53 old versions
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+PPU: ! {PPULLVMRecompiler} Removed 2 old versions
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+PPU: ! {PPULLVMRecompiler} Removed 11 old versions
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+PPU: ! {PPULLVMRecompiler} Removed 2 old versions
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -2621,6 +2941,7 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+PPU: ! {PPULLVMRecompiler} Removed 12 old versions
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -2863,7 +3184,6 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-PPU: ! {PPULLVMRecompiler} Removed 13 old versions
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -2898,7 +3218,6 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-PPU: ! {PPULLVMRecompiler} Removed 4 old versions
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -2939,16 +3258,294 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
-G: E {PPU[1] Thread (CPUThread)[0x002cd45c]} Exception: Access violation: addr = 0xcffdcfb0 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
-PPU: ! {PPULLVMRecompiler} Removed 1 old versions
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xbad68000)
 RSX: W {VBlank thread} VBlank thread aborted
-HLE: W {PPU[185] Thread (KtglFsThread_Usb)[0x0054452c]} sys_event_flag warning: sys_event_flag_wait(id=183) aborted
-RSX: W {RSXThread} RSX thread aborted
-HLE: W {PPU[173] Thread (KtglFsThread_Bdvd)[0x0054452c]} sys_event_flag warning: sys_event_flag_wait(id=171) aborted
 HLE: W {PPU[177] Thread (KtglFsThread_Hdd)[0x0054452c]} sys_event_flag warning: sys_event_flag_wait(id=175) aborted
 HLE: W {PPU[169] Thread (KtglFsThread_Host)[0x0054452c]} sys_event_flag warning: sys_event_flag_wait(id=167) aborted
+HLE: W {PPU[185] Thread (KtglFsThread_Usb)[0x0054452c]} sys_event_flag warning: sys_event_flag_wait(id=183) aborted
 HLE: W {PPU[181] Thread (KtglFsThread_Ms)[0x0054452c]} sys_event_flag warning: sys_event_flag_wait(id=179) aborted
+HLE: W {PPU[173] Thread (KtglFsThread_Bdvd)[0x0054452c]} sys_event_flag warning: sys_event_flag_wait(id=171) aborted
 HLE: W {PPU[229] Thread (spu_printf_handler)[0x003c88ac]} sys_event warning: sys_event_queue_receive(equeue=228) aborted
+RSX: W {RSXThread} RSX thread aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...

@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: Infinite Stratos 2 Ignition Hearts
 LDR: ! Serial: BLJM61146
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xe16cc30000
+MEM: ! Initializing memory: m_base_addr = 0x13b9b00000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellFsClose' in 'sys_fs' module
 LDR: ! Imported function 'cellFsOpendir' in 'sys_fs' module
@@ -57,13 +57,13 @@ LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
 LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
 LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
 LDR: ! Imported function 'cellSaveDataListLoad2' in 'cellSysutil' module
-LDR: W Unimplemented function 'cellSaveDataListAutoLoad' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataListAutoLoad' in 'cellSysutil' module
 LDR: ! Imported function 'cellSaveDataFixedLoad2' in 'cellSysutil' module
 LDR: ! Imported function 'cellSaveDataFixedSave2' in 'cellSysutil' module
 LDR: ! Imported function 'cellSaveDataListSave2' in 'cellSysutil' module
 LDR: ! Imported function 'cellMsgDialogOpenErrorCode' in 'cellSysutil' module
 LDR: ! Imported function 'cellSysutilGetSystemParamInt' in 'cellSysutil' module
-LDR: W Unimplemented function 'cellSaveDataListAutoSave' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataListAutoSave' in 'cellSysutil' module
 LDR: ! Imported function 'cellMsgDialogAbort' in 'cellSysutil' module
 LDR: ! Imported function 'cellMsgDialogOpen2' in 'cellSysutil' module
 LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
@@ -340,36 +340,58 @@ LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
 LDR: ! Imported function 'sys_spu_image_close' in 'sysPrxForUser' module
 LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
 LDR: ! Imported function 'sys_spu_image_import' in 'sysPrxForUser' module
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-HLE: W {PPU[1] Thread (CPUThread)[0x0002f474]} memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 13
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x33fc90, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (CPUThread)[0x0002f474]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fc04)
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x33fa90, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x33f220, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x33f248, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x33f270, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x33f158, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x33f180, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x33f1a8, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x33f1d0, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x33f1f8, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100020, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 13
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000a0, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100130, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100190, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301001d0, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100210, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301002d0, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100300, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100330, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100360, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100390, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301003c0, attr_addr=0x255fa8)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
 HLE: W {PPU[1] Thread (CPUThread)[0x0022b12c]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 25
 HLE: W {PPU[1] Thread (CPUThread)[0x0021a950]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 26
 HLE: W {PPU[1] Thread (CPUThread)[0x0020d0c8]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 27
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5440]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 28
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5480]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 29
 HLE: W {PPU[1] Thread (CPUThread)[0x00162640]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 30
-HLE: W {PPU[1] Thread (CPUThread)[0x0022aef4]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x2b6f5c, attr_addr=0xd0010c40, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x0022aef4]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x2b6f5c, attr_addr=0xd000fc40, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x0022aef4]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 31
 HLE: W {PPU[1] Thread (CPUThread)[0x0027d070]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_DATE_FORMAT
 HLE: W {PPU[1] Thread (CPUThread)[0x0027d0b8]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x28a598, userdata=0x0)
@@ -383,15 +405,15 @@ HLE: W {PPU[1] Thread (CPUThread)[0x003eb01c]} cellGcmSys warning: *** local mem
 HLE: W {PPU[1] Thread (CPUThread)[0x003eb01c]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
 HLE: W {PPU[1] Thread (CPUThread)[0x003eb01c]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x200000)
 RSX: ! {RSXThread} RSX thread started
-HLE: W {PPU[1] Thread (CPUThread)[0x0027d0c4]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xa39b4f9a)
-HLE: W {PPU[1] Thread (CPUThread)[0x0027d0c4]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x422fe808)
-HLE: W {PPU[1] Thread (CPUThread)[0x0027d010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010ac4, option_addr=0x0, waitForEvent=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x0027d0c4]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xbc4b9f70)
+HLE: W {PPU[1] Thread (CPUThread)[0x0027d0c4]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0xbc4b8a30)
+HLE: W {PPU[1] Thread (CPUThread)[0x0027d010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000fac4, option_addr=0x0, waitForEvent=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-HLE: W {PPU[1] Thread (CPUThread)[0x0027b058]} cellResc warning: cellRescInit(initConfig_addr=0xd0010ad4)
+HLE: W {PPU[1] Thread (CPUThread)[0x0027b058]} cellResc warning: cellRescInit(initConfig_addr=0xd000fad4)
 HLE: W {PPU[1] Thread (CPUThread)[0x0027b028]} cellResc warning: cellRescSetDisplayMode(displayMode=8)
 HLE: W {PPU[1] Thread (CPUThread)[0x0027b028]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x0027b028]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-HLE: W {PPU[1] Thread (CPUThread)[0x0027b064]} cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0010aa0, vertexArray_addr=0xd0010aa4, fragmentShader_addr=0xd0010aa8)
+HLE: W {PPU[1] Thread (CPUThread)[0x0027b064]} cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd000faa0, vertexArray_addr=0xd000faa4, fragmentShader_addr=0xd000faa8)
 HLE: W {PPU[1] Thread (CPUThread)[0x003eb0dc]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=8912896, pitch=8192, comp=7, base=0, bank=0)
 HLE: E {PPU[1] Thread (CPUThread)[0x003eb0dc]} cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (7)
 HLE: W {PPU[1] Thread (CPUThread)[0x003eb04c]} cellGcmSys warning: cellGcmBindTile(index=0)
@@ -402,59 +424,63 @@ HLE: W {PPU[1] Thread (CPUThread)[0x0027b07c]} cellResc warning: cellRescSetBuff
 HLE: W {PPU[1] Thread (CPUThread)[0x003eb0dc]} cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=17825792, size=17825792, pitch=8192, comp=7, base=272, bank=0)
 HLE: E {PPU[1] Thread (CPUThread)[0x003eb0dc]} cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (7)
 HLE: W {PPU[1] Thread (CPUThread)[0x003eb04c]} cellGcmSys warning: cellGcmBindTile(index=2)
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 37
-HLE: W {PPU[1] Thread (CPUThread)[0x00222080]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x2b6cd4, attr_addr=0xd0010c40, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3e3548, attr_addr=0xd000fa40)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 37
+HLE: W {PPU[1] Thread (CPUThread)[0x00222080]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x2b6cd4, attr_addr=0xd000fc40, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00222080]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 38
 HLE: W {PPU[1] Thread (CPUThread)[0x00277004]} sys_io warning: cellPadInit(max_connect=7)
 HLE: W {PPU[1] Thread (CPUThread)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+HLE: W {PPU[1] Thread (CPUThread)[0x003e7148]} sceNp warning: sceNpInit(mem_size=0x20000, mem_addr=0x3a2648)
 HLE: W {PPU[1] Thread (CPUThread)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-HLE: W {PPU[1] Thread (CPUThread)[0x0027f034]} cellGame warning: cellGameBootCheck(type_addr=0xd0010810, attributes_addr=0xd0010814, size_addr=0xd0010818, dirName_addr=0xd00109f0)
-HLE: W {PPU[1] Thread (CPUThread)[0x0027f004]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0010b90, usrdirPath_addr=0xd0010a10)
+HLE: W {PPU[1] Thread (CPUThread)[0x0027f034]} cellGame warning: cellGameBootCheck(type_addr=0xd000f810, attributes_addr=0xd000f814, size_addr=0xd000f818, dirName_addr=0xd000f9f0)
+HLE: W {PPU[1] Thread (CPUThread)[0x0027f004]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd000fb90, usrdirPath_addr=0xd000fa10)
 HLE: W {PPU[1] Thread (CPUThread)[0x00279004]} cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 HLE: W {PPU[1] Thread (CPUThread)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-HLE: W {PPU[1] Thread (CPUThread)[0x00407004]} sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0010770)
+HLE: W {PPU[1] Thread (CPUThread)[0x00407004]} sys_net warning: sys_net_initialize_network_ex(param_addr=0xd000f770)
 HLE: W {PPU[1] Thread (CPUThread)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RUDP)
 HLE: E {PPU[1] Thread (CPUThread)[0x00405028]} TODO: cellRudpInit
 HLE: E {PPU[1] Thread (CPUThread)[0x0040504c]} TODO: cellRudpSetEventHandler
 HLE: E {PPU[1] Thread (CPUThread)[0x00405034]} TODO: cellRudpEnableInternalIOThread
 HLE: W {PPU[1] Thread (CPUThread)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
-HLE: E {PPU[1] Thread (CPUThread)[0x003e7088]} sceNp TODO: sceNpLookupInit
+HLE: W {PPU[1] Thread (CPUThread)[0x003e7148]} sceNp warning: sceNpInit(mem_size=0x20000, mem_addr=0x382420)
+HLE: W {PPU[1] Thread (CPUThread)[0x003e7088]} sceNp warning: sceNpLookupInit()
 HLE: W {PPU[1] Thread (CPUThread)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
-HLE: E {PPU[1] Thread (CPUThread)[0x0040307c]} TODO: sceNp2Init
+HLE: W {PPU[1] Thread (CPUThread)[0x0040307c]} sceNp warning: sceNp2Init(mem_size=0x20000, mem_addr=0x362420)
 HLE: W {PPU[1] Thread (CPUThread)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
 HLE: E {PPU[1] Thread (CPUThread)[0x003f7058]} cellNpTus TODO: sceNpTusInit
-HLE: E {PPU[1] Thread (CPUThread)[0x00409034]} cellNetCtl TODO: cellNetCtlInit
+HLE: W {PPU[1] Thread (CPUThread)[0x00409034]} cellNetCtl warning: cellNetCtlInit()
 HLE: W {PPU[1] Thread (CPUThread)[0x0027d0b8]} cellSysutil warning: cellSysutilRegisterCallback(slot=2, func_addr=0x289af8, userdata=0x0)
 HLE: E {PPU[1] Thread (CPUThread)[0x003e719c]} sceNp TODO: sceNpManagerRegisterCallback
 HLE: W {PPU[1] Thread (CPUThread)[0x003e9010]} cellAudio warning: cellAudioInit()
-HLE: ! {Audio Thread} Audio thread started
-HLE: W {PPU[1] Thread (CPUThread)[0x003e907c]} cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd0010200, portNum_addr=0x340830)
+HLE: ! {Audio Thread} cellAudio: Audio thread started
+HLE: W {PPU[1] Thread (CPUThread)[0x003e907c]} cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd000f200, portNum_addr=0x340830)
 HLE: W {PPU[1] Thread (CPUThread)[0x003e907c]} cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
 HLE: W {PPU[1] Thread (CPUThread)[0x003e9040]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x340858)
 HLE: W {PPU[1] Thread (CPUThread)[0x003e9004]} cellAudio warning: cellAudioCreateNotifyEventQueue(id_addr=0x340844, key_addr=0x340838)
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: *** lwmutex created [aud-cal] (attribute=0x22): sq_id = 40
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x340818, attr_addr=0xd000f1f0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b034]} sys_lwmutex: *** lwmutex created [aud-cal] (attribute=0x22): sq_id = 40
 HLE: W {PPU[1] Thread (CPUThread)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ATRAC3PLUS)
 HLE: W {PPU[1] Thread (CPUThread)[0x0016096c]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 41
 HLE: W {PPU[1] Thread (CPUThread)[0x0015fe94]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 42
 HLE: W {PPU[1] Thread (CPUThread)[0x000175c0]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 43
 HLE: W {PPU[1] Thread (CPUThread)[0x00017734]} sys_spu warning: sys_spu_thread_group_create(id_addr=0x33e990, num=1, prio=100, attr_addr=0x33ea84)
-HLE: W {PPU[1] Thread (CPUThread)[0x00017734]} sys_spu warning: *** SPU Thread Group created [_synth2 Group] (type=0x0, option.ct=0x0): id=44
-HLE: W {PPU[1] Thread (CPUThread)[0x0040b0e8]} sysPrxForUser warning: sys_spu_image_import(img=0x33e994, src=0x269380, type=0x1)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00017734]} sys_spu: *** SPU Thread Group created [_synth2 Group] (num=1, prio=100, type=0x0, container=0): id=44
+HLE: W {PPU[1] Thread (CPUThread)[0x0040b0e8]} sysPrxForUser warning: sys_spu_image_import(img=0x33e994, src=0x269380, type=1)
 LDR: W {PPU[1] Thread (CPUThread)[0x0040b0e8]} LoadShdr32 error: shstrndx too big!
 LDR: W {PPU[1] Thread (CPUThread)[0x0040b0e8]} desc = 'synth2.elf'
 HLE: W {PPU[1] Thread (CPUThread)[0x00017834]} sys_spu warning: sys_spu_thread_initialize(thread_addr=0x33e98c, group=0x2c, spu_num=0, img_addr=0x33e994, attr_addr=0x33ea94, arg_addr=0x33eaa0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00017834]} sys_spu warning: *** New SPU Thread [_synth2 Thread] (img_offset=0x410000, ls_offset=0x450000, ep=0xf0, a1=0x33ea00, a2=0x0, a3=0x0, a4=0x0): id=45
+HLE: W {PPU[1] Thread (CPUThread)[0x00017834]} sys_spu warning: *** New SPU Thread [_synth2 Thread] (ep=0xf0, opt=0x0, a1=0x33ea00, a2=0x0, a3=0x0, a4=0x0): id=45
 HLE: W {PPU[1] Thread (CPUThread)[0x00017ab4]} sys_event warning: sys_event_queue_create(equeue_id_addr=0x2b7328, attr_addr=0x2b7330, event_queue_key=0x0, size=32)
-HLE: W {PPU[1] Thread (CPUThread)[0x00017ab4]} sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 46
+HLE: W {PPU[1] Thread (CPUThread)[0x00017ab4]} sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1, key=0x0, size=0x20): id = 46
 HLE: W {PPU[1] Thread (CPUThread)[0x00017ad0]} sys_spu warning: sys_spu_thread_connect_event(id=45, eq_id=46, event_type=0x1, spup=58)
 HLE: W {PPU[1] Thread (CPUThread)[0x00017af0]} sys_event warning: sys_event_queue_create(equeue_id_addr=0x2b732c, attr_addr=0x2b7330, event_queue_key=0x0, size=32)
-HLE: W {PPU[1] Thread (CPUThread)[0x00017af0]} sys_event warning: *** event_queue created [] (protocol=0x2, type=0x2): id = 47
+HLE: W {PPU[1] Thread (CPUThread)[0x00017af0]} sys_event warning: *** event_queue created [] (protocol=0x2, type=0x2, key=0x0, size=0x20): id = 47
 HLE: W {PPU[1] Thread (CPUThread)[0x00017b08]} sys_event warning: sys_event_port_create(eport_id_addr=0x2b7340, port_type=0x1, name=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00017b08]} sys_event warning: *** sys_event_port created: id = 48
 HLE: W {PPU[1] Thread (CPUThread)[0x00017b18]} sys_event warning: sys_event_port_connect_local(eport_id=48, equeue_id=47)
 HLE: W {PPU[1] Thread (CPUThread)[0x00017b30]} sys_spu warning: sys_spu_thread_bind_queue(id=45, equeue_id=47, spuq_num=0x1012000)
 HLE: W {PPU[1] Thread (CPUThread)[0x00017868]} sys_spu warning: sys_spu_thread_group_start(id=44)
-PPU: ! {PPU[1] Thread (CPUThread)[0x0040b01c]} *** New PPU Thread [synth] (flags=0x1, entry=0x289790): id = 49
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b01c]} sys_ppu_thread: *** New PPU Thread [synth] (joinable, entry=0x289790): id = 49
 HLE: W {PPU[49] Thread (synth)[0x003e9058]} cellAudio warning: cellAudioPortStart(portNum=0x0)
 HLE: W {PPU[49] Thread (synth)[0x003e901c]} cellAudio warning: cellAudioSetNotifyEventQueue(key=0x80004d494f323221)
 HLE: W {PPU[1] Thread (CPUThread)[0x0027b094]} cellResc warning: cellRescSetVBlankHandler(handler_addr=0x28a8d0)
@@ -465,94 +491,99 @@ RSX: W {RSXThread} New FBO (1280x720)
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 50
 HLE: W {PPU[1] Thread (CPUThread)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 HLE: W {PPU[1] Thread (CPUThread)[0x00275058]} sys_fs warning: cellFsAioInit(mount_point_addr=0x263850 (/dev_hdd0))
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00275058]} sys_fs warning: cellFsAioInit(mount_point_addr=0x263880 (/dev_bdvd))
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30116acc, attr_addr=0xd0010188, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30116acc, attr_addr=0xd000f188, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 51
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 52
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3017338c, attr_addr=0xd000ff08, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3017338c, attr_addr=0xd000ef08, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 53
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 54
 HLE: W {PPU[1] Thread (CPUThread)[0x00229198]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 55
 HLE: W {PPU[1] Thread (CPUThread)[0x002291d4]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 56
 HLE: W {PPU[1] Thread (CPUThread)[0x00229208]} sys_cond warning: *** condition created [] (mutex_id=56): id = 57
-PPU: ! {PPU[1] Thread (CPUThread)[0x0040b01c]} *** New PPU Thread [MBgTaskManager] (flags=0x0, entry=0x28a9a0): id = 58
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b01c]} sys_ppu_thread: *** New PPU Thread [MBgTaskManager] (non-joinable, entry=0x28a9a0): id = 58
 HLE: W {PPU[1] Thread (CPUThread)[0x00229198]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 59
 HLE: W {PPU[1] Thread (CPUThread)[0x002291d4]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 60
 HLE: W {PPU[1] Thread (CPUThread)[0x00229208]} sys_cond warning: *** condition created [] (mutex_id=60): id = 61
-PPU: ! {PPU[1] Thread (CPUThread)[0x0040b01c]} *** New PPU Thread [MBgTaskManager] (flags=0x0, entry=0x28a9a0): id = 62
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b01c]} sys_ppu_thread: *** New PPU Thread [MBgTaskManager] (non-joinable, entry=0x28a9a0): id = 62
 HLE: W {PPU[1] Thread (CPUThread)[0x00229198]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 63
 HLE: W {PPU[1] Thread (CPUThread)[0x002291d4]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 64
 HLE: W {PPU[1] Thread (CPUThread)[0x00229208]} sys_cond warning: *** condition created [] (mutex_id=64): id = 65
-PPU: ! {PPU[1] Thread (CPUThread)[0x0040b01c]} *** New PPU Thread [MBgTaskManager] (flags=0x0, entry=0x28a9a0): id = 66
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_info.psb.m" opened: fd = 67
+HLE: ! {PPU[1] Thread (CPUThread)[0x0040b01c]} sys_ppu_thread: *** New PPU Thread [MBgTaskManager] (non-joinable, entry=0x28a9a0): id = 66
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/script_info.psb.m" opened: fd = 67
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275064]} sys_fs warning: cellFsFstat(fd=67, sb_addr=0xd005f960)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30173360, id_addr=0x30173388, func_addr=0x28ace8)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=67)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 68
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x301736cc, attr_addr=0xd000fa78, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3017662c, attr_addr=0xd000ea78, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 69
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=54)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(54) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(54) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=53)
 HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=52)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(52) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex: Mutex(52) was owned by thread -1 (recursive=0)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 70
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 71
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x301736a0, id_addr=0x301736c8, func_addr=0x28ace8)
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 71
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30176600, id_addr=0x30176628, func_addr=0x28ace8)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=71)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=70)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(70) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(70) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=69)
 HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=68)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(68) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex: Mutex(68) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00020af8]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd000faf0, summertime_addr=0xd000faf4)
+HLE: W {PPU[1] Thread (CPUThread)[0x00020af8]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd000eaf0, summertime_addr=0xd000eaf4)
 HLE: W {PPU[1] Thread (CPUThread)[0x00020af8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 HLE: W {PPU[1] Thread (CPUThread)[0x00020af8]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-HLE: W {PPU[1] Thread (CPUThread)[0x0002764c]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd000fa40, summertime_addr=0xd000fa44)
+HLE: W {PPU[1] Thread (CPUThread)[0x0002764c]} sys_time warning: sys_time_get_timezone(timezone_addr=0xd000ea40, summertime_addr=0xd000ea44)
 HLE: W {PPU[1] Thread (CPUThread)[0x0002764c]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 HLE: W {PPU[1] Thread (CPUThread)[0x0002764c]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 72
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3017331c, attr_addr=0xd000f3e8, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3017660c, attr_addr=0xd000e3e8, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 73
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 74
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 75
 HLE: W {PPU[66] Thread (MBgTaskManager)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f028]} cellGame warning: cellGameDataCheck(type=0x3, dirName_addr=0xd0070780, size_addr=0xd0070770)
+HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f028]} cellGame warning: cellGameDataCheck(type=0x3, dirName_addr=0xd006f780, size_addr=0xd006f770)
 HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f028]} cellGame warning: cellGameDataCheck(): '/dev_hdd0/game/NPJB00530' directory not found
-HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f004]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x30174290, usrdirPath_addr=0x30174320)
+HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f004]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x301768d0, usrdirPath_addr=0x30176960)
 HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f004]} cellGame warning: cellGameContentPermit(): CELL_GAME_ERROR_FAILURE (no permission given)
-HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f028]} cellGame warning: cellGameDataCheck(type=0x2, dirName_addr=0xd0070780, size_addr=0xd0070770)
+HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f028]} cellGame warning: cellGameDataCheck(type=0x2, dirName_addr=0xd006f780, size_addr=0xd006f770)
 HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f028]} cellGame warning: cellGameDataCheck(): '/dev_hdd0/game/NPJB00530' directory not found
-HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f004]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x30174290, usrdirPath_addr=0x30174320)
+HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f004]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x301768d0, usrdirPath_addr=0x30176960)
 HLE: W {PPU[66] Thread (MBgTaskManager)[0x0027f004]} cellGame warning: cellGameContentPermit(): CELL_GAME_ERROR_FAILURE (no permission given)
 HLE: W {PPU[66] Thread (MBgTaskManager)[0x00279004]} cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 76
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x301732f0, id_addr=0x30173318, func_addr=0x28ace8)
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 76
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x301765e0, id_addr=0x30176608, func_addr=0x28ace8)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=76)
 HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=74)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(74) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(74) was owned by thread -1 (recursive=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=75)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(75) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(75) was owned by thread -1 (recursive=0)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=73)
 HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=72)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(72) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex: Mutex(72) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -560,86 +591,102 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 77
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013cdec, attr_addr=0xd000f4b8, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013cdec, attr_addr=0xd000e4b8, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 78
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 79
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 80
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 80
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x3013cdc0, id_addr=0x3013cde8, func_addr=0x28ace8)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=80)
 HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=79)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(79) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(79) was owned by thread -1 (recursive=0)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=78)
 HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=77)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(77) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex: Mutex(77) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 81
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013cdec, attr_addr=0xd000f4b8, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013cdec, attr_addr=0xd000e4b8, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 82
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 83
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 84
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 84
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x3013cdc0, id_addr=0x3013cde8, func_addr=0x28ace8)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=84)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=83)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(83) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(83) was owned by thread -1 (recursive=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=82)
 HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=81)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(81) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex: Mutex(81) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 85
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013cdec, attr_addr=0xd000ff08, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013cdec, attr_addr=0xd000ef08, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 86
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 87
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/config_info.psb.m" opened: fd = 88
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/config_info.psb.m" opened: fd = 88
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275064]} sys_fs warning: cellFsFstat(fd=88, sb_addr=0xd005f960)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x3013cdc0, id_addr=0x3013cde8, func_addr=0x28ace8)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=88)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=87)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(87) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(87) was owned by thread -1 (recursive=0)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=86)
 HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=85)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(85) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex: Mutex(85) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 89
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/config_body.bin" opened: fd = 90
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/config_body.bin" opened: fd = 90
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30116aa0, id_addr=0x30116ac8, func_addr=0x28ace8)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=90)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 91
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3017456c, attr_addr=0xd000f4b8, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x301770ac, attr_addr=0xd000e4b8, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 92
 HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=89)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(89) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(89) was owned by thread -1 (recursive=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 93
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3017571c, attr_addr=0xd0010058, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013cdec, attr_addr=0xd000f058, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 94
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 95
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/font_info.psb.m" opened: fd = 96
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x301756f0, id_addr=0x30175718, func_addr=0x28ace8)
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/font_info.psb.m" opened: fd = 96
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275064]} sys_fs warning: cellFsFstat(fd=96, sb_addr=0xd005f960)
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x3013cdc0, id_addr=0x3013cde8, func_addr=0x28ace8)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=96)
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/image_info.psb.m" opened: fd = 97
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x301756f0, id_addr=0x30175718, func_addr=0x28ace8)
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/image_info.psb.m" opened: fd = 97
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275064]} sys_fs warning: cellFsFstat(fd=97, sb_addr=0xd005f960)
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x3013cdc0, id_addr=0x3013cde8, func_addr=0x28ace8)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=97)
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/motion_info.psb.m" opened: fd = 98
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x301756f0, id_addr=0x30175718, func_addr=0x28ace8)
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/motion_info.psb.m" opened: fd = 98
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275064]} sys_fs warning: cellFsFstat(fd=98, sb_addr=0xd005f960)
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x3013cdc0, id_addr=0x3013cde8, func_addr=0x28ace8)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -649,16 +696,21 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=98)
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/scenario_info.psb.m" opened: fd = 99
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x301756f0, id_addr=0x30175718, func_addr=0x28ace8)
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/scenario_info.psb.m" opened: fd = 99
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275064]} sys_fs warning: cellFsFstat(fd=99, sb_addr=0xd005f960)
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x3013cdc0, id_addr=0x3013cde8, func_addr=0x28ace8)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=99)
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/sound_info.psb.m" opened: fd = 100
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x301756f0, id_addr=0x30175718, func_addr=0x28ace8)
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/sound_info.psb.m" opened: fd = 100
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275064]} sys_fs warning: cellFsFstat(fd=100, sb_addr=0xd005f960)
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x3013cdc0, id_addr=0x3013cde8, func_addr=0x28ace8)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=100)
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/voice_info.psb.m" opened: fd = 101
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x301756f0, id_addr=0x30175718, func_addr=0x28ace8)
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/voice_info.psb.m" opened: fd = 101
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275064]} sys_fs warning: cellFsFstat(fd=101, sb_addr=0xd005f960)
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x3013cdc0, id_addr=0x3013cde8, func_addr=0x28ace8)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=101)
@@ -684,43 +736,41 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=95)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(95) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(95) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=94)
 HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=93)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(93) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex: Mutex(93) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 102
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 103
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30174540, id_addr=0x30174568, func_addr=0x28ace8)
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 103
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30177080, id_addr=0x301770a8, func_addr=0x28ace8)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=103)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=102)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(102) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(102) was owned by thread -1 (recursive=0)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=92)
 HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=91)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(91) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex: Mutex(91) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 104
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/motion_body.bin" opened: fd = 105
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/motion_body.bin" opened: fd = 105
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30116aa0, id_addr=0x30116ac8, func_addr=0x28ace8)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=105)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -812,210 +862,19 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x0027b034]} bad flip!
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 106
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
+HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30176bac, attr_addr=0xd000e4b8, init=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 107
 HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=104)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(104) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(104) was owned by thread -1 (recursive=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 108
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 109
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
+HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} sys_fs: "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 109
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30176b80, id_addr=0x30176ba8, func_addr=0x28ace8)
 HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=109)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=108)
+HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex: Mutex(108) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
 RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
@@ -1082,961 +941,29 @@ void main()
 	ocol0 = h0;
 }
 
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=108)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(108) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=107)
 HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=106)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(106) was owned by thread -1 (recursive=0)
+HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex: Mutex(106) was owned by thread -1 (recursive=0)
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
 RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
 RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 110
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 111
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 112
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} FP not found in buffer!
-RSX: ! {RSXThread} Add program (1):
-RSX: ! {RSXThread} *** prog id = 5
-RSX: ! {RSXThread} *** vp id = 2
-RSX: ! {RSXThread} *** fp id = 4
-RSX: ! {RSXThread} *** vp data size = 96
-RSX: ! {RSXThread} *** fp data size = 32
-RSX: ! {RSXThread} *** vp shader = 
-#version 330
-
-uniform mat4 scaleOffsetMat = mat4(1.0);
-vec4 dst_reg1 = vec4(0.0);
-vec4 tmp0;
-vec4 dst_reg7 = vec4(0.0);
-vec4 dst_reg0 = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-layout (location = 3) in vec4 in_diff_color;
-layout (location = 0) in vec4 in_pos;
-layout (location = 8) in vec4 in_tc0;
-uniform vec4 vc[468];
-out vec4 diff_color;
-out vec4 tc0;
-
-void func0();
-
-void main()
-{
-	func0();
-	gl_Position = dst_reg0;
-	diff_color = dst_reg1;
-	tc0 = dst_reg7;
-	gl_Position = gl_Position * scaleOffsetMat;
-}
-
-void func0()
-{
-	dst_reg1 = in_diff_color;
-	tmp0 = (in_pos.yyyy * vc[257]);
-	dst_reg7.xy = in_tc0.xyxx.xy;
-	tmp0 = (in_pos.xxxx * vc[256] + tmp0);
-	tmp0 = (in_pos.zzzz * vc[258] + tmp0);
-	dst_reg0 = (vc[259] + tmp0);
-}
-
-RSX: ! {RSXThread} *** fp shader = 
-#version 330
-
-vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
-vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
-uniform sampler2D tex0;
-in vec4 tc0;
-layout (location = 0) out vec4 ocol0;
-
-void main()
-{
-	r0 = texture(tex0, tc0.xy);
-	h0 = r0;
-	ocol0 = h0;
-}
-
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 113
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=113)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=112)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(112) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: ! {RSXThread} Add program (2):
-RSX: ! {RSXThread} *** prog id = 6
-RSX: ! {RSXThread} *** vp id = 2
-RSX: ! {RSXThread} *** fp id = 4
-RSX: ! {RSXThread} *** vp data size = 96
-RSX: ! {RSXThread} *** fp data size = 32
-RSX: ! {RSXThread} *** vp shader = 
-#version 330
-
-uniform mat4 scaleOffsetMat = mat4(1.0);
-vec4 dst_reg1 = vec4(0.0);
-vec4 tmp0;
-vec4 dst_reg7 = vec4(0.0);
-vec4 dst_reg0 = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-layout (location = 3) in vec4 in_diff_color;
-layout (location = 0) in vec4 in_pos;
-layout (location = 8) in vec4 in_tc0;
-uniform vec4 vc[468];
-out vec4 diff_color;
-out vec4 tc0;
-
-void func0();
-
-void main()
-{
-	func0();
-	gl_Position = dst_reg0;
-	diff_color = dst_reg1;
-	tc0 = dst_reg7;
-	gl_Position = gl_Position * scaleOffsetMat;
-}
-
-void func0()
-{
-	dst_reg1 = in_diff_color;
-	tmp0 = (in_pos.yyyy * vc[257]);
-	dst_reg7.xy = in_tc0.xyxx.xy;
-	tmp0 = (in_pos.xxxx * vc[256] + tmp0);
-	tmp0 = (in_pos.zzzz * vc[258] + tmp0);
-	dst_reg0 = (vc[259] + tmp0);
-}
-
-RSX: ! {RSXThread} *** fp shader = 
-#version 330
-
-vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
-vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
-uniform sampler2D tex0;
-in vec4 tc0;
-layout (location = 0) out vec4 ocol0;
-
-void main()
-{
-	r0 = texture(tex0, tc0.xy);
-	h0 = r0;
-	ocol0 = h0;
-}
-
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=111)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=110)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(110) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 114
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 115
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 116
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 117
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=117)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=116)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(116) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=115)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=114)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(114) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 118
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 119
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 120
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 121
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=121)
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=120)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(120) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=119)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=118)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(118) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 122
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 123
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 124
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 125
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=125)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=124)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(124) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=123)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=122)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(122) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 126
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 127
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 128
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 129
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=129)
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=128)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(128) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=127)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=126)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(126) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 130
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 131
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 132
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 133
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=133)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=132)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(132) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=131)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=130)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(130) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 134
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 135
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 136
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 137
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=137)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=136)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(136) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=135)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=134)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(134) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 138
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f828, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 139
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 140
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/sound_body.bin" opened: fd = 141
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=141)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=140)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(140) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=139)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=138)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(138) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 142
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f8f8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 143
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 144
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/sound_body.bin" opened: fd = 145
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=145)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=144)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(144) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=143)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=142)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(142) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 146
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f8f8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 147
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 148
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/voice_body.bin" opened: fd = 149
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=149)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=148)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(148) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=147)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=146)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(146) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 150
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 151
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 152
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 153
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=153)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=152)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(152) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=151)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=150)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(150) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 154
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 155
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 156
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 157
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=157)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=156)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(156) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=155)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=154)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(154) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 158
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 159
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 160
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 161
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=161)
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=160)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(160) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=159)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=158)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(158) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 162
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 163
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 164
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 165
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=165)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=164)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(164) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=163)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=162)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(162) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 166
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 167
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 168
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 169
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=169)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=168)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(168) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=167)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=166)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(166) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 170
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 171
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 172
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 173
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=173)
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=172)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(172) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=171)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=170)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(170) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 174
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 175
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 176
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 177
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=177)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=176)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(176) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=175)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=174)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(174) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 178
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 179
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 180
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 181
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=181)
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=180)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(180) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=179)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=178)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(178) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 182
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 183
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 184
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 185
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=185)
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=184)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(184) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=183)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=182)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(182) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 186
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f828, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 187
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 188
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/sound_body.bin" opened: fd = 189
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=189)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=188)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(188) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=187)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=186)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(186) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 190
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f7d8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 191
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 192
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/sound_body.bin" opened: fd = 193
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=193)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=192)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(192) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=191)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=190)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(190) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 194
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 195
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 196
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 197
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=197)
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=196)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(196) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=195)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=194)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(194) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 198
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 199
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 200
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 201
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=201)
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=200)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(200) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=199)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=198)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(198) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x001e5730]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 202
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3013727c, attr_addr=0xd000f4b8, init=0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00237a80]} sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 203
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 204
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/script_body.bin" opened: fd = 205
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30137250, id_addr=0x30137278, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=205)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=204)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(204) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x00236594]} sys_event_flag warning: sys_event_flag_destroy(eflag_id=203)
-HLE: W {PPU[1] Thread (CPUThread)[0x001e1ed8]} sys_mutex warning: sys_mutex_destroy(mutex_id=202)
-HLE: ! {PPU[1] Thread (CPUThread)[0x001e1ed8]} Mutex(202) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 206
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/config_body.bin" opened: fd = 207
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30116aa0, id_addr=0x30116ac8, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=207)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=206)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(206) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 208
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/config_body.bin" opened: fd = 209
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30116aa0, id_addr=0x30116ac8, func_addr=0x28ace8)
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=209)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00279010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SAVEDATA)
-HLE: E {PPU[1] Thread (CPUThread)[0x0027d0e8]} TODO: cellSaveDataEnableOverlay
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=208)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(208) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 210
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/config_body.bin" opened: fd = 211
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30116aa0, id_addr=0x30116ac8, func_addr=0x28ace8)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=211)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=210)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(210) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-HLE: W {PPU[1] Thread (CPUThread)[0x002293d4]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 212
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: ! {PPU[62] Thread (MBgTaskManager)[0x00275034]} "/dev_bdvd/PS3_GAME/USRDIR/image_body.bin" opened: fd = 213
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x0027504c]} sys_fs warning: cellFsAioRead(aio_addr=0x30116aa0, id_addr=0x30116ac8, func_addr=0x28ace8)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-HLE: W {PPU[62] Thread (MBgTaskManager)[0x00275004]} sys_fs warning: cellFsClose(fd=213)
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-HLE: W {PPU[1] Thread (CPUThread)[0x00229464]} sys_mutex warning: sys_mutex_destroy(mutex_id=212)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00229464]} Mutex(212) was owned by thread -1 (recursive=0)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
-RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
+G: E {PPU[1] Thread (CPUThread)[0x00080ca8]} Exception: Access violation: addr = 0x0 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
+PPU: ! {PPULLVMRecompiler} Removed 23 old versions
+PPU: ! {PPULLVMRecompiler} Removed 116 old versions
+RSX: W {RSXThread} RSX thread aborted
+HLE: W {PPU[58] Thread (MBgTaskManager)[0x00229500]} sys_cond warning: sys_cond_wait(id=57) aborted
+HLE: W {PPU[66] Thread (MBgTaskManager)[0x00229500]} sys_cond warning: sys_cond_wait(id=65) aborted
+HLE: W {PPU[49] Thread (synth)[0x000179ec]} sys_event warning: sys_event_queue_receive(equeue=46) aborted
+HLE: W {Audio Thread} cellAudio warning: Audio thread aborted
+RSX: W {VBlank thread} VBlank thread aborted
+HLE: W {PPU[62] Thread (MBgTaskManager)[0x00229500]} sys_cond warning: sys_cond_wait(id=61) aborted
+PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
+HLE: ! All threads stopped...
+RSX: W GLVertexProgram::Delete(): glDeleteShader(2) avoided
+RSX: W GLShaderProgram::Delete(): glDeleteShader(1) avoided
+HLE: ! sys_mutex: Mutex(42) was owned by thread 49 (recursive=1)
+MEM: ! Closing memory...
