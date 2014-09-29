@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: Ratchet & Clank™: All 4 One (Digital version)
 LDR: ! Serial: NPEA00356
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x9f07c40000
+MEM: ! Initializing memory: m_base_addr = 0x7e70960000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'cellHttp'
 LDR: ! Imported function 'cellHttpCreateTransaction' in 'cellHttp' module
@@ -428,6 +428,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex warning: sys_lwmutex_
 HLE: ! {PPU[1] Thread (CPUThread)[0x011cc058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 19
 HLE: W {PPU[1] Thread (CPUThread)[0x00809c44]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 20
 G: E {PPU[1] Thread (CPUThread)[0x000b0cfc]} Exception: Access violation: addr = 0x11d7dff (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
+PPU: ! {PPULLVMRecompiler} Removed 1 old versions
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...

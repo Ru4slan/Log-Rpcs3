@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: Silent Hill Downpour
 LDR: ! Serial: BLES01446
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xdfe9760000
+MEM: ! Initializing memory: m_base_addr = 0x6ce9d80000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'sys_net_initialize_network_ex' in 'sys_net' module
 LDR: W Unimplemented function 'getsockname' in 'sys_net' module
@@ -441,10 +441,10 @@ HLE: W {PPU[1] Thread (CPUThread)[0x01e3f004]} cellUserInfo warning: cellUserInf
 HLE: E {PPU[1] Thread (CPUThread)[0x01e2904c]} sys_fs error: "/dev_hdd0/game/BLUS30565/USRDIR/settings-22681640" not found! flags: 0x00000000
 HLE: W {PPU[1] Thread (CPUThread)[0x01e2b094]} cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x01e2b040]} cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd000f770)
-HLE: W {PPU[1] Thread (CPUThread)[0x01e2b100]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x0, option_addr=0x0, aspect=0x0, option=0xeca023c0)
+HLE: W {PPU[1] Thread (CPUThread)[0x01e2b100]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x0, option_addr=0x0, aspect=0x0, option=0xec4f6f60)
 HLE: W {PPU[1] Thread (CPUThread)[0x01e2b010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000f6d0, option_addr=0x0, waitForEvent=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x01e45064]} cellGcmSys warning: cellGcmSetFlipMode(mode=3)
-HLE: E {PPU[1] Thread (CPUThread)[0x01e2d004]} TODO: cellVideoOutGetScreenSize
+HLE: W {PPU[1] Thread (CPUThread)[0x01e2d004]} cellAvconfExt warning: cellVideoOutGetScreenSize(videoOut=0, screenSize_addr=0x1d19008)
 HLE: W {PPU[1] Thread (CPUThread)[0x01e450f4]} cellGcmSys warning: cellGcmSetVBlankHandler(handler_addr=0x1c4bb28)
 HLE: W {PPU[1] Thread (CPUThread)[0x01e450c4]} cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=29670176)
 HLE: W {PPU[1] Thread (CPUThread)[0x01e45010]} cellGcmSys warning: cellGcmSetUserHandler(handler_addr=0x1c4bb30)
@@ -482,9 +482,9 @@ HLE: E {PPU[1] Thread (CPUThread)[0x01e47124]} sys_mmapper error: sys_mmapper_ma
 HLE: W {PPU[1] Thread (CPUThread)[0x01e450b8]} cellGcmSys warning: cellGcmMapMainMemory(ea=0x0,size=0xa00000,offset_addr=0xd000f7d8)
 G: E {PPU[1] Thread (CPUThread)[0x00733ab4]} Exception: Access violation: addr = 0xfa0 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
 PPU: ! {PPULLVMRecompiler} Removed 6 old versions
-PPU: ! {PPULLVMRecompiler} Removed 8 old versions
-RSX: W {VBlank thread} VBlank thread aborted
+PPU: ! {PPULLVMRecompiler} Removed 5 old versions
 RSX: W {RSXThread} RSX thread aborted
+RSX: W {VBlank thread} VBlank thread aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...

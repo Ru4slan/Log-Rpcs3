@@ -1,8 +1,7 @@
 HLE: ! path: /dev_hdd0/game/
 HLE: W No pause.bin found, Auto Pause will not work.
 HLE: W No pause.bin found, Auto Pause will not work.
-LDR: ! Loading RAP file EP9000-NPEA00435_00-THELASTOFUSDIG01.rap
-LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435\USRDIR/BOOT.BIN'...
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
 LDR: ! /dev_hdd0/ -> ./dev_hdd0/
@@ -10,19 +9,19 @@ LDR: ! /dev_hdd1/ -> ./dev_hdd1/
 LDR: ! /dev_flash/ -> ./dev_flash/
 LDR: ! /dev_usb000/ -> ./dev_usb000/
 LDR: ! /dev_usb/ -> ./dev_usb000/
-LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435\
-LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435\/../
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435//../
 LDR: ! /host_root/ -> 
-LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435\/USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435//USRDIR/
 LDR: ! /dev_flash2/ -> ./dev_flash2/
-LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435\/USRDIR/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435//USRDIR/
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435\/USRDIR/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00435//USRDIR/
 LDR: !  
 LDR: ! Title: The Last of Us™
 LDR: ! Serial: NPEA00435
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xef132f0000
+MEM: ! Initializing memory: m_base_addr = 0x6878120000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'cellHttp'
 LDR: ! Imported function 'cellHttpInit' in 'cellHttp' module
@@ -1667,8 +1666,8 @@ HLE: W {PPU[1] Thread (CPUThread)[0x0004a104]} sys_spu warning: sys_spu_initiali
 HLE: E {PPU[1] Thread (CPUThread)[0x0004a164]} Unknown syscall: 254 - 000000fe
 HLE: W {PPU[1] Thread (CPUThread)[0x0156c010]} sys_net warning: sys_net_initialize_network_ex(param_addr=0xd000fc10)
 G: E {PPU[1] Thread (CPUThread)[0x009365dc]} Exception: Access violation: addr = 0x4 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
-PPU: ! {PPULLVMRecompiler} Removed 3 old versions
-PPU: ! {PPULLVMRecompiler} Removed 20 old versions
+PPU: ! {PPULLVMRecompiler} Removed 2 old versions
+PPU: ! {PPULLVMRecompiler} Removed 21 old versions
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...

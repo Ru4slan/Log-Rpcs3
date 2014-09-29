@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: ONE PIECE: PIRATE WARRIORS 2
 LDR: ! Serial: BLES01913
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x101e530000
+MEM: ! Initializing memory: m_base_addr = 0xb6c0060000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module
 LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module
@@ -1869,11 +1869,11 @@ HLE: E {PPU[1] Thread (CPUThread)[0x00973004]} cellSpurs TODO: _cellSpursLFQueue
 HLE: E {PPU[1] Thread (CPUThread)[0x00973004]} cellSpurs TODO: _cellSpursLFQueueInitialize
 HLE: E {PPU[1] Thread (CPUThread)[0x00973130]} cellSpurs TODO: cellSpursCreateTask
 HLE: E {PPU[1] Thread (CPUThread)[0x00973058]} cellSpurs TODO: _cellSpursLFQueuePushBody
-RSX: W {VBlank thread} VBlank thread aborted
-HLE: W {PPU[707] Thread (KtglFsThread_Usb)[0x00400d44]} sys_event_flag warning: sys_event_flag_wait(id=705) aborted
 RSX: W {RSXThread} RSX thread aborted
-HLE: W {PPU[695] Thread (KtglFsThread_Bdvd)[0x00400d44]} sys_event_flag warning: sys_event_flag_wait(id=693) aborted
-HLE: W {PPU[691] Thread (KtglFsThread_Host)[0x00400d44]} sys_event_flag warning: sys_event_flag_wait(id=689) aborted
-HLE: W {PPU[703] Thread (KtglFsThread_Ms)[0x00400d44]} sys_event_flag warning: sys_event_flag_wait(id=701) aborted
+HLE: W {PPU[707] Thread (KtglFsThread_Usb)[0x00400d44]} sys_event_flag warning: sys_event_flag_wait(id=705) aborted
 HLE: W {PPU[699] Thread (KtglFsThread_Hdd)[0x00400d44]} sys_event_flag warning: sys_event_flag_wait(id=697) aborted
+HLE: W {PPU[691] Thread (KtglFsThread_Host)[0x00400d44]} sys_event_flag warning: sys_event_flag_wait(id=689) aborted
+RSX: W {VBlank thread} VBlank thread aborted
+HLE: W {PPU[695] Thread (KtglFsThread_Bdvd)[0x00400d44]} sys_event_flag warning: sys_event_flag_wait(id=693) aborted
+HLE: W {PPU[703] Thread (KtglFsThread_Ms)[0x00400d44]} sys_event_flag warning: sys_event_flag_wait(id=701) aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.

@@ -21,7 +21,7 @@ LDR: !
 LDR: ! Title: Tom Clancy's™ Splinter Cell® HD
 LDR: ! Serial: NPEB00527
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x463d6c0000
+MEM: ! Initializing memory: m_base_addr = 0x5494c80000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellPadInit' in 'sys_io' module
 LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
@@ -297,14 +297,13 @@ HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f04c]} sys_fs warning: cellFsStat(
 HLE: W {PPU[22] Thread (RenderingThread)[0x007a701c]} cellGcmSys warning: _cellGcmInitBody(context_addr=0x71b2e8, cmdSize=0x200000, ioSize=0x1800000, ioAddress=0x30200000)
 HLE: W {PPU[1] Thread (CPUThread)[0x002d9758]} sys_ppu_thread warning: sys_ppu_thread_join(thread_id=23, vptr_addr=0xd000fcc0)
 HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f04c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/Save/BIGSAVE", sb_addr=0xd003fc10)
-PPU: ! {PPULLVMRecompiler} Removed 4 old versions
 HLE: W {PPU[22] Thread (RenderingThread)[0x007a701c]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 HLE: W {PPU[22] Thread (RenderingThread)[0x007a701c]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
 HLE: W {PPU[22] Thread (RenderingThread)[0x007a701c]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x1800000)
 HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f04c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/Save/USR-DATA", sb_addr=0xd003fc10)
 HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f04c]} sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/Save/USR-DATA" not found.
 HLE: ! {PPU[21] Thread (SaveInitThread)[0x0053e01c]} sys_ppu_thread: *** New PPU Thread [Splinter_Cell_2_Load] (non-joinable, entry=0x563de8): id = 24
-HLE: W {PPU[24] Thread (Splinter_Cell_2_Load)[0x007a10a0]} cellSysutil warning: cellSaveDataAutoLoad2(version=0, dirName_addr=0xd006fda0, errDialog=0, setBuf=0xd006fdc0, funcList=0x563e68, funcStat=0x563dc8, funcFile=0xffffffff, container=0x2, userdata_addr=0x40848440)
+HLE: W {PPU[24] Thread (Splinter_Cell_2_Load)[0x007a10a0]} cellSysutil warning: cellSaveDataAutoLoad2(version=0, dirName_addr=0xd006fda0, errDialog=0, setBuf=0xd006fdc0, funcList=0x563e68, funcStat=0x563dc8, funcFile=0xffffffff, container=0x2, userdata_addr=0x9856f940)
 HLE: W {PPU[24] Thread (Splinter_Cell_2_Load)[0x007a10a0]} cellSysutil warning: cellSaveDataAutoLoad2: Couldn't find save entry (NPEB00527-SPLINTE)
 RSX: ! {RSXThread} RSX thread started
 HLE: W {PPU[22] Thread (RenderingThread)[0x007a7118]} cellGcmSys warning: cellGcmUnbindTile(index=0)
@@ -324,7 +323,7 @@ HLE: W {PPU[22] Thread (RenderingThread)[0x007a7118]} cellGcmSys warning: cellGc
 HLE: W {PPU[22] Thread (RenderingThread)[0x007a7118]} cellGcmSys warning: cellGcmUnbindTile(index=14)
 HLE: W {PPU[22] Thread (RenderingThread)[0x0053e034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x6ea038, attr_addr=0xd004f8e0)
 HLE: ! {PPU[22] Thread (RenderingThread)[0x0053e034]} sys_lwmutex: *** lwmutex created [] (attribute=0x21): sq_id = 25
-HLE: W {PPU[22] Thread (RenderingThread)[0x007a107c]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x40849760)
+HLE: W {PPU[22] Thread (RenderingThread)[0x007a107c]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x96b952b0)
 HLE: W {PPU[22] Thread (RenderingThread)[0x007a1010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd004fa28, option_addr=0x0, waitForEvent=0x0)
 HLE: W {PPU[22] Thread (RenderingThread)[0x00359650]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x70a220, attr_addr=0xd004f950, initial_count=1, max_count=2)
 HLE: ! {PPU[22] Thread (RenderingThread)[0x00359650]} sys_semaphore: *** semaphore created [] (protocol=0x2): id = 26
@@ -335,12 +334,30 @@ HLE: E {PPU[21] Thread (SaveInitThread)[0x0079f040]} sys_fs error: "/dev_hdd0/ga
 HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f07c]} sys_fs warning: cellFsMkdir(path="/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/../saveBackUp", mode=0x1c0)
 HLE: ! {PPU[21] Thread (SaveInitThread)[0x0079f040]} sys_fs: "/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/Save/BIGSAVE" opened: fd = 27
 HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f0a0]} sys_fs warning: cellFsFstat(fd=27, sb_addr=0xd003fc20)
-HLE: W {PPU[22] Thread (RenderingThread)[0x007a7100]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=257097728, size=3932160, pitch=5120, comp=0, base=0, bank=0)
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f010]} sys_fs warning: cellFsClose(fd=27)
+HLE: W {PPU[21] Thread (SaveInitThread)[0x007a1034]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f01c]} sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/../Save/Default", fd_addr=0xd003ef70)
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f01c]} sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/../Save/Default", fd_addr=0xd003ef70)
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f004]} sys_fs warning: cellFsRmdir(path="/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/../Save/Default")
+HLE: E {PPU[21] Thread (SaveInitThread)[0x0079f040]} sys_fs error: "/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/../Save/Default" not found! flags: 0x00000000
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f07c]} sys_fs warning: cellFsMkdir(path="/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/../Save/Default", mode=0x1c0)
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f01c]} sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/../Save/PS3", fd_addr=0xd003ef70)
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f01c]} sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/../Save/PS3", fd_addr=0xd003ef70)
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f004]} sys_fs warning: cellFsRmdir(path="/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/../Save/PS3")
+HLE: E {PPU[21] Thread (SaveInitThread)[0x0079f040]} sys_fs error: "/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/../Save/PS3" not found! flags: 0x00000000
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f07c]} sys_fs warning: cellFsMkdir(path="/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/../Save/PS3", mode=0x1c0)
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f040]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00527\USRDIR\Data_SC\System\SplinterCellUser.ixx')
+HLE: ! {PPU[21] Thread (SaveInitThread)[0x0079f040]} sys_fs: "/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/System/SplinterCellUser.ixx" opened: fd = 28
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f010]} sys_fs warning: cellFsClose(fd=28)
+HLE: W {PPU[22] Thread (RenderingThread)[0x007a7100]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=252116992, size=8912896, pitch=8192, comp=0, base=0, bank=0)
 HLE: W {PPU[22] Thread (RenderingThread)[0x007a704c]} cellGcmSys warning: cellGcmBindTile(index=0)
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 2
-HLE: W {PPU[22] Thread (RenderingThread)[0x007a7100]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=253165568, size=7864320, pitch=5120, comp=0, base=0, bank=0)
+HLE: W {PPU[21] Thread (SaveInitThread)[0x0079f040]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00527\USRDIR\Data_SC\Save\Default\Config.ixx')
+HLE: W {PPU[22] Thread (RenderingThread)[0x007a7100]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=243204096, size=17825792, pitch=8192, comp=0, base=0, bank=0)
 HLE: W {PPU[22] Thread (RenderingThread)[0x007a704c]} cellGcmSys warning: cellGcmBindTile(index=0)
 G: E {PPU[22] Thread (RenderingThread)[0x001cffec]} Exception: Access violation: addr = 0x7 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
+HLE: ! {PPU[21] Thread (SaveInitThread)[0x0079f040]} sys_fs: "/dev_hdd0/game/NPEB00527/USRDIR/Data_SC/Save/Default/Config.ixx" opened: fd = 29
+PPU: ! {PPULLVMRecompiler} Removed 4 old versions
 PPU: ! {PPULLVMRecompiler} Removed 27 old versions
 RSX: W {RSXThread} RSX thread aborted
 RSX: W {VBlank thread} VBlank thread aborted
