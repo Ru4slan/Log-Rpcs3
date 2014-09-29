@@ -17,11 +17,12 @@ LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00548//USRDIR/
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00548//USRDIR/
+LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00548//USRDIR/
 LDR: !  
 LDR: ! Title: Dante's Inferno™ HDD EN/FR/ES
 LDR: ! Serial: NPEB00548
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x170ef70000
+MEM: ! Initializing memory: m_base_addr = 0x42c2b50000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellAdecDecodeAu' in 'cellAdec' module
 LDR: ! Imported function 'cellAdecStartSeq' in 'cellAdec' module
@@ -437,10 +438,28 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00862834]} sys_cond warning: *** condition c
 HLE: ! {PPU[1] Thread (CPUThread)[0x0169101c]} sys_ppu_thread: *** New PPU Thread [] (non-joinable, entry=0x11847f8): id = 54
 HLE: W {PPU[54] Thread[0x00864218]} sys_cond warning: *** condition on recursive mutex(49)
 HLE: W {PPU[54] Thread[0x00864218]} sys_cond warning: *** condition created [] (mutex_id=49): id = 55
+HLE: W {PPU[1] Thread (CPUThread)[0x00862fd0]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 56
+HLE: W {PPU[1] Thread (CPUThread)[0x00862760]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 57
+HLE: W {PPU[1] Thread (CPUThread)[0x00862834]} sys_cond warning: *** condition created [] (mutex_id=57): id = 58
+HLE: W {PPU[1] Thread (CPUThread)[0x00862760]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 59
+HLE: W {PPU[1] Thread (CPUThread)[0x00862834]} sys_cond warning: *** condition created [] (mutex_id=59): id = 60
+HLE: ! {PPU[1] Thread (CPUThread)[0x0169101c]} sys_ppu_thread: *** New PPU Thread [] (non-joinable, entry=0x11847f8): id = 61
+HLE: W {PPU[61] Thread[0x00864218]} sys_cond warning: *** condition on recursive mutex(56)
+HLE: W {PPU[61] Thread[0x00864218]} sys_cond warning: *** condition created [] (mutex_id=56): id = 62
+HLE: W {PPU[1] Thread (CPUThread)[0x00862fd0]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 63
+HLE: W {PPU[1] Thread (CPUThread)[0x00862760]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 64
+HLE: W {PPU[1] Thread (CPUThread)[0x00862834]} sys_cond warning: *** condition created [] (mutex_id=64): id = 65
+HLE: W {PPU[1] Thread (CPUThread)[0x00862760]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 66
+HLE: W {PPU[1] Thread (CPUThread)[0x00862834]} sys_cond warning: *** condition created [] (mutex_id=66): id = 67
+HLE: ! {PPU[1] Thread (CPUThread)[0x0169101c]} sys_ppu_thread: *** New PPU Thread [] (non-joinable, entry=0x11847f8): id = 68
+HLE: W {PPU[68] Thread[0x00864218]} sys_cond warning: *** condition on recursive mutex(63)
+HLE: W {PPU[68] Thread[0x00864218]} sys_cond warning: *** condition created [] (mutex_id=63): id = 69
 RSX: W {VBlank thread} VBlank thread aborted
-HLE: W {PPU[54] Thread[0x0086416c]} sys_cond warning: sys_cond_wait(id=55) aborted
+HLE: W {PPU[61] Thread[0x0086416c]} sys_cond warning: sys_cond_wait(id=62) aborted
 RSX: W {RSXThread} RSX thread aborted
-PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
+HLE: W {PPU[54] Thread[0x0086416c]} sys_cond warning: sys_cond_wait(id=55) aborted
+HLE: W {PPU[68] Thread[0x0086416c]} sys_cond warning: sys_cond_wait(id=69) aborted
 HLE: W {PPU[1] Thread (CPUThread)[0x00860f1c]} sys_timer warning: sys_timer_usleep(sleep_time=281474976710655) aborted
+PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...
