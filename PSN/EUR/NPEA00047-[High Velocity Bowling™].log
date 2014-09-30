@@ -17,11 +17,12 @@ LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00047//USRDIR/
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00047//USRDIR/
+LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00047//USRDIR/
 LDR: !  
 LDR: ! Title: High Velocity Bowling™
 LDR: ! Serial: NPEA00047
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xc551140000
+MEM: ! Initializing memory: m_base_addr = 0x3e27530000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellPadInit' in 'sys_io' module
 LDR: ! Imported function 'cellKbClearBuf' in 'sys_io' module
@@ -494,7 +495,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmod
 HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_COMMERCE2)
 HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GEM)
 HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_CAMERA)
-HLE: W {PPU[1] Thread (CPUThread)[0x00c4b0f4]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x51958c40)
+HLE: W {PPU[1] Thread (CPUThread)[0x00c4b0f4]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x29c8dc70)
 TTY: videoState.state = 0
 TTY: videoState.displaymode.resolution = 2
 TTY: videoState.displaymode.scanMode = 0
@@ -632,7 +633,7 @@ HLE: E {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys error: cellGcmSetTile:
 HLE: E {PPU[1] Thread (CPUThread)[0x00c550c4]} cellGcmSys TODO: cellGcmSetZcull(index=1, offset=0x1ba0000, width=1024, height=512, cullStart=0xf0000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
 HLE: W {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys warning: cellGcmSetTile(index=6, location=0, offset=31129600, size=983040, pitch=2560, comp=7, base=424, bank=1)
 HLE: E {PPU[1] Thread (CPUThread)[0x00c550b8]} cellGcmSys error: cellGcmSetTile: bad compression mode! (7)
-RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: fff0
+RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: 0xfff0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_ATTRIB_TEX_COORD_EX(0x6f)
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xfeed0001)
 RSX: E {RSXThread} TODO: unknown/illegal method [0x00001450](0x80004)
@@ -642,7 +643,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00c4501c]} cellSpurs warning: cellSpursWorkl
 HLE: W {PPU[1] Thread (CPUThread)[0x00c45088]} cellSpurs warning: cellSpursAddWorkloadWithAttribute(spurs_addr=0x97c300, wid_addr=0x9c84f0, attr_addr=0xd000f538)
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45004]} cellSpurs TODO: cellSpursRequestIdleSpu
 HLE: E {PPU[1] Thread (CPUThread)[0x00c450a0]} cellSpurs TODO: cellSpursSetExceptionEventHandler
-HLE: E {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs TODO: cellSpursReadyCountStore
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs warning: cellSpursReadyCountStore(spurs_addr=0x97c300, wid=2, value=0x5)
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45028]} cellSpurs TODO: cellSpursGetWorkloadInfo
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45028]} cellSpurs TODO: cellSpursGetWorkloadInfo
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45064]} cellSpurs TODO: cellSpursShutdownWorkload
@@ -654,7 +655,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00c4501c]} cellSpurs warning: cellSpursWorkl
 HLE: W {PPU[1] Thread (CPUThread)[0x00c45088]} cellSpurs warning: cellSpursAddWorkloadWithAttribute(spurs_addr=0x97c300, wid_addr=0x9cd588, attr_addr=0xd000f538)
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45004]} cellSpurs TODO: cellSpursRequestIdleSpu
 HLE: E {PPU[1] Thread (CPUThread)[0x00c450a0]} cellSpurs TODO: cellSpursSetExceptionEventHandler
-HLE: E {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs TODO: cellSpursReadyCountStore
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs warning: cellSpursReadyCountStore(spurs_addr=0x97c300, wid=3, value=0x5)
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45028]} cellSpurs TODO: cellSpursGetWorkloadInfo
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45028]} cellSpurs TODO: cellSpursGetWorkloadInfo
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45064]} cellSpurs TODO: cellSpursShutdownWorkload
@@ -662,47 +663,47 @@ HLE: E {PPU[1] Thread (CPUThread)[0x00c4504c]} cellSpurs TODO: cellSpursWaitForW
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45040]} cellSpurs TODO: cellSpursRemoveWorkload
 RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
-RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
-RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000002
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 0x10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: 0xff000002
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 RSX: W {RSXThread} New FBO (720x576)
 RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
-RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: fff0
+RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: 0xfff0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_ATTRIB_TEX_COORD_EX(0x6f)
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xfeed0001)
 RSX: E {RSXThread} TODO: unknown/illegal method [0x00001450](0x80004)
-RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 0x1
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45010]} cellSpurs TODO: cellSpursGetInfo
 HLE: W {PPU[1] Thread (CPUThread)[0x00c450ac]} cellSpurs warning: _cellSpursWorkloadAttributeInitialize(attr_addr=0xd000f538, revision=1, sdkVersion=0x330000, pm_addr=0x7b9300, size=0x2d80, data=0x9c8580, priorityTable_addr=0xd000f810, minContention=0x1, maxContention=0x5)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[1] Thread (CPUThread)[0x00c4501c]} cellSpurs warning: cellSpursWorkloadAttributeSetName(attr_addr=0xd000f538, nameClass_addr=0x766608, nameInstance_addr=0x9c84f8)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[1] Thread (CPUThread)[0x00c45088]} cellSpurs warning: cellSpursAddWorkloadWithAttribute(spurs_addr=0x97c300, wid_addr=0x9c84f0, attr_addr=0xd000f538)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45004]} cellSpurs TODO: cellSpursRequestIdleSpu
+RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
 HLE: E {PPU[1] Thread (CPUThread)[0x00c450a0]} cellSpurs TODO: cellSpursSetExceptionEventHandler
-HLE: E {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs TODO: cellSpursReadyCountStore
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs warning: cellSpursReadyCountStore(spurs_addr=0x97c300, wid=4, value=0x5)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 0x10
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: 0xff000002
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
 HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 HLE: W {PPU[1] Thread (CPUThread)[0x00c47010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: 0xfff0
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_ATTRIB_TEX_COORD_EX(0x6f)
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xfeed0001)
+RSX: E {RSXThread} TODO: unknown/illegal method [0x00001450](0x80004)
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 0x1
 HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3031bca0, attr_addr=0xd000f7e0)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex: *** lwmutex created [opWait] (attribute=0x12): sq_id = 95
 HLE: W {PPU[1] Thread (CPUThread)[0x00c77130]} sys_lwcond warning: *** lwcond created [opWait] (lwmutex_addr=0x3031bca0): id = 96
 HLE: W {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30319c20, attr_addr=0xd000f770)
 HLE: ! {PPU[1] Thread (CPUThread)[0x00c77058]} sys_lwmutex: *** lwmutex created [s_media] (attribute=0x12): sq_id = 97
 HLE: W {PPU[1] Thread (CPUThread)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Bowl_Main_Online_SCE.rsx", sb_addr=0xd000f970)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
-RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
-RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
-RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000002
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
-RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
-RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: fff0
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_ATTRIB_TEX_COORD_EX(0x6f)
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xfeed0001)
-RSX: E {RSXThread} TODO: unknown/illegal method [0x00001450](0x80004)
-RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
 TTY: err = 0x0, CELL_FS_ENOENT = 0x80010006
 TTY: using hvb shop? false
 HLE: ! {PPU[1] Thread (CPUThread)[0x00c77028]} sys_ppu_thread: *** New PPU Thread [Check Gamedata] (joinable, entry=0x803eb0): id = 98
@@ -714,28 +715,28 @@ HLE: E {PPU[1] Thread (CPUThread)[0x00c4504c]} cellSpurs TODO: cellSpursWaitForW
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45040]} cellSpurs TODO: cellSpursRemoveWorkload
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45010]} cellSpurs TODO: cellSpursGetInfo
 HLE: W {PPU[1] Thread (CPUThread)[0x00c450ac]} cellSpurs warning: _cellSpursWorkloadAttributeInitialize(attr_addr=0xd000f5a8, revision=1, sdkVersion=0x330000, pm_addr=0x7b9300, size=0x2d80, data=0x9cad80, priorityTable_addr=0xd000f880, minContention=0x1, maxContention=0x5)
+TTY: cellGameBootCheck() ok
 HLE: W {PPU[1] Thread (CPUThread)[0x00c4501c]} cellSpurs warning: cellSpursWorkloadAttributeSetName(attr_addr=0xd000f5a8, nameClass_addr=0x766608, nameInstance_addr=0x9cd590)
 HLE: W {PPU[1] Thread (CPUThread)[0x00c45088]} cellSpurs warning: cellSpursAddWorkloadWithAttribute(spurs_addr=0x97c300, wid_addr=0x9cd588, attr_addr=0xd000f5a8)
 HLE: E {PPU[1] Thread (CPUThread)[0x00c45004]} cellSpurs TODO: cellSpursRequestIdleSpu
 HLE: E {PPU[1] Thread (CPUThread)[0x00c450a0]} cellSpurs TODO: cellSpursSetExceptionEventHandler
-HLE: E {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs TODO: cellSpursReadyCountStore
-TTY: cellGameBootCheck() ok
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+HLE: W {PPU[1] Thread (CPUThread)[0x00c450b8]} cellSpurs warning: cellSpursReadyCountStore(spurs_addr=0x97c300, wid=5, value=0x5)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 0x10
 TTY: 	 GAME TYPE = HDD GAME
+RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: 0xff000002
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
-RSX: W {RSXThread} NV4097_SET_ZCULL_CONTROL0: 10
-RSX: W {RSXThread} NV4097_SET_SCULL_CONTROL: ff000002
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
-RSX: E {RSXThread} TODO: unknown/illegal method [0x0000e000](0xcafebabe)
-RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: fff0
+RSX: W {RSXThread} NV4097_SET_COLOR_MASK_MRT: 0xfff0
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_ATTRIB_TEX_COORD_EX(0x6f)
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTEXT_DMA_REPORT(0xfeed0001)
 RSX: E {RSXThread} TODO: unknown/illegal method [0x00001450](0x80004)
-RSX: W {RSXThread} NV4097_INVALIDATE_L2: 1
+RSX: W {RSXThread} NV4097_INVALIDATE_L2: 0x1
 TTY: 	 attributes = 0x0, hddFreeSizeKB = 40000000
 HLE: W {PPU[98] Thread (Check Gamedata)[0x00c4d010]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x982498, usrdirPath_addr=0x982518)
 TTY: cellGameContentPermit() ok
@@ -1100,22 +1101,32 @@ HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFs
 HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Default/Textures.rsx", sb_addr=0xd012f704)
 HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Default/Textures.rsx", sb_addr=0xd012f704)
 HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=173)
+HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.rsx", sb_addr=0xd012f704)
+HLE: ! {PPU[135] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.rsx" opened: fd = 174
+HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c49088]} sys_fs warning: cellFsFstat(fd=174, sb_addr=0xd012f704)
+HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.rsx", sb_addr=0xd012f704)
+HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.rsx", sb_addr=0xd012f704)
+HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.rsx", sb_addr=0xd012f704)
+HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c49010]} sys_fs warning: cellFsClose(fd=174)
+TTY: Loading Default/Lights.rsx
+HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.rsx", sb_addr=0xd012f704)
+HLE: ! {PPU[135] Thread (fios mediathread 5)[0x00c49040]} sys_fs: "/dev_hdd0/game/NPEA00047/USRDIR/Default/Lights.rsx" opened: fd = 175
+HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c49088]} sys_fs warning: cellFsFstat(fd=175, sb_addr=0xd012f704)
 HLE: W {PPU[136] Thread (fios mediathread 6)[0x00c4904c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00047/USRDIR/UI/Common/Misc/Font.rsx", sb_addr=0xd013f704)
-PPU: ! {PPULLVMRecompiler} Removed 170 old versions
-PPU: ! {PPULLVMRecompiler} Removed 326 old versions
-HLE: W {PPU[137] Thread (fios scheduler 4)[0x00c77148]} sys_lwcond warning: sys_lwcond_signal_all(id=96) aborted
-RSX: W {VBlank thread} VBlank thread aborted
+PPU: ! {PPULLVMRecompiler} Removed 205 old versions
 HLE: W {PPU[1] Thread (CPUThread)[0x00c77040]} sys_lwmutex warning: sys_lwmutex_t::lock(sq=95) aborted
-HLE: W {PPU[162] Thread (loading screen thread)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=96) aborted
-HLE: W {PPU[136] Thread (fios mediathread 6)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=134) aborted
-RSX: W {RSXThread} RSX thread aborted
-HLE: W {PPU[116] Thread (fios mediathread 2)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=114) aborted
-HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=133) aborted
 HLE: W {PPU[89] Thread (Job Manager Event Handler)[0x00223738]} sys_event warning: sys_event_queue_receive(equeue=88) aborted
-HLE: W {PPU[92] Thread (Job Manager Event Handler)[0x00223738]} sys_event warning: sys_event_queue_receive(equeue=91) aborted
-HLE: W {PPU[117] Thread (fios mediathread 3)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=115) aborted
-HLE: W {PPU[1] Thread (CPUThread)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=96) aborted
+HLE: W {PPU[162] Thread (loading screen thread)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=96) aborted
 HLE: W {PPU[118] Thread (fios scheduler 1)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=110) aborted
+RSX: W {VBlank thread} VBlank thread aborted
+HLE: W {PPU[137] Thread (fios scheduler 4)[0x00c77148]} sys_lwcond warning: sys_lwcond_signal_all(id=96) aborted
+RSX: W {RSXThread} RSX thread aborted
+HLE: W {PPU[136] Thread (fios mediathread 6)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=134) aborted
+HLE: W {PPU[1] Thread (CPUThread)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=96) aborted
+HLE: W {PPU[116] Thread (fios mediathread 2)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=114) aborted
+HLE: W {PPU[117] Thread (fios mediathread 3)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=115) aborted
+HLE: W {PPU[135] Thread (fios mediathread 5)[0x00c77040]} sys_lwcond warning: sys_lwcond_wait(id=133) aborted
+HLE: W {PPU[92] Thread (Job Manager Event Handler)[0x00223738]} sys_event warning: sys_event_queue_receive(equeue=91) aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...

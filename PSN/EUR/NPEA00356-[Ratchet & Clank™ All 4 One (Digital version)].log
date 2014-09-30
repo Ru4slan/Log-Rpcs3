@@ -17,11 +17,12 @@ LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00356//USRDIR/
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00356//USRDIR/
+LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00356//USRDIR/
 LDR: !  
 LDR: ! Title: Ratchet & Clank™: All 4 One (Digital version)
 LDR: ! Serial: NPEA00356
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x7e70960000
+MEM: ! Initializing memory: m_base_addr = 0x92eac80000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'cellHttp'
 LDR: ! Imported function 'cellHttpCreateTransaction' in 'cellHttp' module
