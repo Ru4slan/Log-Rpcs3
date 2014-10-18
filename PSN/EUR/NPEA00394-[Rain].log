@@ -1,7 +1,7 @@
 HLE: ! path: /dev_hdd0/game/
 HLE: W No pause.bin found, Auto Pause will not work.
 HLE: W No pause.bin found, Auto Pause will not work.
-LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394--/USRDIR/BOOT.BIN'...
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
 LDR: ! /dev_hdd0/ -> ./dev_hdd0/
@@ -9,22 +9,23 @@ LDR: ! /dev_hdd1/ -> ./dev_hdd1/
 LDR: ! /dev_flash/ -> ./dev_flash/
 LDR: ! /dev_usb000/ -> ./dev_usb000/
 LDR: ! /dev_usb/ -> ./dev_usb000/
-LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394--/
-LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394--//../
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394//../
 LDR: ! /host_root/ -> 
-LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394--//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394//USRDIR/
 LDR: ! /dev_flash2/ -> ./dev_flash2/
-LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394--//USRDIR/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394//USRDIR/
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394--//USRDIR/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394//USRDIR/
+LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00394//USRDIR/
 LDR: !  
 LDR: ! Title: rain
 LDR: ! Serial: NPEA00394
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x7b705c0000
+MEM: ! Initializing memory: m_base_addr = 0x200d090000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'PRXManager'
-LDR: ! Imported function 'Unknown func id: 0x2889d84e' in 'PRXManager' module
+LDR: W Unimplemented function 'Unknown func id: 0x2889d84e' in 'PRXManager' module
 LDR: ! Imported function 'cellPadInit' in 'sys_io' module
 LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
 LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module
@@ -172,28 +173,28 @@ LDR: ! Imported function 'cellAudioRemoveNotifyEventQueue' in 'cellAudio' module
 LDR: ! Imported function 'cellOvisGetOverlayTableSize' in 'cellOvis' module
 LDR: ! Imported function 'cellOvisInitializeOverlayTable' in 'cellOvis' module
 LDR: W Unknown module 'libgem'
-LDR: ! Imported function 'cellGemUpdateStart' in 'libgem' module
-LDR: ! Imported function 'cellGemInit' in 'libgem' module
-LDR: ! Imported function 'cellGemGetTrackerHue' in 'libgem' module
-LDR: ! Imported function 'cellGemConvertVideoFinish' in 'libgem' module
-LDR: ! Imported function 'cellGemEnableMagnetometer' in 'libgem' module
-LDR: ! Imported function 'cellGemGetMemorySize' in 'libgem' module
-LDR: ! Imported function 'cellGemUpdateFinish' in 'libgem' module
-LDR: ! Imported function 'cellGemSetRumble' in 'libgem' module
-LDR: ! Imported function 'cellGemGetState' in 'libgem' module
-LDR: ! Imported function 'cellGemConvertVideoStart' in 'libgem' module
-LDR: ! Imported function 'cellGemFilterState' in 'libgem' module
-LDR: ! Imported function 'cellGemTrackHues' in 'libgem' module
-LDR: ! Imported function 'cellGemGetImageState' in 'libgem' module
-LDR: ! Imported function 'cellGemPrepareCamera' in 'libgem' module
-LDR: ! Imported function 'cellGemCalibrate' in 'libgem' module
-LDR: ! Imported function 'cellGemPrepareVideoConvert' in 'libgem' module
-LDR: ! Imported function 'cellGemHSVtoRGB' in 'libgem' module
-LDR: ! Imported function 'cellGemGetInertialState' in 'libgem' module
-LDR: ! Imported function 'cellGemReset' in 'libgem' module
-LDR: ! Imported function 'cellGemEnd' in 'libgem' module
-LDR: ! Imported function 'cellGemInvalidateCalibration' in 'libgem' module
-LDR: ! Imported function 'cellGemGetStatusFlags' in 'libgem' module
+LDR: W Unimplemented function 'cellGemUpdateStart' in 'libgem' module
+LDR: W Unimplemented function 'cellGemInit' in 'libgem' module
+LDR: W Unimplemented function 'cellGemGetTrackerHue' in 'libgem' module
+LDR: W Unimplemented function 'cellGemConvertVideoFinish' in 'libgem' module
+LDR: W Unimplemented function 'cellGemEnableMagnetometer' in 'libgem' module
+LDR: W Unimplemented function 'cellGemGetMemorySize' in 'libgem' module
+LDR: W Unimplemented function 'cellGemUpdateFinish' in 'libgem' module
+LDR: W Unimplemented function 'cellGemSetRumble' in 'libgem' module
+LDR: W Unimplemented function 'cellGemGetState' in 'libgem' module
+LDR: W Unimplemented function 'cellGemConvertVideoStart' in 'libgem' module
+LDR: W Unimplemented function 'cellGemFilterState' in 'libgem' module
+LDR: W Unimplemented function 'cellGemTrackHues' in 'libgem' module
+LDR: W Unimplemented function 'cellGemGetImageState' in 'libgem' module
+LDR: W Unimplemented function 'cellGemPrepareCamera' in 'libgem' module
+LDR: W Unimplemented function 'cellGemCalibrate' in 'libgem' module
+LDR: W Unimplemented function 'cellGemPrepareVideoConvert' in 'libgem' module
+LDR: W Unimplemented function 'cellGemHSVtoRGB' in 'libgem' module
+LDR: W Unimplemented function 'cellGemGetInertialState' in 'libgem' module
+LDR: W Unimplemented function 'cellGemReset' in 'libgem' module
+LDR: W Unimplemented function 'cellGemEnd' in 'libgem' module
+LDR: W Unimplemented function 'cellGemInvalidateCalibration' in 'libgem' module
+LDR: W Unimplemented function 'cellGemGetStatusFlags' in 'libgem' module
 LDR: ! Imported function 'cellCameraStop' in 'cellCamera' module
 LDR: ! Imported function 'cellCameraGetBufferInfoEx' in 'cellCamera' module
 LDR: ! Imported function 'cellCameraReadEx' in 'cellCamera' module
@@ -302,9 +303,9 @@ LDR: ! Imported function '_sys_spu_printf_finalize' in 'sysPrxForUser' module
 LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
 LDR: ! Imported function 'sys_prx_unload_module' in 'sysPrxForUser' module
 HLE: W {PPU[1] Thread (CPUThread)[0x00d56040]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xc89e78, attr_addr=0xd000fce0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00d56040]} sys_lwmutex: *** lwmutex created [mallocm] (attribute=0x22): sq_id = 3
+HLE: ! {PPU[1] Thread (CPUThread)[0x00d56040]} sys_lwmutex : *** lwmutex created [mallocm] (attribute=0x22): sq_id = 3
 HLE: W {PPU[1] Thread (CPUThread)[0x00d56040]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xc89e40, attr_addr=0xd000fc60)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00d56040]} sys_lwmutex: *** lwmutex created [ps3mono] (attribute=0x12): sq_id = 4
+HLE: ! {PPU[1] Thread (CPUThread)[0x00d56040]} sys_lwmutex : *** lwmutex created [ps3mono] (attribute=0x12): sq_id = 4
 HLE: W {PPU[1] Thread (CPUThread)[0x00142418]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fc3c)
 HLE: W {PPU[1] Thread (CPUThread)[0x00d5610c]} sys_mmapper warning: sys_mmapper_allocate_memory(size=0x2d00000, flags=0x400, mem_id_addr=0xd000fc38)
 HLE: W {PPU[1] Thread (CPUThread)[0x00142480]} sys_mmapper warning: sys_mmapper_allocate_address(size=0x10000000, flags=0xf, alignment=0x10000000, alloc_addr=0xd000fc30)

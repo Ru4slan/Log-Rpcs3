@@ -17,11 +17,12 @@ LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01424//USRDIR/
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01424//USRDIR/
+LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01424//USRDIR/
 LDR: !  
 LDR: ! Title: Lone Survivor
 LDR: ! Serial: NPEB01424
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xc858ac0000
+MEM: ! Initializing memory: m_base_addr = 0x85f6770000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellPadInit' in 'sys_io' module
 LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
@@ -151,14 +152,14 @@ LDR: ! Imported function 'sceNpManagerGetNpId' in 'sceNp' module
 LDR: W Unimplemented function 'sceNp2Init' in 'sceNp2' module
 LDR: W Unimplemented function 'sceNp2Term' in 'sceNp2' module
 LDR: W Unknown module 'sceNpTus'
-LDR: ! Imported function 'sceNpTusCreateTransactionCtx' in 'sceNpTus' module
-LDR: ! Imported function 'sceNpTusTerm' in 'sceNpTus' module
-LDR: ! Imported function 'sceNpTusDestroyTitleCtx' in 'sceNpTus' module
-LDR: ! Imported function 'sceNpTusDestroyTransactionCtx' in 'sceNpTus' module
-LDR: ! Imported function 'sceNpTusCreateTitleCtx' in 'sceNpTus' module
-LDR: ! Imported function 'sceNpTusSetData' in 'sceNpTus' module
-LDR: ! Imported function 'sceNpTusGetData' in 'sceNpTus' module
-LDR: ! Imported function 'sceNpTusInit' in 'sceNpTus' module
+LDR: W Unimplemented function 'sceNpTusCreateTransactionCtx' in 'sceNpTus' module
+LDR: W Unimplemented function 'sceNpTusTerm' in 'sceNpTus' module
+LDR: W Unimplemented function 'sceNpTusDestroyTitleCtx' in 'sceNpTus' module
+LDR: W Unimplemented function 'sceNpTusDestroyTransactionCtx' in 'sceNpTus' module
+LDR: W Unimplemented function 'sceNpTusCreateTitleCtx' in 'sceNpTus' module
+LDR: W Unimplemented function 'sceNpTusSetData' in 'sceNpTus' module
+LDR: W Unimplemented function 'sceNpTusGetData' in 'sceNpTus' module
+LDR: W Unimplemented function 'sceNpTusInit' in 'sceNpTus' module
 LDR: ! Imported function 'sceNpTrophyRegisterContext' in 'sceNpTrophy' module
 LDR: ! Imported function 'sceNpTrophyCreateHandle' in 'sceNpTrophy' module
 LDR: ! Imported function 'sceNpTrophyGetRequiredDiskSpace' in 'sceNpTrophy' module
@@ -171,58 +172,58 @@ LDR: ! Imported function 'sceNpTrophyTerm' in 'sceNpTrophy' module
 LDR: ! Imported function 'sceNpTrophyGetTrophyUnlockState' in 'sceNpTrophy' module
 LDR: ! Imported function 'sceNpTrophyCreateContext' in 'sceNpTrophy' module
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2b02c8, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 HLE: W {PPU[1] Thread (CPUThread)[0x00139c68]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fc04)
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2b00c8, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2af850, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2af878, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2af8a0, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2af788, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2af7b0, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2af7d8, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2af800, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2af828, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
 HLE: W {PPU[1] Thread (CPUThread)[0x001760d4]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000f7d0)
 HLE: W {PPU[1] Thread (CPUThread)[0x0011e3ec]} sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 13
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100290, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100350, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301004d0, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301005d0, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100650, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301006d0, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301008d0, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100910, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100950, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100990, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301009d0, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100a10, attr_addr=0x1f5450)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x228e70, attr_addr=0xd000fbb0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 26
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 26
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x229220, attr_addr=0xd000fbb0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 27
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 27
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x2291f8, attr_addr=0xd000fbd0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 28
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 28
 HLE: W {PPU[1] Thread (CPUThread)[0x0021a07c]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x223628, userdata=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x0021e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 HLE: W {PPU[1] Thread (CPUThread)[0x0021e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
@@ -259,30 +260,41 @@ HLE: W {PPU[1] Thread (CPUThread)[0x0021e010]} cellSysmodule warning: cellSysmod
 HLE: W {PPU[1] Thread (CPUThread)[0x0030807c]} sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x291a34, commID_addr=0x1d2bb8, commSign_addr=0x1d2c44, options=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00308010]} sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0xd000fb28)
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3e200090, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 30
-HLE: ! {PPU[1] Thread (CPUThread)[0x002fe01c]} sys_ppu_thread: *** New PPU Thread [3e200030] (joinable, entry=0x223ee8): id = 31
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 30
+HLE: ! {PPU[1] Thread (CPUThread)[0x002fe01c]} sys_ppu_thread : *** New PPU Thread [3e200030] (joinable, entry=0x223ee8): id = 31
 HLE: W {PPU[31] Thread (3e200030)[0x0030801c]} sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0x291a38, options=0x0)
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x2235f0, arg_addr=0x0, options=0x1)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROPCONF.SFM')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\ICON0.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\ICON0_02.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\ICON0_04.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP000.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP001.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP002.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP003.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP004.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP005.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP006.PNG')
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP007.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP008.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP009.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP010.PNG')
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP011.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP012.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP013.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP014.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP015.PNG')
@@ -292,28 +304,29 @@ HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateu
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP019.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP020.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP021.PNG')
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP022.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP023.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP024.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP025.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP026.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP027.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP028.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP029.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP030.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP031.PNG')
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP032.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP033.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP034.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP035.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP036.PNG')
-HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROPUSR.DAT')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 G: E {PPU[31] Thread (3e200030)[0x0011f46c]} Exception: Access violation: addr = 0x28 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
 PPU: ! {PPULLVMRecompiler} Removed 1 old versions
-RSX: W {RSXThread} RSX thread aborted
 RSX: W {VBlank thread} VBlank thread aborted
+RSX: W {RSXThread} RSX thread aborted
 PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...
