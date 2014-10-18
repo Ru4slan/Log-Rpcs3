@@ -22,7 +22,7 @@ LDR: !
 LDR: ! Title: rain
 LDR: ! Serial: NPEA00394
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x200d090000
+MEM: ! Initializing memory: m_base_addr = 0x2f1fac0000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'PRXManager'
 LDR: W Unimplemented function 'Unknown func id: 0x2889d84e' in 'PRXManager' module
