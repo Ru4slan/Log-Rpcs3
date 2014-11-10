@@ -22,7 +22,7 @@ LDR: !
 LDR: ! Title: Spelunky
 LDR: ! Serial: NPEB01419
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xcf1afa0000
+MEM: ! Initializing memory: m_base_addr = 0x1b82f80000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module
 LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
@@ -141,12 +141,12 @@ LDR: ! Imported function 'sceNpDrmIsAvailable2' in 'sceNp' module
 LDR: ! Imported function 'sceNpDrmExecuteGamePurchase' in 'sceNp' module
 LDR: ! Imported function 'sceNpScoreGetRankingByRange' in 'sceNp' module
 LDR: ! Imported function 'sceNpManagerGetNpId' in 'sceNp' module
-LDR: W Unimplemented function 'cellMicOpenEx' in 'cellMic' module
-LDR: W Unimplemented function 'cellMicRead' in 'cellMic' module
-LDR: W Unimplemented function 'cellMicSetNotifyEventQueue' in 'cellMic' module
-LDR: W Unimplemented function 'cellMicClose' in 'cellMic' module
-LDR: W Unimplemented function 'cellMicStart' in 'cellMic' module
-LDR: W Unimplemented function 'cellMicStop' in 'cellMic' module
+LDR: ! Imported function 'cellMicOpenEx' in 'cellMic' module
+LDR: ! Imported function 'cellMicRead' in 'cellMic' module
+LDR: ! Imported function 'cellMicSetNotifyEventQueue' in 'cellMic' module
+LDR: ! Imported function 'cellMicClose' in 'cellMic' module
+LDR: ! Imported function 'cellMicStart' in 'cellMic' module
+LDR: ! Imported function 'cellMicStop' in 'cellMic' module
 LDR: ! Imported function 'cellRtcTickAddDays' in 'cellRtc' module
 LDR: ! Imported function 'cellRtcSetTick' in 'cellRtc' module
 LDR: ! Imported function 'cellRtcGetCurrentTick' in 'cellRtc' module
@@ -301,5 +301,6 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00456028]} cellGame warning: cellGameBootChe
 HLE: W {PPU[1] Thread (CPUThread)[0x00456004]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x3010064c, usrdirPath_addr=0x301006cc)
 HLE: W {PPU[1] Thread (CPUThread)[0x000b1178]} sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 27
 G: E {PPU[1] Thread (CPUThread)[0x0039a028]} Exception: Access violation: addr = 0x0 (is_alive=1, last_syscall=0x21ac3697 (cellGcmAddressToOffset))
+PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...
