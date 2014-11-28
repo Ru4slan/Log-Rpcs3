@@ -22,874 +22,889 @@ LDR: !
 LDR: ! Title: Journey
 LDR: ! Serial: NPEA00288
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0xff01b0000
+LDR: W m_ehdr.e_type = 0x2
+MEM: ! Initializing memory: base_addr = 0xc70d440000
 MEM: ! Memory initialized.
 LDR: W Unknown module 'HotLoadEUGold'
-LDR: ! Imported function 'Unknown func id: 0x0435dfc7' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x095c5ce8' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x09ba5b5a' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x153f3bb4' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x18ff6c15' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x1900bdc4' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x1a71372a' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x1c4d7f12' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x32d1c416' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x33acb00b' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x37f21956' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x386256f4' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x39e0171d' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x3f1fb415' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x411a94da' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x41b39eac' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x4792eb75' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x484164dc' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x48984a39' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x4dd396b6' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x50cdd1b7' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x51b212ed' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x5b99857b' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x5d1f2846' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x5ecdb821' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x60d46f0a' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x6514597a' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x6a81d20b' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x7053f63f' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x7515c63e' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x76a557de' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x77e05d66' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x78be6ea5' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x78ed4978' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x7bfd3e3f' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x7de8084f' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x7ef1f96a' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x80251246' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x84ccfcf7' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x87e7c075' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x9b9286fd' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x9c87a9cd' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa087d80b' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa1031953' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa2f60485' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa453d6f4' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa9ce97b7' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xac89e20a' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xb1b5ba29' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xb6b7f935' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xb8719cdc' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xbe9984ce' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xc0a9ad26' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xc19aca84' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xc62f9927' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xcaaa196f' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xcbf67cdb' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xcc021475' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xd62b2ca1' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xddbc58db' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xdf56898d' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe2be0332' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe4fea3ad' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe58ac8e7' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xecd4f7d3' in 'HotLoadEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xf7e71e1c' in 'HotLoadEUGold' module
+LDR: ! Imported function 'Unknown func id: 0x0435dfc7' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x095c5ce8' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x09ba5b5a' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x153f3bb4' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x18ff6c15' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x1900bdc4' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x1a71372a' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x1c4d7f12' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x32d1c416' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x33acb00b' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x37f21956' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x386256f4' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x39e0171d' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x3f1fb415' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x411a94da' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x41b39eac' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x4792eb75' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x484164dc' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x48984a39' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x4dd396b6' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x50cdd1b7' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x51b212ed' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x5b99857b' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x5d1f2846' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x5ecdb821' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x60d46f0a' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x6514597a' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x6a81d20b' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x7053f63f' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x7515c63e' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x76a557de' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x77e05d66' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x78be6ea5' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x78ed4978' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x7bfd3e3f' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x7de8084f' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x7ef1f96a' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x80251246' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x84ccfcf7' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x87e7c075' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x9b9286fd' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x9c87a9cd' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa087d80b' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa1031953' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa2f60485' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa453d6f4' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa9ce97b7' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xac89e20a' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xb1b5ba29' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xb6b7f935' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xb8719cdc' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xbe9984ce' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xc0a9ad26' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xc19aca84' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xc62f9927' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xcaaa196f' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xcbf67cdb' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xcc021475' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xd62b2ca1' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xddbc58db' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xdf56898d' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe2be0332' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe4fea3ad' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe58ac8e7' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xecd4f7d3' in 'HotLoadEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xf7e71e1c' in 'HotLoadEUGold' module  (HLE)
 LDR: W Unknown module 'elfEUGold'
-LDR: ! Imported function 'Unknown func id: 0x022e8c25' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x069f37e5' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x070b041c' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x07549df0' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x0a3aa7ab' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x0aac8f36' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x0c5fdb92' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x0ca8f5ff' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x0eceab54' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x0f89ddfb' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x101fa1c3' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x109bd658' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x10bde662' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x11094f99' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x12d00078' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x13ae5adc' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x13ff936c' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x14219627' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x14c3c584' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x14e5ac2f' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x14f5909d' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x16a68ca3' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x1a4a0629' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x1aaf1cf0' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x1b87d19e' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x1cd1d552' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x1cd47cb7' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x1e896368' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x20207be8' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x232e8493' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x244f72a4' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x24b65c5a' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x25f50228' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x267bf986' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x298073b4' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x2b2eea94' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x2b76124a' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x2c48ce2c' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x2dfec74a' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x2fa3a6fe' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x31df2383' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x331ce6e1' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x3408d2af' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x34ed32da' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x35be1270' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x36887a9a' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x36da8968' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x3abadcb2' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x3affc3ff' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x3b5fa24a' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x3d48fa5f' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x3dc94009' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x3f3a2b27' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x40873dac' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x40fda274' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x41962ee2' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x4215a7e4' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x44b4b8e0' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x462dc9e6' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x4b11a128' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x4be18374' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x4dbfadd5' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x53162cd8' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x53b54490' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x543ee12d' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x546704f7' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x5624ac43' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x57c0e07a' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x583575c8' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x5b04eee4' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x5d341caf' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x5fd7592e' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x61d43cbf' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x6407d9fc' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x641f6d18' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x67c84f72' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x6add1a29' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x6b5bd273' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x6b821d47' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x7099659e' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x715d9d2f' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x71da53b5' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x723b66f2' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x728ec39f' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x72fbec4a' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x73430d65' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x74d8cabc' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x75fb7313' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x78ca8938' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x78dc908b' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x7911772a' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x7a2cc81d' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x7b0fb033' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x7e7fe16a' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x7ea3c604' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x8222c378' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x868c8181' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x87561b97' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x8842d441' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x88af9832' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x89d432bc' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x8a6dcd12' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x8dfd8f10' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x901d2658' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x910fcc9d' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x922488ed' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x94f6db70' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x95505aa8' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x95cb69b5' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x95ea03e2' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x96b53333' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x9852f63f' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x9917bdba' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x99d17637' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x9a474f6b' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x9a854235' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x9afbb4f4' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x9b871b81' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x9dd5d702' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x9ee0c407' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0x9ff04910' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa0dfff80' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa119267a' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa131bcba' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa14fa417' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa5deae42' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa633d87f' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xa97773df' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xacaf777f' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xad30d5a2' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xad456365' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xad77d985' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xae9b99e9' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xaeb0aa0d' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xb0616d18' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xb192e0b6' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xb2273712' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xb2349bdc' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xb378e907' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xb5891340' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xb7354bc9' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xb98be134' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xbb55bdf9' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xbbd058c8' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xbdf01d41' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xc049a4d7' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xc211b7e2' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xc49f4fb4' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xc5217006' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xc7b19c19' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xc9f38f1e' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xcc327f9b' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xce41b3a2' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xce5475ce' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xcf7e68ba' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xd067b08e' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xd42de02c' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xd4346523' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xd675d48f' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xd7b3c59d' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xd7c84b76' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xd7d55982' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xd986c3f9' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xdf701637' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe0cb98e9' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe2eaddc0' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe4115320' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe4f19f48' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe602ffaa' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe67d5b59' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe6b832e4' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe6d62176' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xe92498f0' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xea4801fe' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xea63077c' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xeae0135d' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xed4b80f6' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xeedf66a6' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xef4a6d35' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xefa79b9b' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xefd8d629' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xf19b5478' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xf1c40a95' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xf2a3d6c4' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xf2fdf3de' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xf4f7ba0c' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xf5fdab1c' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xf74d42b6' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xf8008430' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xf8f16126' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xfad69771' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xfbb0eb9d' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xfc55de88' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xfcbb96a6' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xfe088184' in 'elfEUGold' module
-LDR: ! Imported function 'Unknown func id: 0xffeeeae7' in 'elfEUGold' module
-LDR: ! Imported function 'cellSysCacheMount' in 'cellSysutil' module
-LDR: ! Imported function 'cellSysutilGetSystemParamInt' in 'cellSysutil' module
-LDR: ! Imported function 'cellAudioOutConfigure' in 'cellSysutil' module
-LDR: ! Imported function 'cellMsgDialogOpen2' in 'cellSysutil' module
-LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
-LDR: ! Imported function 'cellSaveDataAutoSave2' in 'cellSysutil' module
-LDR: ! Imported function 'cellAudioOutGetSoundAvailability' in 'cellSysutil' module
-LDR: ! Imported function 'cellSaveDataAutoLoad2' in 'cellSysutil' module
-LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
-LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
-LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
-LDR: ! Imported function 'cellVideoOutGetResolutionAvailability' in 'cellSysutil' module
-LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
-LDR: ! Imported function 'cellGameContentPermit' in 'cellGame' module
-LDR: ! Imported function 'cellGameContentErrorDialog' in 'cellGame' module
-LDR: ! Imported function 'cellGameBootCheck' in 'cellGame' module
-LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module
-LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module
-LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module
-LDR: ! Imported function 'cellPadClearBuf' in 'sys_io' module
-LDR: ! Imported function 'cellPadInit' in 'sys_io' module
-LDR: ! Imported function 'cellKbClearBuf' in 'sys_io' module
-LDR: ! Imported function 'cellKbGetInfo' in 'sys_io' module
-LDR: ! Imported function 'cellMouseGetData' in 'sys_io' module
-LDR: ! Imported function 'cellMouseClearBuf' in 'sys_io' module
-LDR: ! Imported function 'cellKbInit' in 'sys_io' module
-LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
-LDR: ! Imported function 'cellMouseGetInfo' in 'sys_io' module
-LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
-LDR: ! Imported function 'cellKbSetCodeType' in 'sys_io' module
-LDR: ! Imported function 'cellKbEnd' in 'sys_io' module
-LDR: ! Imported function 'cellMouseInit' in 'sys_io' module
-LDR: ! Imported function 'cellKbSetReadMode' in 'sys_io' module
-LDR: ! Imported function 'cellMouseEnd' in 'sys_io' module
-LDR: ! Imported function 'cellKbRead' in 'sys_io' module
-LDR: ! Imported function 'cellFsClose' in 'sys_fs' module
-LDR: ! Imported function 'cellFsRead' in 'sys_fs' module
-LDR: ! Imported function 'cellFsOpen' in 'sys_fs' module
-LDR: ! Imported function 'cellFsStat' in 'sys_fs' module
-LDR: ! Imported function 'cellFsUnlink' in 'sys_fs' module
-LDR: ! Imported function 'cellFsAioFinish' in 'sys_fs' module
-LDR: ! Imported function 'cellFsMkdir' in 'sys_fs' module
-LDR: ! Imported function 'cellFsAioInit' in 'sys_fs' module
-LDR: ! Imported function 'cellFsStReadInit' in 'sys_fs' module
-LDR: ! Imported function 'cellFsStRead' in 'sys_fs' module
-LDR: ! Imported function 'cellFsAioWrite' in 'sys_fs' module
-LDR: W Unimplemented function 'cellFsAioCancel' in 'sys_fs' module
-LDR: ! Imported function 'cellFsStReadStart' in 'sys_fs' module
-LDR: ! Imported function 'cellFsLseek' in 'sys_fs' module
-LDR: ! Imported function 'cellFsAioRead' in 'sys_fs' module
-LDR: ! Imported function 'cellFsStReadFinish' in 'sys_fs' module
-LDR: ! Imported function 'cellFsWrite' in 'sys_fs' module
-LDR: ! Imported function 'cellFsFstat' in 'sys_fs' module
-LDR: ! Imported function 'cellFsStReadStop' in 'sys_fs' module
-LDR: ! Imported function 'sys_net_set_udpp2p_test_param' in 'sys_net' module
-LDR: ! Imported function 'sys_net_initialize_network_ex' in 'sys_net' module
-LDR: W Unimplemented function 'socketselect' in 'sys_net' module
-LDR: ! Imported function '_sys_net_errno_loc' in 'sys_net' module
-LDR: ! Imported function 'connect' in 'sys_net' module
-LDR: ! Imported function 'socketclose' in 'sys_net' module
-LDR: W Unimplemented function 'gethostbyname' in 'sys_net' module
-LDR: ! Imported function 'setsockopt' in 'sys_net' module
-LDR: ! Imported function 'sendto' in 'sys_net' module
-LDR: ! Imported function 'socket' in 'sys_net' module
-LDR: ! Imported function 'bind' in 'sys_net' module
-LDR: ! Imported function 'sys_net_finalize_network' in 'sys_net' module
-LDR: ! Imported function 'recv' in 'sys_net' module
-LDR: ! Imported function 'cellSysmoduleUnloadModule' in 'cellSysmodule' module
-LDR: ! Imported function 'cellSysmoduleLoadModule' in 'cellSysmodule' module
-LDR: ! Imported function 'cellSysmoduleInitialize' in 'cellSysmodule' module
-LDR: ! Imported function 'cellSysmoduleFinalize' in 'cellSysmodule' module
-LDR: ! Imported function 'cellSpursAttributeEnableSpuPrintfIfAvailable' in 'cellSpurs' module
-LDR: ! Imported function '_cellSpursTasksetAttributeInitialize' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursCreateTaskWithAttribute' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursCreateJobChainWithAttribute' in 'cellSpurs' module
-LDR: ! Imported function '_cellSpursJobChainAttributeInitialize' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursTasksetAttributeSetName' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursJobGuardInitialize' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursShutdownJobChain' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursBarrierInitialize' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursTasksetAttributeSetTasksetSize' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursTaskGetContextSaveAreaSize' in 'cellSpurs' module
-LDR: ! Imported function '_cellSpursAttributeInitialize' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursAttributeEnableSystemWorkload' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursJoinTaskset' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursJobChainAttributeSetName' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursShutdownTaskset' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursJoinJobChain' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursInitializeWithAttribute' in 'cellSpurs' module
-LDR: ! Imported function '_cellSpursTaskAttributeInitialize' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursCreateTasksetWithAttribute' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursFinalize' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursJobGuardNotify' in 'cellSpurs' module
-LDR: ! Imported function '_cellSpursSendSignal' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursRunJobChain' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursGetInfo' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursDetachLv2EventQueue' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursRemoveWorkload' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursWaitForWorkloadShutdown' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursAddWorkload' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursWakeUp' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursShutdownWorkload' in 'cellSpurs' module
-LDR: ! Imported function '_cellSpursWorkloadFlagReceiver' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursInitialize' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursAttachLv2EventQueue' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursGetWorkloadFlag' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursReadyCountStore' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursRequestIdleSpu' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursWorkloadAttributeSetName' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursGetWorkloadInfo' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursSetPriorities' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursAddWorkloadWithAttribute' in 'cellSpurs' module
-LDR: ! Imported function 'cellSpursSetExceptionEventHandler' in 'cellSpurs' module
-LDR: ! Imported function '_cellSpursWorkloadAttributeInitialize' in 'cellSpurs' module
-LDR: ! Imported function 'cellNetCtlNetStartDialogLoadAsync' in 'cellNetCtl' module
-LDR: ! Imported function 'cellNetCtlNetStartDialogUnloadAsync' in 'cellNetCtl' module
-LDR: ! Imported function 'cellNetCtlTerm' in 'cellNetCtl' module
-LDR: ! Imported function 'cellNetCtlInit' in 'cellNetCtl' module
-LDR: ! Imported function 'cellNetCtlGetInfo' in 'cellNetCtl' module
+LDR: ! Imported function 'Unknown func id: 0x022e8c25' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x069f37e5' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x070b041c' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x07549df0' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x0a3aa7ab' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x0aac8f36' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x0c5fdb92' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x0ca8f5ff' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x0eceab54' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x0f89ddfb' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x101fa1c3' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x109bd658' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x10bde662' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x11094f99' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x12d00078' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x13ae5adc' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x13ff936c' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x14219627' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x14c3c584' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x14e5ac2f' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x14f5909d' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x16a68ca3' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x1a4a0629' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x1aaf1cf0' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x1b87d19e' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x1cd1d552' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x1cd47cb7' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x1e896368' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x20207be8' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x232e8493' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x244f72a4' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x24b65c5a' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x25f50228' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x267bf986' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x298073b4' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x2b2eea94' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x2b76124a' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x2c48ce2c' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x2dfec74a' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x2fa3a6fe' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x31df2383' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x331ce6e1' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x3408d2af' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x34ed32da' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x35be1270' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x36887a9a' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x36da8968' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x3abadcb2' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x3affc3ff' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x3b5fa24a' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x3d48fa5f' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x3dc94009' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x3f3a2b27' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x40873dac' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x40fda274' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x41962ee2' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x4215a7e4' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x44b4b8e0' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x462dc9e6' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x4b11a128' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x4be18374' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x4dbfadd5' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x53162cd8' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x53b54490' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x543ee12d' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x546704f7' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x5624ac43' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x57c0e07a' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x583575c8' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x5b04eee4' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x5d341caf' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x5fd7592e' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x61d43cbf' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x6407d9fc' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x641f6d18' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x67c84f72' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x6add1a29' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x6b5bd273' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x6b821d47' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x7099659e' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x715d9d2f' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x71da53b5' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x723b66f2' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x728ec39f' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x72fbec4a' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x73430d65' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x74d8cabc' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x75fb7313' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x78ca8938' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x78dc908b' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x7911772a' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x7a2cc81d' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x7b0fb033' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x7e7fe16a' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x7ea3c604' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x8222c378' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x868c8181' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x87561b97' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x8842d441' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x88af9832' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x89d432bc' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x8a6dcd12' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x8dfd8f10' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x901d2658' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x910fcc9d' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x922488ed' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x94f6db70' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x95505aa8' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x95cb69b5' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x95ea03e2' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x96b53333' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x9852f63f' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x9917bdba' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x99d17637' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x9a474f6b' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x9a854235' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x9afbb4f4' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x9b871b81' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x9dd5d702' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x9ee0c407' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x9ff04910' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa0dfff80' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa119267a' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa131bcba' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa14fa417' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa5deae42' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa633d87f' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xa97773df' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xacaf777f' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xad30d5a2' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xad456365' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xad77d985' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xae9b99e9' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xaeb0aa0d' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xb0616d18' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xb192e0b6' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xb2273712' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xb2349bdc' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xb378e907' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xb5891340' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xb7354bc9' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xb98be134' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xbb55bdf9' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xbbd058c8' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xbdf01d41' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xc049a4d7' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xc211b7e2' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xc49f4fb4' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xc5217006' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xc7b19c19' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xc9f38f1e' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xcc327f9b' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xce41b3a2' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xce5475ce' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xcf7e68ba' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xd067b08e' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xd42de02c' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xd4346523' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xd675d48f' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xd7b3c59d' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xd7c84b76' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xd7d55982' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xd986c3f9' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xdf701637' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe0cb98e9' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe2eaddc0' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe4115320' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe4f19f48' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe602ffaa' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe67d5b59' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe6b832e4' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe6d62176' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xe92498f0' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xea4801fe' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xea63077c' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xeae0135d' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xed4b80f6' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xeedf66a6' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xef4a6d35' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xefa79b9b' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xefd8d629' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xf19b5478' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xf1c40a95' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xf2a3d6c4' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xf2fdf3de' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xf4f7ba0c' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xf5fdab1c' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xf74d42b6' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xf8008430' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xf8f16126' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xfad69771' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xfbb0eb9d' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xfc55de88' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xfcbb96a6' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xfe088184' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0xffeeeae7' in 'elfEUGold' module  (HLE)
+LDR: ! Imported function 'cellSysCacheMount' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSysutilGetSystemParamInt' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellAudioOutConfigure' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellMsgDialogOpen2' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSaveDataAutoSave2' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellAudioOutGetSoundAvailability' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSaveDataAutoLoad2' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellVideoOutGetResolutionAvailability' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellGameContentPermit' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'cellGameContentErrorDialog' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'cellGameBootCheck' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadClearBuf' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbClearBuf' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbGetInfo' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseGetData' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseClearBuf' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbInit' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseGetInfo' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbSetCodeType' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbEnd' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseInit' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbSetReadMode' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseEnd' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbRead' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellFsClose' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsRead' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsOpen' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsStat' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsUnlink' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsAioFinish' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsMkdir' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsAioInit' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsStReadInit' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsStRead' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsAioWrite' in 'sys_fs' module  (HLE)
+LDR: W Unimplemented function 'cellFsAioCancel' in 'sys_fs' module (HLE)
+LDR: ! Imported function 'cellFsStReadStart' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsLseek' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsAioRead' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsStReadFinish' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsWrite' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsFstat' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsStReadStop' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'sys_net_set_udpp2p_test_param' in 'sys_net' module  (HLE)
+LDR: ! Imported function 'sys_net_initialize_network_ex' in 'sys_net' module  (HLE)
+LDR: W Unimplemented function 'socketselect' in 'sys_net' module (HLE)
+LDR: ! Imported function '_sys_net_errno_loc' in 'sys_net' module  (HLE)
+LDR: ! Imported function 'connect' in 'sys_net' module  (HLE)
+LDR: ! Imported function 'socketclose' in 'sys_net' module  (HLE)
+LDR: W Unimplemented function 'gethostbyname' in 'sys_net' module (HLE)
+LDR: ! Imported function 'setsockopt' in 'sys_net' module  (HLE)
+LDR: ! Imported function 'sendto' in 'sys_net' module  (HLE)
+LDR: ! Imported function 'socket' in 'sys_net' module  (HLE)
+LDR: ! Imported function 'bind' in 'sys_net' module  (HLE)
+LDR: ! Imported function 'sys_net_finalize_network' in 'sys_net' module  (HLE)
+LDR: ! Imported function 'recv' in 'sys_net' module  (HLE)
+LDR: ! Imported function 'cellSysmoduleUnloadModule' in 'cellSysmodule' module  (HLE)
+LDR: ! Imported function 'cellSysmoduleLoadModule' in 'cellSysmodule' module  (HLE)
+LDR: ! Imported function 'cellSysmoduleInitialize' in 'cellSysmodule' module  (HLE)
+LDR: ! Imported function 'cellSysmoduleFinalize' in 'cellSysmodule' module  (HLE)
+LDR: ! Imported function 'cellSpursAttributeEnableSpuPrintfIfAvailable' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function '_cellSpursTasksetAttributeInitialize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursCreateTaskWithAttribute' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursCreateJobChainWithAttribute' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function '_cellSpursJobChainAttributeInitialize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursTasksetAttributeSetName' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursJobGuardInitialize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursShutdownJobChain' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursBarrierInitialize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursTasksetAttributeSetTasksetSize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursTaskGetContextSaveAreaSize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function '_cellSpursAttributeInitialize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursAttributeEnableSystemWorkload' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursJoinTaskset' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursJobChainAttributeSetName' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursShutdownTaskset' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursJoinJobChain' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursInitializeWithAttribute' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function '_cellSpursTaskAttributeInitialize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursCreateTasksetWithAttribute' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursFinalize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursJobGuardNotify' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function '_cellSpursSendSignal' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursRunJobChain' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursGetInfo' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursDetachLv2EventQueue' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursRemoveWorkload' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursWaitForWorkloadShutdown' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursAddWorkload' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursWakeUp' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursShutdownWorkload' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function '_cellSpursWorkloadFlagReceiver' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursInitialize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursAttachLv2EventQueue' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursGetWorkloadFlag' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursReadyCountStore' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursRequestIdleSpu' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursWorkloadAttributeSetName' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursGetWorkloadInfo' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursSetPriorities' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursAddWorkloadWithAttribute' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursSetExceptionEventHandler' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function '_cellSpursWorkloadAttributeInitialize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellNetCtlNetStartDialogLoadAsync' in 'cellNetCtl' module  (HLE)
+LDR: ! Imported function 'cellNetCtlNetStartDialogUnloadAsync' in 'cellNetCtl' module  (HLE)
+LDR: ! Imported function 'cellNetCtlTerm' in 'cellNetCtl' module  (HLE)
+LDR: ! Imported function 'cellNetCtlInit' in 'cellNetCtl' module  (HLE)
+LDR: ! Imported function 'cellNetCtlGetInfo' in 'cellNetCtl' module  (HLE)
 LDR: W Unknown module 'cellHttp'
-LDR: ! Imported function 'cellHttpCreateTransaction' in 'cellHttp' module
-LDR: ! Imported function 'cellHttpResponseGetStatusCode' in 'cellHttp' module
-LDR: ! Imported function 'cellHttpInit' in 'cellHttp' module
-LDR: ! Imported function 'cellHttpDestroyTransaction' in 'cellHttp' module
-LDR: ! Imported function 'cellHttpResponseGetContentLength' in 'cellHttp' module
-LDR: ! Imported function 'cellHttpCreateClient' in 'cellHttp' module
-LDR: ! Imported function 'cellHttpRecvResponse' in 'cellHttp' module
-LDR: ! Imported function 'cellHttpDestroyClient' in 'cellHttp' module
-LDR: ! Imported function 'cellHttpSendRequest' in 'cellHttp' module
-LDR: ! Imported function 'cellHttpRequestSetContentLength' in 'cellHttp' module
-LDR: ! Imported function 'cellHttpEnd' in 'cellHttp' module
-LDR: ! Imported function 'cellHttpRequestAddHeader' in 'cellHttp' module
-LDR: W Unimplemented function 'cellHttpUtilParseUri' in 'cellHttpUtil' module
-LDR: ! Imported function 'cellSync2SemaphoreRelease' in 'cellSync2' module
-LDR: ! Imported function 'cellSync2SemaphoreFinalize' in 'cellSync2' module
-LDR: ! Imported function '_cellSync2SemaphoreAttributeInitialize' in 'cellSync2' module
-LDR: ! Imported function 'cellSync2SemaphoreInitialize' in 'cellSync2' module
-LDR: ! Imported function 'cellSync2SemaphoreAcquire' in 'cellSync2' module
+LDR: ! Imported function 'cellHttpCreateTransaction' in 'cellHttp' module  (HLE)
+LDR: ! Imported function 'cellHttpResponseGetStatusCode' in 'cellHttp' module  (HLE)
+LDR: ! Imported function 'cellHttpInit' in 'cellHttp' module  (HLE)
+LDR: ! Imported function 'cellHttpDestroyTransaction' in 'cellHttp' module  (HLE)
+LDR: ! Imported function 'cellHttpResponseGetContentLength' in 'cellHttp' module  (HLE)
+LDR: ! Imported function 'cellHttpCreateClient' in 'cellHttp' module  (HLE)
+LDR: ! Imported function 'cellHttpRecvResponse' in 'cellHttp' module  (HLE)
+LDR: ! Imported function 'cellHttpDestroyClient' in 'cellHttp' module  (HLE)
+LDR: ! Imported function 'cellHttpSendRequest' in 'cellHttp' module  (HLE)
+LDR: ! Imported function 'cellHttpRequestSetContentLength' in 'cellHttp' module  (HLE)
+LDR: ! Imported function 'cellHttpEnd' in 'cellHttp' module  (HLE)
+LDR: ! Imported function 'cellHttpRequestAddHeader' in 'cellHttp' module  (HLE)
+LDR: W Unimplemented function 'cellHttpUtilParseUri' in 'cellHttpUtil' module (HLE)
+LDR: ! Imported function 'cellSync2SemaphoreRelease' in 'cellSync2' module  (HLE)
+LDR: ! Imported function 'cellSync2SemaphoreFinalize' in 'cellSync2' module  (HLE)
+LDR: ! Imported function '_cellSync2SemaphoreAttributeInitialize' in 'cellSync2' module  (HLE)
+LDR: ! Imported function 'cellSync2SemaphoreInitialize' in 'cellSync2' module  (HLE)
+LDR: ! Imported function 'cellSync2SemaphoreAcquire' in 'cellSync2' module  (HLE)
 LDR: W Unknown module 'cellSysutilNpEula'
-LDR: ! Imported function 'Unknown func id: 0x59d1629a' in 'cellSysutilNpEula' module
-LDR: ! Imported function 'sceNpSignalingGetConnectionInfo' in 'sceNp' module
-LDR: ! Imported function 'sceNpSignalingAddExtendedHandler' in 'sceNp' module
-LDR: ! Imported function 'sceNpLookupDestroyTitleCtx' in 'sceNp' module
-LDR: ! Imported function 'sceNpLookupInit' in 'sceNp' module
-LDR: ! Imported function 'sceNpSignalingActivateConnection' in 'sceNp' module
-LDR: ! Imported function 'sceNpSignalingCreateCtx' in 'sceNp' module
-LDR: ! Imported function 'sceNpManagerGetContentRatingFlag' in 'sceNp' module
-LDR: ! Imported function 'sceNpLookupPollAsync' in 'sceNp' module
-LDR: ! Imported function 'sceNpLookupTerm' in 'sceNp' module
-LDR: ! Imported function 'sceNpLookupTitleSmallStorageAsync' in 'sceNp' module
-LDR: ! Imported function 'sceNpSignalingTerminateConnection' in 'sceNp' module
-LDR: ! Imported function 'sceNpSignalingGetLocalNetInfo' in 'sceNp' module
-LDR: ! Imported function 'sceNpManagerGetStatus' in 'sceNp' module
-LDR: ! Imported function 'sceNpSignalingDestroyCtx' in 'sceNp' module
-LDR: ! Imported function 'sceNpDrmIsAvailable' in 'sceNp' module
-LDR: ! Imported function 'sceNpManagerGetAccountRegion' in 'sceNp' module
-LDR: ! Imported function 'sceNpBasicAddPlayersHistoryAsync' in 'sceNp' module
-LDR: ! Imported function 'sceNpSignalingGetConnectionStatus' in 'sceNp' module
-LDR: ! Imported function 'sceNpLookupCreateTitleCtx' in 'sceNp' module
-LDR: ! Imported function 'sceNpUtilCmpNpId' in 'sceNp' module
-LDR: ! Imported function 'sceNpManagerRegisterCallback' in 'sceNp' module
-LDR: ! Imported function 'sceNpSignalingGetConnectionFromNpId' in 'sceNp' module
-LDR: ! Imported function 'sceNpLookupCreateTransactionCtx' in 'sceNp' module
-LDR: ! Imported function 'sceNpLookupDestroyTransactionCtx' in 'sceNp' module
-LDR: ! Imported function 'sceNpManagerGetNpId' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpMatching2DestroyContext' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2GetWorldInfoList' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2SearchRoom' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2CreateServerContext' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2LeaveRoom' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2Term2' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2SendRoomMessage' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2GetServerInfo' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2GetEventData' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNp2Init' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2JoinRoom' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2ContextStartAsync' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2RegisterContextCallback' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2GetServerIdListLocal' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2CreateContext' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2ClearEventData' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNp2Term' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2SetDefaultRequestOptParam' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2RegisterRoomEventCallback' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2CreateJoinRoom' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2ContextStop' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2Init2' in 'sceNp2' module
-LDR: W Unimplemented function 'sceNpMatching2RegisterRoomMessageCallback' in 'sceNp2' module
-LDR: ! Imported function 'sceNpTrophyRegisterContext' in 'sceNpTrophy' module
-LDR: ! Imported function 'sceNpTrophyCreateHandle' in 'sceNpTrophy' module
-LDR: ! Imported function 'sceNpTrophyGetRequiredDiskSpace' in 'sceNpTrophy' module
-LDR: ! Imported function 'sceNpTrophyDestroyContext' in 'sceNpTrophy' module
-LDR: ! Imported function 'sceNpTrophyInit' in 'sceNpTrophy' module
-LDR: ! Imported function 'sceNpTrophyDestroyHandle' in 'sceNpTrophy' module
-LDR: ! Imported function 'sceNpTrophyUnlockTrophy' in 'sceNpTrophy' module
-LDR: ! Imported function 'sceNpTrophyTerm' in 'sceNpTrophy' module
-LDR: ! Imported function 'sceNpTrophyCreateContext' in 'sceNpTrophy' module
+LDR: ! Imported function 'Unknown func id: 0x59d1629a' in 'cellSysutilNpEula' module  (HLE)
+LDR: ! Imported function 'sceNpSignalingGetConnectionInfo' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpSignalingAddExtendedHandler' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpLookupDestroyTitleCtx' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpLookupInit' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpSignalingActivateConnection' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpSignalingCreateCtx' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpManagerGetContentRatingFlag' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpLookupPollAsync' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpLookupTerm' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpLookupTitleSmallStorageAsync' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpSignalingTerminateConnection' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpSignalingGetLocalNetInfo' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpManagerGetStatus' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpSignalingDestroyCtx' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpDrmIsAvailable' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpManagerGetAccountRegion' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpBasicAddPlayersHistoryAsync' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpSignalingGetConnectionStatus' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpLookupCreateTitleCtx' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpUtilCmpNpId' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpManagerRegisterCallback' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpSignalingGetConnectionFromNpId' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpLookupCreateTransactionCtx' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpLookupDestroyTransactionCtx' in 'sceNp' module  (HLE)
+LDR: ! Imported function 'sceNpManagerGetNpId' in 'sceNp' module  (HLE)
+LDR: W Unimplemented function 'sceNpMatching2DestroyContext' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2GetWorldInfoList' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2SearchRoom' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2CreateServerContext' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2LeaveRoom' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2Term2' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2SendRoomMessage' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2GetServerInfo' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2GetEventData' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNp2Init' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2JoinRoom' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2ContextStartAsync' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2RegisterContextCallback' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2GetServerIdListLocal' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2CreateContext' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2ClearEventData' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNp2Term' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2SetDefaultRequestOptParam' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2RegisterRoomEventCallback' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2CreateJoinRoom' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2ContextStop' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2Init2' in 'sceNp2' module (HLE)
+LDR: W Unimplemented function 'sceNpMatching2RegisterRoomMessageCallback' in 'sceNp2' module (HLE)
+LDR: ! Imported function 'sceNpTrophyRegisterContext' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyCreateHandle' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyGetRequiredDiskSpace' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyDestroyContext' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyInit' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyDestroyHandle' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyUnlockTrophy' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyTerm' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyCreateContext' in 'sceNpTrophy' module  (HLE)
 LDR: W Unknown module 'sceNpCommerce2'
-LDR: ! Imported function 'sceNpCommerce2Init' in 'sceNpCommerce2' module
-LDR: ! Imported function 'sceNpCommerce2Term' in 'sceNpCommerce2' module
-LDR: ! Imported function 'sceNpCommerce2ExecuteStoreBrowse' in 'sceNpCommerce2' module
+LDR: ! Imported function 'sceNpCommerce2Init' in 'sceNpCommerce2' module  (HLE)
+LDR: ! Imported function 'sceNpCommerce2Term' in 'sceNpCommerce2' module  (HLE)
+LDR: ! Imported function 'sceNpCommerce2ExecuteStoreBrowse' in 'sceNpCommerce2' module  (HLE)
 LDR: W Unknown module 'cellRec'
-LDR: ! Imported function 'cellRecOpen' in 'cellRec' module
-LDR: ! Imported function 'cellRecClose' in 'cellRec' module
-LDR: ! Imported function 'cellRecStop' in 'cellRec' module
-LDR: ! Imported function 'cellRecStart' in 'cellRec' module
-LDR: ! Imported function 'cellRecQueryMemSize' in 'cellRec' module
-LDR: ! Imported function 'cellRtcGetCurrentClockLocalTime' in 'cellRtc' module
-LDR: ! Imported function 'cellRtcTickAddDays' in 'cellRtc' module
-LDR: ! Imported function 'cellRtcGetCurrentTick' in 'cellRtc' module
-LDR: ! Imported function 'cellGcmGetTimeStampLocation' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetReportDataAddressLocation' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetUserHandler' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetPrepareFlip' in 'cellGcmSys' module
-LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetOffsetTable' in 'cellGcmSys' module
-LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmBindTile' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetDefaultCommandWordSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmMapEaIoAddressWithFlags' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmMapEaIoAddress' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetFlipStatus' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetDefaultSegmentWordSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmBindZcull' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmUnbindZcull' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetFlipImmediate' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmResetFlipStatus' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetTileInfo' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmUnbindTile' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmUnmapEaIoAddress' in 'cellGcmSys' module
-LDR: ! Imported function '_cellGcmSetFlipCommand' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetDefaultFifoSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
-LDR: ! Imported function '_cellGcmSetFlipCommandWithWaitLabel' in 'cellGcmSys' module
+LDR: ! Imported function 'cellRecOpen' in 'cellRec' module  (HLE)
+LDR: ! Imported function 'cellRecClose' in 'cellRec' module  (HLE)
+LDR: ! Imported function 'cellRecStop' in 'cellRec' module  (HLE)
+LDR: ! Imported function 'cellRecStart' in 'cellRec' module  (HLE)
+LDR: ! Imported function 'cellRecQueryMemSize' in 'cellRec' module  (HLE)
+LDR: ! Imported function 'cellRtcGetCurrentClockLocalTime' in 'cellRtc' module  (HLE)
+LDR: ! Imported function 'cellRtcTickAddDays' in 'cellRtc' module  (HLE)
+LDR: ! Imported function 'cellRtcGetCurrentTick' in 'cellRtc' module  (HLE)
+LDR: ! Imported function 'cellGcmGetTimeStampLocation' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetReportDataAddressLocation' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetUserHandler' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetPrepareFlip' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetOffsetTable' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmBindTile' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetDefaultCommandWordSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmMapEaIoAddressWithFlags' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmMapEaIoAddress' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetFlipStatus' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetDefaultSegmentWordSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmBindZcull' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmUnbindZcull' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetFlipImmediate' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmResetFlipStatus' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetTileInfo' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmUnbindTile' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmUnmapEaIoAddress' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function '_cellGcmSetFlipCommand' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetDefaultFifoSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function '_cellGcmSetFlipCommandWithWaitLabel' in 'cellGcmSys' module  (HLE)
 LDR: W Unknown module 'cellSysutilAvconfExt'
-LDR: ! Imported function 'cellVideoOutGetScreenSize' in 'cellSysutilAvconfExt' module
-LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module
-LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwcond_destroy' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_prx_load_module' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwcond_wait' in 'sysPrxForUser' module
-LDR: ! Imported function '_sys_process_atexitspawn' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_prx_register_library' in 'sysPrxForUser' module
-LDR: ! Imported function '_sys_spu_printf_initialize' in 'sysPrxForUser' module
-LDR: ! Imported function 'Unknown func id: 0x4f7172c9' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_game_process_exitspawn2' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_prx_stop_module' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module
-LDR: ! Imported function '_sys_process_at_Exitspawn' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_prx_start_module' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_ppu_thread_once' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwmutex_trylock' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_prx_unregister_library' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwcond_create' in 'sysPrxForUser' module
-LDR: ! Imported function '_sys_spu_printf_finalize' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwcond_signal_all' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwcond_signal' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_prx_unload_module' in 'sysPrxForUser' module
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9e448, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-HLE: W {PPU[1] Thread (CPUThread)[0x003443d0]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fc04)
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9e090, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d3d8, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d400, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d428, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d310, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d338, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d360, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d388, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d3b0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9e598, attr_addr=0x9a65f8)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9e558, attr_addr=0x9a6608)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100020, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000a0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100130, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100190, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301001d0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100210, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301002d0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100300, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100330, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100360, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100390, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301003c0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100450, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 27
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301004a0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 28
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301004f0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 29
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100540, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 30
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100590, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 31
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301005e0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 32
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100630, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 33
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100680, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 34
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301006d0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 35
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100720, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 36
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100770, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 37
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301007c0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 38
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xddc0c0, attr_addr=0xd000fb40)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 39
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30235110, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 40
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30235160, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 41
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302351b0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 42
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30235920, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 43
-HLE: E {PPU[1] Thread (CPUThread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b580)
-HLE: E {PPU[1] Thread (CPUThread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b59c)
-HLE: E {PPU[1] Thread (CPUThread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b5b8)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-HLE: W {PPU[1] Thread (CPUThread)[0x006d707c]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x70eb60, userdata=0x9c6900)
-HLE: W {PPU[1] Thread (CPUThread)[0x002c73e8]} sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-HLE: E {PPU[1] Thread (CPUThread)[0x0033e544]} sys_fs error: "/app_home/sampleArg.txt" not found! flags: 0x00000000
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee704c]} cellGcmSys warning: _cellGcmInitBody(context_addr=0xe397c0, cmdSize=0xf0000, ioSize=0x100000, ioAddress=0x34c00000)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee704c]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee704c]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee704c]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x34c00000, io=0x0, size=0x100000)
+LDR: ! Imported function 'cellVideoOutGetScreenSize' in 'cellSysutilAvconfExt' module  (HLE)
+LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwcond_destroy' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_prx_load_module' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwcond_wait' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function '_sys_process_atexitspawn' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_prx_register_library' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function '_sys_spu_printf_initialize' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'Unknown func id: 0x4f7172c9' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_game_process_exitspawn2' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_prx_stop_module' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function '_sys_process_at_Exitspawn' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_prx_start_module' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_ppu_thread_once' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_trylock' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_prx_unregister_library' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwcond_create' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function '_sys_spu_printf_finalize' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwcond_signal_all' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwcond_signal' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_prx_unload_module' in 'sysPrxForUser' module  (HLE)
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9e448, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (main_thread)[0x003443d0]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fc04)
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9e090, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d3d8, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d400, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d428, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d310, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d338, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d360, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d388, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9d3b0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9e598, attr_addr=0x9a65f8)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xe9e558, attr_addr=0x9a6608)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100020, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000a0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100130, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100190, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301001d0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100210, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301002d0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100300, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100330, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100360, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100390, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301003c0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100450, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 27
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301004a0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 28
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301004f0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 29
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100540, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 30
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100590, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 31
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301005e0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 32
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100630, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 33
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100680, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 34
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301006d0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 35
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100720, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 36
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100770, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 37
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301007c0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 38
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0xddc0c0, attr_addr=0xd000fb40)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 39
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30235110, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 40
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30235160, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 41
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302351b0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 42
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30235920, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 43
+HLE: E {PPU[1] Thread (main_thread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b580)
+HLE: E {PPU[1] Thread (main_thread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b59c)
+HLE: E {PPU[1] Thread (main_thread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b5b8)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W {PPU[1] Thread (main_thread)[0x006d707c]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x70eb60, userdata=0x9c6900)
+HLE: W {PPU[1] Thread (main_thread)[0x002c73e8]} sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+HLE: E {PPU[1] Thread (main_thread)[0x0033e544]} sys_fs error: "/app_home/sampleArg.txt" not found! flags: 0x00000000
+HLE: W {PPU[1] Thread (main_thread)[0x00ee704c]} cellGcmSys warning: _cellGcmInitBody(context_addr=0xe397c0, cmdSize=0xf0000, ioSize=0x100000, ioAddress=0x34c00000)
+HLE: W {PPU[1] Thread (main_thread)[0x00ee704c]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W {PPU[1] Thread (main_thread)[0x00ee704c]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W {PPU[1] Thread (main_thread)[0x00ee704c]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x34c00000, io=0x0, size=0x100000)
 RSX: ! {RSXThread} RSX thread started
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee70f4]} cellGcmSys warning: cellGcmSetVBlankHandler(handler_addr=0x70eb88)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee7034]} cellGcmSys warning: cellGcmSetUserHandler(handler_addr=0x70eb80)
-HLE: W {PPU[1] Thread (CPUThread)[0x006d7064]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000fb30, option_addr=0x0, waitForEvent=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee7088]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee7118]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=7864320, pitch=5120, comp=7, base=0, bank=0)
-HLE: E {PPU[1] Thread (CPUThread)[0x00ee7118]} cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (7)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee707c]} cellGcmSys warning: cellGcmBindTile(index=0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee70ac]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x34d00000, io=0xb300000, size=0x2d00000)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee70a0]} cellGcmSys warning: cellGcmMapEaIoAddressWithFlags(ea=0x37a00000, io=0xe000000, size=0x100000, flags=0x2)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee70a0]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x37a00000, io=0xe000000, size=0x100000)
-HLE: W {PPU[1] Thread (CPUThread)[0x006db034]} sys_io warning: cellPadInit(max_connect=7)
-HLE: W {PPU[1] Thread (CPUThread)[0x006db070]} sys_io warning: cellKbInit(max_connect=7)
-HLE: W {PPU[1] Thread (CPUThread)[0x006db0b8]} sys_io warning: cellMouseInit(max_connect=7)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d690, attr_addr=0xd000f780)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 44
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d690): id = 45
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d700, attr_addr=0xd000f700)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 46
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d700): id = 47
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d760, attr_addr=0xd000f800)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 48
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d760): id = 49
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d7a0, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 50
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d7a0): id = 51
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d7e0, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 52
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d7e0): id = 53
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d820, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 54
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d820): id = 55
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d860, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 56
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d860): id = 57
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d8a0, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 58
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d8a0): id = 59
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d8e0, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 60
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d8e0): id = 61
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d920, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 62
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d920): id = 63
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d990, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 64
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d990): id = 65
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d9d0, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 66
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d9d0): id = 67
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023da10, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 68
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023da10): id = 69
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023da50, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 70
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023da50): id = 71
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023da90, attr_addr=0xd000f790)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 72
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023da90): id = 73
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023db00, attr_addr=0xd000f710)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 74
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023db00): id = 75
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023db70, attr_addr=0xd000f710)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 76
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023db70): id = 77
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023dbb0, attr_addr=0xd000f770)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 78
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023dbb0): id = 79
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023e6a0, attr_addr=0xd000f5f0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 80
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023e6a0): id = 81
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30240ef0, attr_addr=0xd000f670)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 82
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30240ef0): id = 83
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30240f30, attr_addr=0xd000f560)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 84
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30240f30): id = 85
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f5a0)
-HLE: E {PPU[1] Thread (CPUThread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b580)
-HLE: E {PPU[1] Thread (CPUThread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b59c)
-HLE: E {PPU[1] Thread (CPUThread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b5b8)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC2)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf088]} cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd000f628, revision=2, sdkVersion=0x330000, nSpus=6, spuPriority=249, ppuPriority=78, exitIfNoWork=0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf004]} cellSpurs warning: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd000f628)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf094]} cellSpurs warning: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd000f628, priority_addr=0xd000f610, maxSpu=6, isPreemptible_addr=0xd000f618)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x37a00400, attr_addr=0xd000f628)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 86
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 87
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 88
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 89
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 90
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 91
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 92
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 93
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 94
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 95
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 96
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 97
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 98
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 99
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 100
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuWkl] (protocol=0x2): id = 101
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_semaphore: *** semaphore created [_spuPrv] (protocol=0x2): id = 102
-HLE: E {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread Group type (0x20)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu: *** SPU Thread Group created [CellSpursKernelGroup] (num=6, prio=249, type=0x20, container=0): id=103
-HLE: E {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel0] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=104
-HLE: E {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel1] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=105
-HLE: E {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel2] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=106
-HLE: E {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel3] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=107
-HLE: E {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel4] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=108
-HLE: E {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel5] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=109
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_lwmutex: *** lwmutex created [_spuPrv] (attribute=0x22): sq_id = 110
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_lwcond warning: *** lwcond created [_spuPrv] (lwmutex_addr=0x37a011b0): id = 111
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_event warning: *** event_queue created [_spuPrv] (protocol=0x1, type=0x1, key=0x0, size=0x2a): id = 112
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=103, eq_id=112, req=0xffffffffffff0000, spup_addr=0x37a004c9)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu warning: *** spup -> 16
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_event warning: *** sys_event_port created: id = 113
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_event warning: sys_event_port_connect_local(eport_id=113, equeue_id=112)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_ppu_thread: *** New PPU Thread [SpursHdlr0] (joinable, entry=0x0): id = 114
-HLE: ! {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_ppu_thread: *** New PPU Thread [SpursHdlr1] (joinable, entry=0x0): id = 115
-HLE: E {PPU[1] Thread (CPUThread)[0x00ecf0d0]} sys_spu TODO: sys_spu_thread_group_connect_event(id=103, eq=112, et=0x2)
-HLE: W {PPU[1] Thread (CPUThread)[0x002aa56c]} sys_event warning: sys_event_queue_create(equeue_id_addr=0xe8e610, attr_addr=0xd000f540, event_queue_key=0x0, size=8)
-HLE: W {PPU[1] Thread (CPUThread)[0x002aa56c]} sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1, key=0x0, size=0x8): id = 116
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed028]} sys_ppu_thread: *** New PPU Thread [spu_printf_handler] (joinable, entry=0x70e4e0): id = 117
-HLE: W {PPU[1] Thread (CPUThread)[0x002aa950]} sys_event warning: sys_event_port_create(eport_id_addr=0xe8e614, port_type=0x1, name=0xd1ed1ed1)
-HLE: W {PPU[1] Thread (CPUThread)[0x002aa950]} sys_event warning: *** sys_event_port created: id = 118
-HLE: W {PPU[1] Thread (CPUThread)[0x002aa964]} sys_event warning: sys_event_port_connect_local(eport_id=118, equeue_id=116)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf190]} cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x37a00400, queue=116, port_addr=0xd000f550, isDynamic=0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf190]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=103, eq_id=116, req=0x2, spup_addr=0xd000f550)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf190]} sys_spu warning: *** spup -> 1
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf154]} cellSpurs warning: cellSpursAddWorkload(spurs_addr=0x37a00400, wid_addr=0xe8e600, pm_addr=0x674080, size=0xa00, data=0xe8e680, priorityTable_addr=0x9a3ec4, minContention=0x1, maxContention=0x6)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf178]} cellSpurs warning: _cellSpursWorkloadFlagReceiver(spurs_addr=0x37a00400, wid=0, is_set=1)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf1a8]} cellSpurs warning: cellSpursReadyCountStore(spurs_addr=0x37a00400, wid=0, value=0x6)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf160]} cellSpurs warning: cellSpursWakeUp(spurs_addr=0x37a00400)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
-HLE: W {PPU[1] Thread (CPUThread)[0x006df010]} sys_net warning: sys_net_initialize_network_ex(param_addr=0xd000f590)
-HLE: E {PPU[1] Thread (CPUThread)[0x00edd070]} TODO: sceNp2Init
-HLE: W {PPU[1] Thread (CPUThread)[0x006d901c]} cellGame warning: cellGameBootCheck(type_addr=0xd000f4f0, attributes_addr=0xd000f4f4, size_addr=0xddc518, dirName_addr=0xd000f4f8)
-HLE: W {PPU[1] Thread (CPUThread)[0x006d9004]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd000f518, usrdirPath_addr=0xddc498)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ed1028]} cellNetCtl warning: cellNetCtlInit()
+HLE: W {PPU[1] Thread (main_thread)[0x00ee70f4]} cellGcmSys warning: cellGcmSetVBlankHandler(handler_addr=0x70eb88)
+HLE: W {PPU[1] Thread (main_thread)[0x00ee7034]} cellGcmSys warning: cellGcmSetUserHandler(handler_addr=0x70eb80)
+HLE: W {PPU[1] Thread (main_thread)[0x006d7064]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000fb30, option_addr=0x0, waitForEvent=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x00ee7088]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+HLE: W {PPU[1] Thread (main_thread)[0x00ee7118]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=7864320, pitch=5120, comp=7, base=0, bank=0)
+HLE: E {PPU[1] Thread (main_thread)[0x00ee7118]} cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (7)
+HLE: W {PPU[1] Thread (main_thread)[0x00ee707c]} cellGcmSys warning: cellGcmBindTile(index=0)
+HLE: W {PPU[1] Thread (main_thread)[0x00ee70ac]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x34d00000, io=0xb300000, size=0x2d00000)
+HLE: W {PPU[1] Thread (main_thread)[0x00ee70a0]} cellGcmSys warning: cellGcmMapEaIoAddressWithFlags(ea=0x37a00000, io=0xe000000, size=0x100000, flags=0x2)
+HLE: W {PPU[1] Thread (main_thread)[0x006db034]} sys_io warning: cellPadInit(max_connect=7)
+HLE: W {PPU[1] Thread (main_thread)[0x006db070]} sys_io warning: cellKbInit(max_connect=7)
+HLE: W {PPU[1] Thread (main_thread)[0x006db0b8]} sys_io warning: cellMouseInit(max_connect=7)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d690, attr_addr=0xd000f780)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 44
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d690): id = 45
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d700, attr_addr=0xd000f700)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 46
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d700): id = 47
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d760, attr_addr=0xd000f800)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 48
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d760): id = 49
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d7a0, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 50
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d7a0): id = 51
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d7e0, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 52
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d7e0): id = 53
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d820, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 54
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d820): id = 55
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d860, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 56
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d860): id = 57
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d8a0, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 58
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d8a0): id = 59
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d8e0, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 60
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d8e0): id = 61
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d920, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 62
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d920): id = 63
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d990, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 64
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d990): id = 65
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023d9d0, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 66
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023d9d0): id = 67
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023da10, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 68
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023da10): id = 69
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023da50, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 70
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023da50): id = 71
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023da90, attr_addr=0xd000f790)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 72
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023da90): id = 73
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023db00, attr_addr=0xd000f710)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 74
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023db00): id = 75
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023db70, attr_addr=0xd000f710)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 76
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023db70): id = 77
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023dbb0, attr_addr=0xd000f770)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 78
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023dbb0): id = 79
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3023e6a0, attr_addr=0xd000f5f0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 80
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x3023e6a0): id = 81
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30240ef0, attr_addr=0xd000f670)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 82
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30240ef0): id = 83
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30240f30, attr_addr=0xd000f560)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 84
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30240f30): id = 85
+HLE: E {PPU[1] Thread (main_thread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f5a0)
+HLE: E {PPU[1] Thread (main_thread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b580)
+HLE: E {PPU[1] Thread (main_thread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b59c)
+HLE: E {PPU[1] Thread (main_thread)[0x00eed070]} sys_prx TODO: sys_prx_register_library(lib_addr=0x50b5b8)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC2)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf088]} cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd000f628, revision=2, sdkVersion=0x330000, nSpus=6, spuPriority=249, ppuPriority=999, exitIfNoWork=0)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf004]} cellSpurs warning: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd000f628)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf094]} cellSpurs warning: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd000f628, priority_addr=0xd000f610, maxSpu=6, isPreemptible_addr=0xd000f618)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x37a00400, attr_addr=0xd000f628)
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 86
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 87
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 88
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 89
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 90
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 91
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 92
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 93
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 94
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 95
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 96
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 97
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 98
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 99
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 100
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 101
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_semaphore : *** semaphore created [_spuPrv] (protocol=0x2): id = 102
+HLE: E {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread Group type (0x20)
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu : *** SPU Thread Group created [CellSpursKernelGroup] (num=6, prio=249, type=0x20, container=0): id=103
+HLE: E {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel0] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=104, spu_offset=0x30056000
+HLE: E {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel1] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=105, spu_offset=0x30096000
+HLE: E {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel2] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=106, spu_offset=0x37b00000
+HLE: E {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel3] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=107, spu_offset=0x37b40000
+HLE: E {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel4] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=108, spu_offset=0x37b80000
+HLE: E {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu TODO: Unsupported SPU Thread options (0x2)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu warning: *** New SPU Thread [CellSpursKernel5] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=109, spu_offset=0x37bc0000
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_lwmutex : *** lwmutex created [_spuPrv] (attribute=0x22): sq_id = 110
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_lwcond warning: *** lwcond created [_spuPrv] (lwmutex_addr=0x37a011b0): id = 111
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_event warning: *** event_queue created [_spuPrv] (protocol=0x1, type=0x1, key=0x0, size=0x2a): id = 112
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=103, eq_id=112, req=0xffffffffffff0000, spup_addr=0x37a004c9)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu warning: *** spup -> 16
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_event warning: *** sys_event_port created: id = 113
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_event warning: sys_event_port_connect_local(eport_id=113, equeue_id=112)
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_ppu_thread : *** New PPU Thread [SpursHdlr0] (joinable, entry=0x0): id = 114
+HLE: W {PPU[114] Thread (SpursHdlr0)[0x00000000]} sys_spu warning: sys_spu_thread_group_start(id=103)
+HLE: ! {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_ppu_thread : *** New PPU Thread [SpursHdlr1] (joinable, entry=0x0): id = 115
+HLE: E {PPU[1] Thread (main_thread)[0x00ecf0d0]} sys_spu TODO: sys_spu_thread_group_connect_event(id=103, eq=112, et=0x2)
+HLE: W {PPU[1] Thread (main_thread)[0x002aa56c]} sys_event warning: sys_event_queue_create(equeue_id_addr=0xe8e610, attr_addr=0xd000f540, event_queue_key=0x0, size=8)
+HLE: W {PPU[1] Thread (main_thread)[0x002aa56c]} sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1, key=0x0, size=0x8): id = 116
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed028]} sys_ppu_thread : *** New PPU Thread [spu_printf_handler] (joinable, entry=0x70e4e0): id = 117
+HLE: W {PPU[1] Thread (main_thread)[0x002aa950]} sys_event warning: sys_event_port_create(eport_id_addr=0xe8e614, port_type=0x1, name=0xd1ed1ed1)
+HLE: W {PPU[1] Thread (main_thread)[0x002aa950]} sys_event warning: *** sys_event_port created: id = 118
+HLE: W {PPU[1] Thread (main_thread)[0x002aa964]} sys_event warning: sys_event_port_connect_local(eport_id=118, equeue_id=116)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf190]} cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0x37a00400, queue=116, port_addr=0xd000f550, isDynamic=0)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf190]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=103, eq_id=116, req=0x2, spup_addr=0xd000f550)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf190]} sys_spu warning: *** spup -> 1
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf154]} cellSpurs warning: cellSpursAddWorkload(spurs_addr=0x37a00400, wid_addr=0xe8e600, pm_addr=0x674080, size=0xa00, data=0xe8e680, priorityTable_addr=0x9a3ec4, minContention=0x1, maxContention=0x6)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf178]} cellSpurs warning: _cellSpursWorkloadFlagReceiver(spurs_addr=0x37a00400, wid=0, is_set=1)
+HLE: W {PPU[114] Thread (SpursHdlr0)[0x00000000]} sys_spu warning: sys_spu_thread_group_join(id=103, cause_addr=0x0, status_addr=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf1a8]} cellSpurs warning: cellSpursReadyCountStore(spurs_addr=0x37a00400, wid=0, value=0x6)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf160]} cellSpurs warning: cellSpursWakeUp(spurs_addr=0x37a00400)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
+HLE: W {PPU[1] Thread (main_thread)[0x006df010]} sys_net warning: sys_net_initialize_network_ex(param_addr=0xd000f590)
+HLE: E {PPU[1] Thread (main_thread)[0x00edd070]} TODO: sceNp2Init
+HLE: W {PPU[1] Thread (main_thread)[0x006d901c]} cellGame warning: cellGameBootCheck(type_addr=0xd000f4f0, attributes_addr=0xd000f4f4, size_addr=0xddc518, dirName_addr=0xd000f4f8)
+SPU: E {SPU[104] Thread (CellSpursKernel0)[0x00000a00]} SPURecompilerCore::Compile(ls_addr=0xa00): branch to 0x0 opcode
+SPU: E {SPU[106] Thread (CellSpursKernel2)[0x00000a00]} SPURecompilerCore::Compile(ls_addr=0xa00): branch to 0x0 opcode
+SPU: E {SPU[108] Thread (CellSpursKernel4)[0x00000a00]} SPURecompilerCore::Compile(ls_addr=0xa00): branch to 0x0 opcode
+SPU: E {SPU[107] Thread (CellSpursKernel3)[0x00000a00]} SPURecompilerCore::Compile(ls_addr=0xa00): branch to 0x0 opcode
+SPU: E {SPU[105] Thread (CellSpursKernel1)[0x00000a00]} SPURecompilerCore::Compile(ls_addr=0xa00): branch to 0x0 opcode
+SPU: E {SPU[109] Thread (CellSpursKernel5)[0x00000a00]} SPURecompilerCore::Compile(ls_addr=0xa00): branch to 0x0 opcode
+HLE: W {PPU[1] Thread (main_thread)[0x006d9004]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd000f518, usrdirPath_addr=0xddc498)
+HLE: W {PPU[1] Thread (main_thread)[0x00ed1028]} cellNetCtl warning: cellNetCtlInit()
 TTY: [37;41mTTY: sceNpManagerGetStatus() failed: TTY: [0mTTY: [37;41mTTY: 0xTTY: [0mTTY: [37;41mTTY: 8002aa01TTY: [0mTTY: [37;41mTTY: 
-TTY: [0mHLE: E {PPU[1] Thread (CPUThread)[0x00edb0f4]} sceNp TODO: sceNpManagerRegisterCallback
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecf19c]} cellSpurs warning: cellSpursGetWorkloadFlag(spurs_addr=0x37a00400, flag_addr=0xd000f560)
+TTY: [0mHLE: E {PPU[1] Thread (main_thread)[0x00edb0f4]} sceNp TODO: sceNpManagerRegisterCallback
+HLE: W {PPU[1] Thread (main_thread)[0x00ecf19c]} cellSpurs warning: cellSpursGetWorkloadFlag(spurs_addr=0x37a00400, flag_addr=0xd000f560)
+HLE: W {PPU[1] Thread (main_thread)[0x00ee7010]} cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=0, location=1)
 TTY: [37;41mTTY: Booting game
 TTY: [0mTTY:  + create reliability system
-HLE: W {PPU[1] Thread (CPUThread)[0x006d7010]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x395b4af0, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 119
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x39fb4b00, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 120
-HLE: W {PPU[1] Thread (CPUThread)[0x00ee7010]} cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=512, location=1)
-HLE: W {PPU[1] Thread (CPUThread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
-HLE: W {PPU[1] Thread (CPUThread)[0x006df010]} sys_net warning: sys_net_initialize_network_ex(param_addr=0xd000f590)
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed301c]} TODO: cellHttpInit
-HLE: W {PPU[1] Thread (CPUThread)[0x006d7010]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-HLE: W {PPU[1] Thread (CPUThread)[0x006d7010]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-HLE: W {PPU[1] Thread (CPUThread)[0x006d7010]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-HLE: W {PPU[1] Thread (CPUThread)[0x006d7010]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302c7240, attr_addr=0xd000f3c0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 121
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302c7240): id = 122
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302c7270, attr_addr=0xd000f440)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 123
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302c7270): id = 124
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f370)
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x39523210, attr_addr=0x5489b0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 125
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302c9e60, attr_addr=0xd000f340)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 126
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302c9e60): id = 127
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302c9e90, attr_addr=0xd000f3c0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 128
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302c9e90): id = 129
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f2f0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x34b20b00, attr_addr=0xd000f640)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 130
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x34b20b28, attr_addr=0xd000f640)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 131
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed028]} sys_ppu_thread: *** New PPU Thread [Resource Streamer] (joinable, entry=0x7075c8): id = 132
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302cee50, attr_addr=0xd000f2e0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 133
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302cee50): id = 134
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302cee90, attr_addr=0xd000f360)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 135
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302cee90): id = 136
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f290)
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d05a0, attr_addr=0xd000f270)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 137
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d05a0): id = 138
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d05e0, attr_addr=0xd000f2f0)
-HLE: ! {PPU[1] Thread (CPUThread)[0x00eed058]} sys_lwmutex: *** lwmutex created [] (attribute=0x22): sq_id = 139
-HLE: W {PPU[1] Thread (CPUThread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d05e0): id = 140
-HLE: E {PPU[1] Thread (CPUThread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f220)
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd000f2f0, drm_path_addr=0xd000f390('/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx'))
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Using k_licensee 0x0b0090227200902272009022720090227
-PPU: ! {PPULLVMRecompiler} Removed 8 old versions
-LDR: E {PPU[1] Thread (CPUThread)[0x00edb0ac]} EDAT: D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288\USRDIR\Data\Prx\HotLoadEUGold.sprx has invalid NPD header or already decrypted.
-HLE: E {PPU[1] Thread (CPUThread)[0x00eed034]} sys_prx TODO: sys_prx_load_module(path="/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx", flags=0x0, pOpt=0x0)
-LDR: E {PPU[1] Thread (CPUThread)[0x00eed034]} SELF: Failed to decrypt metadata info!
-LDR: E {PPU[1] Thread (CPUThread)[0x00eed034]} SELF: Failed to load SELF file metadata!
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd000f2f0, drm_path_addr=0xd000f390('/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/elfEUGold.sprx'))
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/elfEUGold.sprx
-HLE: W {PPU[1] Thread (CPUThread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Using k_licensee 0x0b0090227200902272009022720090227
-LDR: E {PPU[1] Thread (CPUThread)[0x00edb0ac]} EDAT: D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288\USRDIR\Data\Prx\elfEUGold.sprx has invalid NPD header or already decrypted.
-HLE: E {PPU[1] Thread (CPUThread)[0x00eed034]} sys_prx TODO: sys_prx_load_module(path="/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/elfEUGold.sprx", flags=0x0, pOpt=0x0)
-LDR: E {PPU[1] Thread (CPUThread)[0x00eed034]} SELF: Failed to decrypt metadata info!
-LDR: E {PPU[1] Thread (CPUThread)[0x00eed034]} SELF: Failed to load SELF file metadata!
-G: E {PPU[1] Thread (CPUThread)[0x0020a7d0]} Exception: Access violation: addr = 0xcffed860 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
-PPU: ! {PPULLVMRecompiler} Removed 185 old versions
-RSX: W {VBlank thread} VBlank thread aborted
+HLE: W {PPU[1] Thread (main_thread)[0x006d7010]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x395b4af0, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 119
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x39fb4b00, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 120
+HLE: W {PPU[1] Thread (main_thread)[0x00ee7010]} cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=512, location=1)
+HLE: W {PPU[1] Thread (main_thread)[0x00ecd010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
+HLE: W {PPU[1] Thread (main_thread)[0x006df010]} sys_net warning: sys_net_initialize_network_ex(param_addr=0xd000f590)
+HLE: E {PPU[1] Thread (main_thread)[0x00ed301c]} TODO: cellHttpInit
+HLE: W {PPU[1] Thread (main_thread)[0x006d7010]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+HLE: W {PPU[1] Thread (main_thread)[0x006d7010]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+HLE: W {PPU[1] Thread (main_thread)[0x006d7010]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+HLE: W {PPU[1] Thread (main_thread)[0x006d7010]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302c7240, attr_addr=0xd000f3c0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 121
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302c7240): id = 122
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302c7270, attr_addr=0xd000f440)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 123
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302c7270): id = 124
+HLE: E {PPU[1] Thread (main_thread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f370)
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x39523210, attr_addr=0x5489b0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 125
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302c9e60, attr_addr=0xd000f340)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 126
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302c9e60): id = 127
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302c9e90, attr_addr=0xd000f3c0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 128
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302c9e90): id = 129
+HLE: E {PPU[1] Thread (main_thread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f2f0)
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x34b20b00, attr_addr=0xd000f640)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 130
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x34b20b28, attr_addr=0xd000f640)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 131
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed028]} sys_ppu_thread : *** New PPU Thread [Resource Streamer] (joinable, entry=0x7075c8): id = 132
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302cee50, attr_addr=0xd000f2e0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 133
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302cee50): id = 134
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302cee90, attr_addr=0xd000f360)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 135
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302cee90): id = 136
+HLE: E {PPU[1] Thread (main_thread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f290)
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d05a0, attr_addr=0xd000f270)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 137
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d05a0): id = 138
+HLE: W {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x302d05e0, attr_addr=0xd000f2f0)
+HLE: ! {PPU[1] Thread (main_thread)[0x00eed058]} sys_lwmutex : *** lwmutex created [] (attribute=0x22): sq_id = 139
+HLE: W {PPU[1] Thread (main_thread)[0x00eed124]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x302d05e0): id = 140
+HLE: E {PPU[1] Thread (main_thread)[0x00ed1034]} cellNetCtl TODO: cellNetCtlGetInfo(code=0x10, info_addr=0xd000f220)
+HLE: W {PPU[1] Thread (main_thread)[0x00edb0ac]} sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd000f2f0, drm_path_addr=0xd000f390('/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx'))
+HLE: W {PPU[1] Thread (main_thread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx
+HLE: W {PPU[1] Thread (main_thread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Using k_licensee 0x0b0090227200902272009022720090227
+LDR: E {PPU[1] Thread (main_thread)[0x00edb0ac]} EDAT: D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288\USRDIR\Data\Prx\HotLoadEUGold.sprx has invalid NPD header or already decrypted.
+HLE: E {PPU[1] Thread (main_thread)[0x00eed034]} sys_prx TODO: sys_prx_load_module(path="/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/HotLoadEUGold.sprx", flags=0x0, pOpt=0x0)
+LDR: E {PPU[1] Thread (main_thread)[0x00eed034]} SELF: Failed to decrypt metadata info!
+LDR: E {PPU[1] Thread (main_thread)[0x00eed034]} SELF: Failed to load SELF file metadata!
+HLE: W {PPU[1] Thread (main_thread)[0x00edb0ac]} sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd000f2f0, drm_path_addr=0xd000f390('/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/elfEUGold.sprx'))
+HLE: W {PPU[1] Thread (main_thread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/elfEUGold.sprx
+HLE: W {PPU[1] Thread (main_thread)[0x00edb0ac]} sceNp warning: npDrmIsAvailable: Using k_licensee 0x0b0090227200902272009022720090227
+LDR: E {PPU[1] Thread (main_thread)[0x00edb0ac]} EDAT: D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288\USRDIR\Data\Prx\elfEUGold.sprx has invalid NPD header or already decrypted.
+HLE: E {PPU[1] Thread (main_thread)[0x00eed034]} sys_prx TODO: sys_prx_load_module(path="/dev_hdd0/game/NPEA00288/USRDIR/Data/Prx/elfEUGold.sprx", flags=0x0, pOpt=0x0)
+LDR: E {PPU[1] Thread (main_thread)[0x00eed034]} SELF: Failed to decrypt metadata info!
+LDR: E {PPU[1] Thread (main_thread)[0x00eed034]} SELF: Failed to load SELF file metadata!
+G: E {PPU[1] Thread (main_thread)[0x0020a7d0]} Exception: Access violation: addr = 0xcffed860 (is_alive=1, last_syscall=0x0 (Unknown func id: 0x00000000))
 RSX: W {RSXThread} RSX thread aborted
+RSX: W {VBlank thread} VBlank thread aborted
+HLE: W {PPU[114] Thread (SpursHdlr0)[0x00000000]} sys_spu warning: sys_spu_thread_group_join(id=103) aborted
+HLE: W {SPU[104] Thread (CellSpursKernel0)[0x00000000]} cellSpurs warning: Spurs Kernel aborted
+HLE: W {SPU[109] Thread (CellSpursKernel5)[0x00000000]} cellSpurs warning: Spurs Kernel aborted
+HLE: W {SPU[107] Thread (CellSpursKernel3)[0x00000000]} cellSpurs warning: Spurs Kernel aborted
+HLE: W {SPU[108] Thread (CellSpursKernel4)[0x00000000]} cellSpurs warning: Spurs Kernel aborted
 HLE: W {PPU[117] Thread (spu_printf_handler)[0x002aad50]} sys_event warning: sys_event_queue_receive(equeue=116) aborted
-PPU: ! {PPULLVMRecompiler} PPU LLVM compiler thread exiting.
+HLE: W {SPU[106] Thread (CellSpursKernel2)[0x00000000]} cellSpurs warning: Spurs Kernel aborted
+HLE: W {SPU[105] Thread (CellSpursKernel1)[0x00000000]} cellSpurs warning: Spurs Kernel aborted
+HLE: W {PPU[114] Thread (SpursHdlr0)[0x00000000]} cellSpurs warning: SPURS Handler Thread 0 aborted
+PPU: ! {PPU Recompilation Engine} PPU LLVM Recompilation thread exiting.
 HLE: ! All threads stopped...
 MEM: ! Closing memory...
