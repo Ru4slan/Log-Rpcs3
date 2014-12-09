@@ -1,29 +1,21 @@
 HLE: ! path: /dev_hdd0/game/
 HLE: W No pause.bin found, Auto Pause will not work.
 HLE: W No pause.bin found, Auto Pause will not work.
-LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241/USRDIR/BOOT.BIN'...
+LDR: ! Loading 'd:/emulateurs/rpcs3/dev_hdd0/game/npea00241/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
-LDR: ! /dev_hdd0/ -> ./dev_hdd0/
-LDR: ! /dev_hdd1/ -> ./dev_hdd1/
-LDR: ! /dev_flash/ -> ./dev_flash/
-LDR: ! /dev_usb000/ -> ./dev_usb000/
-LDR: ! /dev_usb/ -> ./dev_usb000/
-LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241/
-LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241//../
-LDR: ! /host_root/ -> 
-LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241//USRDIR/
-LDR: ! /dev_flash2/ -> ./dev_flash2/
-LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241//USRDIR/
-LDR: ! //dev_hdd0/ -> ./dev_hdd0/
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241//USRDIR/
-LDR: ! /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241//USRDIR/
+LDR: ! dev_usb000/ -> d:/emulateurs/rpcs3/dev_usb000/
+LDR: ! dev_flash/ -> d:/emulateurs/rpcs3/dev_flash/
+LDR: ! host_root/ -> 
+LDR: ! dev_hdd0/ -> d:/emulateurs/rpcs3/dev_hdd0/
+LDR: ! dev_hdd1/ -> d:/emulateurs/rpcs3/dev_hdd1/
+LDR: ! dev_bdvd/ -> d:/emulateurs/rpcs3/dev_hdd0/game/npea00241/../
+LDR: ! dev_usb/ -> d:/emulateurs/rpcs3/dev_usb000/
 LDR: !  
 LDR: ! Title: LittleBigPlanet™
 LDR: ! Serial: NPEA00241
 LDR: !  
-LDR: W m_ehdr.e_type = 0x2
-MEM: ! Initializing memory: base_addr = 0x4ff6020000
+MEM: ! Initializing memory: base_addr = 0x97f51e0000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module  (HLE)
 LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module  (HLE)
@@ -590,6 +582,8 @@ HLE: E {PPU[53] Thread (bringup)[0x00380038]} Unknown syscall: 872 - 00000368
 HLE: W {PPU[53] Thread (bringup)[0x0099f010]} cellUserInfo warning: cellUserInfoGetList(listNum_addr=0x921b48, listBuf_addr=0xd002fbe0, currentUserId_addr=0x921b4c)
 HLE: W {PPU[53] Thread (bringup)[0x0099f004]} cellUserInfo warning: cellUserInfoGetStat(id=1, stat_addr=0xd002fc20)
 HLE: W {PPU[53] Thread (bringup)[0x00991070]} sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x8bbaf0, commID_addr=0x74c2c1, commSign_addr=0x74c34d, options=0x0)
+TTY: System warning: no callback registered
+TTY: System warning: no callback registered
 HLE: W {PPU[53] Thread (bringup)[0x00991010]} sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x8bbaf4)
 HLE: W {PPU[53] Thread (bringup)[0x0099d088]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x863ae0, userdata=0x0)
 HLE: W {PPU[53] Thread (bringup)[0x00985064]} cellGame warning: cellGameBootCheck(type_addr=0x91ea90, attributes_addr=0x91eb24, size_addr=0x91ea80, dirName_addr=0x0)
@@ -608,14 +602,14 @@ HLE: W {PPU[53] Thread (bringup)[0x0099d028]} cellSysutil warning: cellSysCacheM
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00241/USRDIR/", sb_addr=0xd002f450)
 HLE: W {PPU[58] Thread (JobManagerWorker)[0x0099101c]} sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd003f960, options=0x0)
 HLE: W {PPU[58] Thread (JobManagerWorker)[0x00985058]} cellGame warning: cellGameDataCheck(type=0x3, dirName_addr=0xd003f7b0, size_addr=0xd003f7a0)
-HLE: E {PPU[53] Thread (bringup)[0x0096b010]} sys_fs error: "/dev_hdd0/game/NPEA00241/USRDIR/gamedata/data/craftworld.ini" not found! flags: 0x00000000
 HLE: W {PPU[58] Thread (JobManagerWorker)[0x00985058]} cellGame warning: cellGameDataCheck(): '/dev_hdd0/game/BCES00141_USER1' directory not found
 HLE: W {PPU[58] Thread (JobManagerWorker)[0x0098501c]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd003f7d0, usrdirPath_addr=0xd003f850)
 HLE: W {PPU[58] Thread (JobManagerWorker)[0x0098501c]} cellGame warning: cellGameContentPermit(): CELL_GAME_ERROR_FAILURE (no permission given)
 HLE: W {PPU[58] Thread (JobManagerWorker)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00241/USRDIR/output/dl", sb_addr=0xd003f770)
+HLE: W {PPU[58] Thread (JobManagerWorker)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEA00241/USRDIR/output/dl" not found.
+HLE: E {PPU[53] Thread (bringup)[0x0096b010]} sys_fs error: "/dev_hdd0/game/NPEA00241/USRDIR/gamedata/data/craftworld.ini" not found! flags: 0x00000000
 HLE: W {PPU[53] Thread (bringup)[0x0099d04c]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 HLE: W {PPU[53] Thread (bringup)[0x0096d01c]} cellGcmSys warning: _cellGcmInitBody(context_addr=0x931e80, cmdSize=0x3ff000, ioSize=0x400000, ioAddress=0x30200000)
-HLE: W {PPU[58] Thread (JobManagerWorker)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEA00241/USRDIR/output/dl" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096d01c]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 HLE: W {PPU[53] Thread (bringup)[0x0096d01c]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
 HLE: W {PPU[53] Thread (bringup)[0x0096d01c]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x400000)
@@ -680,29 +674,25 @@ HLE: W {PPU[53] Thread (bringup)[0x0096b0d0]} sys_fs warning: cellFsSdataOpen(pa
 HLE: ! {PPU[53] Thread (bringup)[0x0096b0d0]} sys_fs : "/dev_hdd0/game/NPEA00241/USRDIR/patch.sdat" opened: fd = 74
 HLE: W {PPU[53] Thread (bringup)[0x0096b040]} sys_fs warning: cellFsClose(fd=74)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002f500)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002f500)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002f500)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002f500)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002f500)
 HLE: W {PPU[53] Thread (bringup)[0x00975034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301fc8c8, attr_addr=0xd002f870)
 HLE: ! {PPU[53] Thread (bringup)[0x00975034]} sys_lwmutex : *** lwmutex created [temp] (attribute=0x11): sq_id = 75
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002f310)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002f310)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002f310)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002f310)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002f310)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/temp", sb_addr=0xd002f640)
-HLE: W {PPU[53] Thread (bringup)[0x0096b010]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd1\cache\NPEA00241\output\temp')
+HLE: W {PPU[53] Thread (bringup)[0x0096b010]} vfsLocalFile::Create('d:/emulateurs/rpcs3/dev_hdd1/cache/npea00241/output/temp')
 HLE: ! {PPU[53] Thread (bringup)[0x0096b010]} sys_fs : "/dev_hdd1/cache/NPEA00241/output/temp" opened: fd = 76
 HLE: W {PPU[53] Thread (bringup)[0x0096b040]} sys_fs warning: cellFsClose(fd=76)
 HLE: E {PPU[53] Thread (bringup)[0x0096b0a0]} TODO: cellFsAllocateFileAreaWithoutZeroFill
@@ -741,280 +731,264 @@ HLE: E {PPU[53] Thread (bringup)[0x0096b0a0]} TODO: cellFsAllocateFileAreaWithou
 HLE: E {PPU[53] Thread (bringup)[0x0096b0a0]} TODO: cellFsAllocateFileAreaWithoutZeroFill
 HLE: E {PPU[53] Thread (bringup)[0x0096b0a0]} TODO: cellFsAllocateFileAreaWithoutZeroFill
 HLE: E {PPU[53] Thread (bringup)[0x0096b0a0]} TODO: cellFsAllocateFileAreaWithoutZeroFill
-HLE: W {PPU[53] Thread (bringup)[0x0096b010]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd1\cache\NPEA00241\output\temp')
+HLE: W {PPU[53] Thread (bringup)[0x0096b010]} vfsLocalFile::Create('d:/emulateurs/rpcs3/dev_hdd1/cache/npea00241/output/temp')
 HLE: ! {PPU[53] Thread (bringup)[0x0096b010]} sys_fs : "/dev_hdd1/cache/NPEA00241/output/temp" opened: fd = 77
 HLE: W {PPU[53] Thread (bringup)[0x0096b070]} sys_fs warning: cellFsFstat(fd=77, sb_addr=0xd002f6e0)
 HLE: W {PPU[53] Thread (bringup)[0x00975034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301fcb48, attr_addr=0xd002f448)
 HLE: ! {PPU[53] Thread (bringup)[0x00975034]} sys_lwmutex : *** lwmutex created [fsb] (attribute=0x11): sq_id = 78
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/0", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/0", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/0" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/0", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=79, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=79)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/1", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/1" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/1", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=80, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=80)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/2", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/2", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/2" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/2", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=81, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=81)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/3", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/3", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/3" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/3", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=82, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=82)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/4", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/4", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/4" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/4", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=83, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=83)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/5", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/5", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/5" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/5", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=84, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=84)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/6", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/6", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/6" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/6", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=85, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=85)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/7", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/7", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/7" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/7", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=86, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=86)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/8", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/8", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/8" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/8", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=87, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=87)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/9", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/9", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/9" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/9", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=88, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=88)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/a", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/a", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/a" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/a", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=89, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=89)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/b", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/b", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/b" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/b", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=90, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=90)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/c", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/c", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/c" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/c", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=91, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=91)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/d", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/d", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/d" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/d", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=92, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=92)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/e", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/e", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/e" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/e", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=93, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=93)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241", mode=0x1ed)
-HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb", sb_addr=0xd002eed0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b064]} sys_fs warning: cellFsMkdir(path="/dev_hdd1/cache/NPEA00241/output/fsb/f", mode=0x1ed)
 HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd1/cache/NPEA00241/output/fsb/f", sb_addr=0xd002eed0)
+HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd1/cache/NPEA00241/output/fsb/f" not found.
 HLE: W {PPU[53] Thread (bringup)[0x0096b004]} sys_fs warning: cellFsOpendir(path="/dev_hdd1/cache/NPEA00241/output/fsb/f", fd_addr=0xd002f430)
 HLE: W {PPU[53] Thread (bringup)[0x0096b094]} sys_fs warning: cellFsReaddir(fd=94, dir_addr=0xd002f2a8, nread_addr=0xd002f2a0)
 HLE: W {PPU[53] Thread (bringup)[0x0096b034]} sys_fs warning: cellFsClosedir(fd=94)
@@ -1032,13 +1006,8 @@ HLE: W {PPU[53] Thread (bringup)[0x0096b01c]} sys_fs warning: cellFsStat(path="/
 HLE: W {PPU[53] Thread (bringup)[0x0098f10c]} sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x889b5d, drm_path_addr=0x301fce30('/dev_hdd0/game/NPEA00241/USRDIR/data.edat'))
 HLE: W {PPU[53] Thread (bringup)[0x0098f10c]} sceNp warning: npDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEA00241/USRDIR/data.edat
 HLE: W {PPU[53] Thread (bringup)[0x0098f10c]} sceNp warning: npDrmIsAvailable: Using k_licensee 0x074919b05a6a2b18065a73c107b2f0032
-LDR: ! {PPU[53] Thread (bringup)[0x0098f10c]} EDAT: Parsing data...
-LDR: ! {PPU[53] Thread (bringup)[0x0098f10c]} EDAT: Checking signatures...
-LDR: ! {PPU[53] Thread (bringup)[0x0098f10c]} EDAT: Metadata signature is valid!
-LDR: ! {PPU[53] Thread (bringup)[0x0098f10c]} EDAT: Header signature is valid!
-LDR: ! {PPU[53] Thread (bringup)[0x0098f10c]} EDAT: Data successfully parsed!
-LDR: ! {PPU[53] Thread (bringup)[0x0098f10c]} EDAT: Decrypting data...
-LDR: ! {PPU[53] Thread (bringup)[0x0098f10c]} EDAT: Data successfully decrypted!
+HLE: W {PPU[53] Thread (bringup)[0x0098f10c]} sceNp warning: npDrmIsAvailable: Can't find RAP file for DRM!
+LDR: E {PPU[53] Thread (bringup)[0x0098f10c]} EDAT: d:/emulateurs/rpcs3/dev_hdd0/game/npea00241/usrdir/data.edat has invalid NPD header or already decrypted.
 HLE: ! {PPU[53] Thread (bringup)[0x0096b010]} sys_fs : "/dev_hdd0/game/NPEA00241/USRDIR/data.edat" opened: fd = 98
 HLE: W {PPU[53] Thread (bringup)[0x0096b040]} sys_fs warning: cellFsClose(fd=98)
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -1110,7 +1079,6 @@ HLE: W {PPU[53] Thread (bringup)[0x0096b070]} sys_fs warning: cellFsFstat(fd=102
 HLE: W {PPU[53] Thread (bringup)[0x0096b040]} sys_fs warning: cellFsClose(fd=102)
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
-HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: ! {PPU[53] Thread (bringup)[0x0096b010]} sys_fs : "/dev_hdd0/game/NPEA00241/USRDIR/output/blurayguids.map" opened: fd = 103
 HLE: W {PPU[53] Thread (bringup)[0x0096b070]} sys_fs warning: cellFsFstat(fd=103, sb_addr=0xd002f640)
 HLE: W {PPU[53] Thread (bringup)[0x0096b040]} sys_fs warning: cellFsClose(fd=103)
@@ -1150,11 +1118,13 @@ HLE: ! {PPU[53] Thread (bringup)[0x0097501c]} sys_ppu_thread : *** New PPU Threa
 HLE: ! {PPU[53] Thread (bringup)[0x0097501c]} sys_ppu_thread : *** New PPU Thread [respump thread] (joinable, entry=0x85c6f0): id = 121
 HLE: W {PPU[53] Thread (bringup)[0x0099d04c]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
 HLE: ! {PPU[119] Thread (main loading thread)[0x0096b010]} sys_fs : "/dev_hdd0/game/NPEA00241/USRDIR/data.farc" opened: fd = 122
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[119] Thread (main loading thread)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00241/USRDIR/data.edat", sb_addr=0xd00bf708)
 HLE: W {PPU[119] Thread (main loading thread)[0x0098f10c]} sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x889b5d, drm_path_addr=0x301fce30('/dev_hdd0/game/NPEA00241/USRDIR/data.edat'))
 HLE: W {PPU[119] Thread (main loading thread)[0x0098f10c]} sceNp warning: npDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEA00241/USRDIR/data.edat
 HLE: W {PPU[119] Thread (main loading thread)[0x0098f10c]} sceNp warning: npDrmIsAvailable: Using k_licensee 0x074919b05a6a2b18065a73c107b2f0032
-LDR: E {PPU[119] Thread (main loading thread)[0x0098f10c]} EDAT: D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241\USRDIR\data.edat has invalid NPD header or already decrypted.
+HLE: W {PPU[119] Thread (main loading thread)[0x0098f10c]} sceNp warning: npDrmIsAvailable: Can't find RAP file for DRM!
+LDR: E {PPU[119] Thread (main loading thread)[0x0098f10c]} EDAT: d:/emulateurs/rpcs3/dev_hdd0/game/npea00241/usrdir/data.edat has invalid NPD header or already decrypted.
 HLE: ! {PPU[119] Thread (main loading thread)[0x0096b010]} sys_fs : "/dev_hdd0/game/NPEA00241/USRDIR/data.edat" opened: fd = 123
 HLE: W {PPU[53] Thread (bringup)[0x00975034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301fd468, attr_addr=0xd002fb30)
 HLE: ! {PPU[53] Thread (bringup)[0x00975034]} sys_lwmutex : *** lwmutex created [PrioQ] (attribute=0x11): sq_id = 124
@@ -1167,37 +1137,23 @@ HLE: ! {PPU[53] Thread (bringup)[0x005139bc]} sys_semaphore : *** semaphore crea
 HLE: W {PPU[53] Thread (bringup)[0x00975034]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301fd4d8, attr_addr=0xd002fb30)
 HLE: ! {PPU[53] Thread (bringup)[0x00975034]} sys_lwmutex : *** lwmutex created [font gl] (attribute=0x11): sq_id = 128
 HLE: ! {PPU[53] Thread (bringup)[0x0097501c]} sys_ppu_thread : *** New PPU Thread [glyphthread] (joinable, entry=0x85ccc8): id = 129
-HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[53] Thread (bringup)[0x0097f010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_KEY2CHAR)
 HLE: W {PPU[53] Thread (bringup)[0x0096f028]} sys_io warning: cellKbInit(max_connect=2)
 HLE: W {PPU[53] Thread (bringup)[0x0099d04c]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 HLE: W {PPU[53] Thread (bringup)[0x0096f088]} sys_io warning: cellMouseInit(max_connect=1)
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df5f0, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 130
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=130)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df550, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 131
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=131)
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df770, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 132
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
@@ -1219,6 +1175,36 @@ RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
@@ -1242,6 +1228,17 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
@@ -1283,6 +1280,11 @@ RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
@@ -1319,26 +1321,6 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df4d0, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 137
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=137)
@@ -1357,7 +1339,6 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=139)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df550, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 140
@@ -1374,6 +1355,7 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=141)
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -1410,52 +1392,6 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[119] Thread (main loading thread)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00241/USRDIR/gamedata/languages/patch/french.trans", sb_addr=0xd00bf940)
 HLE: W {PPU[119] Thread (main loading thread)[0x0096b01c]} sys_fs warning: cellFsStat: "/dev_hdd0/game/NPEA00241/USRDIR/gamedata/languages/patch/french.trans" not found.
 HLE: W {PPU[119] Thread (main loading thread)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00241/USRDIR/gamedata/languages/patch/french.trans", sb_addr=0xd00bf940)
@@ -1466,8 +1402,23 @@ RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[119] Thread (main loading thread)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00241/USRDIR/gamedata/fonts/helveticaneueltstd-md.fnt", sb_addr=0xd00bf940)
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[119] Thread (main loading thread)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00241/USRDIR/gamedata/fonts/omnessem.fnt", sb_addr=0xd00bf940)
 HLE: W {PPU[119] Thread (main loading thread)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00241/USRDIR/gamedata/fonts/omnessemita.fnt", sb_addr=0xd00bf940)
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[119] Thread (main loading thread)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00241/USRDIR/gamedata/fonts/omnesbla.fnt", sb_addr=0xd00bf940)
 HLE: W {PPU[119] Thread (main loading thread)[0x0096b01c]} sys_fs warning: cellFsStat(path="/dev_hdd0/game/NPEA00241/USRDIR/gamedata/fonts/omnesblaita.fnt", sb_addr=0xd00bf940)
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
@@ -1475,36 +1426,6 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -1637,12 +1558,22 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
@@ -1650,6 +1581,11 @@ RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df4d0, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 142
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=142)
 RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
@@ -1676,6 +1612,11 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=144)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df4d0, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 145
@@ -1684,22 +1625,22 @@ RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
 RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
 RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
-RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
-RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
-RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
-RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
+RSX: W {RSXThread} NV406E_SEMAPHORE_ACQUIRE: 0x1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0000
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_SHADER_PACKER(0x0)
+RSX: W {RSXThread} TODO: NV4097_SET_ANTI_ALIASING_CONTROL: 0xffff0001
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=145)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df550, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 146
@@ -1747,6 +1688,7 @@ HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaph
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=160)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df550, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 161
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=161)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df550, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 162
@@ -1829,7 +1771,6 @@ HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df550, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 188
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=188)
-HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df550, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 189
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=189)
@@ -1847,11 +1788,11 @@ HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaph
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=193)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df4d0, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 194
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=194)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df4d0, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 195
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=195)
-HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df4d0, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 196
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=196)
@@ -1866,6 +1807,7 @@ HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaph
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=199)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df4d0, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 200
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[121] Thread (respump thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=200)
 HLE: W {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore warning: sys_semaphore_create(sem_addr=0x379a7fa0, attr_addr=0xd00df4d0, initial_count=0, max_count=2147483647)
 HLE: ! {PPU[121] Thread (respump thread)[0x005139bc]} sys_semaphore : *** semaphore created [] (protocol=0x2): id = 201
@@ -1896,7 +1838,6 @@ HLE: W {PPU[1] Thread (main_thread)[0x0096b040]} sys_fs warning: cellFsClose(fd=
 HLE: W {PPU[1] Thread (main_thread)[0x0096b040]} sys_fs warning: cellFsClose(fd=151)
 HLE: W {PPU[1] Thread (main_thread)[0x0096b040]} sys_fs warning: cellFsClose(fd=152)
 HLE: W {PPU[1] Thread (main_thread)[0x0096b040]} sys_fs warning: cellFsClose(fd=153)
-HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[1] Thread (main_thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=117)
 HLE: W {PPU[1] Thread (main_thread)[0x00975094]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x37920e50)
 HLE: W {PPU[1] Thread (main_thread)[0x00513a2c]} sys_semaphore warning: sys_semaphore_destroy(sem_id=113)
@@ -1948,14 +1889,55 @@ HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: 
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
-RSX: W {VBlank thread} VBlank thread aborted
-HLE: W {PPU[58] Thread (JobManagerWorker)[0x00513924]} sys_semaphore warning: sys_semaphore_wait(55) aborted
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
+HLE: W {PPU[100] Thread (network start thread)[0x00979040]} cellNetCtl warning: cellNetCtlGetState(state_addr=0xd009fd60)
 RSX: W {RSXThread} RSX thread aborted
-HLE: W {PPU[66] Thread (JobManagerWorker)[0x00513924]} sys_semaphore warning: sys_semaphore_wait(63) aborted
-HLE: W {PPU[1] Thread (main_thread)[0x00525f0c]} sys_ppu_thread warning: sys_ppu_thread_join(100) aborted
 HLE: W {PPU[60] Thread (JobManagerWorker)[0x00513924]} sys_semaphore warning: sys_semaphore_wait(55) aborted
-HLE: W {PPU[59] Thread (JobManagerWorker)[0x00513924]} sys_semaphore warning: sys_semaphore_wait(55) aborted
+RSX: W {VBlank thread} VBlank thread aborted
 HLE: W {PPU[67] Thread (JobManagerWorker)[0x00513924]} sys_semaphore warning: sys_semaphore_wait(63) aborted
+HLE: W {PPU[59] Thread (JobManagerWorker)[0x00513924]} sys_semaphore warning: sys_semaphore_wait(55) aborted
+HLE: W {PPU[1] Thread (main_thread)[0x00525f0c]} sys_ppu_thread warning: sys_ppu_thread_join(100) aborted
+HLE: W {PPU[58] Thread (JobManagerWorker)[0x00513924]} sys_semaphore warning: sys_semaphore_wait(55) aborted
+HLE: W {PPU[66] Thread (JobManagerWorker)[0x00513924]} sys_semaphore warning: sys_semaphore_wait(63) aborted
 HLE: W {PPU[61] Thread (JobManagerWorker)[0x00513924]} sys_semaphore warning: sys_semaphore_wait(55) aborted
 PPU: ! {PPU Recompilation Engine} PPU LLVM Recompilation thread exiting.
 HLE: ! All threads stopped...

@@ -1,294 +1,288 @@
 HLE: ! path: /dev_hdd0/game/
 HLE: W No pause.bin found, Auto Pause will not work.
 HLE: W No pause.bin found, Auto Pause will not work.
-LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003--/USRDIR/BOOT.BIN'...
+LDR: ! Loading 'd:/emulateurs/rpcs3/dev_hdd0/game/test00003--/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
-LDR: ! /dev_hdd0/ -> ./dev_hdd0/
-LDR: ! /dev_hdd1/ -> ./dev_hdd1/
-LDR: ! /dev_flash/ -> ./dev_flash/
-LDR: ! /dev_usb000/ -> ./dev_usb000/
-LDR: ! /dev_usb/ -> ./dev_usb000/
-LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003--/
-LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003--//../
-LDR: ! /host_root/ -> 
-LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003--//USRDIR/
-LDR: ! /dev_flash2/ -> ./dev_flash2/
-LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003--//USRDIR/
-LDR: ! //dev_hdd0/ -> ./dev_hdd0/
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003--//USRDIR/
+LDR: ! dev_usb000/ -> d:/emulateurs/rpcs3/dev_usb000/
+LDR: ! dev_flash/ -> d:/emulateurs/rpcs3/dev_flash/
+LDR: ! host_root/ -> 
+LDR: ! dev_hdd0/ -> d:/emulateurs/rpcs3/dev_hdd0/
+LDR: ! dev_hdd1/ -> d:/emulateurs/rpcs3/dev_hdd1/
+LDR: ! dev_bdvd/ -> d:/emulateurs/rpcs3/dev_hdd0/game/test00003--/../
+LDR: ! dev_usb/ -> d:/emulateurs/rpcs3/dev_usb000/
 LDR: !  
 LDR: ! Title: PS3Tetris
 LDR: ! Serial: TEST00003
 LDR: !  
-MEM: ! Initializing memory: m_base_addr = 0x41f17f0000
+MEM: ! Initializing memory: base_addr = 0x1bf9a20000
 MEM: ! Memory initialized.
-LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmBindTile' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmBindZcull' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmDumpGraphicsError' in 'cellGcmSys' module
-LDR: ! Imported function '_cellGcmFunc1' in 'cellGcmSys' module
-LDR: ! Imported function '_cellGcmFunc12' in 'cellGcmSys' module
-LDR: W Unimplemented function '_cellGcmFunc13' in 'cellGcmSys' module
-LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
-LDR: W Unimplemented function '_cellGcmFunc2' in 'cellGcmSys' module
-LDR: W Unimplemented function '_cellGcmFunc3' in 'cellGcmSys' module
-LDR: W Unimplemented function '_cellGcmFunc38' in 'cellGcmSys' module
-LDR: W Unimplemented function '_cellGcmFunc4' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetCurrentDisplayBufferId' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetCurrentField' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetDefaultCommandWordSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetDefaultSegmentWordSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetDisplayBufferByFlipIndex' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetDisplayInfo' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetFlipStatus' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetLastFlipTime' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetLastSecondVTime' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetMaxIoMapSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetNotifyDataAddress' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetOffsetTable' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetReport' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetReportDataAddress' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetReportDataAddressLocation' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetReportDataLocation' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetTileInfo' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetTimeStamp' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetTimeStampLocation' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetVBlankCount' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmGetZcullInfo' in 'cellGcmSys' module
-LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmInitCursor' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmInitDefaultFifoMode' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmInitSystemMode' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmIoOffsetToAddress' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmMapEaIoAddress' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmMapEaIoAddressWithFlags' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmMapLocalMemory' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmMapMainMemory' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmReserveIoMapSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmResetFlipStatus' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetCursorDisable' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetCursorEnable' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetCursorImageOffset' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetCursorPosition' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetDebugOutputLevel' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetDefaultCommandBuffer' in 'cellGcmSys' module
-LDR: W Unimplemented function 'cellGcmSetDefaultCommandBufferAndSegmentWordSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetDefaultFifoSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetFlip' in 'cellGcmSys' module
-LDR: ! Imported function '_cellGcmSetFlipCommand' in 'cellGcmSys' module
-LDR: ! Imported function '_cellGcmSetFlipCommandWithWaitLabel' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetFlipHandler' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetFlipImmediate' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetFlipStatus' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetGraphicsHandler' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetInvalidateTile' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetPrepareFlip' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetQueueHandler' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetSecondVFrequency' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetSecondVHandler' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetTile' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetTileInfo' in 'cellGcmSys' module
-LDR: W Unimplemented function 'cellGcmSetUserCommand' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetUserHandler' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetVBlankFrequency' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetWaitFlip' in 'cellGcmSys' module
-LDR: W Unimplemented function 'cellGcmSetWaitFlipUnsafe' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSetZcull' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmSortRemapEaIoAddress' in 'cellGcmSys' module
-LDR: W Unimplemented function 'cellGcmSysGetLastVBlankTime' in 'cellGcmSys' module
-LDR: W Unimplemented function 'cellGcmTerminate' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmUnbindTile' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmUnbindZcull' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmUnmapEaIoAddress' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmUnmapIoAddress' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmUnreserveIoMapSize' in 'cellGcmSys' module
-LDR: ! Imported function 'cellGcmUpdateCursor' in 'cellGcmSys' module
-LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
-LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module
-LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
-LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
-LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
-LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
-LDR: W Unimplemented function 'sys_config_start' in 'sys_io' module
-LDR: W Unimplemented function 'sys_config_stop' in 'sys_io' module
-LDR: W Unimplemented function 'sys_config_add_service_listener' in 'sys_io' module
-LDR: W Unimplemented function 'sys_config_remove_service_listener' in 'sys_io' module
-LDR: W Unimplemented function 'sys_config_register_service' in 'sys_io' module
-LDR: W Unimplemented function 'sys_config_unregister_service' in 'sys_io' module
-LDR: ! Imported function 'cellPadInit' in 'sys_io' module
-LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
-LDR: ! Imported function 'cellPadClearBuf' in 'sys_io' module
-LDR: ! Imported function 'cellPadInfoPressMode' in 'sys_io' module
-LDR: W Unimplemented function 'cellPadLddRegisterController' in 'sys_io' module
-LDR: ! Imported function 'cellPadGetInfo' in 'sys_io' module
-LDR: W Unimplemented function 'cellPadGetRawData' in 'sys_io' module
-LDR: ! Imported function 'cellPadGetDataExtra' in 'sys_io' module
-LDR: ! Imported function 'cellPadInfoSensorMode' in 'sys_io' module
-LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
-LDR: W Unimplemented function 'cellPadLddGetPortNo' in 'sys_io' module
-LDR: W Unimplemented function 'cellPadLddDataInsert' in 'sys_io' module
-LDR: ! Imported function 'cellPadSetSensorMode' in 'sys_io' module
-LDR: ! Imported function 'cellPadGetCapabilityInfo' in 'sys_io' module
-LDR: W Unimplemented function 'cellPadLddUnregisterController' in 'sys_io' module
-LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module
-LDR: ! Imported function 'cellPadSetPressMode' in 'sys_io' module
-LDR: W Unimplemented function 'cellPadPeriphGetInfo' in 'sys_io' module
-LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module
-LDR: W Unimplemented function 'cellPadPeriphGetData' in 'sys_io' module
-LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module
-LDR: ! Imported function 'cellMouseInit' in 'sys_io' module
-LDR: ! Imported function 'cellMouseEnd' in 'sys_io' module
-LDR: ! Imported function 'cellMouseClearBuf' in 'sys_io' module
-LDR: ! Imported function 'cellMouseGetInfo' in 'sys_io' module
-LDR: ! Imported function 'cellMouseGetTabletDataList' in 'sys_io' module
-LDR: ! Imported function 'cellMouseSetTabletMode' in 'sys_io' module
-LDR: ! Imported function 'cellMouseGetData' in 'sys_io' module
-LDR: ! Imported function 'cellMouseInfoTabletMode' in 'sys_io' module
-LDR: ! Imported function 'cellMouseGetRawData' in 'sys_io' module
-LDR: ! Imported function 'cellMouseGetDataList' in 'sys_io' module
-LDR: ! Imported function 'cellKbInit' in 'sys_io' module
-LDR: ! Imported function 'cellKbEnd' in 'sys_io' module
-LDR: ! Imported function 'cellKbRead' in 'sys_io' module
-LDR: ! Imported function 'cellKbSetReadMode' in 'sys_io' module
-LDR: ! Imported function 'cellKbSetCodeType' in 'sys_io' module
-LDR: ! Imported function 'cellKbCnvRawCode' in 'sys_io' module
-LDR: ! Imported function 'cellKbSetLEDStatus' in 'sys_io' module
-LDR: ! Imported function 'cellKbGetInfo' in 'sys_io' module
-LDR: ! Imported function 'cellKbGetConfiguration' in 'sys_io' module
-LDR: ! Imported function 'cellKbClearBuf' in 'sys_io' module
-LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioSetPortLevel' in 'cellAudio' module
-LDR: W Unimplemented function 'cellKbClearBuf' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioMiscSetAccessoryVolume' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioSetNotifyEventQueue' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioGetPortTimestamp' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioAdd2chData' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioAddData' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioGetPortBlockTag' in 'cellAudio' module
-LDR: ! Imported function 'cellAudioRemoveNotifyEventQueue' in 'cellAudio' module
-LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_game_process_exitspawn2' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_spu_elf_get_information' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_spu_elf_get_segments' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_raw_spu_load' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_raw_spu_image_load' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_spu_image_close' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_spu_image_import' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module
-LDR: W Unimplemented function 'sys_ppu_thread_register_atexit' in 'sysPrxForUser' module
-LDR: W Unimplemented function 'sys_interrupt_thread_disestablish' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_ppu_thread_once' in 'sysPrxForUser' module
-LDR: W Unimplemented function 'sys_ppu_thread_unregister_atexit' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwmutex_trylock' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module
-LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x100a4e08, attr_addr=0x1002ea48)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 3
-HLE: W {PPU[1] Thread (CPUThread)[0x00134028]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x15f280, userdata=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x100a4df0, attr_addr=0x1002ea48)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 4
-HLE: W {PPU[1] Thread (CPUThread)[0x001321c0]} cellGcmSys warning: _cellGcmInitBody(context_addr=0xd000f750, cmdSize=0x10000, ioSize=0x100000, ioAddress=0x30200000)
-HLE: W {PPU[1] Thread (CPUThread)[0x001321c0]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-HLE: W {PPU[1] Thread (CPUThread)[0x001321c0]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
-HLE: W {PPU[1] Thread (CPUThread)[0x001321c0]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmBindTile' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmBindZcull' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmDumpGraphicsError' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function '_cellGcmFunc1' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function '_cellGcmFunc12' in 'cellGcmSys' module  (HLE)
+LDR: W Unimplemented function '_cellGcmFunc13' in 'cellGcmSys' module (HLE)
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module  (HLE)
+LDR: W Unimplemented function '_cellGcmFunc2' in 'cellGcmSys' module (HLE)
+LDR: W Unimplemented function '_cellGcmFunc3' in 'cellGcmSys' module (HLE)
+LDR: W Unimplemented function '_cellGcmFunc38' in 'cellGcmSys' module (HLE)
+LDR: W Unimplemented function '_cellGcmFunc4' in 'cellGcmSys' module (HLE)
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetCurrentDisplayBufferId' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetCurrentField' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetDefaultCommandWordSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetDefaultSegmentWordSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetDisplayBufferByFlipIndex' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetDisplayInfo' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetFlipStatus' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetLastFlipTime' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetLastSecondVTime' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetMaxIoMapSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetNotifyDataAddress' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetOffsetTable' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetReport' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetReportDataAddress' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetReportDataAddressLocation' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetReportDataLocation' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetTileInfo' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetTimeStamp' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetTimeStampLocation' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetVBlankCount' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetZcullInfo' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmInitCursor' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmInitDefaultFifoMode' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmInitSystemMode' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmIoOffsetToAddress' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmMapEaIoAddress' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmMapEaIoAddressWithFlags' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmMapLocalMemory' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmMapMainMemory' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmReserveIoMapSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmResetFlipStatus' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetCursorDisable' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetCursorEnable' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetCursorImageOffset' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetCursorPosition' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetDebugOutputLevel' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetDefaultCommandBuffer' in 'cellGcmSys' module  (HLE)
+LDR: W Unimplemented function 'cellGcmSetDefaultCommandBufferAndSegmentWordSize' in 'cellGcmSys' module (HLE)
+LDR: ! Imported function 'cellGcmSetDefaultFifoSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetDisplayBuffer' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetFlip' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function '_cellGcmSetFlipCommand' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function '_cellGcmSetFlipCommandWithWaitLabel' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetFlipHandler' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetFlipImmediate' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetFlipMode' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetFlipStatus' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetGraphicsHandler' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetInvalidateTile' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetPrepareFlip' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetQueueHandler' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetSecondVFrequency' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetSecondVHandler' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetTile' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetTileInfo' in 'cellGcmSys' module  (HLE)
+LDR: W Unimplemented function 'cellGcmSetUserCommand' in 'cellGcmSys' module (HLE)
+LDR: ! Imported function 'cellGcmSetUserHandler' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetVBlankFrequency' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetVBlankHandler' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetWaitFlip' in 'cellGcmSys' module  (HLE)
+LDR: W Unimplemented function 'cellGcmSetWaitFlipUnsafe' in 'cellGcmSys' module (HLE)
+LDR: ! Imported function 'cellGcmSetZcull' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSortRemapEaIoAddress' in 'cellGcmSys' module  (HLE)
+LDR: W Unimplemented function 'cellGcmSysGetLastVBlankTime' in 'cellGcmSys' module (HLE)
+LDR: W Unimplemented function 'cellGcmTerminate' in 'cellGcmSys' module (HLE)
+LDR: ! Imported function 'cellGcmUnbindTile' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmUnbindZcull' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmUnmapEaIoAddress' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmUnmapIoAddress' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmUnreserveIoMapSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmUpdateCursor' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module  (HLE)
+LDR: W Unimplemented function 'sys_config_start' in 'sys_io' module (HLE)
+LDR: W Unimplemented function 'sys_config_stop' in 'sys_io' module (HLE)
+LDR: W Unimplemented function 'sys_config_add_service_listener' in 'sys_io' module (HLE)
+LDR: W Unimplemented function 'sys_config_remove_service_listener' in 'sys_io' module (HLE)
+LDR: W Unimplemented function 'sys_config_register_service' in 'sys_io' module (HLE)
+LDR: W Unimplemented function 'sys_config_unregister_service' in 'sys_io' module (HLE)
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadClearBuf' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadInfoPressMode' in 'sys_io' module  (HLE)
+LDR: W Unimplemented function 'cellPadLddRegisterController' in 'sys_io' module (HLE)
+LDR: ! Imported function 'cellPadGetInfo' in 'sys_io' module  (HLE)
+LDR: W Unimplemented function 'cellPadGetRawData' in 'sys_io' module (HLE)
+LDR: ! Imported function 'cellPadGetDataExtra' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadInfoSensorMode' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module  (HLE)
+LDR: W Unimplemented function 'cellPadLddGetPortNo' in 'sys_io' module (HLE)
+LDR: W Unimplemented function 'cellPadLddDataInsert' in 'sys_io' module (HLE)
+LDR: ! Imported function 'cellPadSetSensorMode' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadGetCapabilityInfo' in 'sys_io' module  (HLE)
+LDR: W Unimplemented function 'cellPadLddUnregisterController' in 'sys_io' module (HLE)
+LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadSetPressMode' in 'sys_io' module  (HLE)
+LDR: W Unimplemented function 'cellPadPeriphGetInfo' in 'sys_io' module (HLE)
+LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module  (HLE)
+LDR: W Unimplemented function 'cellPadPeriphGetData' in 'sys_io' module (HLE)
+LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseInit' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseEnd' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseClearBuf' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseGetInfo' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseGetTabletDataList' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseSetTabletMode' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseGetData' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseInfoTabletMode' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseGetRawData' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellMouseGetDataList' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbInit' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbEnd' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbRead' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbSetReadMode' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbSetCodeType' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbCnvRawCode' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbSetLEDStatus' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbGetInfo' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbGetConfiguration' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellKbClearBuf' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioSetPortLevel' in 'cellAudio' module  (HLE)
+LDR: W Unimplemented function 'cellKbClearBuf' in 'cellAudio' module (HLE)
+LDR: ! Imported function 'cellAudioMiscSetAccessoryVolume' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioSetNotifyEventQueue' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioGetPortTimestamp' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioAdd2chData' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioAddData' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioGetPortBlockTag' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioRemoveNotifyEventQueue' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_game_process_exitspawn2' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_spu_elf_get_information' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_spu_elf_get_segments' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_raw_spu_load' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_raw_spu_image_load' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_spu_image_close' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_spu_image_import' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module  (HLE)
+LDR: W Unimplemented function 'sys_ppu_thread_register_atexit' in 'sysPrxForUser' module (HLE)
+LDR: W Unimplemented function 'sys_interrupt_thread_disestablish' in 'sysPrxForUser' module (HLE)
+LDR: ! Imported function 'sys_ppu_thread_once' in 'sysPrxForUser' module  (HLE)
+LDR: W Unimplemented function 'sys_ppu_thread_unregister_atexit' in 'sysPrxForUser' module (HLE)
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_trylock' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module  (HLE)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x100a4e08, attr_addr=0x1002ea48)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (main_thread)[0x00134028]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x15f280, userdata=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x100a4df0, attr_addr=0x1002ea48)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (main_thread)[0x001321c0]} cellGcmSys warning: _cellGcmInitBody(context_addr=0xd000f750, cmdSize=0x10000, ioSize=0x100000, ioAddress=0x30200000)
+HLE: W {PPU[1] Thread (main_thread)[0x001321c0]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W {PPU[1] Thread (main_thread)[0x001321c0]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W {PPU[1] Thread (main_thread)[0x001321c0]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
 RSX: ! {RSXThread} RSX thread started
-HLE: W {PPU[1] Thread (CPUThread)[0x00134010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x100a4e84, option_addr=0x0, waitForEvent=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x001322ec]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x100a4d80, attr_addr=0x1002ea48)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 5
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x100a4d98, attr_addr=0x1002ea48)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 6
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10032040, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 7
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10032100, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 8
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x100321c0, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 9
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fc10, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 10
-HLE: ! {PPU[1] Thread (CPUThread)[0x0012478c]} sys_fs: "/dev_flash/data/font/SCE-PS3-VR-R-LATIN2.TTF" opened: fd = 11
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30000630, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 12
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x300006f0, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 13
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x300007b0, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 14
-HLE: W {PPU[1] Thread (CPUThread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=11, sb_addr=0xd000f0a0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=11, sb_addr=0xd000f1a0)
-HLE: W {PPU[1] Thread (CPUThread)[0x001248f4]} sys_fs warning: cellFsClose(fd=11)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0c4]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc10)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fc10, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 15
-HLE: ! {PPU[1] Thread (CPUThread)[0x0012478c]} sys_fs: "/app_home/PS3_GAME/USRDIR/HighScore.txt" opened: fd = 16
-HLE: W {PPU[1] Thread (CPUThread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=16, sb_addr=0xd000f430)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013604c]} sys_io warning: cellPadInit(max_connect=1)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fcd0, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 17
-HLE: ! {PPU[1] Thread (CPUThread)[0x0012478c]} sys_fs: "/app_home/PS3_GAME/USRDIR/spu_soundmodule.bin" opened: fd = 18
-HLE: W {PPU[1] Thread (CPUThread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=18, sb_addr=0xd000f3e0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=18, sb_addr=0xd000f4e0)
-HLE: W {PPU[1] Thread (CPUThread)[0x001248f4]} sys_fs warning: cellFsClose(fd=18)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0c4]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fcd0)
-HLE: W {PPU[1] Thread (CPUThread)[0x000125bc]} sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=5)
-HLE: W {PPU[1] Thread (CPUThread)[0x000125cc]} sys_spu warning: sys_raw_spu_create(id_addr=0x10032ad8, attr_addr=0x0)
-HLE: E {PPU[1] Thread (CPUThread)[0x0013a01c]} sysPrxForUser TODO: sys_spu_elf_get_information(elf_img=0x30110740, entry_addr=0xd000f7d0, nseg_addr=0xd000f7d4
-HLE: E {PPU[1] Thread (CPUThread)[0x0013a028]} sysPrxForUser TODO: sys_spu_elf_get_segments(elf_img=0x30110740, segments_addr=0x3011d980, nseg=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a058]} sysPrxForUser warning: sys_spu_image_import(img=0x100a4e70, src=0x30110740, type=0)
-LDR: E {PPU[1] Thread (CPUThread)[0x0013a058]} ELF32: Bad NOTE descsz (68)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a040]} sysPrxForUser warning: sys_raw_spu_image_load(id=0x0, img_addr=0x100a4e70)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a070]} sys_ppu_thread: *** New PPU Thread [Control Thread SPU Sound] (joinable, entry=0x160a60): id = 20
-HLE: W {PPU[1] Thread (CPUThread)[0x00138004]} cellAudio warning: cellAudioInit()
-HLE: ! {Audio Thread} cellAudio: Audio thread started
-HLE: W {PPU[1] Thread (CPUThread)[0x0013804c]} cellAudio warning: cellAudioPortOpen(audioParam_addr=0x100a4d10, portNum_addr=0x100a4d08)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013804c]} cellAudio warning: *** audio port opened(nChannel=2, nBlock=8, attr=0x1000, level=1.000000): port = 0
-HLE: W {PPU[1] Thread (CPUThread)[0x00138028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x100a4d30)
-HLE: W {PPU[1] Thread (CPUThread)[0x00138034]} cellAudio warning: cellAudioPortStart(portNum=0x0)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fcd0, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 21
-HLE: ! {PPU[1] Thread (CPUThread)[0x0012478c]} sys_fs: "/app_home/PS3_GAME/USRDIR/TetrisTheme.mp3" opened: fd = 22
-HLE: W {PPU[1] Thread (CPUThread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=22, sb_addr=0xd000f3e0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=22, sb_addr=0xd000f4e0)
-HLE: W {PPU[1] Thread (CPUThread)[0x001248f4]} sys_fs warning: cellFsClose(fd=22)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0c4]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fcd0)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fcd0, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 23
-HLE: ! {PPU[1] Thread (CPUThread)[0x0012478c]} sys_fs: "/app_home/PS3_GAME/USRDIR/click.mp3" opened: fd = 24
-HLE: W {PPU[1] Thread (CPUThread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=24, sb_addr=0xd000f3e0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=24, sb_addr=0xd000f4e0)
-HLE: W {PPU[1] Thread (CPUThread)[0x001248f4]} sys_fs warning: cellFsClose(fd=24)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0c4]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fcd0)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fcd0, attr_addr=0x1002e920)
-HLE: ! {PPU[1] Thread (CPUThread)[0x0013a0b8]} sys_lwmutex: *** lwmutex created [] (attribute=0x12): sq_id = 25
-HLE: ! {PPU[1] Thread (CPUThread)[0x0012478c]} sys_fs: "/app_home/PS3_GAME/USRDIR/beep.mp3" opened: fd = 26
-HLE: W {PPU[1] Thread (CPUThread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=26, sb_addr=0xd000f3e0)
-HLE: W {PPU[1] Thread (CPUThread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=26, sb_addr=0xd000f4e0)
-HLE: W {PPU[1] Thread (CPUThread)[0x001248f4]} sys_fs warning: cellFsClose(fd=26)
-HLE: W {PPU[1] Thread (CPUThread)[0x0013a0c4]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fcd0)
+HLE: W {PPU[1] Thread (main_thread)[0x00134010]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x100a4e84, option_addr=0x0, waitForEvent=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x001322ec]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x100a4d80, attr_addr=0x1002ea48)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x100a4d98, attr_addr=0x1002ea48)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10032040, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x10032100, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x100321c0, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fc10, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 10
+HLE: ! {PPU[1] Thread (main_thread)[0x0012478c]} sys_fs : "/dev_flash/data/font/SCE-PS3-VR-R-LATIN2.TTF" opened: fd = 11
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30000630, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 12
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x300006f0, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 13
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x300007b0, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 14
+HLE: W {PPU[1] Thread (main_thread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=11, sb_addr=0xd000f0a0)
+HLE: W {PPU[1] Thread (main_thread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=11, sb_addr=0xd000f1a0)
+HLE: W {PPU[1] Thread (main_thread)[0x001248f4]} sys_fs warning: cellFsClose(fd=11)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0c4]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc10)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fc10, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 15
+HLE: ! {PPU[1] Thread (main_thread)[0x0012478c]} sys_fs : "dev_bdvd/test00003--/usrdir/HighScore.txt" opened: fd = 16
+HLE: W {PPU[1] Thread (main_thread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=16, sb_addr=0xd000f430)
+HLE: W {PPU[1] Thread (main_thread)[0x0013604c]} sys_io warning: cellPadInit(max_connect=1)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fcd0, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 17
+HLE: ! {PPU[1] Thread (main_thread)[0x0012478c]} sys_fs : "dev_bdvd/test00003--/usrdir/spu_soundmodule.bin" opened: fd = 18
+HLE: W {PPU[1] Thread (main_thread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=18, sb_addr=0xd000f3e0)
+HLE: W {PPU[1] Thread (main_thread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=18, sb_addr=0xd000f4e0)
+HLE: W {PPU[1] Thread (main_thread)[0x001248f4]} sys_fs warning: cellFsClose(fd=18)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0c4]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fcd0)
+HLE: W {PPU[1] Thread (main_thread)[0x000125bc]} sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=5)
+HLE: W {PPU[1] Thread (main_thread)[0x000125cc]} sys_spu warning: sys_raw_spu_create(id_addr=0x10032ad8, attr_addr=0x0)
+HLE: E {PPU[1] Thread (main_thread)[0x0013a01c]} sysPrxForUser TODO: sys_spu_elf_get_information(elf_img=0x30110740, entry_addr=0xd000f7d0, nseg_addr=0xd000f7d4)
+HLE: E {PPU[1] Thread (main_thread)[0x0013a028]} sysPrxForUser TODO: sys_spu_elf_get_segments(elf_img=0x30110740, segments_addr=0x3011d980, nseg=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a058]} sysPrxForUser warning: sys_spu_image_import(img=0x100a4e70, src=0x30110740, type=0)
+LDR: W {PPU[1] Thread (main_thread)[0x0013a058]} m_ehdr.e_type = 0x2
+HLE: W {PPU[1] Thread (main_thread)[0x0013a040]} sysPrxForUser warning: sys_raw_spu_image_load(id=0x0, img_addr=0x100a4e70)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a070]} sys_ppu_thread : *** New PPU Thread [Control Thread SPU Sound] (joinable, entry=0x160a60): id = 20
+HLE: W {PPU[1] Thread (main_thread)[0x00138004]} cellAudio warning: cellAudioInit()
+HLE: ! {Audio Thread} cellAudio : Audio thread started
+HLE: W {PPU[1] Thread (main_thread)[0x0013804c]} cellAudio warning: cellAudioPortOpen(audioParam_addr=0x100a4d10, portNum_addr=0x100a4d08)
+HLE: W {PPU[1] Thread (main_thread)[0x0013804c]} cellAudio warning: *** audio port opened(nChannel=2, nBlock=8, attr=0x1000, level=1.000000): port = 0
+HLE: W {PPU[1] Thread (main_thread)[0x00138028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x100a4d30)
+HLE: W {PPU[1] Thread (main_thread)[0x00138034]} cellAudio warning: cellAudioPortStart(portNum=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fcd0, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 21
+HLE: ! {PPU[1] Thread (main_thread)[0x0012478c]} sys_fs : "dev_bdvd/test00003--/usrdir/TetrisTheme.mp3" opened: fd = 22
+HLE: W {PPU[1] Thread (main_thread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=22, sb_addr=0xd000f3e0)
+HLE: W {PPU[1] Thread (main_thread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=22, sb_addr=0xd000f4e0)
+HLE: W {PPU[1] Thread (main_thread)[0x001248f4]} sys_fs warning: cellFsClose(fd=22)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0c4]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fcd0)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fcd0, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 23
+HLE: ! {PPU[1] Thread (main_thread)[0x0012478c]} sys_fs : "dev_bdvd/test00003--/usrdir/click.mp3" opened: fd = 24
+HLE: W {PPU[1] Thread (main_thread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=24, sb_addr=0xd000f3e0)
+HLE: W {PPU[1] Thread (main_thread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=24, sb_addr=0xd000f4e0)
+HLE: W {PPU[1] Thread (main_thread)[0x001248f4]} sys_fs warning: cellFsClose(fd=24)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0c4]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fcd0)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3010fcd0, attr_addr=0x1002e920)
+HLE: ! {PPU[1] Thread (main_thread)[0x0013a0b8]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 25
+HLE: ! {PPU[1] Thread (main_thread)[0x0012478c]} sys_fs : "dev_bdvd/test00003--/usrdir/beep.mp3" opened: fd = 26
+HLE: W {PPU[1] Thread (main_thread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=26, sb_addr=0xd000f3e0)
+HLE: W {PPU[1] Thread (main_thread)[0x00124bf0]} sys_fs warning: cellFsFstat(fd=26, sb_addr=0xd000f4e0)
+HLE: W {PPU[1] Thread (main_thread)[0x001248f4]} sys_fs warning: cellFsClose(fd=26)
+HLE: W {PPU[1] Thread (main_thread)[0x0013a0c4]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fcd0)
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {RSXThread} New FBO (1280x720)
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
 RSX: W {RSXThread} FP not found in buffer!
 RSX: W {RSXThread} VP not found in buffer!
 RSX: ! {RSXThread} Add program (0):
@@ -337,7 +331,7 @@ void main()
 	ocol0 = h0;
 }
 
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} FP not found in buffer!
 RSX: W {RSXThread} VP not found in buffer!
 RSX: ! {RSXThread} Add program (1):
@@ -396,996 +390,1323 @@ void main()
 
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
-PPU: ! {PPULLVMRecompiler} Removed 270 old versions
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
 RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
 RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
-RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x1
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} TODO: NV4097_SET_ZMIN_MAX_CONTROL: cullNearFarEnable=0, zclampEnable=1, cullIgnoreW=1
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 RSX: W {VBlank thread} VBlank thread aborted
 HLE: W {Audio Thread} cellAudio warning: Audio thread aborted
 RSX: W {RSXThread} RSX thread aborted
+PPU: ! {PPU Recompilation Engine} PPU LLVM Recompilation thread exiting.

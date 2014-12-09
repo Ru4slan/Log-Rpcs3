@@ -1,0 +1,786 @@
+HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
+LDR: ! Loading 'd:/emulateurs/rpcs3/dev_hdd0/game/blus31441-[digimon allstar rumble]/PS3_GAME/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! dev_usb000/ -> d:/emulateurs/rpcs3/dev_usb000/
+LDR: ! dev_flash/ -> d:/emulateurs/rpcs3/dev_flash/
+LDR: ! host_root/ -> 
+LDR: ! dev_hdd0/ -> d:/emulateurs/rpcs3/dev_hdd0/
+LDR: ! dev_hdd1/ -> d:/emulateurs/rpcs3/dev_hdd1/
+LDR: ! dev_bdvd/ -> d:/emulateurs/rpcs3/dev_hdd0/game/blus31441-[digimon allstar rumble]/ps3_game/../
+LDR: ! dev_usb/ -> d:/emulateurs/rpcs3/dev_usb000/
+LDR: !  
+LDR: ! Title: Digimon All-Star Rumble
+LDR: ! Serial: BLUS31441
+LDR: !  
+MEM: ! Initializing memory: base_addr = 0x2e3a430000
+MEM: ! Memory initialized.
+LDR: ! Imported function 'cellFsClose' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsRead' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsOpen' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsLseek' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsWrite' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsFstat' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsFtruncate' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsOpendir' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsStat' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsUnlink' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsFsync' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsSdataOpen' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsMkdir' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsRename' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellFsClosedir' in 'sys_fs' module  (HLE)
+LDR: ! Imported function 'cellSysmoduleUnloadModule' in 'cellSysmodule' module  (HLE)
+LDR: ! Imported function 'cellSysmoduleLoadModule' in 'cellSysmodule' module  (HLE)
+LDR: ! Imported function 'cellSysmoduleIsLoaded' in 'cellSysmodule' module  (HLE)
+LDR: ! Imported function 'cellVideoOutConfigure' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellMsgDialogClose' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSysutilEnableBgmPlayback' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellMsgDialogOpenErrorCode' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSysutilGetSystemParamInt' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellMsgDialogAbort' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellMsgDialogOpen2' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSaveDataAutoSave2' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellMsgDialogProgressBarInc' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellMsgDialogProgressBarSetMsg' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellSaveDataAutoLoad2' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellAudioOutConfigure' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellAudioOutGetConfiguration' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'cellAudioOutGetState' in 'cellSysutil' module  (HLE)
+LDR: ! Imported function 'L10nConvertStr' in 'cellL10n' module  (HLE)
+LDR: W Unimplemented function 'l10n_convert_str' in 'cellL10n' module (HLE)
+LDR: W Unimplemented function 'l10n_get_converter' in 'cellL10n' module (HLE)
+LDR: ! Imported function 'cellRtcGetCurrentClockLocalTime' in 'cellRtc' module  (HLE)
+LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmBindTile' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetDefaultCommandWordSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetDefaultSegmentWordSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetDefaultFifoSize' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmSetTileInfo' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmUnbindTile' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellGcmGetLabelAddress' in 'cellGcmSys' module  (HLE)
+LDR: ! Imported function 'cellRescSetWaitFlip' in 'cellResc' module  (HLE)
+LDR: ! Imported function 'cellRescResetFlipStatus' in 'cellResc' module  (HLE)
+LDR: ! Imported function 'cellRescSetDisplayMode' in 'cellResc' module  (HLE)
+LDR: ! Imported function 'cellRescSetConvertAndFlip' in 'cellResc' module  (HLE)
+LDR: ! Imported function 'cellRescInit' in 'cellResc' module  (HLE)
+LDR: ! Imported function 'cellRescGetBufferSize' in 'cellResc' module  (HLE)
+LDR: ! Imported function 'cellRescSetSrc' in 'cellResc' module  (HLE)
+LDR: ! Imported function 'cellRescSetBufferAddress' in 'cellResc' module  (HLE)
+LDR: ! Imported function 'cellRescGetFlipStatus' in 'cellResc' module  (HLE)
+LDR: ! Imported function 'cellRescSetVBlankHandler' in 'cellResc' module  (HLE)
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module  (HLE)
+LDR: ! Imported function 'cellGameGetParamString' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'cellGameCreateGameData' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'cellGameContentPermit' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'cellGameContentErrorDialog' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'cellGameGetParamInt' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'cellGamePatchCheck' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'cellGameDataCheck' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'cellGameGetSizeKB' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'cellGameBootCheck' in 'cellGame' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyRegisterContext' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyCreateHandle' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyGetRequiredDiskSpace' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyDestroyContext' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyInit' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyAbortHandle' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyGetGameInfo' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyDestroyHandle' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyUnlockTrophy' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyTerm' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyGetTrophyUnlockState' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'sceNpTrophyCreateContext' in 'sceNpTrophy' module  (HLE)
+LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellAudioAddData' in 'cellAudio' module  (HLE)
+LDR: ! Imported function 'cellSpursAttributeSetNamePrefix' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function '_cellSpursAttributeInitialize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursInitializeWithAttribute' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursFinalize' in 'cellSpurs' module  (HLE)
+LDR: ! Imported function 'cellSpursJobQueueAttributeInitialize' in 'cellSpursJq' module  (HLE)
+LDR: ! Imported function 'cellSpursShutdownJobQueue' in 'cellSpursJq' module  (HLE)
+LDR: ! Imported function 'cellSpursJoinJobQueue' in 'cellSpursJq' module  (HLE)
+LDR: ! Imported function '_cellSpursCreateJobQueueWithJobDescriptorPool' in 'cellSpursJq' module  (HLE)
+LDR: ! Imported function '_cellSpursJobQueuePort2CopyPushJobBody' in 'cellSpursJq' module  (HLE)
+LDR: ! Imported function 'cellSpursJobQueuePort2Destroy' in 'cellSpursJq' module  (HLE)
+LDR: ! Imported function '_cellSpursJobQueuePort2PushJobBody' in 'cellSpursJq' module  (HLE)
+LDR: ! Imported function 'cellSpursJobQueuePort2Create' in 'cellSpursJq' module  (HLE)
+LDR: ! Imported function 'cellSpursJobQueuePort2Sync' in 'cellSpursJq' module  (HLE)
+LDR: ! Imported function 'cellSyncQueueInitialize' in 'cellSync' module  (HLE)
+LDR: ! Imported function 'cellSyncQueueSize' in 'cellSync' module  (HLE)
+LDR: ! Imported function 'cellSyncQueuePop' in 'cellSync' module  (HLE)
+LDR: ! Imported function 'cellSyncQueueClear' in 'cellSync' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwcond_destroy' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwcond_wait' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function '_sys_process_atexitspawn' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_prx_register_library' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function '_sys_process_at_Exitspawn' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwcond_create' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module  (HLE)
+LDR: ! Imported function 'sys_lwcond_signal_all' in 'sysPrxForUser' module  (HLE)
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x481f30, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: W {PPU[1] Thread (main_thread)[0x0027079c]} sys_memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fc04)
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x481d30, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x4814b8, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x4814e0, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x481508, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x4813f0, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x481418, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x481440, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x481468, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x481490, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100020, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 13
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301000a0, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100130, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100190, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301001d0, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100210, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301002d0, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100300, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100330, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100360, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30100390, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x301003c0, attr_addr=0x3ba258)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+HLE: W {PPU[1] Thread (main_thread)[0x0043d010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W {PPU[1] Thread (main_thread)[0x0043d010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+HLE: W {PPU[1] Thread (main_thread)[0x0043d010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+HLE: W {PPU[1] Thread (main_thread)[0x0043d010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+HLE: W {PPU[1] Thread (main_thread)[0x0043d010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+HLE: W {PPU[1] Thread (main_thread)[0x0043d010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
+HLE: W {PPU[1] Thread (main_thread)[0x0043d010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SAIL)
+HLE: W {PPU[1] Thread (main_thread)[0x0043d010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+HLE: W {PPU[1] Thread (main_thread)[0x0043d010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+HLE: W {PPU[1] Thread (main_thread)[0x002f68e4]} sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
+HLE: W {PPU[1] Thread (main_thread)[0x0043f094]} cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x4526e0, userdata=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x0043f028]} cellSysutil warning: cellSysutilEnableBgmPlayback()
+HLE: W {PPU[1] Thread (main_thread)[0x00491064]} cellGame warning: cellGameBootCheck(type_addr=0x483938, attributes_addr=0x48393c, size_addr=0x483a40, dirName_addr=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x0049101c]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x483940, usrdirPath_addr=0x4839c0)
+HLE: W {PPU[1] Thread (main_thread)[0x0048b010]} cellGcmSys warning: _cellGcmInitBody(context_addr=0x476c54, cmdSize=0x40000, ioSize=0x200000, ioAddress=0x30200000)
+HLE: W {PPU[1] Thread (main_thread)[0x0048b010]} cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W {PPU[1] Thread (main_thread)[0x0048b010]} cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W {PPU[1] Thread (main_thread)[0x0048b010]} cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x200000)
+RSX: ! {RSXThread} RSX thread started
+HLE: W {PPU[1] Thread (main_thread)[0x0043f004]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000fb64, option_addr=0x0, waitForEvent=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x0048d034]} cellResc warning: cellRescInit(initConfig_addr=0xd000f924)
+HLE: W {PPU[1] Thread (main_thread)[0x0048d01c]} cellResc warning: cellRescSetDisplayMode(displayMode=4)
+HLE: W {PPU[1] Thread (main_thread)[0x0048d01c]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x0048d01c]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+HLE: W {PPU[1] Thread (main_thread)[0x0048d040]} cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd000f8fc, vertexArray_addr=0xd000f8f8, fragmentShader_addr=0xd000f8f4)
+HLE: W {PPU[1] Thread (main_thread)[0x0048d058]} cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc0000000, vertexArray_addr=0xc0a20000, fragmentShader_addr=0xc0a20180)
+HLE: W {PPU[1] Thread (main_thread)[0x0048b070]} cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=0, size=10616832, pitch=5120, comp=0, base=0, bank=0)
+HLE: W {PPU[1] Thread (main_thread)[0x0048b034]} cellGcmSys warning: cellGcmBindTile(index=3)
+HLE: W {PPU[1] Thread (main_thread)[0x0048b070]} cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=10682368, size=11796480, pitch=5120, comp=0, base=0, bank=0)
+HLE: W {PPU[1] Thread (main_thread)[0x0048b034]} cellGcmSys warning: cellGcmBindTile(index=0)
+HLE: W {PPU[1] Thread (main_thread)[0x0048b070]} cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=22478848, size=3932160, pitch=5120, comp=9, base=0, bank=3)
+HLE: E {PPU[1] Thread (main_thread)[0x0048b070]} cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (9)
+HLE: W {PPU[1] Thread (main_thread)[0x0048b034]} cellGcmSys warning: cellGcmBindTile(index=1)
+HLE: W {PPU[1] Thread (main_thread)[0x0048d070]} cellResc warning: cellRescSetVBlankHandler(handler_addr=0x454200)
+HLE: W {PPU[1] Thread (main_thread)[0x0048b070]} cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=26411008, size=9437184, pitch=6144, comp=9, base=0, bank=2)
+HLE: E {PPU[1] Thread (main_thread)[0x0048b070]} cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (9)
+HLE: W {PPU[1] Thread (main_thread)[0x0048b034]} cellGcmSys warning: cellGcmBindTile(index=2)
+HLE: W {PPU[1] Thread (main_thread)[0x0043f040]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+HLE: E {PPU[1] Thread (main_thread)[0x00487004]} cellL10n error: L10nConvertStr(src_code=1, srca_addr=0x3fcfc8, src_len_addr=0xd000fb04, dst_code=0, dst_addr=0x3015efac, dst_len_addr=0xd000fb08)
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x480338, attr_addr=0xd000f548)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 25
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x4803d0, attr_addr=0xd000f518)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 26
+HLE: W {PPU[1] Thread (main_thread)[0x0049d0b8]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x4803d0): id = 27
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d028]} sys_ppu_thread : *** New PPU Thread [CRI FS File Access 0] (joinable, entry=0x45bbb0): id = 28
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x481100, attr_addr=0xd000f548)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 29
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x481198, attr_addr=0xd000f518)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 30
+HLE: W {PPU[1] Thread (main_thread)[0x0049d0b8]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x481198): id = 31
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d028]} sys_ppu_thread : *** New PPU Thread [CRI FS Memory File System] (joinable, entry=0x45bbb0): id = 32
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x480530, attr_addr=0xd000f548)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 33
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x4805c8, attr_addr=0xd000f518)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 34
+HLE: W {PPU[1] Thread (main_thread)[0x0049d0b8]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x4805c8): id = 35
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d028]} sys_ppu_thread : *** New PPU Thread [CRI FS File Access 1] (joinable, entry=0x45bbb0): id = 36
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x480728, attr_addr=0xd000f548)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 37
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x4807c0, attr_addr=0xd000f518)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 38
+HLE: W {PPU[1] Thread (main_thread)[0x0049d0b8]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x4807c0): id = 39
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d028]} sys_ppu_thread : *** New PPU Thread [CRI FS File Access 2] (joinable, entry=0x45bbb0): id = 40
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x480920, attr_addr=0xd000f548)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 41
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x4809b8, attr_addr=0xd000f518)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 42
+HLE: W {PPU[1] Thread (main_thread)[0x0049d0b8]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x4809b8): id = 43
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d028]} sys_ppu_thread : *** New PPU Thread [CRI FS File Access 3] (joinable, entry=0x45bbb0): id = 44
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x47ffe8, attr_addr=0xd000f678)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 45
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x480080, attr_addr=0xd000f648)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 46
+HLE: W {PPU[1] Thread (main_thread)[0x0049d0b8]} sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x480080): id = 47
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d028]} sys_ppu_thread : *** New PPU Thread [CRI FS Data Decompression 0] (joinable, entry=0x45bbb0): id = 48
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30400030, attr_addr=0xd000f778)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 49
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x304006c0, attr_addr=0xd000f748)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 50
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x30402b40, attr_addr=0xd000f748)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 51
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3064ce38, attr_addr=0xd000f758)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 52
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3069f0a8, attr_addr=0xd000f758)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 53
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x47fe78, attr_addr=0xd000f7e8)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 54
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x47fec0, attr_addr=0xd000f7e8)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 55
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x47ff08, attr_addr=0xd000f7e8)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 56
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x47ff50, attr_addr=0xd000f7e8)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 57
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x306b3ef8, attr_addr=0xd000f768)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 58
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x306b4278, attr_addr=0xd000f758)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 59
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x47fce8, attr_addr=0xd000f798)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 60
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d028]} sys_ppu_thread : *** New PPU Thread [CRI Server Manager] (joinable, entry=0x45bbb0): id = 61
+HLE: ! {PPU[40] Thread (CRI FS File Access 2)[0x0043b01c]} sys_fs : "/dev_bdvd/PS3_GAME/USRDIR/GameData/GCM/render_init.cpk" opened: fd = 62
+HLE: W {PPU[40] Thread (CRI FS File Access 2)[0x0043b040]} sys_fs warning: cellFsFstat(fd=62, sb_addr=0xd005f8a8)
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x3064d000, attr_addr=0xd000f888)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 63
+HLE: W {PPU[1] Thread (main_thread)[0x0043d010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+HLE: W {PPU[1] Thread (main_thread)[0x00497010]} cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd000f620, revision=2, sdkVersion=0x330000, nSpus=1, spuPriority=100, ppuPriority=400, exitIfNoWork=0)
+HLE: W {PPU[1] Thread (main_thread)[0x00497004]} cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd000f620, prefix_addr=0x3af030, size=8)
+HLE: W {PPU[1] Thread (main_thread)[0x0049701c]} cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x32c3f980, attr_addr=0xd000f620)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 64
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 65
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 66
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 67
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 68
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 69
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 70
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 71
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 72
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 73
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 74
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 75
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 76
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 77
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 78
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuWkl] (protocol=0x2): id = 79
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_semaphore : *** semaphore created [_spuPrv] (protocol=0x2): id = 80
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_spu : *** SPU Thread Group created [CriAtom] (num=1, prio=100, type=0x0, container=0): id=81
+HLE: E {PPU[1] Thread (main_thread)[0x0049701c]} sys_spu TODO: Unsupported SPU Thread options (0x2)
+HLE: W {PPU[1] Thread (main_thread)[0x0049701c]} sys_spu warning: *** New SPU Thread [CriAtom] (ep=0x0, opt=0x2, a1=0x0, a2=0x0, a3=0x0, a4=0x0): id=82, spu_offset=0x30056000
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_lwmutex : *** lwmutex created [_spuPrv] (attribute=0x22): sq_id = 83
+HLE: W {PPU[1] Thread (main_thread)[0x0049701c]} sys_lwcond warning: *** lwcond created [_spuPrv] (lwmutex_addr=0x32c40730): id = 84
+HLE: W {PPU[1] Thread (main_thread)[0x0049701c]} sys_event warning: *** event_queue created [_spuPrv] (protocol=0x1, type=0x1, key=0x0, size=0x2a): id = 85
+HLE: W {PPU[1] Thread (main_thread)[0x0049701c]} sys_spu warning: sys_spu_thread_group_connect_event_all_threads(id=81, eq_id=85, req=0xffffffffffff0000, spup_addr=0x32c3fa49)
+HLE: W {PPU[1] Thread (main_thread)[0x0049701c]} sys_spu warning: *** spup -> 16
+HLE: W {PPU[1] Thread (main_thread)[0x0049701c]} sys_event warning: *** sys_event_port created: id = 86
+HLE: W {PPU[1] Thread (main_thread)[0x0049701c]} sys_event warning: sys_event_port_connect_local(eport_id=86, equeue_id=85)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_ppu_thread : *** New PPU Thread [CriAtom] (joinable, entry=0x0): id = 87
+HLE: W {PPU[87] Thread (CriAtom)[0x00000000]} sys_spu warning: sys_spu_thread_group_start(id=81)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049701c]} sys_ppu_thread : *** New PPU Thread [CriAtom] (joinable, entry=0x0): id = 88
+HLE: W {PPU[87] Thread (CriAtom)[0x00000000]} sys_spu warning: sys_spu_thread_group_join(id=81, cause_addr=0x0, status_addr=0x0)
+HLE: E {PPU[1] Thread (main_thread)[0x0049701c]} sys_spu TODO: sys_spu_thread_group_connect_event(id=81, eq=85, et=0x2)
+HLE: W {PPU[1] Thread (main_thread)[0x0043d01c]} cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SPURS_JQ)
+HLE: W {PPU[1] Thread (main_thread)[0x0043d010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS_JQ)
+HLE: E {PPU[1] Thread (main_thread)[0x00499004]} cellSpursJq TODO: cellSpursJobQueueAttributeInitialize
+HLE: E {PPU[1] Thread (main_thread)[0x00499028]} cellSpursJq TODO: _cellSpursCreateJobQueueWithJobDescriptorPool
+HLE: E {PPU[1] Thread (main_thread)[0x00499058]} cellSpursJq TODO: cellSpursJobQueuePort2Create
+SPU: E {SPU[82] Thread (CriAtom)[0x00000a00]} SPURecompilerCore::Compile(ls_addr=0xa00): branch to 0x0 opcode
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x4660e0, attr_addr=0xd000f678)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 89
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x466498, attr_addr=0xd000f448)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 90
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x4776c8, attr_addr=0xd000f3a8)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 91
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c544d0, attr_addr=0xd000f318)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 92
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c54568, attr_addr=0xd000f318)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 93
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c54600, attr_addr=0xd000f318)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 94
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c54698, attr_addr=0xd000f318)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 95
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c54730, attr_addr=0xd000f318)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 96
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c547c8, attr_addr=0xd000f318)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 97
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c54860, attr_addr=0xd000f318)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 98
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c548f8, attr_addr=0xd000f318)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 99
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x465fa8, attr_addr=0xd000f608)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 100
+HLE: W {PPU[1] Thread (main_thread)[0x0043f0c4]} cellSysutil warning: cellAudioOutGetConfiguration(audioOut=0, config_addr=0xd000f2d0, option_addr=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x0043f0b8]} cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd000f2d0, option_addr=0x0, waitForEvent=0)
+HLE: W {PPU[1] Thread (main_thread)[0x0043f0d0]} cellSysutil warning: cellAudioOutGetState(audioOut=0x0, deviceIndex=0x0, state_addr=0xd000f310)
+HLE: W {PPU[1] Thread (main_thread)[0x00495004]} cellAudio warning: cellAudioInit()
+HLE: ! {Audio Thread} cellAudio : Audio thread started
+HLE: W {PPU[1] Thread (main_thread)[0x0049504c]} cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd000f2e0, portNum_addr=0xd000f30c)
+HLE: W {PPU[1] Thread (main_thread)[0x0049504c]} cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
+HLE: W {PPU[1] Thread (main_thread)[0x00495034]} cellAudio warning: cellAudioPortStart(portNum=0x0)
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32c80510, attr_addr=0xd000f378)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 101
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: W {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex warning: sys_lwmutex_create(lwmutex_addr=0x32e000a0, attr_addr=0xd000f8a8)
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d04c]} sys_lwmutex : *** lwmutex created [] (attribute=0x12): sq_id = 102
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[1] Thread (main_thread)[0x0048f004]} sys_io warning: cellPadInit(max_connect=4)
+HLE: W {PPU[1] Thread (main_thread)[0x0043f040]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[1] Thread (main_thread)[0x0043f040]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+HLE: W {PPU[40] Thread (CRI FS File Access 2)[0x0043b004]} sys_fs warning: cellFsClose(fd=62)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d028]} sys_ppu_thread : *** New PPU Thread [game_content] (detached, entry=0x455f28): id = 103
+HLE: W {PPU[103] Thread (game_content)[0x00491064]} cellGame warning: cellGameBootCheck(type_addr=0xd00cfd30, attributes_addr=0xd00cfd34, size_addr=0xd00cfd38, dirName_addr=0xd00cfd48)
+HLE: W {PPU[103] Thread (game_content)[0x0049101c]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x4847c8, usrdirPath_addr=0x484848)
+HLE: W {PPU[103] Thread (game_content)[0x0043f040]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[1] Thread (main_thread)[0x0049d0ac]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3064d000)
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: W {PPU[1] Thread (main_thread)[0x0043f040]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: ! {PPU[1] Thread (main_thread)[0x0049d028]} sys_ppu_thread : *** New PPU Thread [game_content] (detached, entry=0x455f28): id = 104
+HLE: W {PPU[104] Thread (game_content)[0x00491064]} cellGame warning: cellGameBootCheck(type_addr=0xd00dfd30, attributes_addr=0xd00dfd34, size_addr=0xd00dfd38, dirName_addr=0xd00dfd48)
+HLE: W {PPU[104] Thread (game_content)[0x0049101c]} cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x4847c8, usrdirPath_addr=0x484848)
+HLE: W {PPU[104] Thread (game_content)[0x0043f040]} cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+RSX: E {RSXThread} TODO: CELL_GCM_NV4097_SET_CONTROL0(0x100000)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+RSX: W {RSXThread} New FBO (1280x720)
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x109
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 0x4025
+RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
+RSX: W {RSXThread} FP not found in buffer!
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+RSX: W {RSXThread} VP not found in buffer!
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+RSX: ! {RSXThread} Add program (0):
+RSX: ! {RSXThread} *** prog id = 3
+RSX: ! {RSXThread} *** vp id = 2
+RSX: ! {RSXThread} *** fp id = 1
+RSX: ! {RSXThread} *** vp data size = 96
+RSX: ! {RSXThread} *** fp data size = 32
+RSX: ! {RSXThread} *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+vec4 dst_reg1 = vec4(0.0);
+vec4 dst_reg7 = vec4(0.0);
+vec4 dst_reg0 = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+layout (location = 3) in vec4 in_diff_color;
+layout (location = 8) in vec4 in_tc0;
+layout (location = 0) in vec4 in_pos;
+uniform vec4 vc[468];
+out vec4 diff_color;
+out vec4 tc0;
+
+void func0();
+
+void main()
+{
+	func0();
+	gl_Position = dst_reg0;
+	diff_color = dst_reg1;
+	tc0 = dst_reg7;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	dst_reg1 = in_diff_color;
+	dst_reg7.xy = in_tc0.xyxx.xy;
+	dst_reg0.w = vec4(dot(in_pos, vc[3])).w;
+	dst_reg0.z = vec4(dot(in_pos, vc[2])).z;
+	dst_reg0.y = vec4(dot(in_pos, vc[1])).y;
+	dst_reg0.x = vec4(dot(in_pos, vc[0])).x;
+}
+
+RSX: ! {RSXThread} *** fp shader = 
+#version 330
+
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+uniform sampler2D tex0;
+in vec4 tc0;
+in vec4 diff_color;
+layout (location = 0) out vec4 ocol0;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	r0 = (r0 * diff_color);
+	ocol0 = r0;
+}
+
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 0x101
+RSX: W {RSXThread} NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 0x4020
+RSX: W {RSXThread} NV4097_SET_TEX_COORD_CONTROL
+RSX: W {RSXThread} FP not found in buffer!
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+RSX: W {RSXThread} VP not found in buffer!
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+RSX: ! {RSXThread} Add program (1):
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+RSX: ! {RSXThread} *** prog id = 6
+RSX: ! {RSXThread} *** vp id = 5
+RSX: ! {RSXThread} *** fp id = 4
+RSX: ! {RSXThread} *** vp data size = 80
+RSX: ! {RSXThread} *** fp data size = 176
+RSX: ! {RSXThread} *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+vec4 dst_reg7 = vec4(0.0);
+vec4 dst_reg0 = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+layout (location = 8) in vec4 in_tc0;
+layout (location = 0) in vec4 in_pos;
+uniform vec4 vc[468];
+out vec4 tc0;
+
+void func0();
+
+void main()
+{
+	func0();
+	gl_Position = dst_reg0;
+	tc0 = dst_reg7;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	dst_reg7.xy = in_tc0.xyxx.xy;
+	dst_reg0.w = vec4(dot(in_pos, vc[3])).w;
+	dst_reg0.z = vec4(dot(in_pos, vc[2])).z;
+	dst_reg0.y = vec4(dot(in_pos, vc[1])).y;
+	dst_reg0.x = vec4(dot(in_pos, vc[0])).x;
+}
+
+RSX: ! {RSXThread} *** fp shader = 
+#version 330
+
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h2 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 r1 = vec4(0.0, 0.0, 0.0, 0.0);
+uniform sampler2D tex0;
+in vec4 tc0;
+uniform vec4 fc32 = vec4(0.144043, 0.299072, 0.586914, 0.000000);
+uniform vec4 fc64 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc96 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc128 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+layout (location = 0) out vec4 ocol0;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	h2.x = vec4(dot(r0.zxyx.xyz, fc32.xyz)).x;
+	r1.y = clamp((h2.xxxx + -fc64.xxxx), 0.0, 1.0).y;
+	h2.x = vec4(greaterThan(r1.yyyy, fc96.xxxx)).x;
+	h2.w = vec4(lessThan(r1.yyyy, fc128.xxxx)).w;
+	r1.x = (h2 + -h2.wwww).x;
+	r0 = (r0 * r1.xxxx);
+	ocol0 = r0;
+}
+
+RSX: W {RSXThread} New FBO (1280x720)
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+HLE: W {PPU[61] Thread (CRI Server Manager)[0x00495028]} cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd008f720)
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499034]} cellSpursJq TODO: _cellSpursJobQueuePort2CopyPushJobBody
+HLE: E {PPU[61] Thread (CRI Server Manager)[0x00499064]} cellSpursJq TODO: cellSpursJobQueuePort2Sync
+RSX: E {RSXThread} glDrawElements #2: opengl error 0x0506
+RSX: W {VBlank thread} VBlank thread aborted
+HLE: W {PPU[87] Thread (CriAtom)[0x00000000]} sys_spu warning: sys_spu_thread_group_join(id=81) aborted
+RSX: W {RSXThread} RSX thread aborted
+HLE: W {PPU[40] Thread (CRI FS File Access 2)[0x0049d034]} sys_lwcond warning: sys_lwcond_wait(id=39) aborted
+HLE: W {SPU[82] Thread (CriAtom)[0x00000000]} cellSpurs warning: Spurs Kernel aborted
+HLE: W {PPU[32] Thread (CRI FS Memory File System)[0x0049d034]} sys_lwcond warning: sys_lwcond_wait(id=31) aborted
+HLE: W {Audio Thread} cellAudio warning: Audio thread aborted
+HLE: W {PPU[28] Thread (CRI FS File Access 0)[0x0049d034]} sys_lwcond warning: sys_lwcond_wait(id=27) aborted
+HLE: W {PPU[44] Thread (CRI FS File Access 3)[0x0049d034]} sys_lwcond warning: sys_lwcond_wait(id=43) aborted
+HLE: W {PPU[87] Thread (CriAtom)[0x00000000]} cellSpurs warning: SPURS Handler Thread 0 aborted
+HLE: W {PPU[48] Thread (CRI FS Data Decompression 0)[0x0049d034]} sys_lwcond warning: sys_lwcond_wait(id=47) aborted
+HLE: W {PPU[36] Thread (CRI FS File Access 1)[0x0049d034]} sys_lwcond warning: sys_lwcond_wait(id=35) aborted
+PPU: ! {PPU Recompilation Engine} PPU LLVM Recompilation thread exiting.
+HLE: ! All threads stopped...
+RSX: W GLVertexProgram::Delete(): glDeleteShader(5) avoided
+RSX: W GLShaderProgram::Delete(): glDeleteShader(4) avoided
+MEM: ! Closing memory...
